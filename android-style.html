@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<!--
+  Created using http://jsbin.com/
+-->
+  <head>
+    <title>Android style convertor</title>
+    <style type="text/css">
+      #output{
+        margin-top:10px;
+        white-space:pre;
+        color:blue;
+      }
+    </style>
+ 
+  </head>
+  <body>
+    <p>Paste your andorid inline styles seperated by newline.</p>
+    ​<textarea id="input" rows="12" cols="60">
+    android:padding="30dp"
+android:verticalSpacing="40dp"
+android:horizontalSpacing="40dp"
+android:numColumns="auto_fit"
+android:columnWidth="80dp"
+    </textarea>
+    <br/><input type="button" value="Get me style item" onclick="convertNow();"/>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br/>
+    <textarea id="output"rows="12" cols="60">
+    </textarea>
+  <script>
+function convertNow(){
+  
+  var givenInput = document.getElementById('input').value;
+  var lines = givenInput.split(/\r\n|\r|\n/);
+  var outputString = '<style name="REPLACETHIS">\n';
+  for(var i=0;i<lines.length;i++){
+    arow = lines[i].replace(/^\s+|\s+$/g,'').replace(/"/g,'');
+    if (arow.length) {
+    	attrVal = arow.split('=');
+    	outputString += '\t<item name="'+attrVal[0].replace(/^\s+|\s+$/g,'')+'">'+attrVal[1].replace(/^\s+|\s+$/g,'')+'</item>\n';
+  	}
+  };
+  outputString += '</style>';
+  document.getElementById('output').value = outputString;
+}
+</script>
+</html>
