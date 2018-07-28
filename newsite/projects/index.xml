@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Palani Raja</title>
-    <link>http://www.palaniraja.com/newsite/</link>
-    <description>Recent content on Palani Raja</description>
+    <title>Projects on Palani Raja</title>
+    <link>http://www.palaniraja.com/newsite/projects/</link>
+    <description>Recent content in Projects on Palani Raja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Jul 2018 19:03:05 +0530</lastBuildDate>
     
-	<atom:link href="http://www.palaniraja.com/newsite/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.palaniraja.com/newsite/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

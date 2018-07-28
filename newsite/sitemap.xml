@@ -3,12 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.palaniraja.com/newsite/projects/mclock/</loc>
+    <lastmod>2018-07-28T19:03:05+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.palaniraja.com/newsite/projects/mergemp4/</loc>
+    <lastmod>2018-07-28T18:59:05+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.palaniraja.com/newsite/projects/pilapse/</loc>
+    <lastmod>2018-07-28T18:53:05+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.palaniraja.com/newsite/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.palaniraja.com/newsite/</loc>
+    <lastmod>2018-07-28T19:03:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.palaniraja.com/newsite/projects/</loc>
+    <lastmod>2018-07-28T19:03:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
