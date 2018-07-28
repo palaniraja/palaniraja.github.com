@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Palani Raja</title>
-    <link>https://www.palaniraja.com/newsite/tags/</link>
+    <link>http://www.palaniraja.com/newsite/tags/</link>
     <description>Recent content in Tags on Palani Raja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://www.palaniraja.com/newsite/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.palaniraja.com/newsite/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

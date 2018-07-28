@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.palaniraja.com/newsite/categories/</loc>
+    <loc>http://www.palaniraja.com/newsite/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/newsite/</loc>
+    <loc>http://www.palaniraja.com/newsite/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/newsite/tags/</loc>
+    <loc>http://www.palaniraja.com/newsite/tags/</loc>
     <priority>0</priority>
   </url>
   
