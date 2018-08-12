@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diy on PR</title>
+    <link>https://www.palaniraja.com/tags/diy/</link>
+    <description>Recent content in Diy on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 16 Apr 2013 17:32:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/diy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IdeaVault - RPi dashboard</title>
+      <link>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</link>
+      <pubDate>Tue, 16 Apr 2013 17:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</guid>
+      <description>I couldn&amp;rsquo;t help myself after listening to John &amp;amp; Marco discussion about the pricing of Panic&amp;rsquo;s new app Status Board.</description>
+    </item>
+    
+  </channel>
+</rss>

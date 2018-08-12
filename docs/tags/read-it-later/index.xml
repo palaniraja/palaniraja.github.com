@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Read It Later on PR</title>
+    <link>https://www.palaniraja.com/tags/read-it-later/</link>
+    <description>Recent content in Read It Later on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Wed, 16 Jan 2013 21:02:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/read-it-later/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prj - Times of India epub</title>
+      <link>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</link>
+      <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</guid>
+      <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
+    </item>
+    
+    <item>
+      <title>RIL2Insta - Import Read it Later links to Instapaper</title>
+      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+    </item>
+    
+  </channel>
+</rss>

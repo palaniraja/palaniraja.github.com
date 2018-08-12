@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xcode on PR</title>
+    <link>https://www.palaniraja.com/tags/xcode/</link>
+    <description>Recent content in Xcode on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
+      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</link>
+      <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</guid>
+      <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
+    </item>
+    
+    <item>
+      <title>Image Slicing (Repeatable image) with Xcode Asset Catalog</title>
+      <link>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</link>
+      <pubDate>Sun, 15 Feb 2015 09:36:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</guid>
+      <description>Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.</description>
+    </item>
+    
+    <item>
+      <title>Expired distribution provisioning and Yak shaving</title>
+      <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
+      <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
+      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+    </item>
+    
+    <item>
+      <title>Installing more simulators for xcode 4.2 without re-downloading everytime</title>
+      <link>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</link>
+      <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
+      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.</description>
+    </item>
+    
+    <item>
+      <title>BTServer CPU Usage</title>
+      <link>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</link>
+      <pubDate>Sat, 19 Nov 2011 09:40:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</guid>
+      <description>I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>How to view (Windows) line ending characters on Mac OSX - PR</title>
+  <meta property="og:title" content="How to view (Windows) line ending characters on Mac OSX - PR" />
+  <meta name="twitter:title" content="How to view (Windows) line ending characters on Mac OSX - PR" />
+  <meta name="description" content="Notepad&#43;&#43; on windows has this beautiful option &ldquo;View all characters&rdquo; to display all invisbile characters such as line endings.
+Programming editors on mac like Textwrangler and Textmate has an option to Show Invisibles but failed to display the character block for Carriage Return as Notepad used to.">
+  <meta property="og:description" content="Notepad&#43;&#43; on windows has this beautiful option &ldquo;View all characters&rdquo; to display all invisbile characters such as line endings.
+Programming editors on mac like Textwrangler and Textmate has an option to Show Invisibles but failed to display the character block for Carriage Return as Notepad used to.">
+  <meta name="twitter:description" content="Notepad&#43;&#43; on windows has this beautiful option &ldquo;View all characters&rdquo; to display all invisbile characters such as line endings.
+Programming editors on mac like Textwrangler and Textmate has …">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jun 15, 2011 </time>  &nbsp;&nbsp;<small> &minus; 1 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">How to view (Windows) line ending characters on Mac OSX</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p><a href="http://notepad-plus-plus.org/">Notepad++</a> on windows has this beautiful option &ldquo;View all characters&rdquo; to display all invisbile characters such as line endings.</p>
+
+<p><img src="https://www.palaniraja.com/assets/image001.png" alt="Notepad++ " /></p>
+
+<p>Programming editors on mac like <a href="http://www.barebones.com/products/textwrangler/">Textwrangler</a> and <a href="http://macromates.com/">Textmate</a> has an option to <em>Show Invisibles</em> but failed to display the character block for Carriage Return as Notepad used to.</p>
+
+<p>Textwrangler beats Textmate on this case where it display two special characters to refer <strong>CR</strong> and <strong>LF</strong>, where Textmate display only one character.</p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.24.23-PM.png" alt="Textwrangler" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.25.23-PM.png" alt="Textmate" /></p>
+
+<p>Our recent iPad project write csv file which is further parsed by a third party app. The 3rd party app requires the line ending to be a combination of Carriage Return (CR) and Line Feed(LF) instead of just Line Feed (LF) as traditional Unix/Mac. To test the csv generated is good, I had to view the character myself in any other editor.</p>
+
+<p>After few failed attempts with both Textwrangler and Textmate, I came across this powerful unix tool called <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?od">OctalDump</a> (od) which is part of OSX.</p>
+
+<pre><code>od -c filename.csv
+</code></pre>
+
+<p>will display the file with C-Style escaped characters. CR as <strong>\r</strong> and LF as <strong>\n</strong>. It has numerous no. of <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?od">options</a> to explore.</p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.18.57-PM.png" alt="od - command" /></p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2011%2f06%2fhow-to-view-windows-line-ending-characters-on-mac-osx%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Shell script to generate images for testing</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2011/06/recommended-git-workflow/" data-toggle="tooltip" data-placement="top" title="Previous Article">Recommended Git workflow &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sight Reading on PR</title>
+    <link>https://www.palaniraja.com/tags/sight-reading/</link>
+    <description>Recent content in Sight Reading on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Thu, 23 Mar 2017 22:36:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/sight-reading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musical notes images</title>
+      <link>https://www.palaniraja.com/2017/03/musical-notes-images/</link>
+      <pubDate>Thu, 23 Mar 2017 22:36:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2017/03/musical-notes-images/</guid>
+      <description>For my app Music-notes, I was searching for images of musical notes so I can use them in my flash card feature.</description>
+    </item>
+    
+  </channel>
+</rss>

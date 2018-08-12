@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gtd on PR</title>
+    <link>https://www.palaniraja.com/tags/gtd/</link>
+    <description>Recent content in Gtd on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Thu, 31 Jan 2013 06:55:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/gtd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create card in Trello from Salesforce case</title>
+      <link>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</link>
+      <pubDate>Thu, 31 Jan 2013 06:55:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</guid>
+      <description>Yes. Danlec already created a bookmarklet that lets you create Trello card from many services like Fogbugz, JIRA, Github and more.</description>
+    </item>
+    
+    <item>
+      <title>Idea Vault: Prj - Dug Me</title>
+      <link>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</link>
+      <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</guid>
+      <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
+Idea is to log all our project ideas similar to logging notes in nvALT.</description>
+    </item>
+    
+    <item>
+      <title>Project Dumps</title>
+      <link>https://www.palaniraja.com/2013/01/project-dumps/</link>
+      <pubDate>Tue, 01 Jan 2013 09:41:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/project-dumps/</guid>
+      <description>Wish you all a very happy new year!
+It is 2013, another chance for us/me to start a new beginning. I believed in Mayan so much, I never had a plan post 20th Dec 2012 :)</description>
+    </item>
+    
+  </channel>
+</rss>

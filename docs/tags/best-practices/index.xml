@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Best Practices on PR</title>
+    <link>https://www.palaniraja.com/tags/best-practices/</link>
+    <description>Recent content in Best Practices on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 31 Jan 2016 07:30:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dev Diary</title>
+      <link>https://www.palaniraja.com/2016/01/dev-diary/</link>
+      <pubDate>Sun, 31 Jan 2016 07:30:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/01/dev-diary/</guid>
+      <description>This is something I&amp;rsquo;ve started in Jan &amp;lsquo;15. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?</description>
+    </item>
+    
+    <item>
+      <title>Image Slicing (Repeatable image) with Xcode Asset Catalog</title>
+      <link>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</link>
+      <pubDate>Sun, 15 Feb 2015 09:36:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</guid>
+      <description>Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.</description>
+    </item>
+    
+    <item>
+      <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
+      <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
+      <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
+      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+    </item>
+    
+    <item>
+      <title>Expired distribution provisioning and Yak shaving</title>
+      <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
+      <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
+      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+    </item>
+    
+    <item>
+      <title>Resolutions for 2012</title>
+      <link>https://www.palaniraja.com/2011/12/resolutions-for-2012/</link>
+      <pubDate>Sat, 31 Dec 2011 23:03:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/12/resolutions-for-2012/</guid>
+      <description>For the first time in history, I am publishing resolution list online, let see if this helps.
+ Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
+    </item>
+    
+    <item>
+      <title>Recommended Git workflow</title>
+      <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
+      <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
+      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+    </item>
+    
+    <item>
+      <title>Capture screenshot of the app with iPad simulator</title>
+      <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
+      <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
+      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
+    </item>
+    
+    <item>
+      <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
+    </item>
+    
+  </channel>
+</rss>

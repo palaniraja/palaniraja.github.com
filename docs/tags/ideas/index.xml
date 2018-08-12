@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ideas on PR</title>
+    <link>https://www.palaniraja.com/tags/ideas/</link>
+    <description>Recent content in Ideas on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 08 May 2018 06:30:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Poor man&#39;s pdf diff tool</title>
+      <link>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</link>
+      <pubDate>Tue, 08 May 2018 06:30:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</guid>
+      <description>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</description>
+    </item>
+    
+    <item>
+      <title>How to open/view/share embedded documents in Microsoft Word for Mac (2011/2016)</title>
+      <link>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</link>
+      <pubDate>Mon, 28 Mar 2016 02:28:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</guid>
+      <description>You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .</description>
+    </item>
+    
+    <item>
+      <title>RescueTime weekly summary and Google Script</title>
+      <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
+      <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
+      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+    </item>
+    
+    <item>
+      <title>Grep - Swiss army knife</title>
+      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
+    </item>
+    
+    <item>
+      <title>Idea Vault: Prj - Dug Me</title>
+      <link>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</link>
+      <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</guid>
+      <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
+Idea is to log all our project ideas similar to logging notes in nvALT.</description>
+    </item>
+    
+    <item>
+      <title>Idea Vault: Tree view</title>
+      <link>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</link>
+      <pubDate>Tue, 01 Jan 2013 10:32:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</guid>
+      <description>A Bookmarklet or a Browser extension to select the root element of a DOM (UL/OL) to view the Inverted tree structure of its child nodes.</description>
+    </item>
+    
+    <item>
+      <title>Project Dumps</title>
+      <link>https://www.palaniraja.com/2013/01/project-dumps/</link>
+      <pubDate>Tue, 01 Jan 2013 09:41:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/project-dumps/</guid>
+      <description>Wish you all a very happy new year!
+It is 2013, another chance for us/me to start a new beginning. I believed in Mayan so much, I never had a plan post 20th Dec 2012 :)</description>
+    </item>
+    
+    <item>
+      <title>iForce - Sublime text plugin for salesforce development.</title>
+      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
+    </item>
+    
+    <item>
+      <title>Idea Vault: iBooks 3.0</title>
+      <link>https://www.palaniraja.com/2012/01/idea-vault-ibooks-3.0/</link>
+      <pubDate>Fri, 20 Jan 2012 06:37:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/01/idea-vault-ibooks-3.0/</guid>
+      <description>The idea supposed to be named as iBooks 2.0 well it is taken by Apple yesterday :)
+The original pointers of this idea from my notebook are</description>
+    </item>
+    
+    <item>
+      <title>iTunes 10 Logo</title>
+      <link>https://www.palaniraja.com/2011/09/itunes-10-logo/</link>
+      <pubDate>Thu, 01 Sep 2011 09:40:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/09/itunes-10-logo/</guid>
+      <description>End credits from the movie Up iTunes logo updated with version 10 in Sep &amp;lsquo;10</description>
+    </item>
+    
+    <item>
+      <title>Idea to action: Tile this</title>
+      <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
+      <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
+      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+    </item>
+    
+    <item>
+      <title>RIL2Insta - Import Read it Later links to Instapaper</title>
+      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+    </item>
+    
+    <item>
+      <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
+      <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
+      <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
+      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+    </item>
+    
+    <item>
+      <title>Shell script to generate images for testing</title>
+      <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
+      <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
+      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+    </item>
+    
+    <item>
+      <title>Recommended Git workflow</title>
+      <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
+      <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
+      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+    </item>
+    
+    <item>
+      <title>Desktop Notification with Html5</title>
+      <link>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</link>
+      <pubDate>Tue, 31 May 2011 06:27:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</guid>
+      <description>I&amp;rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
+I thought it is cool, thinking of including it in any of my app I plan to do.</description>
+    </item>
+    
+    <item>
+      <title>Shane Warne - The Leader</title>
+      <link>https://www.palaniraja.com/2011/05/shane-warne---the-leader/</link>
+      <pubDate>Mon, 16 May 2011 11:21:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/05/shane-warne---the-leader/</guid>
+      <description>Color me surprised, I was amazed by his replies. Here is my favourite one
+ Harsha Bhogle: What you strive to do as a leader?</description>
+    </item>
+    
+    <item>
+      <title>Enter into / Exit from Recovery mode for iPhone</title>
+      <link>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</link>
+      <pubDate>Sat, 14 May 2011 10:47:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</guid>
+      <description>Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations.</description>
+    </item>
+    
+    <item>
+      <title>Idea Vault: Tile this!</title>
+      <link>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</link>
+      <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this 
+I was recently hunting images for a sample design.</description>
+    </item>
+    
+    <item>
+      <title>Import Delicious bookmarks to Evernote including tags</title>
+      <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
+      <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
+      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
+Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+    </item>
+    
+    <item>
+      <title>Idea Vault: When is that?</title>
+      <link>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</link>
+      <pubDate>Tue, 14 Dec 2010 10:39:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</guid>
+      <description>I guess like me there will be many people often confuse appointments/client calls due to timezone differences.
+I am not talking about people who send/receive schedules from Outlook (or similar apps).</description>
+    </item>
+    
+    <item>
+      <title>Custom UISplitViewController now available on GitHub</title>
+      <link>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</link>
+      <pubDate>Sun, 05 Dec 2010 07:02:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</guid>
+      <description>I created this custom UISplitViewController as one of my iPad project required Split view for only one screen. The default UISplitViewController provided by Apple can only be added to UIWindow which means you can&amp;rsquo;t use it with normal UINavigation based project with only one splitview screen.</description>
+    </item>
+    
+    <item>
+      <title>Mac App Store - Source</title>
+      <link>https://www.palaniraja.com/2010/10/mac-app-store---source/</link>
+      <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/10/mac-app-store---source/</guid>
+      <description>You get the idea? You are not looking for the UI code are you?
+Saurik will be doing the UI for us ;)</description>
+    </item>
+    
+    <item>
+      <title>GotoMeeting Video recording (G2M3 codec for Mac)</title>
+      <link>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</link>
+      <pubDate>Wed, 13 Oct 2010 11:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</guid>
+      <description>If you use GotoMeeting to record video of the shared screen, make sure that you DO NOT use G2M3 codec. It does a great job in compressing the size of the video but it is not compatible with OSX or any OS other than Windows.</description>
+    </item>
+    
+    <item>
+      <title>Snow Leopard (Retail) on Lenovo 3000 N100</title>
+      <link>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</link>
+      <pubDate>Tue, 13 Jul 2010 11:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</guid>
+      <description>Disclaimer: There is no alternative to real Mac, if you like Mac go and buy it. If buying a real Mac is too much, you can at least buy a license for Mac OS X Snow Leopard which costs $29 only.</description>
+    </item>
+    
+    <item>
+      <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
+    </item>
+    
+    <item>
+      <title>iPad - My Experience</title>
+      <link>https://www.palaniraja.com/2010/06/ipad---my-experience/</link>
+      <pubDate>Tue, 15 Jun 2010 07:13:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/06/ipad---my-experience/</guid>
+      <description>Warning: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)</description>
+    </item>
+    
+    <item>
+      <title>Solving Read-Only Notes.app issue</title>
+      <link>https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/</link>
+      <pubDate>Wed, 09 Jun 2010 01:12:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/</guid>
+      <description>Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the manual backup of notes.</description>
+    </item>
+    
+    <item>
+      <title>WinDirStat | My Software Toolbox</title>
+      <link>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</link>
+      <pubDate>Sun, 16 May 2010 11:49:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</guid>
+      <description>No matter how large your hard drive is, the data will grow to fill the disk!
+Recently I was running out of space on both of my internal 120Gig and external 320Gig HDD.</description>
+    </item>
+    
+    <item>
+      <title>Batch renaming of files (Mac OSX / *nix)</title>
+      <link>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</link>
+      <pubDate>Thu, 08 Apr 2010 20:35:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
+      <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
+ Create a new directory</description>
+    </item>
+    
+    <item>
+      <title>iPhone – Accessibility</title>
+      <link>https://www.palaniraja.com/2010/03/iphone--accessibility/</link>
+      <pubDate>Thu, 25 Mar 2010 12:28:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/03/iphone--accessibility/</guid>
+      <description>What if iPhone provides an accessibility option for users with bigger finger?
+
+I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool.</description>
+    </item>
+    
+  </channel>
+</rss>

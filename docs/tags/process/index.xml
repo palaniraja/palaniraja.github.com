@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Process on PR</title>
+    <link>https://www.palaniraja.com/tags/process/</link>
+    <description>Recent content in Process on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dev Diary: Apple Pay</title>
+      <link>https://www.palaniraja.com/2017/10/dev-diary-apple-pay/</link>
+      <pubDate>Sun, 22 Oct 2017 07:25:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2017/10/dev-diary-apple-pay/</guid>
+      <description>I&amp;rsquo;ve recently integrated Apple Pay for an iOS app. Though I have heard it is very easy to integrate and lot of tutorials available, I could not find overall requirements/activities involved in integrating Apple Pay.</description>
+    </item>
+    
+  </channel>
+</rss>

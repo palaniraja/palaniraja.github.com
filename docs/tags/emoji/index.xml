@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emoji on PR</title>
+    <link>https://www.palaniraja.com/tags/emoji/</link>
+    <description>Recent content in Emoji on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Mon, 16 Jun 2014 10:24:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Functional Special characters in Mavericks</title>
+      <link>https://www.palaniraja.com/2014/06/functional-special-characters-in-mavericks/</link>
+      <pubDate>Mon, 16 Jun 2014 10:24:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2014/06/functional-special-characters-in-mavericks/</guid>
+      <description>I was one of the very few people who held on to the last cat OS X (Mountain Lion). I had to switch to Mavericks at office to play with the new shiny language Swift.</description>
+    </item>
+    
+  </channel>
+</rss>

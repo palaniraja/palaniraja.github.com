@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on PR</title>
+    <link>https://www.palaniraja.com/tags/testing/</link>
+    <description>Recent content in Testing on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 27 Apr 2014 08:17:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The bug that *still* haunts me</title>
+      <link>https://www.palaniraja.com/2014/04/the-bug-that-still-haunts-me/</link>
+      <pubDate>Sun, 27 Apr 2014 08:17:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2014/04/the-bug-that-still-haunts-me/</guid>
+      <description>My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval.</description>
+    </item>
+    
+    <item>
+      <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
+      <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
+      <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
+      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+    </item>
+    
+    <item>
+      <title>Laptop Cooling Pad  &amp; Sudden Motion Sensor</title>
+      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</link>
+      <pubDate>Sat, 06 Apr 2013 10:29:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</guid>
+      <description>Finally I found a good usecase to test the Sudden Motion Sensor of my macbook pro. I was curious to know whether there is an impact of cooling pad&amp;rsquo;s fan.</description>
+    </item>
+    
+    <item>
+      <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
+      <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
+      <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
+      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+    </item>
+    
+  </channel>
+</rss>

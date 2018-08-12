@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Image Slicing (Repeatable image) with Xcode Asset Catalog - PR</title>
+  <meta property="og:title" content="Image Slicing (Repeatable image) with Xcode Asset Catalog - PR" />
+  <meta name="twitter:title" content="Image Slicing (Repeatable image) with Xcode Asset Catalog - PR" />
+  <meta name="description" content="Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&rsquo;s height &amp; width.">
+  <meta property="og:description" content="Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&rsquo;s height &amp; width.">
+  <meta name="twitter:description" content="Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&rsquo;s height &amp; width.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Feb 15, 2015 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Image Slicing (Repeatable image) with Xcode Asset Catalog</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&rsquo;s height &amp; width.</p>
+
+<p>The same can be achieved with <code>resizableImageWithCapInsets:UIEdgeInsetsMake</code> but I always messup the arguments and usually we have to try a random number by measure the edges with image editor (eg., preview)</p>
+
+<pre><code>[[UIImage imageNamed:@&quot;image.png&quot;] 
+            resizableImageWithCapInsets:UIEdgeInsetsMake(bottom, top, left, right)];
+</code></pre>
+
+<h3 id="output">output</h3>
+
+<p><img src="https://www.palaniraja.com/assets/iphone6.png" alt="" /></p>
+
+<h4 id="why">Why</h4>
+
+<blockquote>
+<p>Deleted code is debugged code</p>
+</blockquote>
+
+<ul>
+<li>One less line to maintain/debug</li>
+<li>No need to create an IBOutlet to set image</li>
+<li>You can refer the image in IB and preview right away.</li>
+<li>For all states (in case of a button)</li>
+</ul>
+
+<h4 id="what-is-the-catch">What is the Catch?</h4>
+
+<ul>
+<li>I don&rsquo;t know how to reset (inset) from xcode asset catalog itself.</li>
+<li>Editing in UI again if you change the image is little cumbersome at times. (usually when you try to switch between horizontal/vertical/both)</li>
+</ul>
+
+<p>You can still manually fine tune the inset arguments in code if required. (Right click on an image <strong>Show in Finder</strong> edit <strong>resizing object</strong> in <strong>Contents.json</strong> refer the screenshot)</p>
+
+<p>There are three ways you could resize the image to fit your need.</p>
+
+<ul>
+<li>Horizontal (3-part horizontal)</li>
+<li>Vertical (3-part vertical)</li>
+<li>Both (9-part)</li>
+</ul>
+
+<p><img src="https://www.palaniraja.com/assets/slicingoption.png" alt="" /></p>
+
+<p>For the first two options, it let you select non-repeatable left edge, resizable middle area, and repeatable right edge.</p>
+
+<p>Horizontal slicing is best option if you have the asset that fit the height of your button/host view. If your host view (button in our case) match the width of the asset then you can do the same with vertical slicing.<br />
+If you want to truly want to repeat the image to fit dynamic size (width x height) then 9-part is the best option.</p>
+
+<h3 id="slicing">Slicing</h3>
+
+<p><img src="https://www.palaniraja.com/assets/xcode-slicing.png" alt="" /></p>
+
+<h3 id="behind-the-scene">Behind the scene</h3>
+
+<p><img src="https://www.palaniraja.com/assets/contents-json.png" alt="" /></p>
+
+<h3 id="step-by-step">Step by Step</h3>
+
+<p><img src="https://www.palaniraja.com/assets/assetcatalog.png" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/startslicing.png" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/slicingoption.png" alt="" /></p>
+
+<h3 id="links">Links:</h3>
+
+<ul>
+<li><a href="https://gist.github.com/palaniraja/1bb69f78e3696fb8b46f">Contents.json</a></li>
+<li><a href="https://github.com/palaniraja/buttons">Sample project</a></li>
+<li><a href="https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/chapters/SlicinganImage.html">Asset catalog help - Apple</a></li>
+</ul>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2015%2f02%2fimage-slicing-repeatable-image-with-xcode-asset-catalog%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/" data-toggle="tooltip" data-placement="top" title="Previous Article">Book recommendation : Creativity Inc by Ed Catmull &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

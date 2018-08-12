@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on PR</title>
+    <link>https://www.palaniraja.com/tags/book/</link>
+    <description>Recent content in Book on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 20 Mar 2018 08:42:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book Recommendations</title>
+      <link>https://www.palaniraja.com/2018/03/book-recommendations/</link>
+      <pubDate>Tue, 20 Mar 2018 08:42:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/03/book-recommendations/</guid>
+      <description>I was too lazy to write blog post for a long time. To break my lazy streak, here is something I wanted to write and procrastinated for at-least 6 months.</description>
+    </item>
+    
+    <item>
+      <title>Dev Diary</title>
+      <link>https://www.palaniraja.com/2016/01/dev-diary/</link>
+      <pubDate>Sun, 31 Jan 2016 07:30:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/01/dev-diary/</guid>
+      <description>This is something I&amp;rsquo;ve started in Jan &amp;lsquo;15. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?</description>
+    </item>
+    
+    <item>
+      <title>Book recommendation : Creativity Inc by Ed Catmull</title>
+      <link>https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/</link>
+      <pubDate>Sun, 18 Jan 2015 05:20:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/</guid>
+      <description>It is no surprise that you know about Pixar if you are even remotely knew Steve Jobs and his history. And you definitely heard about Pixar’s movies Toy story, Finding Nemo, Wall-E, Up &amp;amp; more.</description>
+    </item>
+    
+  </channel>
+</rss>

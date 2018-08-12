@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comments on PR</title>
+    <link>https://www.palaniraja.com/comments/</link>
+    <description>Recent content in Comments on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Mon, 06 Dec 2010 01:46:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/comments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comments - Pure Reader for Chrome</title>
+      <link>https://www.palaniraja.com/comments/pure-reader-for-chrome-comments/</link>
+      <pubDate>Mon, 06 Dec 2010 01:46:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/comments/pure-reader-for-chrome-comments/</guid>
+      <description>This page contains comments for the post - Pure Reader for Chrome
+Comments are from userscripts-mirror.org
+ Five Stars - good things!</description>
+    </item>
+    
+    <item>
+      <title>Comments - How to implement HSBC Payment Gateway in PHP</title>
+      <link>https://www.palaniraja.com/comments/how-to-implement-hsbc-payment-gateway-comments/</link>
+      <pubDate>Fri, 22 Dec 2006 18:15:00 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/comments/how-to-implement-hsbc-payment-gateway-comments/</guid>
+      <description>This page contains comments for the post - How to implement HSBC Payment Gateway in PHP
+ Hi Palaniraja, can i have your mail id plea&amp;hellip; neethi - Dec 4, 2007</description>
+    </item>
+    
+    <item>
+      <title>Comments - HSBC.php</title>
+      <link>https://www.palaniraja.com/comments/hsbcphp-comments/</link>
+      <pubDate>Fri, 22 Dec 2006 15:44:00 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/comments/hsbcphp-comments/</guid>
+      <description>This page contains comments for the post - HSBC.php
+ i found error bool(false) Prakaash - Feb 4, 2010</description>
+    </item>
+    
+    <item>
+      <title>Comments - Hi all</title>
+      <link>https://www.palaniraja.com/comments/hi-all-comments/</link>
+      <pubDate>Mon, 06 Nov 2006 16:22:00 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/comments/hi-all-comments/</guid>
+      <description>This page contains comments for the post - Hi all
+ hi this is really very helpful for me</description>
+    </item>
+    
+  </channel>
+</rss>

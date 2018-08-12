@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaltura on PR</title>
+    <link>https://www.palaniraja.com/tags/kaltura/</link>
+    <description>Recent content in Kaltura on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 06:25:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/kaltura/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrating Chromecast with Kaltura SDK (iOS)</title>
+      <link>https://www.palaniraja.com/2016/01/integrating-chromecast-with-kaltura-sdk-ios/</link>
+      <pubDate>Fri, 01 Jan 2016 06:25:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/01/integrating-chromecast-with-kaltura-sdk-ios/</guid>
+      <description>Their documentation says it is built in, but I couldn&amp;rsquo;t find a sample anywhere, so here it is for everyone on how to integrate Chromecast with your Kaltura Player.</description>
+    </item>
+    
+  </channel>
+</rss>

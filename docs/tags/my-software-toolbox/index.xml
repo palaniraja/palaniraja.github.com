@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Software Toolbox on PR</title>
+    <link>https://www.palaniraja.com/tags/my-software-toolbox/</link>
+    <description>Recent content in My Software Toolbox on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 03 Nov 2013 00:17:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/my-software-toolbox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RescueTime weekly summary and Google Script</title>
+      <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
+      <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
+      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+    </item>
+    
+    <item>
+      <title>Grep - Swiss army knife</title>
+      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
+    </item>
+    
+    <item>
+      <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
+      <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
+      <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
+      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+    </item>
+    
+    <item>
+      <title>Disable networking/internet from command line on a Mac</title>
+      <link>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</link>
+      <pubDate>Fri, 19 Apr 2013 09:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</guid>
+      <description>If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.</description>
+    </item>
+    
+    <item>
+      <title>Laptop Cooling Pad  &amp; Sudden Motion Sensor</title>
+      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</link>
+      <pubDate>Sat, 06 Apr 2013 10:29:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</guid>
+      <description>Finally I found a good usecase to test the Sudden Motion Sensor of my macbook pro. I was curious to know whether there is an impact of cooling pad&amp;rsquo;s fan.</description>
+    </item>
+    
+    <item>
+      <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
+      <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
+      <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
+      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+    </item>
+    
+    <item>
+      <title>Shell script to generate images for testing</title>
+      <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
+      <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
+      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+    </item>
+    
+    <item>
+      <title>How to view (Windows) line ending characters on Mac OSX</title>
+      <link>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</link>
+      <pubDate>Wed, 15 Jun 2011 05:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</guid>
+      <description>Notepad++ on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.
+Programming editors on mac like Textwrangler and Textmate has an option to Show Invisibles but failed to display the character block for Carriage Return as Notepad used to.</description>
+    </item>
+    
+    <item>
+      <title>Enter into / Exit from Recovery mode for iPhone</title>
+      <link>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</link>
+      <pubDate>Sat, 14 May 2011 10:47:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</guid>
+      <description>Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations.</description>
+    </item>
+    
+    <item>
+      <title>Pure Reader for Chrome</title>
+      <link>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</link>
+      <pubDate>Mon, 06 Dec 2010 01:46:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</guid>
+      <description>I love the theme of the Pure Reader for Safari (http://nadesign.net/safari/). I&amp;rsquo;ve ported the CSS as a userscript to use it with Google Chrome.</description>
+    </item>
+    
+    <item>
+      <title>GotoMeeting Video recording (G2M3 codec for Mac)</title>
+      <link>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</link>
+      <pubDate>Wed, 13 Oct 2010 11:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</guid>
+      <description>If you use GotoMeeting to record video of the shared screen, make sure that you DO NOT use G2M3 codec. It does a great job in compressing the size of the video but it is not compatible with OSX or any OS other than Windows.</description>
+    </item>
+    
+    <item>
+      <title>Snow Leopard (Retail) on Lenovo 3000 N100</title>
+      <link>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</link>
+      <pubDate>Tue, 13 Jul 2010 11:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</guid>
+      <description>Disclaimer: There is no alternative to real Mac, if you like Mac go and buy it. If buying a real Mac is too much, you can at least buy a license for Mac OS X Snow Leopard which costs $29 only.</description>
+    </item>
+    
+    <item>
+      <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
+    </item>
+    
+    <item>
+      <title>PeerGuardian and history.db</title>
+      <link>https://www.palaniraja.com/2010/05/peerguardian-and-history.db/</link>
+      <pubDate>Sun, 16 May 2010 12:02:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/05/peerguardian-and-history.db/</guid>
+      <description>PeerGuardian is a great tool to maintain your privacy. But you should be aware of a fact that it uses a sqlite db to maintain the history called history.</description>
+    </item>
+    
+    <item>
+      <title>WinDirStat | My Software Toolbox</title>
+      <link>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</link>
+      <pubDate>Sun, 16 May 2010 11:49:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</guid>
+      <description>No matter how large your hard drive is, the data will grow to fill the disk!
+Recently I was running out of space on both of my internal 120Gig and external 320Gig HDD.</description>
+    </item>
+    
+  </channel>
+</rss>

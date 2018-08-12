@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diary on PR</title>
+    <link>https://www.palaniraja.com/tags/diary/</link>
+    <description>Recent content in Diary on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 31 Jan 2016 07:30:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dev Diary</title>
+      <link>https://www.palaniraja.com/2016/01/dev-diary/</link>
+      <pubDate>Sun, 31 Jan 2016 07:30:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/01/dev-diary/</guid>
+      <description>This is something I&amp;rsquo;ve started in Jan &amp;lsquo;15. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?</description>
+    </item>
+    
+  </channel>
+</rss>

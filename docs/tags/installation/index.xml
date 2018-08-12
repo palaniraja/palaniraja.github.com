@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation on PR</title>
+    <link>https://www.palaniraja.com/tags/installation/</link>
+    <description>Recent content in Installation on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 18 Aug 2013 05:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspbian &#43; XBMC &#43; Airplay</title>
+      <link>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</link>
+      <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</guid>
+      <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
+I own a Raspberry Pi for closer to a year now.</description>
+    </item>
+    
+    <item>
+      <title>Installing more simulators for xcode 4.2 without re-downloading everytime</title>
+      <link>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</link>
+      <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
+      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.</description>
+    </item>
+    
+  </channel>
+</rss>

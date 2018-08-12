@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Epub on PR</title>
+    <link>https://www.palaniraja.com/tags/epub/</link>
+    <description>Recent content in Epub on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Wed, 16 Jan 2013 21:02:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/epub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prj - Times of India epub</title>
+      <link>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</link>
+      <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</guid>
+      <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
+    </item>
+    
+    <item>
+      <title>EReader friendly Times Of India – EPUB Edition</title>
+      <link>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india--epub-edition/</link>
+      <pubDate>Mon, 16 Aug 2010 23:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india--epub-edition/</guid>
+      <description>I have completed the 95% of the project I was tweeting and here is the preview
+What does it do?</description>
+    </item>
+    
+  </channel>
+</rss>

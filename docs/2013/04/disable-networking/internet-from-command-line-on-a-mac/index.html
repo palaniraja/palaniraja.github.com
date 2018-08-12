@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Disable networking/internet from command line on a Mac - PR</title>
+  <meta property="og:title" content="Disable networking/internet from command line on a Mac - PR" />
+  <meta name="twitter:title" content="Disable networking/internet from command line on a Mac - PR" />
+  <meta name="description" content="If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.">
+  <meta property="og:description" content="If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.">
+  <meta name="twitter:description" content="If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Apr 19, 2013 </time>  &nbsp;&nbsp;<small> &minus; 1 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Disable networking/internet from command line on a Mac</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.</p>
+
+<p>Here is the command to disable your ethernet quickly.</p>
+
+<blockquote>
+<p><code>**sudo ifconfig en0 down**</code></p>
+</blockquote>
+
+<p>to activate it again</p>
+
+<blockquote>
+<p><code>**sudo ifconfig en0 up**</code></p>
+</blockquote>
+
+<p>If you are connected via wireless you can disable it with</p>
+
+<blockquote>
+<p><code>**networksetup -setairportpower en1 off**</code></p>
+</blockquote>
+
+<p>to activate it again, use</p>
+
+<blockquote>
+<p><code>**networksetup -setairportpower en1 on**</code></p>
+</blockquote>
+
+<p>en0 and en1 are device name, which you can get from running the following command</p>
+
+<blockquote>
+<p><code>**networksetup -listallhardwareports**</code></p>
+</blockquote>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2013%2f04%2fdisable-networking%2finternet-from-command-line-on-a-mac%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/" data-toggle="tooltip" data-placement="top" title="Previous Article">IdeaVault - RPi dashboard &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

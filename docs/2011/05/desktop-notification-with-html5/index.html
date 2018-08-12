@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Desktop Notification with Html5 - PR</title>
+  <meta property="og:title" content="Desktop Notification with Html5 - PR" />
+  <meta name="twitter:title" content="Desktop Notification with Html5 - PR" />
+  <meta name="description" content="I&rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
+I thought it is cool, thinking of including it in any of my app I plan to do.">
+  <meta property="og:description" content="I&rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
+I thought it is cool, thinking of including it in any of my app I plan to do.">
+  <meta name="twitter:description" content="I&rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
+I thought it is cool, thinking of including it in any of my app I plan to …">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2011/05/desktop-notification-with-html5/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>May 31, 2011 </time>  &nbsp;&nbsp;<small> &minus; 1 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Desktop Notification with Html5</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>I&rsquo;ve recently stumbled upon <a href="http://studio.html5rocks.com/#Time!">studio.html5rocks.com</a> and found the cool trick to display desktop notifications like <a href="http://gmailblog.blogspot.com/2011/01/desktop-notifications-for-emails-and.html">Gmail</a>.</p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen shot 2011-05-31 at 7.02.36 PM.png" alt="" /></p>
+
+<p>I thought it is cool, thinking of including it in any of my app I plan to do.</p>
+
+<p>Here is the core part of the snippet.</p>
+
+<pre><code>var notification = window.webkitNotifications.createNotification(&quot;http://www.google.com/images/logos/ps_logo2.png&quot;, &quot;Title&quot;, &quot;Notification message goes here&quot;);
+
+notification.show();
+</code></pre>
+
+<p>But you have to ask for user permission before displaying the notification. Find the complete tutorial at <a href="http://www.html5rocks.com/tutorials/notifications/quick/">html5rocks.com</a></p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2011%2f05%2fdesktop-notification-with-html5%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2011/06/recommended-git-workflow/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Recommended Git workflow</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2011/05/shane-warne---the-leader/" data-toggle="tooltip" data-placement="top" title="Previous Article">Shane Warne - The Leader &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

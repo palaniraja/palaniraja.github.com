@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Splitviewcontroller on PR</title>
+    <link>https://www.palaniraja.com/tags/splitviewcontroller/</link>
+    <description>Recent content in Splitviewcontroller on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 05 Dec 2010 07:02:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/splitviewcontroller/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Custom UISplitViewController now available on GitHub</title>
+      <link>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</link>
+      <pubDate>Sun, 05 Dec 2010 07:02:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</guid>
+      <description>I created this custom UISplitViewController as one of my iPad project required Split view for only one screen. The default UISplitViewController provided by Apple can only be added to UIWindow which means you can&amp;rsquo;t use it with normal UINavigation based project with only one splitview screen.</description>
+    </item>
+    
+  </channel>
+</rss>

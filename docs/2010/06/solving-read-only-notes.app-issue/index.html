@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Solving Read-Only Notes.app issue - PR</title>
+  <meta property="og:title" content="Solving Read-Only Notes.app issue - PR" />
+  <meta name="twitter:title" content="Solving Read-Only Notes.app issue - PR" />
+  <meta name="description" content="Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the manual backup of notes.">
+  <meta property="og:description" content="Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the manual backup of notes.">
+  <meta name="twitter:description" content="Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the manual backup of notes.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jun 9, 2010 </time>  &nbsp;&nbsp;<small> &minus; 1 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Solving Read-Only Notes.app issue</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the <a href="http://www.funkyspacemonkey.com/howto-manually-backup-iphone">manual backup</a> of notes.db. I have taken the backup of my Address book, notes and images data with <a href="http://www.macroplant.com/iphoneexplorer/">iPhone Explorer</a>.</p>
+
+<p>With the help Terminal app from Cydia I was able to CD to my private dir to check the permission of the files. And I was right, the owner of the file was root instead of mobile. I executed <code>sudo chown mobile:mobile notes.db</code> from the directory to solve the issues.</p>
+
+<p><a href="https://www.palaniraja.com/assets/Before.png"><img src="https://www.palaniraja.com/assets/Before.png" alt="Before" title="Before" /></a></p>
+
+<blockquote>
+<p>after, <code>sudo chown mobile:mobile notes.db</code> </p>
+</blockquote>
+
+<p><a href="https://www.palaniraja.com/assets/After.png"><img src="https://www.palaniraja.com/assets/After.png" alt="After" title="After" /></a></p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2010%2f06%2fsolving-read-only-notes.app-issue%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2010/06/ipad---my-experience/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; iPad - My Experience</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2010/05/hackintosh-guide-snow-leopard-10.6.1-10.6.2-intel-amd-made-by-hazard/" data-toggle="tooltip" data-placement="top" title="Previous Article">Hackintosh Guide: Snow Leopard 10.6.1-10.6.2 Intel AMD made by Hazard &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

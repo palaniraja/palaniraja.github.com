@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Pure Reader for Chrome - PR</title>
+  <meta property="og:title" content="Pure Reader for Chrome - PR" />
+  <meta name="twitter:title" content="Pure Reader for Chrome - PR" />
+  <meta name="description" content="I love the theme of the Pure Reader for Safari (http://nadesign.net/safari/). I&rsquo;ve ported the CSS as a userscript to use it with Google Chrome.">
+  <meta property="og:description" content="I love the theme of the Pure Reader for Safari (http://nadesign.net/safari/). I&rsquo;ve ported the CSS as a userscript to use it with Google Chrome.">
+  <meta name="twitter:description" content="I love the theme of the Pure Reader for Safari (http://nadesign.net/safari/). I&rsquo;ve ported the CSS as a userscript to use it with Google Chrome.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2010/12/pure-reader-for-chrome/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Dec 6, 2010 </time>  &nbsp;&nbsp;<small> &minus; 1 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Pure Reader for Chrome</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>I love the theme of the Pure Reader for Safari (<a href="http://nadesign.net/safari/">http://nadesign.net/safari/</a>). I&rsquo;ve ported the CSS as a userscript to use it with Google Chrome. Firefox need some css modification pls find the <a href="http://idzr.org/c5br">css here</a>.</p>
+
+<p><a href="http://userscripts-mirror.org/scripts/show/92064">http://userscripts-mirror.org/scripts/show/92064</a></p>
+
+<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-12-06-at-2.33.04-PM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-12-06-at-2.33.04-PM.png" alt="" /></a></p>
+
+<p><strong>Update:</strong> Links updated with userscripts-mirror.org. Installed 2,059 times.</p>
+
+<pre><code>// ==UserScript==
+// @name        Pure Reader 
+// @description Pure Reader ported for Chrome, original author http://nadesign.net/safari/
+// @include     https://*.google.com/reader/view/*
+// @include     http://*.google.com/reader/view/*
+// @include     htt*://*.google.*/reader/view*
+// @author      Palaniraja 
+// ==/UserScript==
+
+
+var cssNode = document.createElement('link');
+cssNode.type = 'text/css';
+cssNode.rel = 'stylesheet';
+cssNode.href = 'http://idzr.org/c5br';
+cssNode.media = 'screen';
+cssNode.title = 'dynamicLoadedSheet';
+document.getElementsByTagName(&quot;head&quot;)[0].appendChild(cssNode);
+</code></pre>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2010%2f12%2fpure-reader-for-chrome%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        <a class="button" href=https://www.palaniraja.com/comments/pure-reader-for-chrome-comments/>View comments</a>
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2010/12/my-userscripts/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; My Userscripts</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/" data-toggle="tooltip" data-placement="top" title="Previous Article">Custom UISplitViewController now available on GitHub &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

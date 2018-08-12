@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Youtube on PR</title>
+    <link>https://www.palaniraja.com/tags/youtube/</link>
+    <description>Recent content in Youtube on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 29 Jan 2012 00:41:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Randy Pausch Last Lecture: Achieving Your Childhood Dreams</title>
+      <link>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</link>
+      <pubDate>Sun, 29 Jan 2012 00:41:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</guid>
+      <description>Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=ji5_MqicxSo   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.25em; }  Youtube - Randy Pausch Last Lecture | Achieving Your Childhood Dreams</description>
+    </item>
+    
+    <item>
+      <title>IPL 3 on YouTube</title>
+      <link>https://www.palaniraja.com/2010/03/ipl-3-on-youtube/</link>
+      <pubDate>Sun, 14 Mar 2010 09:26:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/03/ipl-3-on-youtube/</guid>
+      <description>If you have Airtel broadband + unlimited bandwidth then you are lucky to enjoy IPL without commercials. YouTube IPL channel can be viewed with 2Mbps speed without any extra cost.</description>
+    </item>
+    
+    <item>
+      <title>Play YouTube with FLV player of your choice</title>
+      <link>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</link>
+      <pubDate>Thu, 25 Oct 2007 09:34:43 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</guid>
+      <description>Not working anymore, but you are free to explore the code. Updates are welcome.
+I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case).</description>
+    </item>
+    
+  </channel>
+</rss>

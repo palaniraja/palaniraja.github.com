@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Clean yahoo webmail without Ad&#39;s - PR</title>
+  <meta property="og:title" content="Clean yahoo webmail without Ad&#39;s - PR" />
+  <meta name="twitter:title" content="Clean yahoo webmail without Ad&#39;s - PR" />
+  <meta name="description" content="Today, I have uploaded my second Greasemonkey scripts to userscripts, Yahoo webmail&#43;&#43; . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side.">
+  <meta property="og:description" content="Today, I have uploaded my second Greasemonkey scripts to userscripts, Yahoo webmail&#43;&#43; . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side.">
+  <meta name="twitter:description" content="Today, I have uploaded my second Greasemonkey scripts to userscripts, Yahoo webmail&#43;&#43; . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the …">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jul 10, 2007 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Clean yahoo webmail without Ad&#39;s</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>Today, I have uploaded my second Greasemonkey scripts to <a href="http://userscripts.org" title="http://userscripts.org">userscripts</a>, <a href="http://userscripts-mirror.org/scripts/show/10590" title="http://userscripts.org/scripts/show/10590">Yahoo webmail++</a> . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side. Initially I was trying to do something similar to Gmail Airskin, but unfortunately yahoo uses lot of tables, which I find difficult to finish the script, at this stage it will remove only the advertisements and I will try to update the script soon.</p>
+
+<p>Installed 2,920 times.</p>
+
+<pre><code>/*
+
+Remove Banner on yahoo webmail
+Version 0.4b
+(C) 2007 Palaniraja
+Use this freely under the GNU GPL, http://www.gnu.org/licenses/gpl.html
+
+*/
+// ==UserScript==
+// @name           Yahoo webmail++
+// @namespace      https://userscripts-mirror.org
+// @description    An extended yahoo webmail  without ads
+// @author         Palaniraja
+// @homepage       https://userscripts-mirror.org
+// @include        http://*.*.mail.yahoo.*/ym/*
+// ==/UserScript==
+
+var css = &quot;@namespace url(http://www.w3.org/1999/xhtml); .ad_slug_table, #nwad, #swads, #northbanner{ display:none; } body * { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;} div.msgbody *{font-family:inherit; font-size:inherit;}&quot;;
+
+if (typeof GM_addStyle != &quot;undefined&quot;) {
+    GM_addStyle(css);
+} else if (typeof addStyle != &quot;undefined&quot;) {
+    addStyle(css);
+} else {
+    var heads = document.getElementsByTagName(&quot;head&quot;);
+    //console.log(&quot;printing heads&quot;,heads);
+    if (heads.length &gt; 0) {
+        var node = document.createElement(&quot;style&quot;);
+        node.type = &quot;text/css&quot;;
+        node.innerHTML = css;
+        heads[0].appendChild(node); 
+        
+    }
+}
+/*
+//will remove the advertisement, but I am not certain to use this xpath only to remove the ad
+var rhsAd = document.evaluate('/html/body/table/tbody/tr/td[3]/table/tbody/tr/td[3]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+if(rhsAd)  {
+        rhsAd.parentNode.removeChild(rhsAd);
+}
+*/
+</code></pre>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2007%2f07%2fclean-yahoo-webmail-without-ads%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; English to Tamil convertor (Unicode)</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2007/06/safari-for-windows/" data-toggle="tooltip" data-placement="top" title="Previous Article">Safari for Windows &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Poor man&#39;s pdf diff tool - PR</title>
+  <meta property="og:title" content="Poor man&#39;s pdf diff tool - PR" />
+  <meta name="twitter:title" content="Poor man&#39;s pdf diff tool - PR" />
+  <meta name="description" content="Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60&#43; pages of document for changes.">
+  <meta property="og:description" content="Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60&#43; pages of document for changes.">
+  <meta name="twitter:description" content="Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60&#43; pages of document for changes.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>May 8, 2018 </time>  &nbsp;&nbsp;<small> &minus; 1 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Poor man&#39;s pdf diff tool</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</p>
+
+<p>Then this crazy idea pop’s in my head, why can’t I do a diff on these pdf with a simple script. Reason is, I do not want to use any online tools, or want to install anything from Adobe.</p>
+
+<p>The idea was to export the pdf to images and do a image diff in batch. I already have <em>automator</em> script to convert pdf to png and <em>image magick</em> installed on my machine.</p>
+
+<ul>
+<li>Step 1: Convert the <strong>pdf</strong> to <strong>png</strong> using the <strong>automator</strong> script<br /></li>
+<li>Step 2: Batch rename the files like <strong>1.png, 2.png</strong> etc.,<br /></li>
+<li>Step 3: run <code>magick compare</code> in batch using simple one-line shell script<br />
+<br /></li>
+</ul>
+
+<pre><code>for i in $(seq 62 $END); do magick compare ../v1/$i.png ../v2/$i.png diff-$i.png; done 
+</code></pre>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.04.00-AM-copy.png" alt="" /></p>
+
+<p><strong>Note</strong>: 62 is the no. of images in each directory. <strong>v1</strong> &amp; <strong>v2</strong> are two directories with images in sequence eg., <code>v1/1.png</code>, <code>v2/1.png</code></p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.10.06-AM.png" alt="" /></p>
+
+<p>Due to some silly font rendering issues (Microsoft Word), I got some pages with output like below, but overall the it worked as expected.</p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.04.16-AM.png" alt="" /></p>
+
+<h3 id="automator-workflow-for-pdf-to-png">Automator workflow for PDF to PNG</h3>
+
+<p><img src="https://www.palaniraja.com/assets/pdf-to-png-automator-workflow.png" alt="automator workflow pdf-to-png" /></p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2018%2f05%2fpoor-mans-pdf-diff-tool%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Merging multiple MP4 videos with FFMPEG</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2018/03/book-recommendations/" data-toggle="tooltip" data-placement="top" title="Previous Article">Book Recommendations &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

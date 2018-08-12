@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Distribution on PR</title>
+    <link>https://www.palaniraja.com/tags/distribution/</link>
+    <description>Recent content in Distribution on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Wed, 16 Jan 2013 00:18:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/distribution/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Expired distribution provisioning and Yak shaving</title>
+      <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
+      <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
+      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+    </item>
+    
+    <item>
+      <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
+      <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
+      <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
+      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+    </item>
+    
+  </channel>
+</rss>

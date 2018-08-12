@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on PR</title>
+    <link>https://www.palaniraja.com/tags/general/</link>
+    <description>Recent content in General on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Wed, 31 Dec 2008 17:24:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wish You A Happy New Year 2009</title>
+      <link>https://www.palaniraja.com/2008/12/wish-you-a-happy-new-year-2009/</link>
+      <pubDate>Wed, 31 Dec 2008 17:24:35 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/12/wish-you-a-happy-new-year-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>www.prjx.org is down</title>
+      <link>https://www.palaniraja.com/2008/12/www.prjx.org-is-down/</link>
+      <pubDate>Mon, 08 Dec 2008 05:30:06 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/12/www.prjx.org-is-down/</guid>
+      <description>Friends,
+prjx.org is down at the moment, so all the projects/files hosted there won&amp;rsquo;t be available now. Please use contact me if you need the files.</description>
+    </item>
+    
+    <item>
+      <title>Google Chrome : Hybrid of all</title>
+      <link>https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/</link>
+      <pubDate>Sat, 06 Sep 2008 03:38:02 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/</guid>
+      <description>  Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism  What’s new in Google Chrome  No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google  </description>
+    </item>
+    
+    <item>
+      <title>Google Chrome : The application failed to initialize properly (0xc0000005)</title>
+      <link>https://www.palaniraja.com/2008/09/google-chrome--the-application-failed-to-initialize-properly-0xc0000005/</link>
+      <pubDate>Wed, 03 Sep 2008 07:32:52 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/09/google-chrome--the-application-failed-to-initialize-properly-0xc0000005/</guid>
+      <description>The application failed to initialize properly (0xc0000005). Click on OK to terminate the application  Symantec causes this issue and the temp.</description>
+    </item>
+    
+    <item>
+      <title>Play YouTube with FLV player of your choice</title>
+      <link>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</link>
+      <pubDate>Thu, 25 Oct 2007 09:34:43 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</guid>
+      <description>Not working anymore, but you are free to explore the code. Updates are welcome.
+I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case).</description>
+    </item>
+    
+    <item>
+      <title>Tamil.net links xTamil tool</title>
+      <link>https://www.palaniraja.com/2007/07/tamil.net-links-xtamil-tool/</link>
+      <pubDate>Tue, 24 Jul 2007 09:45:13 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/07/tamil.net-links-xtamil-tool/</guid>
+      <description>I&amp;rsquo;m overwhelmed with happiness after I saw my Google analytics report today. This blog and the new tool which I wrote xTamil - English to Tamil convertor (Unicode) are linked in a Tamil portal site Tamil.</description>
+    </item>
+    
+    <item>
+      <title>English to Tamil convertor (Unicode)</title>
+      <link>https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/</link>
+      <pubDate>Mon, 23 Jul 2007 09:45:37 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/</guid>
+      <description>Atlast, I finished my first verison of English to Tamil unicode convertor(Transliterater). What I planned to do was bit different than the one which is available now.</description>
+    </item>
+    
+    <item>
+      <title>Why does my dreamweaver look so beautiful?</title>
+      <link>https://www.palaniraja.com/2007/06/why-does-my-dreamweaver-look-so-beautiful/</link>
+      <pubDate>Mon, 11 Jun 2007 14:55:06 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/06/why-does-my-dreamweaver-look-so-beautiful/</guid>
+      <description>I don’t find an alternative title. Like anyone out there, I envy Textmate features where it is present in all the screencasts for PHP &amp;amp; RoR out there.</description>
+    </item>
+    
+  </channel>
+</rss>

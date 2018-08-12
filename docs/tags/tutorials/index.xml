@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on PR</title>
+    <link>https://www.palaniraja.com/tags/tutorials/</link>
+    <description>Recent content in Tutorials on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 26 Jun 2018 09:16:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Merging multiple MP4 videos with FFMPEG</title>
+      <link>https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/</link>
+      <pubDate>Tue, 26 Jun 2018 09:16:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/</guid>
+      <description>I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp;amp; Dropbox.</description>
+    </item>
+    
+    <item>
+      <title>How to open/view/share embedded documents in Microsoft Word for Mac (2011/2016)</title>
+      <link>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</link>
+      <pubDate>Mon, 28 Mar 2016 02:28:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</guid>
+      <description>You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .</description>
+    </item>
+    
+    <item>
+      <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
+      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</link>
+      <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</guid>
+      <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
+    </item>
+    
+    <item>
+      <title>Image Slicing (Repeatable image) with Xcode Asset Catalog</title>
+      <link>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</link>
+      <pubDate>Sun, 15 Feb 2015 09:36:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</guid>
+      <description>Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.</description>
+    </item>
+    
+    <item>
+      <title>Developing iOS application for salesforce [How to]</title>
+      <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
+      <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
+      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
+Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+    </item>
+    
+    <item>
+      <title>How to view (Windows) line ending characters on Mac OSX</title>
+      <link>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</link>
+      <pubDate>Wed, 15 Jun 2011 05:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</guid>
+      <description>Notepad++ on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.
+Programming editors on mac like Textwrangler and Textmate has an option to Show Invisibles but failed to display the character block for Carriage Return as Notepad used to.</description>
+    </item>
+    
+    <item>
+      <title>Recommended Git workflow</title>
+      <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
+      <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
+      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+    </item>
+    
+    <item>
+      <title>Enter into / Exit from Recovery mode for iPhone</title>
+      <link>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</link>
+      <pubDate>Sat, 14 May 2011 10:47:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</guid>
+      <description>Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations.</description>
+    </item>
+    
+    <item>
+      <title>Capture screenshot of the app with iPad simulator</title>
+      <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
+      <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
+      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
+    </item>
+    
+    <item>
+      <title>Advanced iPhone Development - iTunesU</title>
+      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</link>
+      <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</guid>
+      <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
+Session on OpenGL ES 2.</description>
+    </item>
+    
+  </channel>
+</rss>

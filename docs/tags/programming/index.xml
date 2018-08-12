@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on PR</title>
+    <link>https://www.palaniraja.com/tags/programming/</link>
+    <description>Recent content in Programming on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 28 Apr 2013 06:38:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Request To Webdevs: Include IP/User-Agent Info In Forgot Password Email</title>
+      <link>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</link>
+      <pubDate>Sun, 28 Apr 2013 06:38:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</guid>
+      <description>The Forgot password email template has been the same for more than a decade. It is time to include more information in the email.</description>
+    </item>
+    
+    <item>
+      <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
+      <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
+      <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
+      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+    </item>
+    
+    <item>
+      <title>iCloud Gotchas</title>
+      <link>https://www.palaniraja.com/2011/12/icloud-gotchas/</link>
+      <pubDate>Sat, 17 Dec 2011 23:08:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/12/icloud-gotchas/</guid>
+      <description>Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.</description>
+    </item>
+    
+  </channel>
+</rss>

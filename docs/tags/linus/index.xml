@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linus on PR</title>
+    <link>https://www.palaniraja.com/tags/linus/</link>
+    <description>Recent content in Linus on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 20 Jul 2013 10:38:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/linus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Link: This is Linus</title>
+      <link>https://www.palaniraja.com/2013/07/link-this-is-linus/</link>
+      <pubDate>Sat, 20 Jul 2013 10:38:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/07/link-this-is-linus/</guid>
+      <description>Last week Zite suggested this article, I&amp;rsquo;ve known about Linus and his rude comments. But reading this article, I realised that being polite is not right solution for everything.</description>
+    </item>
+    
+  </channel>
+</rss>

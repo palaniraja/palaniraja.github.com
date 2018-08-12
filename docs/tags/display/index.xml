@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Display on PR</title>
+    <link>https://www.palaniraja.com/tags/display/</link>
+    <description>Recent content in Display on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Mon, 27 Aug 2012 10:53:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/display/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Failed to get brightness for displayID</title>
+      <link>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</link>
+      <pubDate>Mon, 27 Aug 2012 10:53:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
+      <description>If you are experiencing frequent disk I/O and your console is full of
+ 25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+    </item>
+    
+  </channel>
+</rss>

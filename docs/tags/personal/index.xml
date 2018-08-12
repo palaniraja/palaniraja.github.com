@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on PR</title>
+    <link>https://www.palaniraja.com/tags/personal/</link>
+    <description>Recent content in Personal on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Wed, 22 Oct 2014 00:06:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kids these days</title>
+      <link>https://www.palaniraja.com/2014/10/kids-these-days/</link>
+      <pubDate>Wed, 22 Oct 2014 00:06:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2014/10/kids-these-days/</guid>
+      <description>Last weekend I was fortunate to be a technical evaluator of an hackathon. Yes, I&amp;rsquo;m trying to be vague here, as my company sponsored this event at a most reputed university of our state, this post is just my view.</description>
+    </item>
+    
+    <item>
+      <title>RescueTime weekly summary and Google Script</title>
+      <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
+      <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
+      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+    </item>
+    
+    <item>
+      <title>Rest In Peace</title>
+      <link>https://www.palaniraja.com/2012/12/rest-in-peace/</link>
+      <pubDate>Thu, 13 Dec 2012 09:07:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/12/rest-in-peace/</guid>
+      <description>We received an unusual call at 4am on 6th only to know my Uncle and Aunt are no more. Suicide at the age of 70+ is not an easy decision, it has been a week and I couldn&amp;rsquo;t digest the news.</description>
+    </item>
+    
+  </channel>
+</rss>

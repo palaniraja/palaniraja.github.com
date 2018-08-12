@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Engineering on PR</title>
+    <link>https://www.palaniraja.com/tags/software-engineering/</link>
+    <description>Recent content in Software Engineering on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project Plan and Gantter.com</title>
+      <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
+      <pubDate>Sat, 30 Mar 2013 07:08:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</guid>
+      <description>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</description>
+    </item>
+    
+    <item>
+      <title>Developing iOS application for salesforce [How to]</title>
+      <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
+      <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
+      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
+Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+    </item>
+    
+    <item>
+      <title>Installing more simulators for xcode 4.2 without re-downloading everytime</title>
+      <link>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</link>
+      <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
+      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.</description>
+    </item>
+    
+    <item>
+      <title>Idea to action: Tile this</title>
+      <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
+      <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
+      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+    </item>
+    
+    <item>
+      <title>Recommended Git workflow</title>
+      <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
+      <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
+      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+    </item>
+    
+  </channel>
+</rss>

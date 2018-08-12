@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osx86 on PR</title>
+    <link>https://www.palaniraja.com/tags/osx86/</link>
+    <description>Recent content in Osx86 on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Wed, 13 Oct 2010 11:32:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/osx86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GotoMeeting Video recording (G2M3 codec for Mac)</title>
+      <link>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</link>
+      <pubDate>Wed, 13 Oct 2010 11:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</guid>
+      <description>If you use GotoMeeting to record video of the shared screen, make sure that you DO NOT use G2M3 codec. It does a great job in compressing the size of the video but it is not compatible with OSX or any OS other than Windows.</description>
+    </item>
+    
+    <item>
+      <title>Snow Leopard (Retail) on Lenovo 3000 N100</title>
+      <link>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</link>
+      <pubDate>Tue, 13 Jul 2010 11:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</guid>
+      <description>Disclaimer: There is no alternative to real Mac, if you like Mac go and buy it. If buying a real Mac is too much, you can at least buy a license for Mac OS X Snow Leopard which costs $29 only.</description>
+    </item>
+    
+    <item>
+      <title>Hackintosh Guide: Snow Leopard 10.6.1-10.6.2 Intel AMD made by Hazard</title>
+      <link>https://www.palaniraja.com/2010/05/hackintosh-guide-snow-leopard-10.6.1-10.6.2-intel-amd-made-by-hazard/</link>
+      <pubDate>Mon, 17 May 2010 02:36:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/05/hackintosh-guide-snow-leopard-10.6.1-10.6.2-intel-amd-made-by-hazard/</guid>
+      <description>Last Saturday I was successful in installing Snow Leopard on Sony Vaio with Core i3 Processor. I have tried many distro&amp;rsquo;s in past 2 years and I can tell you it is not easy to install on any given PC.</description>
+    </item>
+    
+  </channel>
+</rss>

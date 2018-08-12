@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Source Control on PR</title>
+    <link>https://www.palaniraja.com/tags/source-control/</link>
+    <description>Recent content in Source Control on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Wed, 01 Jun 2011 04:59:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/source-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recommended Git workflow</title>
+      <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
+      <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
+      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+    </item>
+    
+  </channel>
+</rss>

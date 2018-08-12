@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on PR</title>
+    <link>https://www.palaniraja.com/tags/github/</link>
+    <description>Recent content in Github on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 31 Jan 2016 07:30:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dev Diary</title>
+      <link>https://www.palaniraja.com/2016/01/dev-diary/</link>
+      <pubDate>Sun, 31 Jan 2016 07:30:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/01/dev-diary/</guid>
+      <description>This is something I&amp;rsquo;ve started in Jan &amp;lsquo;15. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?</description>
+    </item>
+    
+    <item>
+      <title>RescueTime weekly summary and Google Script</title>
+      <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
+      <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
+      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+    </item>
+    
+    <item>
+      <title>Create card in Trello from Salesforce case</title>
+      <link>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</link>
+      <pubDate>Thu, 31 Jan 2013 06:55:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</guid>
+      <description>Yes. Danlec already created a bookmarklet that lets you create Trello card from many services like Fogbugz, JIRA, Github and more.</description>
+    </item>
+    
+    <item>
+      <title>Prj - Times of India epub</title>
+      <link>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</link>
+      <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</guid>
+      <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
+    </item>
+    
+    <item>
+      <title>iForce - Sublime text plugin for salesforce development.</title>
+      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
+    </item>
+    
+    <item>
+      <title>Developing iOS application for salesforce [How to]</title>
+      <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
+      <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
+      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
+Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+    </item>
+    
+    <item>
+      <title>mclock - Additional clock application for mac menu bar</title>
+      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <description>Update (2016-01-20): The app is now available on Mac App store.
+ Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+    </item>
+    
+    <item>
+      <title>RIL2Insta - Import Read it Later links to Instapaper</title>
+      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+    </item>
+    
+    <item>
+      <title>Shell script to generate images for testing</title>
+      <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
+      <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
+      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+    </item>
+    
+    <item>
+      <title>Recommended Git workflow</title>
+      <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
+      <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
+      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+    </item>
+    
+    <item>
+      <title>Custom UISplitViewController now available on GitHub</title>
+      <link>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</link>
+      <pubDate>Sun, 05 Dec 2010 07:02:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</guid>
+      <description>I created this custom UISplitViewController as one of my iPad project required Split view for only one screen. The default UISplitViewController provided by Apple can only be added to UIWindow which means you can&amp;rsquo;t use it with normal UINavigation based project with only one splitview screen.</description>
+    </item>
+    
+  </channel>
+</rss>

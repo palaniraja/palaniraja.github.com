@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab on PR</title>
+    <link>https://www.palaniraja.com/tags/lab/</link>
+    <description>Recent content in Lab on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 20 Sep 2008 19:27:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SVN: Export only updated files between 2 revisions</title>
+      <link>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</link>
+      <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
+      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?</description>
+    </item>
+    
+    <item>
+      <title>SVN: Auto UPDATE WORKING COPY after COMMIT</title>
+      <link>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</link>
+      <pubDate>Fri, 05 Sep 2008 19:12:02 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</guid>
+      <description>In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.</description>
+    </item>
+    
+    <item>
+      <title>Sticky notes with PHP and Jquery</title>
+      <link>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</link>
+      <pubDate>Sat, 19 Jul 2008 13:08:26 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
+      <description>Script speaks louder than words. Please go through the following links
+PHP Gd based Sticky script
+
+Jquery UI based Sticky page</description>
+    </item>
+    
+  </channel>
+</rss>

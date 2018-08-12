@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox - PR</title>
+  <meta property="og:title" content="Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox - PR" />
+  <meta name="twitter:title" content="Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox - …" />
+  <meta name="description" content="Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.">
+  <meta property="og:description" content="Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.">
+  <meta name="twitter:description" content="Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jun 29, 2011 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <blockquote>
+<p><strong>Update:</strong> I recently found this site called <a href="http://diawi.com/">diawi.com</a> which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</p>
+</blockquote>
+
+<p>Yes, there is an awesome service by <a href="https://testflightapp.com/">Testflight App</a> which I highly recommend. Not because I received their <a href="http://twitpic.com/5ii1e8">stickers</a> for being an early adaptor :). It does so many things which makes distributing app for beta testing a breeze, go try it yourself.</p>
+
+<p>I was just curious to know how OTA works, after testing with own web server for internal testing, I thought why can&rsquo;t I do this with <a href="https://www.dropbox.com/">Dropbox</a>?</p>
+
+<ul>
+<li>Build your app from <strong>xcode</strong> using <strong>Build and Archive</strong> option.</li>
+<li>Upload your <strong>ipa</strong> file to Dropbox. And get public link for the ipa.</li>
+<li>Download the <em><strong>manifest.plist</strong></em> file from <a href="https://gist.github.com/1051160">https://gist.github.com/1051160</a> and edit the line #14 with the public link of your ipa. Modify other keys as well (bundle-identifier, bundle-version, title)</li>
+<li>Upload the modified <em><strong>manifest.plist</strong></em> to Dropbox and get its public link.</li>
+<li>Download <em><strong>index.html</strong></em> from <a href="https://gist.github.com/1051163">https://gist.github.com/1051163</a> and edit <em><strong>url</strong></em> param at line #8 with public link of your manifest.plist</li>
+<li>Upload the <strong><em>index.html</em></strong> to Dropbox and share the public link of it with your beta testers.</li>
+</ul>
+
+<p><img src="https://www.palaniraja.com/assets/upload-ipa.jpg" alt="" /></p>
+
+<p>Upload your ipa</p>
+
+<p><img src="https://www.palaniraja.com/assets/ipa-public-link.jpg" alt="" /></p>
+
+<p>Copying public link</p>
+
+<p><img src="https://www.palaniraja.com/assets/final-setof-files.jpg" alt="" /></p>
+
+<p>All files, copying public url for index.html </p>
+
+<p>Installing the app</p>
+
+<p><img src="https://www.palaniraja.com/assets/photo-1.png" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/photo-2.png" alt="" /></p>
+
+<p>App icon will be disappeared once the installation complete (which is weird), but restarting the device does solve the issue. You have your app on springboard for testing. Enjoy delivering your adhoc builds to your testers by distributing over the air.</p>
+
+<p>NO iTunes FTW.</p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2011%2f06%2fdistribute-your-iphone%2fipad-adhoc-builds-over-the-air-using-dropbox%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; RIL2Insta - Import Read it Later links to Instapaper</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/" data-toggle="tooltip" data-placement="top" title="Previous Article">Shell script to generate images for testing &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mdm on PR</title>
+    <link>https://www.palaniraja.com/tags/mdm/</link>
+    <description>Recent content in Mdm on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 22 Jun 2014 04:55:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/mdm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to run any iPad (iOS) applications in Kiosk mode</title>
+      <link>https://www.palaniraja.com/2014/06/how-to-run-any-ipad-ios-applications-in-kiosk-mode/</link>
+      <pubDate>Sun, 22 Jun 2014 04:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2014/06/how-to-run-any-ipad-ios-applications-in-kiosk-mode/</guid>
+      <description>This is the one feature I know since the release but never bothered to try. Recently I had to provide the steps for a client on how to setup.</description>
+    </item>
+    
+  </channel>
+</rss>

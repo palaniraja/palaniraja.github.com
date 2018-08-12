@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on PR</title>
+    <link>https://www.palaniraja.com/tags/design/</link>
+    <description>Recent content in Design on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 01 Dec 2015 12:44:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iPad Pro and Apple</title>
+      <link>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</link>
+      <pubDate>Tue, 01 Dec 2015 12:44:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</guid>
+      <description>Last Sunday, I got to try iPad pro with all its accessories (most of the outlet here has only iPad pro without keyboard &amp;amp; pencil).</description>
+    </item>
+    
+    <item>
+      <title>Image Slicing (Repeatable image) with Xcode Asset Catalog</title>
+      <link>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</link>
+      <pubDate>Sun, 15 Feb 2015 09:36:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</guid>
+      <description>Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.</description>
+    </item>
+    
+    <item>
+      <title>Bitsplitting - Logo</title>
+      <link>https://www.palaniraja.com/2013/04/bitsplitting---logo/</link>
+      <pubDate>Sat, 13 Apr 2013 08:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/bitsplitting---logo/</guid>
+      <description>Bitsplitting - Beautiful logo I have seen in a long time. I don&amp;rsquo;t know how @danielpunkass decided to use one version of the two.</description>
+    </item>
+    
+    <item>
+      <title>iTunes 10 Logo</title>
+      <link>https://www.palaniraja.com/2011/09/itunes-10-logo/</link>
+      <pubDate>Thu, 01 Sep 2011 09:40:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/09/itunes-10-logo/</guid>
+      <description>End credits from the movie Up iTunes logo updated with version 10 in Sep &amp;lsquo;10</description>
+    </item>
+    
+    <item>
+      <title>Idea to action: Tile this</title>
+      <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
+      <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
+      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+    </item>
+    
+    <item>
+      <title>Wallpaper - Testflight app</title>
+      <link>https://www.palaniraja.com/2011/08/wallpaper---testflight-app/</link>
+      <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/08/wallpaper---testflight-app/</guid>
+      <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
+    </item>
+    
+    <item>
+      <title>Radio buttons and Checkboxes</title>
+      <link>https://www.palaniraja.com/2011/04/radio-buttons-and-checkboxes/</link>
+      <pubDate>Sun, 24 Apr 2011 10:57:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/04/radio-buttons-and-checkboxes/</guid>
+      <description>I have designed the following as one of my side project required a simple radio buttons and checkboxes.
+
+Download the *.</description>
+    </item>
+    
+  </channel>
+</rss>

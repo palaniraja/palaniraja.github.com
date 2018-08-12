@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on PR</title>
+    <link>https://www.palaniraja.com/tags/talks/</link>
+    <description>Recent content in Talks on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 18 Jan 2015 05:20:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book recommendation : Creativity Inc by Ed Catmull</title>
+      <link>https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/</link>
+      <pubDate>Sun, 18 Jan 2015 05:20:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/</guid>
+      <description>It is no surprise that you know about Pixar if you are even remotely knew Steve Jobs and his history. And you definitely heard about Pixar’s movies Toy story, Finding Nemo, Wall-E, Up &amp;amp; more.</description>
+    </item>
+    
+    <item>
+      <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
+      <link>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</link>
+      <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</guid>
+      <description>If you did not have enough time to go through the 50G contents from WWDC&amp;rsquo;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Randy Pausch Last Lecture: Achieving Your Childhood Dreams</title>
+      <link>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</link>
+      <pubDate>Sun, 29 Jan 2012 00:41:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</guid>
+      <description>Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=ji5_MqicxSo   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.25em; }  Youtube - Randy Pausch Last Lecture | Achieving Your Childhood Dreams</description>
+    </item>
+    
+    <item>
+      <title>Recommended Git workflow</title>
+      <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
+      <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
+      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+    </item>
+    
+    <item>
+      <title>Shane Warne - The Leader</title>
+      <link>https://www.palaniraja.com/2011/05/shane-warne---the-leader/</link>
+      <pubDate>Mon, 16 May 2011 11:21:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/05/shane-warne---the-leader/</guid>
+      <description>Color me surprised, I was amazed by his replies. Here is my favourite one
+ Harsha Bhogle: What you strive to do as a leader?</description>
+    </item>
+    
+  </channel>
+</rss>

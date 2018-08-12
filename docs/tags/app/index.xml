@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App on PR</title>
+    <link>https://www.palaniraja.com/tags/app/</link>
+    <description>Recent content in App on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 17 Jan 2017 06:34:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Speedy</title>
+      <link>https://www.palaniraja.com/projects/speedy/</link>
+      <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/speedy/</guid>
+      <description>Speedy is a Speed reading application for Mac OS X that lets you speed read the text contents.
+It is based on speed reading technique/methodology called Spritz</description>
+    </item>
+    
+    <item>
+      <title>Speedy - Speed reading application for Mac</title>
+      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+    </item>
+    
+    <item>
+      <title>IdeaVault - RPi dashboard</title>
+      <link>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</link>
+      <pubDate>Tue, 16 Apr 2013 17:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</guid>
+      <description>I couldn&amp;rsquo;t help myself after listening to John &amp;amp; Marco discussion about the pricing of Panic&amp;rsquo;s new app Status Board.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>SVN: Auto UPDATE WORKING COPY after COMMIT - PR</title>
+  <meta property="og:title" content="SVN: Auto UPDATE WORKING COPY after COMMIT - PR" />
+  <meta name="twitter:title" content="SVN: Auto UPDATE WORKING COPY after COMMIT - PR" />
+  <meta name="description" content="In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.">
+  <meta property="og:description" content="In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.">
+  <meta name="twitter:description" content="In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Sep 5, 2008 </time>  &nbsp;&nbsp;<small> &minus; 3 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">SVN: Auto UPDATE WORKING COPY after COMMIT</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.</p>
+
+<p>We were using a Linux server (Fedora) to integrate all the modules developed by almost 15+ developers. I learnt a valuable lesson from the projects in the recent past, it is not so easy to integrate all the modules developed by a team at the end of the project. So I suggested my team that integrating modules while developed would be the best thing (from my exp. anyway ).</p>
+
+<p>Our Dev server running SVN and LAMPP, all we need is an automated script that updates the working copy of our application which resides in htdocs of LAMPP as soon as someone commit their changes, so that they can easily identify the issues as soon as someone commit the conflicts. And also it would be really easy for us to show the demo of the app. at any to the client (i.e., No integration headache at the time of the call).</p>
+
+<h3 id="php-the-right-tool">PHP: the right tool?</h3>
+
+<p>As usual I wrote a script in php to run the SVN UPDATE command with PHP <code>exec()</code> function. Oops!! It doesn&rsquo;t work as expected.</p>
+
+<pre><code>&lt;?php 
+    $ret = exec(‘svn update /opt/lampp/htdocs', $ret2, $ret3); 
+    echo  $ret; 
+?&gt; 
+</code></pre>
+
+<p>I stumbled Google to know what&rsquo;s wrong with this code. It returns the following valuable results.</p>
+
+<p>I finally have come to a conclusion that PHP is not the precise tool for the task. So &ldquo;How did you achieve? Which is the best tool to achieve this?&rdquo;</p>
+
+<p>I can&rsquo;t say which one is the best, but this is how I automate the task.</p>
+
+<p>SVN has a feature built-in called <strong><a href="http://svnbook.red-bean.com/en/1.4/svn-book.html#svn.ref.reposhooks">hook</a></strong> which is designed specifically to do similar tasks. Don&rsquo;t know why I&rsquo;m hearing hooks frequently now-a-days (Drupal uses hooks, Joomla 1.5 uses hooks, hooks! hooks!! hooks!!! )</p>
+
+<h3 id="steps">Steps:</h3>
+
+<ul>
+<li>Create a file in <strong>C</strong> to run the command &ldquo;<strong>svn update</strong>&rdquo;. In my case the file was s<strong>vn_update.c</strong> in <strong>/bin</strong>.</li>
+<li><strong>svn_update.c</strong></li>
+</ul>
+
+<pre><code>
+    #include &lt;stddef.h&gt; 
+    #include &lt;stdlib.h&gt; 
+    #include &lt;unistd.h&gt; 
+    int main(void) {
+        execl(&quot;/usr/bin/svn&quot;, &quot;svn&quot;, &quot;update&quot;, &quot;/opt/lampp/htdocs/ &quot;, (const char *) NULL); return(EXIT_FAILURE);
+    }
+
+</code></pre>
+
+<ul>
+<li>Compile the file with the following command &ldquo;<strong>gcc svn_update.c -o svn_update</strong>&ldquo;</li>
+<li>Create a file called &ldquo;<strong>post-commit</strong>&rdquo; in the hooks directory of your SVN repository:</li>
+<li><strong>post-commit</strong></li>
+</ul>
+
+<p><code># #!/bin/sh /bin/svn_update</code></p>
+
+<ul>
+<li>Chmod your post-commit with the following command &ldquo;<strong>chmod 0755 post-commit</strong>&ldquo;</li>
+</ul>
+
+<p>  That&rsquo;s all you have to do, now SVN will do the rest. You can download the files, svn_update.c and post-commit <a href="http://prjx.googlecode.com/files/svn-auto-update.zip">here</a>.  </p>
+
+<h3 id="references">References:</h3>
+
+<ul>
+<li>Apache SVN @  <a href="http://www.sematopia.com/?p=218">http://www.sematopia.com/?p=218</a></li>
+<li>Alternate to C @ <a href="http://forum.webfaction.com/viewtopic.php?id=964">http://forum.webfaction.com/viewtopic.php?id=964</a></li>
+<li>Mighty C code @ <a href="http://forum.webfaction.com/viewtopic.php?pid=216#p216">http://forum.webfaction.com/viewtopic.php?pid=216#p216</a></li>
+</ul>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2008%2f09%2fsvn-auto-update-working-copy-after-commit%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Google Chrome : Hybrid of all</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2008/09/google-chrome--the-application-failed-to-initialize-properly-0xc0000005/" data-toggle="tooltip" data-placement="top" title="Previous Article">Google Chrome : The application failed to initialize properly (0xc0000005) &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minimalist on PR</title>
+    <link>https://www.palaniraja.com/tags/minimalist/</link>
+    <description>Recent content in Minimalist on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Thu, 18 Aug 2011 10:05:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/minimalist/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wallpaper - Testflight app</title>
+      <link>https://www.palaniraja.com/2011/08/wallpaper---testflight-app/</link>
+      <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/08/wallpaper---testflight-app/</guid>
+      <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
+    </item>
+    
+    <item>
+      <title>iPad wallpaper for minimalist</title>
+      <link>https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/</link>
+      <pubDate>Sun, 23 Jan 2011 10:22:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/</guid>
+      <description>Here is the background image I am using for my iPad. It is looking gorgeous on Home screen.
+Looks good on both orientations.</description>
+    </item>
+    
+  </channel>
+</rss>

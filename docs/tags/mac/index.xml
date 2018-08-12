@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on PR</title>
+    <link>https://www.palaniraja.com/tags/mac/</link>
+    <description>Recent content in Mac on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Thu, 09 Aug 2018 15:01:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dropbox Mac - Delete files on reinstallation?</title>
+      <link>https://www.palaniraja.com/2018/08/dropbox-mac---delete-files-on-reinstallation/</link>
+      <pubDate>Thu, 09 Aug 2018 15:01:00 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/08/dropbox-mac---delete-files-on-reinstallation/</guid>
+      <description>I uninstalled Dropbox from my workmac before submitting my laptop of reimaging of OS with corporate junk installations.
+Since I was sure, I should be able to install it again and download all synced files back on mac, I had deleted before handing over to IT people.</description>
+    </item>
+    
+    <item>
+      <title>Speedy</title>
+      <link>https://www.palaniraja.com/projects/speedy/</link>
+      <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/speedy/</guid>
+      <description>Speedy is a Speed reading application for Mac OS X that lets you speed read the text contents.
+It is based on speed reading technique/methodology called Spritz</description>
+    </item>
+    
+    <item>
+      <title>Speedy - Speed reading application for Mac</title>
+      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+    </item>
+    
+    <item>
+      <title>How to open/view/share embedded documents in Microsoft Word for Mac (2011/2016)</title>
+      <link>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</link>
+      <pubDate>Mon, 28 Mar 2016 02:28:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</guid>
+      <description>You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .</description>
+    </item>
+    
+    <item>
+      <title>TimeTracker</title>
+      <link>https://www.palaniraja.com/projects/timetracker/</link>
+      <pubDate>Thu, 28 Jan 2016 19:03:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/timetracker/</guid>
+      <description>A native mac app for tracking time to help you manage your productivity. It accepts current task (free text), and keep a timer to log the minutes you spent on task.</description>
+    </item>
+    
+    <item>
+      <title>Mclock</title>
+      <link>https://www.palaniraja.com/projects/mclock/</link>
+      <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/mclock/</guid>
+      <description>A minimalist clock to display time of different timezone of your choice.
+Eg.,
+ &amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo;  The app stays in menu bar all the time and you can customize the display format and timezone.</description>
+    </item>
+    
+  </channel>
+</rss>

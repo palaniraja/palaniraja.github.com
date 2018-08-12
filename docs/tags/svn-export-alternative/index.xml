@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Svn Export Alternative on PR</title>
+    <link>https://www.palaniraja.com/tags/svn-export-alternative/</link>
+    <description>Recent content in Svn Export Alternative on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 20 Sep 2008 19:27:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/svn-export-alternative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SVN: Export only updated files between 2 revisions</title>
+      <link>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</link>
+      <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
+      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?</description>
+    </item>
+    
+  </channel>
+</rss>

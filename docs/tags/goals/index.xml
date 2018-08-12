@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goals on PR</title>
+    <link>https://www.palaniraja.com/tags/goals/</link>
+    <description>Recent content in Goals on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 06 Jan 2013 03:38:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/goals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Idea Vault: Prj - Dug Me</title>
+      <link>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</link>
+      <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</guid>
+      <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
+Idea is to log all our project ideas similar to logging notes in nvALT.</description>
+    </item>
+    
+    <item>
+      <title>Resolutions for 2012</title>
+      <link>https://www.palaniraja.com/2011/12/resolutions-for-2012/</link>
+      <pubDate>Sat, 31 Dec 2011 23:03:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/12/resolutions-for-2012/</guid>
+      <description>For the first time in history, I am publishing resolution list online, let see if this helps.
+ Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
+    </item>
+    
+  </channel>
+</rss>

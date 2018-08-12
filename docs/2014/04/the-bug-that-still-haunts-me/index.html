@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>The bug that *still* haunts me - PR</title>
+  <meta property="og:title" content="The bug that *still* haunts me - PR" />
+  <meta name="twitter:title" content="The bug that *still* haunts me - PR" />
+  <meta name="description" content="My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval.">
+  <meta property="og:description" content="My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval.">
+  <meta name="twitter:description" content="My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2014/04/the-bug-that-still-haunts-me/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Apr 27, 2014 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">The bug that *still* haunts me</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval. And then they log this bug.</p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2014-04-27-at-8.41.26-PM.png" alt="" /></p>
+
+<p>Almost 10 years ago, when I started developing websites, I kind of aware of this bug and I ignored it because, I did not know the solution and I never expected any valid/meaningful users would enter such junk values.</p>
+
+<p>However, I was looking for solutions as I grow up, this is before the CSS era when <strong>font</strong><br />
+tag was most used one in webpages. All then dev forums are either ignoring it saying there are no acceptable solutions.</p>
+
+<p>When I learnt about CSS I discovered the gem called _overflow:hidden_and waited for  I started overusing this property. But the testers still log an issue related to this, not all the entered text are visible.</p>
+
+<p>Eventually, I discovered couple of new CSS properties <code>word-wrap:break-word</code> and <code>text-overflow:ellipsis</code> to overcome this issue. Again, these are <em>_recently_</em> added and only now it is commonly supported in all the browsers. Still, <code>text-overflow:ellipsis</code> works only for single line text at the moment?(<em>why</em>!)</p>
+
+<p>To summarise, this is the bug which shoots my blood-pressure as high as Mount Himalayas. Because I get this even before the functionalities are tested.</p>
+
+<h4 id="update">Update:</h4>
+
+<p>While rereading the post, I noticed I didn&rsquo;t explain my current solution. At the moment, I just use javascript and add ellipsis by truncating if the content length is greater than arbitrary number (<em>n</em>). For eg., the following use 500 as &lsquo;<em>n</em>&rsquo;.</p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2014-05-03-at-10.17.03-PM.png" alt="" /></p>
+
+<p>I am still not happy with it, as you see in the image. We can&rsquo;t use the number 500 for all string unless you use fixed-width font. And I am not aware of solutions to identify the (<em>n</em>) based on the given font size &amp; container size. (Refer: <a href="https://developer.apple.com/library/ios/documentation/uikit/reference/NSAttributedString_UIKit_Additions/Reference/Reference.html#jumpTo_5">NSAttributedString</a>)</p>
+
+<p>Matter of the fact, I just can&rsquo;t set <code>text-overflow:ellipsis</code> to all in my <code>normalize.css</code> or <code>reset.css</code> because this is not expected from any useful data.</p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2014%2f04%2fthe-bug-that-still-haunts-me%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2014/06/100th-post/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; 100th Post</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/" data-toggle="tooltip" data-placement="top" title="Previous Article">RescueTime weekly summary and Google Script &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

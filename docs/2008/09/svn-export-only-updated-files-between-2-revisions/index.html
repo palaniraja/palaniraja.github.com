@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>SVN: Export only updated files between 2 revisions - PR</title>
+  <meta property="og:title" content="SVN: Export only updated files between 2 revisions - PR" />
+  <meta name="twitter:title" content="SVN: Export only updated files between 2 revisions - PR" />
+  <meta name="description" content="Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?">
+  <meta property="og:description" content="Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?">
+  <meta name="twitter:description" content="Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Sep 20, 2008 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">SVN: Export only updated files between 2 revisions</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</p>
+
+<p>Don&rsquo;t lose hope. After having a hard time searching for an out of the box solution, I built my own with power of PHP ;) what else?</p>
+
+<h4 id="the-scenario">The scenario</h4>
+
+<ul>
+<li>Working with a team that uses SVN for versioning.</li>
+<li>Your production server doesn&rsquo;t have svn, so you can&rsquo;t run the command svn update. Even if you have svn in your production server and your stupid system admin denied to open svn port of your dev server over firewall for security reasons(Believe me, it happens I wrote more than 10 email to my system admin, and I can&rsquo;t make him understand why we need this port to be open.</li>
+<li>You need to upload the changes frequently and you have a very large list of directories which need to be chmod to 777 if you prefer uploading all again or,  you don&rsquo;t keep the files uploaded to the server in Dev (e.g. user images, videos are uploaded in the server are not required in Dev)</li>
+<li>All you need is to upload the files which are updated after the previous build. It is not so easy if you have too many directories of hierarchy (or using a PHP Framework like me. i.e., controller, models, views, app etc.,) </li>
+</ul>
+
+<h4 id="prerequisites">Prerequisites</h4>
+
+<ul>
+<li>What does <strong>svn log</strong> do? It&rsquo;s a command svn to list the files updated and other information in a revision or between two revisions, when you run the command &ldquo;svn log -rM:N -v&rdquo; (M,N are two revision numbers) in your working copy directory. You need the output of this command to provide the input for the script.</li>
+<li>A working copy. (HEAD checkout from your Repo)</li>
+<li>A directory with &ldquo;chmod 0777″ for the script to copy only the updated files for upload. </li>
+</ul>
+
+<p> </p>
+
+<h4 id="the-script">The Script</h4>
+
+<ul>
+<li>You can download the source <a href="http://prjx.googlecode.com/files/svnexport.zip" title="Download the sourcecode">here</a>.</li>
+<li>View source <a href="http://palani.bitsymphony.com/lab/svnexport/showsource.php?q=svnexport.php" title="View the source">here</a>.</li>
+<li>Try the <a href="http://palani.bitsymphony.com/lab/svnexport/" title="Try the demo">demo</a>. </li>
+</ul>
+
+<h4 id="screenshots">Screenshots</h4>
+
+<p><img src="https://www.palaniraja.com/assets/svnexport1.png" alt="" />
+<img src="https://www.palaniraja.com/assets/svnexport2.png" alt="" /></p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2008%2f09%2fsvn-export-only-updated-files-between-2-revisions%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2008/12/www.prjx.org-is-down/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; www.prjx.org is down</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/" data-toggle="tooltip" data-placement="top" title="Previous Article">Google Chrome : Hybrid of all &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

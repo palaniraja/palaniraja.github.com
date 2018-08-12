@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Import Delicious bookmarks to Evernote including tags - PR</title>
+  <meta property="og:title" content="Import Delicious bookmarks to Evernote including tags - PR" />
+  <meta name="twitter:title" content="Import Delicious bookmarks to Evernote including tags - PR" />
+  <meta name="description" content="It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
+Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.">
+  <meta property="og:description" content="It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
+Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.">
+  <meta name="twitter:description" content="It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
+Evernote does not support direct import of bookmarks from delicious as it does with Google …">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Dec 18, 2010 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Import Delicious bookmarks to Evernote including tags</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p><a href="https://www.palaniraja.com/assets/enex.png"><img src="https://www.palaniraja.com/assets/enex.png" alt="" /></a></p>
+
+<p>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.</p>
+
+<p>Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.  I wrote this script to move my delicious bookmarks to evernote for my use.</p>
+
+<p>It should be working for you as well, give a try without losing the tags.</p>
+
+<h3 id="step-1-backup-your-delicious-bookmarks">Step 1: Backup your delicious bookmarks</h3>
+
+<p>If you are using unix/osx, fire up your terminal and run the command</p>
+
+<blockquote>
+<p><code>curl https://USERNAME:PASSWORD@api.del.icio.us/v1/posts/all &gt; backup.xml</code></p>
+</blockquote>
+
+<p>replace the username and password with yours.</p>
+
+<p><a href="https://www.palaniraja.com/assets/nix.png"><img src="https://www.palaniraja.com/assets/nix.png" alt="" /></a></p>
+
+<p>If you are running windows, open browser and hit the url</p>
+
+<blockquote>
+<p><code>https://USERNAME:PASSWORD@api.del.icio.us/v1/posts/all</code></p>
+</blockquote>
+
+<p>with your username and password. Please read the <strong>Update</strong> at the bottom of this post.</p>
+
+<p>It will display the output as xml, save the file as XML.</p>
+
+<p><a href="https://www.palaniraja.com/assets/win-1.png"><img src="https://www.palaniraja.com/assets/win-1.png" alt="" /></a></p>
+
+<p><a href="https://www.palaniraja.com/assets/win-2.png"><img src="https://www.palaniraja.com/assets/win-2.png" alt="" /></a></p>
+
+<h3 id="step-1-1-accounts-tied-to-yahoo">Step 1.1: Accounts tied to Yahoo!</h3>
+
+<p>If your delicious account tied to Yahoo!, then please use the awesome <a href="http://deliciousxml.com/">http://deliciousxml.com/</a> to login and download your xml and proceed to step 2 below. My sincere thanks to <strong>Anonymous</strong> who gave me the link in the comments.</p>
+
+<h3 id="step-2-use-delicious-2-evernote-v2">Step 2: Use Delicious-2-Evernote v2</h3>
+
+<p>Goto <a href="http://jsdo.it/palaniraja/uphW/fullscreen">Delicious-2-Evernote v2</a> paste the contents of the <em>.xml</em> you just downloaded to the text box and hit the Evernote xml button.</p>
+
+<ul>
+<li><strong>Mac</strong> users (use v2.1) - <a href="http://jsdo.it/palaniraja/uphW/fullscreen">http://jsdo.it/palaniraja/uphW/fullscreen</a><br /></li>
+<li><strong>Windows</strong> users (use v2.2) - <a href="http://jsdo.it/palaniraja/aNtf/fullscreen">http://jsdo.it/palaniraja/aNtf/fullscreen</a><br />
+<br /></li>
+</ul>
+
+<p>It will give you evernote xml in a textbook which you again need to copy and save it as <strong>delicious.enex</strong> (DO NOT forgot to change the extension as <strong>.enex</strong>)</p>
+
+<p><a href="https://www.palaniraja.com/assets/del2ever.png"><img src="https://www.palaniraja.com/assets/del2ever.png" alt="" /></a></p>
+
+<p><a href="https://www.palaniraja.com/assets/del2ever-2.png"><img src="https://www.palaniraja.com/assets/del2ever-2.png" alt="" /></a></p>
+
+<h3 id="step-3-import-enex-with-evernote">Step 3: Import .enex with Evernote </h3>
+
+<p>Create new notebook in your Evernote and import the file you had just created (<em>delicious.enex</em>)</p>
+
+<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-12-24-at-6.28.45-PM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-12-24-at-6.28.45-PM.png" alt="" /></a></p>
+
+<p><a href="https://www.palaniraja.com/assets/import2.png"><img src="https://www.palaniraja.com/assets/import2.png" alt="" /></a></p>
+
+<p><a href="https://www.palaniraja.com/assets/progress.png"><img src="https://www.palaniraja.com/assets/progress.png" alt="" /></a></p>
+
+<p><a href="https://www.palaniraja.com/assets/happy.png"><img src="https://www.palaniraja.com/assets/happy.png" alt="" /></a></p>
+
+<p>Thats it. Enjoy Evernote service.</p>
+
+<p>Code is available at <a href="http://jsdo.it/palaniraja/uphW/">jsdo.it</a>, updates are welcome.</p>
+
+<h3 id="update-windows-users">Update (Windows users):</h3>
+
+<p>It seems to be an issue with Windows version of Evernote with the output generated by the script. I&rsquo;ll test my delicious bookmarks with windows version and update soon.</p>
+
+<p>Windows users please use <a href="http://jsdo.it/palaniraja/aNtf/fullscreen">this link</a></p>
+
+<p>There are two issues with Windows version of Evernote as mentioned in the comments. I have fixed the following issue</p>
+
+<p><a href="https://www.palaniraja.com/assets/error2.png"><img src="https://www.palaniraja.com/assets/error2.png" alt="" /></a></p>
+
+<p>the other one is due to special characters (that are not htmlentities) in the title.</p>
+
+<p><a href="https://www.palaniraja.com/assets/err3.png"><img src="https://www.palaniraja.com/assets/err3.png" alt="" /></a></p>
+
+<p><del>The temporary fix is to open the .enex created in the process with Firefox and identify and replace the special chars manually (find all &amp; replace all should do)</del></p>
+
+<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-12-21-at-12.03.36-AM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-12-21-at-12.03.36-AM.png" alt="" /></a></p>
+
+<p>Fix is to select the encoding type as &ldquo;UTF-8&rdquo; aNotepad saves the file in ANSI as default. Kindly refer the img below. My sincere thanks to Florian on sharing the solution.</p>
+
+<p><a href="https://www.palaniraja.com/assets/win-fixes.png"><img src="https://www.palaniraja.com/assets/win-fixes.png" alt="" /></a></p>
+
+<p><strong>Good news:</strong> Code is available at <a href="https://github.com/palaniraja/delicious2evernote">GitHub</a> for more easier way to submit/fix the code.</p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2010%2f12%2fimport-delicious-bookmarks-to-evernote-including-tags%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; iPad wallpaper for minimalist</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2010/12/idea-vault-when-is-that/" data-toggle="tooltip" data-placement="top" title="Previous Article">Idea Vault: When is that? &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Merging multiple MP4 videos with FFMPEG - PR</title>
+  <meta property="og:title" content="Merging multiple MP4 videos with FFMPEG - PR" />
+  <meta name="twitter:title" content="Merging multiple MP4 videos with FFMPEG - PR" />
+  <meta name="description" content="I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp; Dropbox.">
+  <meta property="og:description" content="I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp; Dropbox.">
+  <meta name="twitter:description" content="I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive …">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jun 26, 2018 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Merging multiple MP4 videos with FFMPEG</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp; Dropbox.</p>
+
+<p>I wanted to merge all the clips to one .mp4 file. And also I want to keep the sections and topics for easy viewing later.</p>
+
+<p>After few searches, I could not find one as I like, so I wrote one using <a href="https://ffmpeg.org/">ffmpeg</a>.</p>
+
+<p><a href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">Github</a> - <a href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">merge-mp4.sh</a></p>
+
+<h4 id="before">Before:</h4>
+
+<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---before.png" alt="" /></p>
+
+<h4 id="after">After:</h4>
+
+<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---after.png" alt="" /></p>
+
+<p>You will see two output files, one with &ldquo;-meta.mp4&rdquo; is the one with chapter information.</p>
+
+<h4 id="output-file-with-chapters">Output file with chapters:</h4>
+
+<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---chapters.png" alt="" /></p>
+
+<h4 id="script-merge-mp4-sh">Script: <code>merge-mp4.sh</code></h4>
+
+<!-- <noscript>
+    <p class="noscript">Content requires Javascript to be enabled.</p>
+
+    <p><a href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16</a> </p>
+
+    <br/>
+    
+</noscript>
+<style type="text/css">
+    p.noscript{
+        background-color: #fefea0;
+        border-left: 4px solid #fea0a0;
+        padding: 0 0.25em;
+    }
+</style> -->
+
+<pre><code>#!/bin/bash
+
+## Script to merge all mp4 videos in current directory (recursively 2 levels)
+## And update chapter marks to retain the folder/filename
+
+## Script for merging videos
+
+
+filename=`basename pwd`
+current=`pwd`
+bname=`basename &quot;$current&quot;`
+find . -maxdepth 2 -iname '*.mp4' | xargs -L 1 echo | awk '{printf &quot;file \x27%s\x27\n&quot;, $0}' &gt;&gt; list.txt
+find . -maxdepth 2 -iname '*.mp4' | xargs -L 1 echo | awk '{print $0}' &gt;&gt; files.txt
+echo -n &quot;Merging the files&quot;
+ffmpeg -f concat -safe 0 -i list.txt -c copy &quot;$bname.mp4&quot; -v quiet
+echo &quot;..........[ DONE ]&quot;
+
+## extract meta
+# ffmpeg -i all.mp4 -f ffmetadata metafile
+metafile=&quot;metadata.txt&quot;
+echo -n &quot;Extracting meta data&quot;
+ffmpeg -i &quot;$bname.mp4&quot; -f ffmetadata $metafile -v quiet
+echo &quot;..........[ DONE ]&quot;
+
+## chapter marks
+#TODO: (‘=’, ‘;’, ‘#’, ‘\’) to be escaped
+ts=0
+echo -n &quot;Identifying chapters&quot;
+cat files.txt | while read file
+do
+    ds=`ffprobe -v quiet -of csv=p=0 -show_entries format=duration &quot;$file&quot;`
+    # echo &quot;$ds&quot;
+    echo &quot;[CHAPTER]&quot; &gt;&gt; $metafile
+    echo &quot;TIMEBASE=1/1&quot; &gt;&gt; $metafile
+    echo &quot;START=$ts&quot; &gt;&gt; $metafile
+    ts=`echo $ts + $ds | bc`
+    echo &quot;END=$ts&quot; &gt;&gt; $metafile
+    echo &quot;TITLE=$file&quot; &gt;&gt; $metafile
+    
+done
+echo &quot;..........[ DONE ]&quot;
+## update meta with chaptermarks
+
+echo -n &quot;Adding chapter meta &quot;
+
+ffmpeg -i &quot;$bname.mp4&quot; -i $metafile -map_metadata 1 -codec copy &quot;$bname-meta.mp4&quot; -v quiet
+echo &quot;..........[ DONE ]&quot;
+
+## cleanup
+echo -n &quot;Cleaning up&quot;
+
+rm files.txt list.txt $metafile
+
+echo &quot;..........[ DONE ]&quot;
+
+echo &quot;Job Completed.&quot;
+
+</code></pre>
+
+<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16</a></p>
+
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2018%2f06%2fmerging-multiple-mp4-videos-with-ffmpeg%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Pilapse - Raspberry Pi Camera and Timelapse</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/" data-toggle="tooltip" data-placement="top" title="Previous Article">Poor man&#39;s pdf diff tool &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

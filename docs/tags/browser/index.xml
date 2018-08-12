@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Browser on PR</title>
+    <link>https://www.palaniraja.com/tags/browser/</link>
+    <description>Recent content in Browser on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 01 Jan 2013 10:32:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Idea Vault: Tree view</title>
+      <link>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</link>
+      <pubDate>Tue, 01 Jan 2013 10:32:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</guid>
+      <description>A Bookmarklet or a Browser extension to select the root element of a DOM (UL/OL) to view the Inverted tree structure of its child nodes.</description>
+    </item>
+    
+    <item>
+      <title>Idea to action: Tile this</title>
+      <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
+      <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
+      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+    </item>
+    
+    <item>
+      <title>Play Angrybirds on web (Chrome)</title>
+      <link>https://www.palaniraja.com/2011/05/play-angrybirds-on-web-chrome/</link>
+      <pubDate>Sat, 14 May 2011 10:50:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/05/play-angrybirds-on-web-chrome/</guid>
+      <description>HD for good configuration computers | SD for little out of date computers
+For those who wants to see all levels without completing a level or struck in a level, here is the hack, copy the following code, paste it on url textbox and hit enter.</description>
+    </item>
+    
+    <item>
+      <title>Idea Vault: Tile this!</title>
+      <link>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</link>
+      <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this 
+I was recently hunting images for a sample design.</description>
+    </item>
+    
+  </channel>
+</rss>

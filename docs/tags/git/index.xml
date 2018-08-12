@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on PR</title>
+    <link>https://www.palaniraja.com/tags/git/</link>
+    <description>Recent content in Git on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 31 Jan 2016 07:30:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dev Diary</title>
+      <link>https://www.palaniraja.com/2016/01/dev-diary/</link>
+      <pubDate>Sun, 31 Jan 2016 07:30:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/01/dev-diary/</guid>
+      <description>This is something I&amp;rsquo;ve started in Jan &amp;lsquo;15. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?</description>
+    </item>
+    
+    <item>
+      <title>Recommended Git workflow</title>
+      <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
+      <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
+      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+    </item>
+    
+  </channel>
+</rss>

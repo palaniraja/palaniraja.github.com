@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compatibility on PR</title>
+    <link>https://www.palaniraja.com/tags/compatibility/</link>
+    <description>Recent content in Compatibility on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Wed, 16 Jan 2013 00:18:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/compatibility/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Expired distribution provisioning and Yak shaving</title>
+      <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
+      <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
+      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+    </item>
+    
+    <item>
+      <title>How to view (Windows) line ending characters on Mac OSX</title>
+      <link>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</link>
+      <pubDate>Wed, 15 Jun 2011 05:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</guid>
+      <description>Notepad++ on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.
+Programming editors on mac like Textwrangler and Textmate has an option to Show Invisibles but failed to display the character block for Carriage Return as Notepad used to.</description>
+    </item>
+    
+    <item>
+      <title>How to test your iPhone applications with iPad simulator?</title>
+      <link>https://www.palaniraja.com/2010/02/how-to-test-your-iphone-applications-with-ipad-simulator/</link>
+      <pubDate>Tue, 02 Feb 2010 20:06:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/02/how-to-test-your-iphone-applications-with-ipad-simulator/</guid>
+      <description>iPad can run most of the iPhone (iPod touch) applications. After installing the iPhone SDK 3.2 open your iPhone simulator and select below from the menu</description>
+    </item>
+    
+  </channel>
+</rss>

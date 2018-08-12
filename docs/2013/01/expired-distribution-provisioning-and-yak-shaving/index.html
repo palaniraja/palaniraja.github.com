@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Expired distribution provisioning and Yak shaving - PR</title>
+  <meta property="og:title" content="Expired distribution provisioning and Yak shaving - PR" />
+  <meta name="twitter:title" content="Expired distribution provisioning and Yak shaving - PR" />
+  <meta name="description" content="Last Thursday one of my iPad app&rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.">
+  <meta property="og:description" content="Last Thursday one of my iPad app&rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.">
+  <meta name="twitter:description" content="Last Thursday one of my iPad app&rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jan 16, 2013 </time>  &nbsp;&nbsp;<small> &minus; 4 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Expired distribution provisioning and Yak shaving</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>Last Thursday one of my iPad app&rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app. App users are for <a href="http://en.wikipedia.org/wiki/HVAC">HVAC</a> technicians, app integrates with their organization&rsquo;s CRM (<a href="http://login.salesforce.com/">Salesforce</a>) so distributing it with App store doesn&rsquo;t make any sense.</p>
+
+<p><img src="https://www.palaniraja.com/assets/expired-provision-yak-shaving.png" alt="" /></p>
+
+<p>As immediate action, I tried to renew the provisioning files with iOS developer portal. It does not provide an option for renewing distribution profiles but developer provisioning was given an option to renew. The same goes for trying to renew with xcode organizer.</p>
+
+<p>A quick search on Google and StackOverflow to know what will happen once the provisioning file get expired. After referring few wrong posts I come to the conclusion app will continue to work. Only later I come to know they are wrong (atleast in this case) <em>#Mistake1</em></p>
+
+<p>As per &ldquo;<em>Ain&rsquo;t broke don&rsquo;t fix it</em>&rdquo; golden rule, I didn&rsquo;t take any action. I thought, Renew button on distribution provision wouldappear once it get expire. The worst case scenario I expected was distributing a new build.</p>
+
+<p>The day comes and provision file expired for all of us at same moment, I had no timezone advantage (UTC knows no mercy). <em>#Mistake2</em></p>
+
+<p>It was hard to come to this conclusion at the time, deleting the provisioning file of a suspended app and removing it from background seems to work. I had to restart the device to confirm. Also later it was showing &ldquo;<em>Expires in 0 hour</em>&rdquo; and &ldquo;<em>Expired 0 hour ago</em>&rdquo;. There was no minutes so I had to wait like  till the very last minute for testing.</p>
+
+<h4 id="duplicate-keychain">Duplicate Keychain</h4>
+
+<p>I had paid a price for having very little knowledge about Keychain Access and their certificates. Though I deleted all my developer and distribution certificates under Certificates category, xcode was nagging about the duplicate. <em>#Mistake3</em></p>
+
+<p>I gave up on the idea of providing new build with same AppID and tried a new AppID. No sugar there, stupid xcode and keychain util. Yes I tried the <em>View-&gt;show expired certificates</em> too.</p>
+
+<p>Finally I had to find the directory where xcode save the profile and delete manually. Also I have to search for  &rdquo;&rdquo; and &ldquo;&rdquo; in all <em>Keychains</em> and <em>Category</em> and delete them. Also created a new distribution profile with same app id.</p>
+
+<h4 id="xcode-updates-and-ios-6-depcrecation-of-supportedinterfaceorientations">Xcode updates and iOS 6 depcrecation of supportedInterfaceOrientations</h4>
+
+<p>Every new version of Xcode delete the old or previous iOS SDK as its post installation step. I can understand this from Xcode developer perspective but from an app developer it is a nightmare. My system admin deleted all my previous xcode dmg archive from their NAS drive as it took 40+Gb.</p>
+
+<p>I had Xcode 4.5.2 installed on my dev machine and the application was built with iOS SDK 5.1. The Zip archive of xcode.app prior to xcode update didn&rsquo;t help either.</p>
+
+<p>Though I was aware, there are issues with interface orientation behaviour in iOS6. Somehow I assumed, it will not be an issue as my deployment target was iOS 5.1. I was wrong again. <em>#Mistake4</em></p>
+
+<p>The new build submitted to customer using iPad2 with iOS6 noticied it rightaway, where I was having first gen iPad and no way of identifiying it myself. Theoritcally i could have tested this with iOS 6 simulator but i literally had 0 minutes as technicians were out in the field and find no way to see their tickets, site and asset information. <em>#mistake5</em></p>
+
+<p>Not having an upgradeable device hurts a lot, I blame on both my company for not providing me a decent device and Apple for their limitations. </p>
+
+<h4 id="tl-dr-lessons-learned">TL;DR - Lessons learned</h4>
+
+<ol>
+<li>Application will not work once provisioning profile expired. </li>
+<li>Provisioning expiry time is <a href="http://en.wikipedia.org/wiki/Coordinated_Universal_Time">UTC</a> i.e., No timezone advantage even if you are NZ dev supporting PST customer.</li>
+<li>No way you could get a correct answer for Keychain Access and Provisioning file issues. Closed systems and DRM, even after paying large sum for devices and development you can&rsquo;t install app without mothership&rsquo;s cryptic certificates.</li>
+<li>XCode upgrades and Deployment targets are not your friends.</li>
+<li>iOS 6 Autorotation behaviour is your enemy when you build ios 5.1 target.</li>
+</ol>
+
+<p>Looong story short, I ended up creating a new distribution provisioning file with existing app id. So the technicians need not enter their user id, password and security token again. Also had to fix the the orientation behaviour for iOS 6. </p>
+
+<p>What I initially thought of a <a href="http://my.safaribooksonline.com/book/software-engineering-and-development/9780596519780/automation/i_sect13_d1e5512">10 min</a> work took like <a href="http://programmers.stackexchange.com/questions/34775/correct-definition-of-the-term-yak-shaving">4 hours overall</a>, timing was so perfect I left office around midnight. And I was morally down with my inability to make a right time estimation even after years of experience.</p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2013%2f01%2fexpired-distribution-provisioning-and-yak-shaving%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2013/01/prj---times-of-india-epub/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Prj - Times of India epub</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/" data-toggle="tooltip" data-placement="top" title="Previous Article">Idea Vault: Prj - Dug Me &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

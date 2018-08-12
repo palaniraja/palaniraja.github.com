@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Disney on PR</title>
+    <link>https://www.palaniraja.com/tags/disney/</link>
+    <description>Recent content in Disney on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 18 Jan 2015 05:20:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/disney/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book recommendation : Creativity Inc by Ed Catmull</title>
+      <link>https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/</link>
+      <pubDate>Sun, 18 Jan 2015 05:20:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/</guid>
+      <description>It is no surprise that you know about Pixar if you are even remotely knew Steve Jobs and his history. And you definitely heard about Pixar’s movies Toy story, Finding Nemo, Wall-E, Up &amp;amp; more.</description>
+    </item>
+    
+    <item>
+      <title>iTunes 10 Logo</title>
+      <link>https://www.palaniraja.com/2011/09/itunes-10-logo/</link>
+      <pubDate>Thu, 01 Sep 2011 09:40:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/09/itunes-10-logo/</guid>
+      <description>End credits from the movie Up iTunes logo updated with version 10 in Sep &amp;lsquo;10</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>iCloud Gotchas - PR</title>
+  <meta property="og:title" content="iCloud Gotchas - PR" />
+  <meta name="twitter:title" content="iCloud Gotchas - PR" />
+  <meta name="description" content="Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.">
+  <meta property="og:description" content="Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.">
+  <meta name="twitter:description" content="Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2011/12/icloud-gotchas/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Dec 17, 2011 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">iCloud Gotchas</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>Integrating iCloud with core data was easy when I found <a href="http://goddess-gate.com/dc2/index.php/post/452">this tutorial</a>, but I ran into few issues while implementing and testing it on devices. And here are the steps how I managed to solve it.</p>
+
+<h3 id="issue-1">Issue 1:</h3>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-21-at-10.55.47-PM.png" alt="Code 
+Signing Entitlements file do not match" /></p>
+
+<pre><code>The entitlements specified in your application’s Code 
+Signing Entitlements file do not match those 
+specified in your provisioning profile.  
+  
+  
+(0xE8008016).
+</code></pre>
+
+<p>If you create a new application Id and enable iCloud then you miss the adventure. It seems enabling iCloud on existing account provide different identifiers for key value store from app identifier.</p>
+
+<p>And editing .entitlements file with Xcode adds some extra identifiers i.e., {APP_IDENFITIER}</p>
+
+<p>Text is an awesome format, don&rsquo;t ruin the beauty with IDE/ plist editors.</p>
+
+<p>Solution to this problem is, copy for key <em>entitlements</em> from your mobile provisioning file and paste the same in place of in your entitlements file.</p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-21-at-10.55.27-PM.png" alt="appname.mobileprovision" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-12-18-at-12.11.52-PM.png" alt="appname.entitlements" /></p>
+
+<h3 id="issue-2">Issue 2:</h3>
+
+<blockquote>
+<p>2011-11-21 22:57:35.770 appname[6338:1c03] *** -[NSFileManager URLForUbiquityContainerIdentifier:]: An error occurred while getting ubiquity container URL: Error Domain=LibrarianErrorDomain Code=11 &ldquo;The operation couldn’t be completed. (LibrarianErrorDomain error 11 - The requested container identifier is not permitted by the client&rsquo;s com.apple.developer.ubiquity-container-identifiers entitlement.)&rdquo; UserInfo=0x1b14b0 {NSDescription=The requested container identifier is not permitted by the client&rsquo;s com.apple.developer.ubiquity-container-identifiers entitlement.}</p>
+</blockquote>
+
+<p>If you see this issue then your missed to update [nsfilemanager fileManager URLForUbiquityContainerIdentifier:@&ldquo;with your valid identifier&rdquo;] in your appdelegate</p>
+
+<pre><code>NSURL *cloudURL = [fileManager URLForUbiquityContainerIdentifier:@&quot;3JCZ6A8BSY.com.yoursite.appname&quot;];
+</code></pre>
+
+<h4 id="other-common-issues-are">Other common issues are:</h4>
+
+<ul>
+<li>Forgot to turn on wifi when your device is in airplane mode (It beats me every-time)</li>
+<li>Forgot to switch to your developer certificate from distribution to developer signing (code signing)</li>
+</ul>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2011%2f12%2ficloud-gotchas%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2011/12/resolutions-for-2012/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Resolutions for 2012</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2011/12/airtel-broadband---how-to-find-bandwidth-usage/" data-toggle="tooltip" data-placement="top" title="Previous Article">Airtel Broadband - How to find bandwidth usage &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

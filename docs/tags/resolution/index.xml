@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resolution on PR</title>
+    <link>https://www.palaniraja.com/tags/resolution/</link>
+    <description>Recent content in Resolution on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Mon, 27 Aug 2012 10:53:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/resolution/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Failed to get brightness for displayID</title>
+      <link>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</link>
+      <pubDate>Mon, 27 Aug 2012 10:53:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
+      <description>If you are experiencing frequent disk I/O and your console is full of
+ 25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+    </item>
+    
+    <item>
+      <title>Resolutions for 2012</title>
+      <link>https://www.palaniraja.com/2011/12/resolutions-for-2012/</link>
+      <pubDate>Sat, 31 Dec 2011 23:03:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/12/resolutions-for-2012/</guid>
+      <description>For the first time in history, I am publishing resolution list online, let see if this helps.
+ Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How To on PR</title>
+    <link>https://www.palaniraja.com/tags/how-to/</link>
+    <description>Recent content in How To on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 08 May 2018 06:30:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Poor man&#39;s pdf diff tool</title>
+      <link>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</link>
+      <pubDate>Tue, 08 May 2018 06:30:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</guid>
+      <description>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</description>
+    </item>
+    
+    <item>
+      <title>How to open/view/share embedded documents in Microsoft Word for Mac (2011/2016)</title>
+      <link>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</link>
+      <pubDate>Mon, 28 Mar 2016 02:28:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</guid>
+      <description>You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .</description>
+    </item>
+    
+    <item>
+      <title>Raspbian &#43; XBMC &#43; Airplay</title>
+      <link>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</link>
+      <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</guid>
+      <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
+I own a Raspberry Pi for closer to a year now.</description>
+    </item>
+    
+    <item>
+      <title>Grep - Swiss army knife</title>
+      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
+    </item>
+    
+    <item>
+      <title>Disable networking/internet from command line on a Mac</title>
+      <link>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</link>
+      <pubDate>Fri, 19 Apr 2013 09:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</guid>
+      <description>If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.</description>
+    </item>
+    
+    <item>
+      <title>Expired distribution provisioning and Yak shaving</title>
+      <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
+      <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
+      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+    </item>
+    
+    <item>
+      <title>iForce - Sublime text plugin for salesforce development.</title>
+      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
+    </item>
+    
+    <item>
+      <title>Developing iOS application for salesforce [How to]</title>
+      <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
+      <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
+      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
+Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+    </item>
+    
+    <item>
+      <title>Google Chrome : The application failed to initialize properly (0xc0000005)</title>
+      <link>https://www.palaniraja.com/2008/09/google-chrome--the-application-failed-to-initialize-properly-0xc0000005/</link>
+      <pubDate>Wed, 03 Sep 2008 07:32:52 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/09/google-chrome--the-application-failed-to-initialize-properly-0xc0000005/</guid>
+      <description>The application failed to initialize properly (0xc0000005). Click on OK to terminate the application  Symantec causes this issue and the temp.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Installing more simulators for xcode 4.2 without re-downloading everytime - PR</title>
+  <meta property="og:title" content="Installing more simulators for xcode 4.2 without re-downloading everytime - PR" />
+  <meta name="twitter:title" content="Installing more simulators for xcode 4.2 without re-downloading …" />
+  <meta name="description" content="If you are like me, who use more than one machine to develop iOS app and wants to install 4.">
+  <meta property="og:description" content="If you are like me, who use more than one machine to develop iOS app and wants to install 4.">
+  <meta name="twitter:description" content="If you are like me, who use more than one machine to develop iOS app and wants to install 4.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Nov 28, 2011 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Installing more simulators for xcode 4.2 without re-downloading everytime</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.x simulator without re-downloading it on every machine? then I&rsquo;ve got a solution.</p>
+
+<p>This is how I setup my installation - a 2 step process.</p>
+
+<p>1. Find the .dmg files which is downloaded by XCode 4.2 and download it seperately.<br />
+2. Spoof your hosts file of the machine to point the files you have downloaded already.</p>
+
+<p><a href="https://developer.apple.com/downloads/download.action?path=Developer_Tools/ios_simulator/iphone_4.3_iphonesimulatorsdk4_3.dmg">Direct download link</a> for 4.3<br />
+<a href="https://developer.apple.com/downloads/download.action?path=Developer_Tools/ios_simulator/iphone_3_iphonesdk3x.dmg">Direct download link</a> for 3.x</p>
+
+<h3 id="step-1">Step 1:</h3>
+
+<p>By inspecting the console.app I was able to figure out the URL of .dmg xcode trying to download.</p>
+
+<p>Eg. The path for 4x simulator is</p>
+
+<blockquote>
+<p><a href="http://adcdownload.apple.com/Developer_Tools/ios_simulator/">http://adcdownload.apple.com/Developer_Tools/ios_simulator/</a> iphone_4.3_iphonesimulatorsdk4_3.dmg</p>
+</blockquote>
+
+<p>which resolves into</p>
+
+<blockquote>
+<p><a href="https://developer.apple.com/downloads/download.action?">https://developer.apple.com/downloads/download.action?</a> path=Developer_Tools/ios_simulator/iphone_4.3_iphonesimulatorsdk4_3.dmg</p>
+</blockquote>
+
+<p>Now, Open the xcode and select more simulators from the menu.</p>
+
+<p>click install on any of the available option to keep the session validated against your developer acccount.</p>
+
+<p>Once it started to download the file after authentication, just stop it.</p>
+
+<p><img src="https://www.palaniraja.com/assets/sim1.png" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-27-at-3.57.02-PM-1.jpg" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-27-at-3.57.13-PM.jpg" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-27-at-3.57.25-PM-2.jpg" alt="" /></p>
+
+<h3 id="step-2">Step 2:</h3>
+
+<p>Place your downloaded .dmg in</p>
+
+<blockquote>
+<p> <yourhomedir>/Developer_Tools/ios_simulator/iphone_4.3_iphonesimulatorsdk4_3.dmg</p>
+</blockquote>
+
+<p>Start apache on port 80 and update <strong><code>/private/etc/hosts</code></strong> to have</p>
+
+<pre><code>#xcode4.2 legacy simulators dmg proxy  
+127.0.0.1 adcdownload.apple.com  
+</code></pre>
+
+<p>Switch to xcode and click install again to install the simulator from your local machine without re-downloading.</p>
+
+<p><strong>Note:</strong></p>
+
+<p>Installing .dmg individually doesn&rsquo;t seem to install properly atleast in my case (While installing xcode, I&rsquo;ve used different directory instead of typical /Developer)</p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2011%2f11%2finstalling-more-simulators-for-xcode-4.2-without-re-downloading-everytime%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2011/12/airtel-broadband---how-to-find-bandwidth-usage/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Airtel Broadband - How to find bandwidth usage</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2011/11/btserver-cpu-usage/" data-toggle="tooltip" data-placement="top" title="Previous Article">BTServer CPU Usage &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

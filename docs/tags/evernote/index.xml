@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evernote on PR</title>
+    <link>https://www.palaniraja.com/tags/evernote/</link>
+    <description>Recent content in Evernote on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 18 Dec 2010 01:44:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Import Delicious bookmarks to Evernote including tags</title>
+      <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
+      <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
+      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
+Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+    </item>
+    
+  </channel>
+</rss>

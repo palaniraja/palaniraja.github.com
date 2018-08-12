@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on PR</title>
+    <link>https://www.palaniraja.com/tags/welcome/</link>
+    <description>Recent content in Welcome on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 19 May 2007 07:44:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Migrating from blogspot</title>
+      <link>https://www.palaniraja.com/2007/05/migrating-from-blogspot/</link>
+      <pubDate>Sat, 19 May 2007 07:44:49 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/05/migrating-from-blogspot/</guid>
+      <description>I am happy to join the wordpress community. I will post useful snippets and ideas on this blog. So keep an eye on my blog!</description>
+    </item>
+    
+  </channel>
+</rss>

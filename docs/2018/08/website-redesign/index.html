@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Website redesign - PR</title>
+  <meta property="og:title" content="Website redesign - PR" />
+  <meta name="twitter:title" content="Website redesign - PR" />
+  <meta name="description" content="Today I&rsquo;m launching the redesigned website palaniraja.com. It&rsquo;s a shame that I took to this much time to update my own website which I&rsquo;ve paying for years.">
+  <meta property="og:description" content="Today I&rsquo;m launching the redesigned website palaniraja.com. It&rsquo;s a shame that I took to this much time to update my own website which I&rsquo;ve paying for years.">
+  <meta name="twitter:description" content="Today I&rsquo;m launching the redesigned website palaniraja.com. It&rsquo;s a shame that I took to this much time to update my own website which I&rsquo;ve paying for years.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2018/08/website-redesign/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Aug 12, 2018 </time>  &nbsp;&nbsp;<small> &minus; 3 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Website redesign</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>Today I&rsquo;m launching the redesigned website <a href="https://www.palaniraja.com">palaniraja.com</a>. It&rsquo;s a shame that I took to this much time to update my own website which I&rsquo;ve paying for years. But that&rsquo;s a by-product of working on your own project without timeline or external pressure :-)</p>
+
+<p>Even today, I had to take a decision to push this version as it is fully functional for almost a week, and my list of pending items is still growing. I hope to publish changes in subsequent days/weeks.</p>
+
+<h3 id="idea-and-execution">Idea and Execution</h3>
+
+<ul>
+<li>Wanted a simple markdown based website</li>
+<li>Wanted to host in github <a href="https://palaniraja.github.com/">https://palaniraja.github.com/</a></li>
+<li>Content Types
+
+<ul>
+<li><a href="https://www.palaniraja.com/posts">Blog</a></li>
+<li><a href="https://www.palaniraja.com/projects">Projects / Products</a></li>
+<li>Photo Gallery for featuring my favorite photos -TBD</li>
+</ul></li>
+<li>Simplistic theme and fast rendering website</li>
+</ul>
+
+<h3 id="technical-details">Technical details</h3>
+
+<ul>
+<li>Rebuilt this using <a href="https://gohugo.io/">Hugo</a></li>
+</ul>
+
+<p>An opensource static site generator written in <a href="https://golang.org/">Go</a>. I choose this years ago when I was interested in learning <a href="https://golang.org/">Go</a>. Though I haven&rsquo;t invested much time in <a href="https://golang.org/">Go</a>. I figured the customization I expect for my site can be done with just templating. And it has good community support and articles for customization</p>
+
+<ul>
+<li>Theme - <code>min</code></li>
+</ul>
+
+<p>I built my own theme named <code>min</code> for minimalistic. It is based on a theme <a href="https://themes.gohugo.io/theme/whiteplain/">whiteplain</a> which is similar to my liking, but I had to build several components on top of it. Will shortly publish the source code.</p>
+
+<h5 id="decisions">Decisions</h5>
+
+<ol>
+<li>Not to use any 3rd party javascript framework.</li>
+<li>No Tracking codes.</li>
+<li>Not to embed any 3rd party widgets.
+
+<ul>
+<li>This is very hard. E.g., I host codes in Github and vidoes in Youtube. But decided privacy of users and speed of page is more important than an additional click</li>
+<li>Good old hyperlink will take them to 3rd party sites when necessary</li>
+<li>And I keep a copy of code part of post so it would work with RSS feed readers</li>
+<li>Built couple of Hugo <a href="https://gohugo.io/content-management/shortcodes/">shortcodes</a> for embeding contents which then links to 3rd party website.</li>
+</ul></li>
+</ol>
+
+<ul>
+<li>Importing old blog contents</li>
+</ul>
+
+<p>Since I&rsquo;ve been blogging over a decade and I have contents in several platforms. I wanted to merge it in a single place as well as a simple non-proprietary backup.</p>
+
+<p>After trying few solution, I wrote my own script <a href="https://github.com/palaniraja/blog2md">blog2md</a> to backup both Blogger and Wordpress blog contents. I even got it updated in <a href="https://gohugo.io/tools/migrations/">Hugo Docs</a> for others to use.</p>
+
+<ul>
+<li>Comments</li>
+</ul>
+
+<p>Since this is a static website, it can&rsquo;t have comments. Though the whole world decided against comments. I still love a insightful comment on a post from strangers. I like to think of post without comments as Stackoverflow posts without answers.</p>
+
+<p>I do not want to use <a href="https://disqus.com">Disqus</a>. It is an additional 3rd party dependency. So I decided to go with <a href="https://www.google.com/forms/about/">Google Forms</a>. Yes it is also a dependency but already Google has all my info. And I prefer Google over Disqus.</p>
+
+<h3 id="sections">Sections</h3>
+
+<ul>
+<li><a href="https://www.palaniraja.com/projects">Projects</a></li>
+</ul>
+
+<p>This will be the product page for all my projects and scripts. Top featured projects are listed in Home itself.</p>
+
+<ul>
+<li><a href="https://www.palaniraja.com/posts">Blog</a></li>
+</ul>
+
+<p>To host all my old blog posts and comments. Migrated using my own <a href="https://github.com/palaniraja/blog2md">blog2md</a> and edited few posts for dead links and contents.</p>
+
+<ul>
+<li><a href="https://palaniraja.github.com/devdiary">DevDiary</a></li>
+</ul>
+
+<p>A footer link at the moment. Will think of a place to feature this in top navbar. And I should keep logging more contents from my notebook.</p>
+
+<ul>
+<li>Resume - A major component pending item from this release</li>
+</ul>
+
+<p>This is definetly a reason why this project was delayed. I wanted to do a cool resume page part of website deployed since the domain purchase. But I could not make up my mind to choose one. My current plan to create a single page PDF with just high level technical information and link it.</p>
+
+<p>Ask the recruiters and spammers to mail for more info which includes private information.</p>
+
+<h4 id="current-revision">Current revision</h4>
+
+<img src="https://www.palaniraja.com/assets/website-v3-hugo-min.png" alt="Current Release 3">
+
+<h5 id="previous-revisions">Previous revisions</h5>
+
+<div class="content-gallery gallery">
+  
+  <img src="https://www.palaniraja.com/assets/website-v2-spa-contact.png" class="content-gallery-image" alt="Release 2">
+  <img src="https://www.palaniraja.com/assets/website-v1-under-construction.png" class="content-gallery-image" alt="Initial announcement site">
+
+</div>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2018%2f08%2fwebsite-redesign%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2018/08/dropbox-mac---delete-files-on-reinstallation/" data-toggle="tooltip" data-placement="top" title="Previous Article">Dropbox Mac - Delete files on reinstallation? &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

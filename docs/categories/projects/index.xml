@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on PR</title>
+    <link>https://www.palaniraja.com/categories/projects/</link>
+    <description>Recent content in Projects on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 28 Jul 2018 18:53:05 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pilapse - Raspberry Pi Camera and Timelapse</title>
+      <link>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</link>
+      <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</guid>
+      <description>It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
+Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
+    </item>
+    
+    <item>
+      <title>Speedy</title>
+      <link>https://www.palaniraja.com/projects/speedy/</link>
+      <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/speedy/</guid>
+      <description>Speedy is a Speed reading application for Mac OS X that lets you speed read the text contents.
+It is based on speed reading technique/methodology called Spritz</description>
+    </item>
+    
+    <item>
+      <title>Speedy - Speed reading application for Mac</title>
+      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+    </item>
+    
+    <item>
+      <title>TimeTracker</title>
+      <link>https://www.palaniraja.com/projects/timetracker/</link>
+      <pubDate>Thu, 28 Jan 2016 19:03:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/timetracker/</guid>
+      <description>A native mac app for tracking time to help you manage your productivity. It accepts current task (free text), and keep a timer to log the minutes you spent on task.</description>
+    </item>
+    
+    <item>
+      <title>Mclock</title>
+      <link>https://www.palaniraja.com/projects/mclock/</link>
+      <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/mclock/</guid>
+      <description>A minimalist clock to display time of different timezone of your choice.
+Eg.,
+ &amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo;  The app stays in menu bar all the time and you can customize the display format and timezone.</description>
+    </item>
+    
+    <item>
+      <title>iForce</title>
+      <link>https://www.palaniraja.com/projects/iforce/</link>
+      <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/iforce/</guid>
+      <description>Note: I no longer develop Salesforce applications, hence I do not maintain this extension. You are free to fork and maintain.</description>
+    </item>
+    
+  </channel>
+</rss>

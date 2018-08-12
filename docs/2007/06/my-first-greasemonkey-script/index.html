@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>My first Greasemonkey script - PR</title>
+  <meta property="og:title" content="My first Greasemonkey script - PR" />
+  <meta name="twitter:title" content="My first Greasemonkey script - PR" />
+  <meta name="description" content="Ok. My first Greasemonkey script is available from userscripts.org (http://userscripts-mirror.org/scripts/show/9740)
+I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.">
+  <meta property="og:description" content="Ok. My first Greasemonkey script is available from userscripts.org (http://userscripts-mirror.org/scripts/show/9740)
+I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.">
+  <meta name="twitter:description" content="Ok. My first Greasemonkey script is available from userscripts.org (http://userscripts-mirror.org/scripts/show/9740)
+I have been using Greasemonkey for more than a year. Recently I downloaded 2 …">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jun 11, 2007 </time>  &nbsp;&nbsp;<small> &minus; 1 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">My first Greasemonkey script</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>Ok. My first Greasemonkey script is available from <a href="http://userscripts.org/">userscripts.org</a> (<a href="http://userscripts-mirror.org/scripts/show/9740">http://userscripts-mirror.org/scripts/show/9740</a>)</p>
+
+<p>I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.</p>
+
+<p>Two days ago, I was assigned to do url rewriting for our free-classifieds site.  As usual I started googling and found a good site with online tools for url rewriting (<a href="http://seochat.com/">seochat.com</a>), but the advertisement on the site annoyed me, since I was working with long urls. So, I created this script. Hope you will find this useful. It certainly helped me :)</p>
+
+<p><strong>Update</strong>: Replaced userscripts link with <a href="http://userscripts-mirror.org">http://userscripts-mirror.org</a>.  Installed 328 times.</p>
+
+<pre><code>/*
+
+Remove Banner on seochat.com &amp; devshed.com
+Version 0.2b
+(C) 2007  
+Use this freely under the GNU GPL, http://www.gnu.org/licenses/gpl.html
+
+*/
+
+// ==UserScript==
+// @name          seochat.com/devshed banner killer
+// @description   Removes the ad banner on the right hand side of the seochat.com &amp; devshed.com
+// @include       http://seochat.com/*
+// @include       http://www.seochat.com/*
+// @include       http://devshed.com/*
+// @include       http://www.devshed.com/*
+// ==/UserScript==
+//*[@id=&quot;resultright&quot;]
+
+var resultright = document.getElementById('resultright');
+if(resultright) {
+ resultright.parentNode.removeChild(resultright);
+}
+</code></pre>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2007%2f06%2fmy-first-greasemonkey-script%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2007/06/why-does-my-dreamweaver-look-so-beautiful/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Why does my dreamweaver look so beautiful?</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2007/05/migrating-from-blogspot/" data-toggle="tooltip" data-placement="top" title="Previous Article">Migrating from blogspot &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

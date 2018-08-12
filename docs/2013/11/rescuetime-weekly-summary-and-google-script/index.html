@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>RescueTime weekly summary and Google Script - PR</title>
+  <meta property="og:title" content="RescueTime weekly summary and Google Script - PR" />
+  <meta name="twitter:title" content="RescueTime weekly summary and Google Script - PR" />
+  <meta name="description" content="I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.">
+  <meta property="og:description" content="I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.">
+  <meta name="twitter:description" content="I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Nov 3, 2013 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">RescueTime weekly summary and Google Script</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else. I have always run two or three passive self policing apps like <a href="https://www.rescuetime.com/">Rescuetime</a> and <a href="https://itunes.apple.com/ca/app/free-time-tracker-timing-lite/id467410757?mt=12">Timing</a> etc.,</p>
+
+<p>I have been using <a href="https://www.rescuetime.com/">Rescuetime</a> for little over two years. Since I&rsquo;m a cheap/free user, I cannot use their premium features like view or export past data. However, they send a weekly summary email with enough data. So I was curious to know the pattern of the way I work.</p>
+
+<p>I wrote a small <a href="http://www.google.com/script/start/%E2%80%8E">Google script</a> that parses the text part of their email and save it in a Google Spreadsheet for analysing.</p>
+
+<p>Though I have two years of rescue time summary email, there are two different template. So I have parsed the email since Jan&rsquo;13. (I believe they recently changed the template as of Oct-13.)</p>
+
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2013-11-03-at-12.02.31-PM.png" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/Productivetime.png" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/hourslogged.png" alt="" /></p>
+
+<p><img src="https://www.palaniraja.com/assets/hours-categorywise.png" alt="" /></p>
+
+<p>I was quite happy that I am not that lazy ass as I thought. I have spent quality no. of hours on Software development and Utilities.</p>
+
+<p>Utilities are mostly <strong>Terminal/iterm2, nvalt</strong>, custom tools I use outside of IDE but related to development. And I see I am consistent with my productivity % and the way no. of hours logged per week.</p>
+
+<p>You can find the script <a href="https://github.com/palaniraja/RescueTimeSummary/blob/master/getRescueTimeText.gs">here</a> and the spreadsheet template I use to find the data <a href="http://goo.gl/tz7zyH">here</a>. I have cleared the content of <code>mail</code> sheet after running the <code>collectSummaryEmails</code> method from your clone of the sheet, you should see data from your Gmail. I left the other sheets with the data so you can follow.</p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2013%2f11%2frescuetime-weekly-summary-and-google-script%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2014/04/the-bug-that-still-haunts-me/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; The bug that *still* haunts me</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/" data-toggle="tooltip" data-placement="top" title="Previous Article">Raspbian &#43; XBMC &#43; Airplay &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

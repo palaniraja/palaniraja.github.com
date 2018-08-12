@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recommended on PR</title>
+    <link>https://www.palaniraja.com/tags/recommended/</link>
+    <description>Recent content in Recommended on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 20 Apr 2013 23:45:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/recommended/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
+      <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
+      <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
+      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+    </item>
+    
+  </channel>
+</rss>

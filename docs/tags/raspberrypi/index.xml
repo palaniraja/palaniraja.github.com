@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberrypi on PR</title>
+    <link>https://www.palaniraja.com/tags/raspberrypi/</link>
+    <description>Recent content in Raspberrypi on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 18 Aug 2013 05:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspbian &#43; XBMC &#43; Airplay</title>
+      <link>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</link>
+      <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</guid>
+      <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
+I own a Raspberry Pi for closer to a year now.</description>
+    </item>
+    
+    <item>
+      <title>IdeaVault - RPi dashboard</title>
+      <link>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</link>
+      <pubDate>Tue, 16 Apr 2013 17:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</guid>
+      <description>I couldn&amp;rsquo;t help myself after listening to John &amp;amp; Marco discussion about the pricing of Panic&amp;rsquo;s new app Status Board.</description>
+    </item>
+    
+  </channel>
+</rss>

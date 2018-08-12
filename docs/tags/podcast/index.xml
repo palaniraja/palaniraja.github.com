@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcast on PR</title>
+    <link>https://www.palaniraja.com/tags/podcast/</link>
+    <description>Recent content in Podcast on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 16 Apr 2013 17:32:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IdeaVault - RPi dashboard</title>
+      <link>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</link>
+      <pubDate>Tue, 16 Apr 2013 17:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</guid>
+      <description>I couldn&amp;rsquo;t help myself after listening to John &amp;amp; Marco discussion about the pricing of Panic&amp;rsquo;s new app Status Board.</description>
+    </item>
+    
+    <item>
+      <title>Bitsplitting - Logo</title>
+      <link>https://www.palaniraja.com/2013/04/bitsplitting---logo/</link>
+      <pubDate>Sat, 13 Apr 2013 08:32:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/bitsplitting---logo/</guid>
+      <description>Bitsplitting - Beautiful logo I have seen in a long time. I don&amp;rsquo;t know how @danielpunkass decided to use one version of the two.</description>
+    </item>
+    
+  </channel>
+</rss>

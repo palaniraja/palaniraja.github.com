@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bug on PR</title>
+    <link>https://www.palaniraja.com/tags/bug/</link>
+    <description>Recent content in Bug on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Mon, 28 Mar 2016 02:28:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to open/view/share embedded documents in Microsoft Word for Mac (2011/2016)</title>
+      <link>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</link>
+      <pubDate>Mon, 28 Mar 2016 02:28:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</guid>
+      <description>You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .</description>
+    </item>
+    
+    <item>
+      <title>Failed to get brightness for displayID</title>
+      <link>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</link>
+      <pubDate>Mon, 27 Aug 2012 10:53:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
+      <description>If you are experiencing frequent disk I/O and your console is full of
+ 25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+    </item>
+    
+    <item>
+      <title>BTServer CPU Usage</title>
+      <link>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</link>
+      <pubDate>Sat, 19 Nov 2011 09:40:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</guid>
+      <description>I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP.</description>
+    </item>
+    
+    <item>
+      <title>My new photo (screenshot sharing) blog</title>
+      <link>https://www.palaniraja.com/2010/11/my-new-photo-screenshot-sharing-blog/</link>
+      <pubDate>Fri, 19 Nov 2010 01:33:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/11/my-new-photo-screenshot-sharing-blog/</guid>
+      <description>A colleague told me that I should be a QA Engineer in a random conversation few months ago. Though I did not consider it but he stands by it even now.</description>
+    </item>
+    
+    <item>
+      <title>PeerGuardian and history.db</title>
+      <link>https://www.palaniraja.com/2010/05/peerguardian-and-history.db/</link>
+      <pubDate>Sun, 16 May 2010 12:02:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/05/peerguardian-and-history.db/</guid>
+      <description>PeerGuardian is a great tool to maintain your privacy. But you should be aware of a fact that it uses a sqlite db to maintain the history called history.</description>
+    </item>
+    
+    <item>
+      <title>[BEROR]Code Sign error: Provisioning profile &#39;579ACFD8-827A-4325-F623-DB8CDD5081DB&#39; can&#39;t be found</title>
+      <link>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</link>
+      <pubDate>Sun, 04 Apr 2010 09:13:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</guid>
+      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found  Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
+    </item>
+    
+    <item>
+      <title>Why AppStore submission process sucks!</title>
+      <link>https://www.palaniraja.com/2010/04/why-appstore-submission-process-sucks/</link>
+      <pubDate>Sun, 04 Apr 2010 07:59:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/04/why-appstore-submission-process-sucks/</guid>
+      <description>They only check the binary to see if they use any private API nothing other than that. Sometimes they reject the app and give you a reason that it doesn&amp;rsquo;t fit with their HIG standards.</description>
+    </item>
+    
+    <item>
+      <title>Nobody is using NOSCRIPT tag?</title>
+      <link>https://www.palaniraja.com/2010/03/nobody-is-using-noscript-tag/</link>
+      <pubDate>Sun, 14 Mar 2010 21:13:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/03/nobody-is-using-noscript-tag/</guid>
+      <description>It seems nobody is using NOSCRIPT tag. I never used in my application as well. But it is surprising that even Google itself ignoring the NOSCRIPT.</description>
+    </item>
+    
+    <item>
+      <title>Weird issue with application icons on iPhone dashboard</title>
+      <link>https://www.palaniraja.com/2010/02/weird-issue-with-application-icons-on-iphone-dashboard/</link>
+      <pubDate>Sat, 06 Feb 2010 19:38:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/02/weird-issue-with-application-icons-on-iphone-dashboard/</guid>
+      <description>Note: Apple reported this as fixed in version 3.1 and above. The screenshot above was taken with an iPhone OS 3.</description>
+    </item>
+    
+  </channel>
+</rss>

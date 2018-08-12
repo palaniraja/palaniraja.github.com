@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cocoa Touch on PR</title>
+    <link>https://www.palaniraja.com/tags/cocoa-touch/</link>
+    <description>Recent content in Cocoa Touch on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sun, 07 Jul 2013 10:04:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/cocoa-touch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
+      <link>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</link>
+      <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</guid>
+      <description>If you did not have enough time to go through the 50G contents from WWDC&amp;rsquo;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

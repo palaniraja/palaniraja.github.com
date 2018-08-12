@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Import on PR</title>
+    <link>https://www.palaniraja.com/tags/import/</link>
+    <description>Recent content in Import on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/import/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
+      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</link>
+      <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</guid>
+      <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
+    </item>
+    
+    <item>
+      <title>RIL2Insta - Import Read it Later links to Instapaper</title>
+      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+    </item>
+    
+    <item>
+      <title>Import Delicious bookmarks to Evernote including tags</title>
+      <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
+      <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
+      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
+Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+    </item>
+    
+  </channel>
+</rss>

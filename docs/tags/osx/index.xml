@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osx on PR</title>
+    <link>https://www.palaniraja.com/tags/osx/</link>
+    <description>Recent content in Osx on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Tue, 17 Jan 2017 06:34:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Speedy</title>
+      <link>https://www.palaniraja.com/projects/speedy/</link>
+      <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/speedy/</guid>
+      <description>Speedy is a Speed reading application for Mac OS X that lets you speed read the text contents.
+It is based on speed reading technique/methodology called Spritz</description>
+    </item>
+    
+    <item>
+      <title>Speedy - Speed reading application for Mac</title>
+      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+    </item>
+    
+    <item>
+      <title>Functional Special characters in Mavericks</title>
+      <link>https://www.palaniraja.com/2014/06/functional-special-characters-in-mavericks/</link>
+      <pubDate>Mon, 16 Jun 2014 10:24:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2014/06/functional-special-characters-in-mavericks/</guid>
+      <description>I was one of the very few people who held on to the last cat OS X (Mountain Lion). I had to switch to Mavericks at office to play with the new shiny language Swift.</description>
+    </item>
+    
+    <item>
+      <title>Disable networking/internet from command line on a Mac</title>
+      <link>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</link>
+      <pubDate>Fri, 19 Apr 2013 09:18:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</guid>
+      <description>If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.</description>
+    </item>
+    
+    <item>
+      <title>mclock - Additional clock application for mac menu bar</title>
+      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <description>Update (2016-01-20): The app is now available on Mac App store.
+ Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+    </item>
+    
+    <item>
+      <title>Shell script to generate images for testing</title>
+      <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
+      <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
+      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+    </item>
+    
+  </channel>
+</rss>
