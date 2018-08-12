@@ -1,0 +1,14 @@
+<div class="flxContainer">
+    {{ range sort (first 6 (where (where .Pages "Section" "projects") ".Params.feature" "!=" nil))  "Params.order"}}
+    <div class="flxItemContainer">
+        <div class="flxPrjTitle">
+            <h3><a href="{{ .RelPermalink }}">{{ .Params.shortTitle | default .Title }}</a> {{ if .Params.isBeta }}<sup>beta</sup>{{ end }}</h3></div>
+        <div class="flxContent">
+            <p> {{ .Params.description | markdownify}} </p>
+        </div>
+        <div class="flxFiller">&nbsp;</div>
+        <div class="flxAction"><a class="button" href="{{ .RelPermalink }}">more &hellip;</a></div>
+    </div>
+    {{ end }}
+
+</div>

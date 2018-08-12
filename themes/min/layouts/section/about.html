@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="main" role="main">
+    <article class="article about">
+        <h1 class="article-title">{{ .Title }}</h1>
+        <hr class="article-title-bottom">
+          <!-- {{ partial "author.html" . }} -->
+
+      {{ .Content }}
+    </article>
+  </div>
+{{ end }}

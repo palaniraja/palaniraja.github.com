@@ -1,0 +1,47 @@
+
+{{ define "main" }}
+  {{- if eq .Kind "taxonomy" }}
+  <div class="breadcrumb">
+    <a href="{{ "/" | relURL }}{{ .Data.Plural | urlize }}/">{{ .Data.Plural | humanize }}</a> / {{ .Data.Term | humanize }}
+  </div>
+  {{- else if eq .Kind "section" }}
+  <div class="breadcrumb">
+    {{ .Title }}
+  </div>
+  {{- end }}
+  <div class="main" role="main">
+    <section class="list {{ .Kind }}-list">
+      {{- $paginator := .Paginator}}
+
+      {{ range (where $paginator.Pages ".Dir" "!=" "posts/comments") }}
+
+      <article class="article">
+        <a href="{{ .Permalink | relURL }}" class="article-titles">
+          <h2 class="article-title">{{ .Title }}</h2>
+          {{ with .Params.subtitle }}<h3 class="article-subtitle">{{ . }}</h3>{{ end }}
+        </a>
+        <ul class="article-meta">
+          <li class="article-meta-date"><time>{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time></li>
+        </ul>
+        {{- if .Params.image }}
+        <a href="{{ .Permalink | relURL }}"><img src="{{ .Params.image }}" class="article-image" /></a>
+        {{- end }}
+        <div class="article-content">
+          {{- if .Truncated }}
+          {{ .Summary }}
+          <p><div class="article-readmore"><a href="{{ .Permalink | relURL }}">Read more...</a></div></p>
+          {{- else }}
+          {{ .Content }}
+          {{- end }}
+        </div>
+        
+        <div class="article-floatclear"></div>
+      </article>
+      <hr />
+
+      {{- end }}
+    </section>
+    {{ template "_internal/pagination.html" . }}
+  </div>
+
+{{ end }}

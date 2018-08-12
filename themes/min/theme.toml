@@ -1,0 +1,13 @@
+name = "min"
+license = "MIT"
+licenselink = ""
+description = "Minimal theme for Hugo"
+# heavily modified from whiteplain theme
+homepage = "https://github.com/palaniraja"
+tags = ["blog",  "simple"]
+features = ["blog",  "simple"]
+min_version = "0.30"
+
+[author]
+  name = "palaniraja"
+  homepage = "https://www.palaniraja.com/"

@@ -1,0 +1,34 @@
+
+<div class="site-footer-invalid">
+<!--   <div class="copyright">{{ .Site.Copyright | safeHTML }}</div>
+  <ul class="site-footer-items">
+    {{- if .RSSLink }}
+    <li class="site-footer-item-rsslink">
+      <a href="{{ .RSSLink | relURL }}" type="application/rss+xml" target="_blank" title="RSS">
+        <i class="fas fa-rss">RSS2</i>
+      </a>
+    </li>
+    {{- end }}
+    {{- range .Site.Menus.footer }}
+    <li class="site-footer-item-{{ .Identifier }}"><a href="{{ .URL | safeURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+    {{- end }}
+  </ul> -->
+  <!-- <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a>
+  </div> -->
+
+  <p align="center" class="nav-footer-menu">
+    <!-- |  -->
+    <!-- {{- if .RSSLink }}
+      <a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS">
+        RSS Feed
+      </a> | 
+    {{- end }} -->
+  
+    {{- range .Site.Menus.footer }}
+      <a href="{{ .URL | safeURL }}" title="{{ .Name }}">{{ .Name }}</a> <!-- | -->
+    {{- end }}
+  </p>
+
+  <p align="center">{{ .Site.Copyright | safeHTML }}</p>
+</div>

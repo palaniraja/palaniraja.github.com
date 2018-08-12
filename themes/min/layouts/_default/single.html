@@ -1,0 +1,103 @@
+
+{{ define "main" }}
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }} </time> {{ if ne .Section "projects" }} &nbsp;&nbsp;<small> &minus; {{ .ReadingTime }} <em>min.</em> read</small>{{ end }}</li>
+        <!-- {{- if .Params.categories }}
+        {{- range .Params.categories }}
+        <li class="article-meta-categories">
+          <a href="{{ "/" | relURL }}categories/{{ . | urlize }}/">
+            <i class="fas fa-folder"></i>
+            {{ . }}
+          </a>&nbsp;
+        </li>
+        {{- end }}
+        {{- end }} -->
+        <!-- {{- if .Params.tags }}
+        {{- range .Params.tags }}
+        <li class="article-meta-tags">
+          <a href="{{ "/" | relURL }}tags/{{ . | urlize }}/">
+            <i class="fas fa-tag"></i>
+            {{ . }}
+          </a>&nbsp;
+        </li>
+        {{- end }}
+        {{- end }} -->
+      </ul>
+      {{ with .Params.image }}<img src="{{ . }}" class="article-image" />{{ end }}
+      {{ with .Params.series }}<p class="article-title-series"><a href="{{ "/" | relURL }}series/{{ index . 0 | urlize }}/">{{ index . 0 }}</a>&nbsp;/</p>{{ end }}
+
+      {{ if not .Params.originalPost }}
+        <h1 class="article-title">{{ .Title }}</h1>
+      {{ else }}
+        <h3 class="article-title">{{ .Title }}</h3>
+      {{ end }}
+      
+      {{ with .Params.subtitle }}<h2 class="article-subtitle">{{ . }} subtitle</h2>{{ end }}
+      <hr class="article-title-bottom">
+      
+      {{ if .Params.toc }}
+        {{ partial "toc.html" . }}
+      {{ end }}
+      
+      {{ .Content }}
+      
+    </article>
+
+    {{- if .Params.series }}
+    <section class="article-series">
+      {{- $thispagefilepath := .File.Path }}
+      {{- range .Params.series }}
+      {{- $lseries := replaceRE "( |–)" "-" (lower .) }}
+      <h2 class="series-title"><a href="{{ "/" | relURL }}series/{{ . | urlize }}/"><i class="fas fa-book"></i>&nbsp;{{ . }}</a></h2>
+      <ol reversed="reversed" class="series">
+      {{- range (index $.Site.Taxonomies.series $lseries).Pages.ByDate.Reverse }}
+      {{- if eq $thispagefilepath .File.Path }}
+        <li class="active">{{ .LinkTitle }}</li>
+      {{- else }}
+        <li><a href="{{ .Permalink | relURL }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+      {{- end }}
+      </ol>
+      {{- end }}
+    </section>
+    {{- end }}
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    <!-- show only comments button if not disable requested -->
+      {{ if not .Params.disableComments }}
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377={{ .Permalink }}" title="Link to Google Forms">Post Comment</a> 
+      
+      {{ end }}
+
+      <!-- show if comments file exists  -->
+
+        {{ .Scratch.Set "commentsFile" (print .File.BaseFileName "-comments.md") }}
+        {{ .Scratch.Set "commentsFilePath" (print "content/comments/" (.Scratch.Get "commentsFile")) }}
+        {{ if (fileExists (.Scratch.Get "commentsFilePath")) -}}
+            <a class="button" href={{ ref . (.Scratch.Get "commentsFile") }}>View comments</a>
+        {{- end }}
+<!--
+        {{ if .Params.commentsUrl }}
+          <a class="button" href={{ ref . .Params.commentsUrl }}>View comments</a>
+        {{- end }} -->
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      {{- if .NextInSection }}
+      <li class="pager-newer">
+          <a href="{{ .NextInSection.Permalink | relURL }}" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; {{ .NextInSection.Title }}</a>
+      </li>
+      {{- end }}
+      {{- if .PrevInSection }}
+      <li class="pager-older">
+        <a href="{{ .PrevInSection.Permalink | relURL }}" data-toggle="tooltip" data-placement="top" title="Previous Article">{{ .PrevInSection.Title }} &gt;</a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+{{ end }}
