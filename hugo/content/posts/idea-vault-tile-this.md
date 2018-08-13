@@ -3,6 +3,7 @@ title: 'Idea Vault: Tile this!'
 date: 2011-01-27T10:43:00.000-08:00
 draft: false
 tags : [Fun, background, info, solution, mozilla, browser, experience, ideas, userscript, addon, extension, resource, safari, chrome, Tips]
+categories: [projects, mockup]
 ---
 
   

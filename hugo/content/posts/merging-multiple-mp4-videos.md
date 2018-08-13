@@ -3,6 +3,7 @@ title: 'Merging multiple MP4 videos with FFMPEG'
 date: 2018-06-26T09:16:00.000-07:00
 draft: false
 tags : [Videos, merge videos, bash script, ffmpeg, Tutorials, command line]
+categories: [projects, scripts]
 ---
 
 I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive & Dropbox.  

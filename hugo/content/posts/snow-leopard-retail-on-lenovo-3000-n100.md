@@ -3,6 +3,7 @@ title: 'Snow Leopard (Retail) on Lenovo 3000 N100'
 date: 2010-07-13T11:18:00.001-07:00
 draft: false
 tags : [experience, ideas, My Software Toolbox, Fun, Snow Leopard, Apple, OSX86, Hacintosh, info, solution, Tips]
+categories: [projects]
 ---
 
 [![lenovo](/assets/lenovo_thumb.jpg "lenovo")](/assets/lenovo_thumb.jpg)

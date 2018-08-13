@@ -3,6 +3,7 @@ title: 'Idea Vault: When is that?'
 date: 2010-12-14T10:39:00.000-08:00
 draft: false
 tags : [motivation, Fun, PHP, info, solution, experience, ideas, Timezone, open source, Math, World-clock, presentation, Tips]
+categories: [projects, mockup]
 ---
 
 I guess like me there will be many people often confuse appointments/client calls due to timezone differences.  

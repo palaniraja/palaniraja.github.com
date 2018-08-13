@@ -3,6 +3,7 @@ title: 'Shell script to generate images for testing'
 date: 2011-06-15T05:50:00.000-07:00
 draft: false
 tags : [OSX, tools, info, experience, ideas, open source, My Software Toolbox, bash script, code, GitHub, command line, shell, Tips]
+categories: [projects, scripts]
 ---
 
   

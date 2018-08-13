@@ -3,6 +3,7 @@ title: 'Poor man''s pdf diff tool'
 date: 2018-05-08T06:30:00.000-07:00
 draft: false
 tags : [how to, ideas, Diff, bash script, utility, command line, PDF, commands]
+categories: [projects, scripts]
 ---
 
 Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.  

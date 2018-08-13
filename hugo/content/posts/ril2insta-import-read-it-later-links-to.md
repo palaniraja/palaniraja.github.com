@@ -3,6 +3,7 @@ title: 'RIL2Insta - Import Read it Later links to Instapaper'
 date: 2011-07-28T05:51:00.000-07:00
 draft: false
 tags : [tools, info, solution, experience, ideas, addon, import, free, code, extension, bookmarks, GitHub, read it later, chrome, instapaper]
+categories: [projects, scripts]
 ---
 
 One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at [apple.stackexchange.com](http://apple.stackexchange.com/questions/17229/is-there-a-way-i-can-import-readitlaters-exported-html-file-into-my-instapaper/), the original answer was based on my experience sometime ago I was searching to migrate my links between my Instapaper accounts.  

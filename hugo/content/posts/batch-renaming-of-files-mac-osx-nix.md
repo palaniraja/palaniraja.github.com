@@ -3,6 +3,7 @@ title: 'Batch renaming of files (Mac OSX / *nix)'
 date: 2010-04-08T20:35:00.001-07:00
 draft: false
 tags : [ideas, info, solution, commands, Tips]
+categories: [projects, scripts]
 ---
 
 How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)  

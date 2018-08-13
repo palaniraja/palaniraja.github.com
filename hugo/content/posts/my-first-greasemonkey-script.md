@@ -3,6 +3,7 @@ title: 'My first Greasemonkey script'
 date: Mon, 11 Jun 2007 14:00:26 +0000
 draft: false
 tags: [javascript, Mozilla]
+categories: [projects, scripts]
 ---
 Ok. My first Greasemonkey script is available from [userscripts.org](http://userscripts.org/) ([http://userscripts-mirror.org/scripts/show/9740](http://userscripts-mirror.org/scripts/show/9740)) 
 

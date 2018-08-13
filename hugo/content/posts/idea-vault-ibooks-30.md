@@ -3,6 +3,7 @@ title: 'Idea Vault: iBooks 3.0'
 date: 2012-01-20T06:37:00.000-08:00
 draft: false
 tags : [ibooks, ideas, iOS, Apple, iPad, textbooks, solution]
+categories: [projects, mockup]
 ---
 
 The idea supposed to be named as iBooks 2.0 well it is taken by Apple yesterday :)  

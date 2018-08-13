@@ -3,6 +3,7 @@ title: 'Play YouTube with FLV player of your choice'
 date: Thu, 25 Oct 2007 09:34:43 +0000
 draft: false
 tags: [general, PHP, tools, YouTube]
+categories: [projects, scripts]
 ---
 **Not working anymore, but you are free to explore the code. Updates are welcome.**
 

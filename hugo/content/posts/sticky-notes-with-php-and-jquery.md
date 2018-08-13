@@ -3,6 +3,7 @@ title: 'Sticky notes with PHP and Jquery'
 date: Sat, 19 Jul 2008 13:08:26 +0000
 draft: false
 tags: [jquery, lab, PHP, PHP Sticky, PHP-GD, sticky, sticky notes app, tools, web sticky, web sticky application]
+categories: [projects, scripts]
 ---
 
 Script speaks louder than words. Please go through the following links 

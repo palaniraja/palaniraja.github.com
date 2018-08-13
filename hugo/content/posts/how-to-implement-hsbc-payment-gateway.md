@@ -2,6 +2,7 @@
 title: 'How to implement HSBC Payment Gateway in PHP'
 date: 2006-12-22T18:12:00.000+05:30
 draft: false
+categories: [projects, source code]
 ---
 
 #### Requirements:  

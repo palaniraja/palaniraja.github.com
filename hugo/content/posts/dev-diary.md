@@ -3,6 +3,7 @@ title: 'Dev Diary'
 date: 2016-01-31T07:30:00.001-08:00
 draft: false
 tags : [experience, gitbook, Book, Git, GitHub, Best Practices, developer, recommendation, blog, inspiration, diary]
+categories: [projects]
 ---
 
 This is something I've started in Jan '[15](https://github.com/palaniraja/devdiary/commits/master). This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I'm not efficient?).  

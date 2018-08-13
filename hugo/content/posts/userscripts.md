@@ -3,6 +3,7 @@ title: 'My Userscripts'
 date: 2010-12-06T01:46:00.000-08:00
 draft: false
 tags : [userscript, source, code]
+categories: [projects, scripts]
 ---
 
 Finally decided to copy all my published userscripts.org codes here. 

@@ -3,6 +3,7 @@ title: 'SVN: Export only updated files between 2 revisions'
 date: Sat, 20 Sep 2008 19:27:21 +0000
 draft: false
 tags: [lab, PHP, subverion export only updated, svn, svn custom export, svn export, svn export alternative, svn export only updated, svnexport advanced, tools]
+categories: [projects, scripts]
 ---
 
 Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release. 

@@ -3,6 +3,7 @@ title: 'Clean yahoo webmail without Ad''s'
 date: Tue, 10 Jul 2007 12:14:30 +0000
 draft: false
 tags: [javascript, Mozilla, tools]
+categories: [projects, scripts]
 ---
 
 Today, I have uploaded my second Greasemonkey scripts to [userscripts](http://userscripts.org "http://userscripts.org"), [Yahoo webmail++](http://userscripts-mirror.org/scripts/show/10590 "http://userscripts.org/scripts/show/10590") . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side. Initially I was trying to do something similar to Gmail Airskin, but unfortunately yahoo uses lot of tables, which I find difficult to finish the script, at this stage it will remove only the advertisements and I will try to update the script soon.

@@ -3,6 +3,7 @@ title: 'My new photo (screenshot sharing) blog'
 date: 2010-11-19T01:33:00.000-08:00
 draft: false
 tags : [Bug, info, photo, blog]
+categories: [projects]
 ---
 
 A colleague told me that I should be a QA Engineer in a random conversation few months ago. Though I did not consider it but he stands by it even now. So I thought why don't I start a photo blog to share the random screens I capture in my daily routine.  

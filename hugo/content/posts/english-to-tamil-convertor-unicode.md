@@ -3,6 +3,7 @@ title: 'English to Tamil convertor (Unicode)'
 date: Mon, 23 Jul 2007 09:45:37 +0000
 draft: false
 tags: [general, javascript, tools]
+categories: [projects]
 ---
 Atlast, I finished my first verison of English to Tamil unicode convertor(Transliterater). What I planned to do was bit different than the one which is available now. Hope I will get the time to upgrade my unicode convertor( or Transliterater) to unique tool within a month. 
 

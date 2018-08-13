@@ -3,6 +3,7 @@ title: 'Idea to action: Tile this'
 date: 2011-08-18T10:54:00.000-07:00
 draft: false
 tags : [texture, motivation, tools, Google, solution, browser, experience, ideas, addon, open source, image, design, code, extension, resource, chrome, software engineering, Tips]
+categories: [projects]
 ---
 
 
@@ -16,7 +17,7 @@ Not many of my ideas are converted to a project, this one has seen its light las
   
 Please find the source of this extension @ [https://github.com/palaniraja/Tilethis](https://github.com/palaniraja/Tilethis)  
   
-My original prototype for [Tilethis](http://dr-palaniraja.blogspot.com/2011/01/idea-vault-tile-this.html)  
+My original prototype for [Tilethis]( {{< ref "idea-vault-tile-this.md" >}})  
   
 
 ![](/assets/Screen-shot-2011-08-18-at-10.46.39-PM.png)

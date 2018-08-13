@@ -3,6 +3,7 @@ title: 'Pure Reader for Chrome'
 date: 2010-12-06T01:46:00.000-08:00
 draft: false
 tags : [userscript, My Software Toolbox, chrome, google reader, Tips]
+categories: [projects, scripts]
 ---
 
 I love the theme of the Pure Reader for Safari ([http://nadesign.net/safari/](http://nadesign.net/safari/)). I've ported the CSS as a userscript to use it with Google Chrome. Firefox need some css modification pls find the [css here](http://idzr.org/c5br).  

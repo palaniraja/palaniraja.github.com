@@ -3,6 +3,7 @@ title: 'SVN: Auto UPDATE WORKING COPY after COMMIT'
 date: Fri, 05 Sep 2008 19:12:02 +0000
 draft: false
 tags: [auto update, commit automate, lab, PHP, subversion auto update, subversion hooks, svn, svn hooks, tools]
+categories: [projects, scripts]
 ---
 In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN. 
 

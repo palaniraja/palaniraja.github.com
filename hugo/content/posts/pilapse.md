@@ -2,7 +2,7 @@
 title: "Pilapse - Raspberry Pi Camera and Timelapse"
 date: 2018-07-28T18:53:05+05:30
 draft: false
-categories: [projects]
+categories: [projects, scripts]
 ---
 
 It is a simple python script to capture timelapse with few more addition option than [`raspistill -tl`](https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspistill.md). 

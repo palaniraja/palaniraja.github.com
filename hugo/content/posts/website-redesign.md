@@ -12,31 +12,37 @@ Even today, I had to take a decision to push this version as it is fully functio
 ### Idea and Execution
 
 * Wanted a simple markdown based website
-* Wanted to host in github [https://palaniraja.github.com/](https://palaniraja.github.com/)
+* Wanted to host on github [https://palaniraja.github.com/](https://palaniraja.github.com/)
 * Content Types 
     * [Blog](/posts)
     * [Projects / Products](/projects)
     * Photo Gallery for featuring my favorite photos -TBD
 * Simplistic theme and fast rendering website
 
+Almost 2 year old todo list from my [org](https://orgmode.org/) file.
+
+![hugo-action items ](/assets/website-plan.png)
+
 ### Technical details
 
 - Rebuilt this using [Hugo](https://gohugo.io/) 
 
-An opensource static site generator written in [Go](https://golang.org/). I choose this years ago when I was interested in learning [Go](https://golang.org/). Though I haven't invested much time in [Go](https://golang.org/). I figured the customization I expect for my site can be done with just templating. And it has good community support and articles for customization
+An opensource static site generator written in [Go](https://golang.org/). I chose this years ago when I was interested in learning [Go](https://golang.org/). Though I haven't invested much time in [Go](https://golang.org/). I figured the customization I expect for my site can be done with just templating. And it has good community support and articles for customization
     
 - Theme - `min`
 
 I built my own theme named `min` for minimalistic. It is based on a theme [whiteplain](https://themes.gohugo.io/theme/whiteplain/) which is similar to my liking, but I had to build several components on top of it. Will shortly publish the source code.
+
+For CSS, I used [milligram.css](https://milligram.io/) - a small 2kb gzipped library to help with defaults and typography. Though I do not use any of their grids or forms styles. I still use the complete css, for easier upgrade later.
 
 ##### Decisions
 
 1. Not to use any 3rd party javascript framework. 
 2. No Tracking codes. 
 2. Not to embed any 3rd party widgets. 
-    * This is very hard. E.g., I host codes in Github and vidoes in Youtube. But decided privacy of users and speed of page is more important than an additional click
+    * This is very hard. E.g., I host code snippets on Github and videos on Youtube. But decided privacy of users and speed of page is more important than an additional click
     * Good old hyperlink will take them to 3rd party sites when necessary
-    * And I keep a copy of code part of post so it would work with RSS feed readers
+    * And I keep a copy of code snippets part of post so it would work with RSS feed readers
     * Built couple of Hugo [shortcodes](https://gohugo.io/content-management/shortcodes/) for embeding contents which then links to 3rd party website.
 
 
@@ -44,13 +50,13 @@ I built my own theme named `min` for minimalistic. It is based on a theme [white
 
 Since I've been blogging over a decade and I have contents in several platforms. I wanted to merge it in a single place as well as a simple non-proprietary backup.
 
-After trying few solution, I wrote my own script [blog2md](https://github.com/palaniraja/blog2md) to backup both Blogger and Wordpress blog contents. I even got it updated in [Hugo Docs](https://gohugo.io/tools/migrations/) for others to use.
+After trying few solutions, I wrote my own script [blog2md](https://github.com/palaniraja/blog2md) to backup both Blogger and Wordpress blog contents. I even got it updated in [Hugo Docs](https://gohugo.io/tools/migrations/) for others to use.
 
 - Comments
 
-Since this is a static website, it can't have comments. Though the whole world decided against comments. I still love a insightful comment on a post from strangers. I like to think of post without comments as Stackoverflow posts without answers.
+Since this is a static website, it can't have comments. Though the whole world decided against comments. I still love an insightful comment or an appreciation on a post from strangers. I like to think of post without comments as [Stackoverflow](https://stackoverflow.com/) posts without answers.
 
-I do not want to use [Disqus](https://disqus.com). It is an additional 3rd party dependency. So I decided to go with [Google Forms](https://www.google.com/forms/about/). Yes it is also a dependency but already Google has all my info. And I prefer Google over Disqus.
+I do not want to use the _de facto_ standard for Static sites - [Disqus](https://disqus.com). It is an additional 3rd party dependency with embeds. So I decided to go with [Google Forms](https://www.google.com/forms/about/). Yes it is also a dependency but already Google has all my info. And I prefer Google over Disqus. I decided to link instead of embeds because I don't want to inject codes which I don't have control over.
 
 
 

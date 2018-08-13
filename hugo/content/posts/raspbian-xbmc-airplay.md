@@ -3,6 +3,7 @@ title: 'Raspbian + XBMC + Airplay'
 date: 2013-08-18T05:00:00.000-07:00
 draft: false
 tags : [experience, how to, Airplay, iOS, Hardware, installation, XBMC, Raspbian, raspberrypi, hacking, info]
+categories: [projects]
 ---
 
 _**TL;DR**_: Yes, you can. If you are only interested in the steps skip to the relevant section.  

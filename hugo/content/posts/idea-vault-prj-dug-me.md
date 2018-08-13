@@ -3,6 +3,7 @@ title: 'Idea Vault: Prj - Dug Me'
 date: 2013-01-06T03:38:00.000-08:00
 draft: false
 tags : [ideas, goals, Getting-things-done, todo, GTD, Ideavault, inspiration]
+categories: [projects, mockup]
 ---
 
   

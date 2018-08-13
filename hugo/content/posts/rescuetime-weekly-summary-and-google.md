@@ -3,6 +3,7 @@ title: 'RescueTime weekly summary and Google Script'
 date: 2013-11-03T00:17:00.000-07:00
 draft: false
 tags : [RescueTime, usage, Google Spreadsheet, Google Script, info, Personal, experience, ideas, My Software Toolbox, Data, GitHub, development, Productivity]
+categories: [projects, scripts]
 ---
 
 I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else. I have always run two or three passive self policing apps like [Rescuetime](https://www.rescuetime.com/) and [Timing](https://itunes.apple.com/ca/app/free-time-tracker-timing-lite/id467410757?mt=12) etc.,  

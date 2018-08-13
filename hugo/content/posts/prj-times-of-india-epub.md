@@ -3,6 +3,7 @@ title: 'Prj - Times of India epub'
 date: 2013-01-16T21:02:00.000-08:00
 draft: false
 tags : [jquery, ebook reader, Times of India, EPUB, code, GitHub, read it later, development, ereader, Ideavault, E-Daily]
+categories: [projects]
 ---
 
   

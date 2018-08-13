@@ -3,6 +3,7 @@ title: 'Import Delicious bookmarks to Evernote including tags'
 date: 2010-12-18T01:44:00.000-08:00
 draft: false
 tags : [info, solution, experience, ideas, jquery, open source, import, delicious, bookmarks, evernote, commands, Tips]
+categories: [projects, scripts]
 ---
 
 [![](/assets/enex.png)](/assets/enex.png)
@@ -13,7 +14,7 @@ Evernote does not support direct import of bookmarks from delicious as it does w
   
 It should be working for you as well, give a try without losing the tags.  
   
-  
+> Featured in [Lifehacker.com](https://lifehacker.com/5715601/import-delicious-bookmarks-into-evernote-tags-and-all)  
   
 ### Step 1: Backup your delicious bookmarks  
   
