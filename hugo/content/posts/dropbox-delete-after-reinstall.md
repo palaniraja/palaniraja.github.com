@@ -1,11 +1,11 @@
 ---
-title: 'Dropbox Mac - Delete files on reinstallation?'
+title: 'Dropbox Mac - Deletes files on reinstallation?'
 date: 2018-08-09T15:01:00.000+05:30
 draft: false
 tags : [dropbox, mac, recovery, backup]
 ---
 
-I uninstalled Dropbox from my workmac before submitting my laptop of reimaging of OS with _corporate junk_ installations.
+I uninstalled Dropbox from my work mac before submitting my laptop of reimaging of OS with _corporate junk_ installations.
 
 Since I was sure, I should be able to install it again and download all synced files back on mac, I had deleted before handing over to IT people. So I didn't copy files in `~/Dropbox` to my backup hdd.
 
