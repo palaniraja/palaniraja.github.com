@@ -45,7 +45,7 @@ Remember this is a SOAP based API, there is a new alternative library available 
   <div class="main" role="main">
     <article class="article">
       <ul class="article-meta">
-        <li class="article-meta-date"><time>Jan 6, 2012 </time>  &nbsp;&nbsp;<small> &minus; 1 <em>min.</em> read</small></li>
+        <li class="article-meta-date"><time>Jan 6, 2012 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
         
         
       </ul>
@@ -69,103 +69,130 @@ Remember this is a SOAP based API, there is a new alternative library available 
 
 <h4 id="create-new-record-add-new-obj-in-salesforce">Create new record/ add new obj in Salesforce</h4>
 
-<noscript>
-    <p class="noscript">Content requires Javascript to be enabled.</p>
-
-    <p><a href="https://gist.github.com/palaniraja/1510080">https://gist.github.com/palaniraja/1510080</a> </p>
-
-    <br/>
+<pre><code>    
+    ZKSObject *sfobj = [[ZKSObject alloc] initWithType:@&quot;Your_custom_object__c&quot;] ;    
     
-</noscript>
-<style type="text/css">
-    p.noscript{
-        background-color: #fefea0;
-        border-left: 4px solid #fea0a0;
-        padding: 0 0.25em;
-    }
-</style>
+    [sfobj setType:@&quot;Your_custom_object__c&quot;];
+    [sfobj setFieldValue:@&quot;Air Conditioning System&quot; field:@&quot;Name&quot;];
+    [sfobj setFieldValue:@&quot;PAL-008&quot; field:@&quot;Service_code__c&quot;];
+    [sfobj setFieldValue:@&quot;Spot&quot; field:@&quot;Service_Status__c&quot;];
+    [sfobj setFieldValue:@&quot;a07M0000000FV5VIAW&quot; field:@&quot;child_of_another_custom_object__c&quot;];
+    
+   
+    [[FDCServerSwitchboard switchboard] create:[NSArray arrayWithObject:sfobj] target:self selector:@selector(createObjectResult:error:context:) context:nil];
 
-<script src="//gist.github.com/palaniraja/1510080.js"></script>
+
+/*
+called when SF completed the request
+*/
+
+- (void)createObjectResult:(NSArray *)results error:(NSError *)error context:(id)context{
+    if (results &amp;&amp; !error)
+    {
+        for (ZKSaveResult *saveResult in results){
+            NSLog(@&quot;saveResult: %@&quot;, saveResult);    
+        }
+        
+    }
+    else {
+         NSLog(@&quot;Error : %@&quot;, [error description])//take care of error
+    }
+}
+</code></pre>
+
+<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510080#file-createobj-m">https://gist.github.com/palaniraja/1510080#file-createobj-m</a></p>
+
 
 <h4 id="to-update-sf-object">To update SF object</h4>
 
-<noscript>
-    <p class="noscript">Content requires Javascript to be enabled.</p>
-
-    <p><a href="https://gist.github.com/palaniraja/1510096">https://gist.github.com/palaniraja/1510096</a> </p>
-
-    <br/>
+<pre><code>    ZKSObject *sfobj = [[ZKSObject alloc] initWithType:@&quot;Your_custom_object__c&quot;] ;    
     
-</noscript>
-<style type="text/css">
-    p.noscript{
-        background-color: #fefea0;
-        border-left: 4px solid #fea0a0;
-        padding: 0 0.25em;
-    }
-</style>
+    [sfobj setType:@&quot;Your_custom_object__c&quot;];
+    [sfobj setFieldValue:@&quot;a0FM0000000XrKcMAK&quot; field:@&quot;Id&quot;];
+    [sfobj setFieldValue:@&quot;PAL-008&quot; field:@&quot;Service_code__c&quot;]; 
+    [sfobj setFieldValue:@&quot;Room heating system&quot; field:@&quot;Name&quot;];   //update the field value required
+    [sfobj setFieldValue:@&quot;Maintenance&quot; field:@&quot;Service_Status__c&quot;];
+    [sfobj setFieldValue:@&quot;a07M0000000FV5VIAW&quot; field:@&quot;child_of_another_custom_object__c&quot;];
+    
+     [[FDCServerSwitchboard switchboard] update:[NSArray arrayWithObject:sfobj] target:self selector:@selector(updatedObjectResult:error:context:) context:nil];
+</code></pre>
 
-<script src="//gist.github.com/palaniraja/1510096.js"></script>
+<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510096#file-updateobj-m">https://gist.github.com/palaniraja/1510096#file-updateobj-m</a></p>
+
 
 <h4 id="delete-or-undelete-object">Delete or Undelete object</h4>
 
-<noscript>
-    <p class="noscript">Content requires Javascript to be enabled.</p>
-
-    <p><a href="https://gist.github.com/palaniraja/1510105">https://gist.github.com/palaniraja/1510105</a> </p>
-
-    <br/>
+<pre><code>    NSString *id2Del = @&quot;a0BM0000001uUrY&quot;;
     
-</noscript>
-<style type="text/css">
-    p.noscript{
-        background-color: #fefea0;
-        border-left: 4px solid #fea0a0;
-        padding: 0 0.25em;
-    }
-</style>
+    [[FDCServerSwitchboard switchboard] delete:[NSArray arrayWithObject:id2Del] target:self selector:@selector(deleteObjectResult:error:context:) context:nil];
 
-<script src="//gist.github.com/palaniraja/1510105.js"></script>
+//To undelete the deleted obj. only if available as per Salesforce norms
+
+    [[FDCServerSwitchboard switchboard] unDelete:[NSArray arrayWithObject:id2Del] target:self selector:@selector(deleteObjectResult:error:context:) context:nil];
+</code></pre>
+
+<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510105#file-deleteobj-m">https://gist.github.com/palaniraja/1510105#file-deleteobj-m</a></p>
+
 
 <h4 id="fetching-objects-records-from-salesforce">Fetching objects/records from Salesforce</h4>
 
-<noscript>
-    <p class="noscript">Content requires Javascript to be enabled.</p>
-
-    <p><a href="https://gist.github.com/palaniraja/1510135">https://gist.github.com/palaniraja/1510135</a> </p>
-
-    <br/>
+<pre><code>    NSString *getCasesSQL = [NSString stringWithFormat:@&quot;SELECT id, Site__r.Name FROM Case WHERE id = '%@'&quot;, @&quot;a0FM0000000XrKcMAK&quot;];
     
-</noscript>
-<style type="text/css">
-    p.noscript{
-        background-color: #fefea0;
-        border-left: 4px solid #fea0a0;
-        padding: 0 0.25em;
-    }
-</style>
+    
+    [[FDCServerSwitchboard switchboard] getCasesSQL target:self selector:@selector(getCasesSiteInfoResult:error:context:) context:nil];
 
-<script src="//gist.github.com/palaniraja/1510135.js"></script>
+
+/*asynchronously called when the objects are fetched from Salesforce*/
+
+- (void)getCasesSiteInfoResult:(ZKQueryResult *)result error:(NSError *)error context:(id)context{
+    
+    
+    if (result &amp;&amp; !error){
+        NSMutableArray *records = [NSMutableArray arrayWithArray:[result records]];
+    //records are of type ZKSObject 
+    }
+    else if (error){
+        NSLog(@&quot;Error: %@&quot;, [error description]);
+    }
+
+}
+</code></pre>
+
+<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510135#file-getobjects-m">https://gist.github.com/palaniraja/1510135#file-getobjects-m</a></p>
+
 
 <h4 id="attachment-adding-binary-objects-to-sf-attachment">Attachment (adding binary objects to SF attachment)</h4>
 
-<noscript>
-    <p class="noscript">Content requires Javascript to be enabled.</p>
-
-    <p><a href="https://gist.github.com/palaniraja/1510154">https://gist.github.com/palaniraja/1510154</a> </p>
-
-    <br/>
+<pre><code>    ZKSObject *attachment = [ZKSObject withType:@&quot;Attachment&quot;];
+    [attachment setFieldValue:[NSString stringWithFormat:@&quot;Nameofyourattachment%@.png&quot;, [NSDate date]] field:@&quot;Name&quot;];
+    [attachment setFieldValue:@&quot;a07M0000000FV5VIAW&quot; field:@&quot;ParentId&quot;];
     
-</noscript>
-<style type="text/css">
-    p.noscript{
-        background-color: #fefea0;
-        border-left: 4px solid #fea0a0;
-        padding: 0 0.25em;
-    }
-</style>
+    NSData *cSign = UIImagePNGRepresentation([UIImage imageNamed:@&quot;signature.png&quot;]);
+    
+    [attachment setFieldValue:[cSign base64EncodedString] field:@&quot;Body&quot;];
+    
+    [[FDCServerSwitchboard switchboard] create:[NSArray arrayWithObject:attachment] target:self selector:@selector(saveAttachmentToSFResult:error:context:) context:attachment];
 
-<script src="//gist.github.com/palaniraja/1510154.js"></script>
+
+/*Call back from SF when done*/
+
+
+- (void)saveSignatureToSFResult:(NSArray *)results error:(NSError *)error context:(id)attachment
+{
+
+    if (results &amp;&amp; !error){
+        NSString* attachmentId = [[results objectAtIndex:0] id]; 
+        NSLog(@&quot;Attachment ObjId: %@ saved to Salesforce&quot;, attachmentId);
+    }
+    else if (error){
+         NSLog(@&quot;Attachment %@&quot;, [error description]);
+    }
+}
+
+</code></pre>
+
+<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510154#file-attachment-m">https://gist.github.com/palaniraja/1510154#file-attachment-m</a></p>
+
 
 <h3 id="references">References</h3>
 

@@ -42,7 +42,7 @@
   <div class="main" role="main">
     <article class="article">
       <ul class="article-meta">
-        <li class="article-meta-date"><time>Aug 12, 2018 </time>  &nbsp;&nbsp;<small> &minus; 3 <em>min.</em> read</small></li>
+        <li class="article-meta-date"><time>Aug 12, 2018 </time>  &nbsp;&nbsp;<small> &minus; 4 <em>min.</em> read</small></li>
         
         
       </ul>
@@ -68,7 +68,7 @@
 
 <ul>
 <li>Wanted a simple markdown based website</li>
-<li>Wanted to host in github <a href="https://palaniraja.github.com/">https://palaniraja.github.com/</a></li>
+<li>Wanted to host on github <a href="https://palaniraja.github.com/">https://palaniraja.github.com/</a></li>
 <li>Content Types
 
 <ul>
@@ -79,19 +79,25 @@
 <li>Simplistic theme and fast rendering website</li>
 </ul>
 
+<p>Almost 2 year old todo list from my <a href="https://orgmode.org/">org</a> file.</p>
+
+<p><img src="https://www.palaniraja.com/assets/website-plan.png" alt="hugo-action items " /></p>
+
 <h3 id="technical-details">Technical details</h3>
 
 <ul>
 <li>Rebuilt this using <a href="https://gohugo.io/">Hugo</a></li>
 </ul>
 
-<p>An opensource static site generator written in <a href="https://golang.org/">Go</a>. I choose this years ago when I was interested in learning <a href="https://golang.org/">Go</a>. Though I haven&rsquo;t invested much time in <a href="https://golang.org/">Go</a>. I figured the customization I expect for my site can be done with just templating. And it has good community support and articles for customization</p>
+<p>An opensource static site generator written in <a href="https://golang.org/">Go</a>. I chose this years ago when I was interested in learning <a href="https://golang.org/">Go</a>. Though I haven&rsquo;t invested much time in <a href="https://golang.org/">Go</a>. I figured the customization I expect for my site can be done with just templating. And it has good community support and articles for customization</p>
 
 <ul>
 <li>Theme - <code>min</code></li>
 </ul>
 
 <p>I built my own theme named <code>min</code> for minimalistic. It is based on a theme <a href="https://themes.gohugo.io/theme/whiteplain/">whiteplain</a> which is similar to my liking, but I had to build several components on top of it. Will shortly publish the source code.</p>
+
+<p>For CSS, I used <a href="https://milligram.io/">milligram.css</a> - a small 2kb gzipped library to help with defaults and typography. Though I do not use any of their grids or forms styles. I still use the complete css, for easier upgrade later.</p>
 
 <h5 id="decisions">Decisions</h5>
 
@@ -101,9 +107,9 @@
 <li>Not to embed any 3rd party widgets.
 
 <ul>
-<li>This is very hard. E.g., I host codes in Github and vidoes in Youtube. But decided privacy of users and speed of page is more important than an additional click</li>
+<li>This is very hard. E.g., I host code snippets on Github and videos on Youtube. But decided privacy of users and speed of page is more important than an additional click</li>
 <li>Good old hyperlink will take them to 3rd party sites when necessary</li>
-<li>And I keep a copy of code part of post so it would work with RSS feed readers</li>
+<li>And I keep a copy of code snippets part of post so it would work with RSS feed readers</li>
 <li>Built couple of Hugo <a href="https://gohugo.io/content-management/shortcodes/">shortcodes</a> for embeding contents which then links to 3rd party website.</li>
 </ul></li>
 </ol>
@@ -114,15 +120,15 @@
 
 <p>Since I&rsquo;ve been blogging over a decade and I have contents in several platforms. I wanted to merge it in a single place as well as a simple non-proprietary backup.</p>
 
-<p>After trying few solution, I wrote my own script <a href="https://github.com/palaniraja/blog2md">blog2md</a> to backup both Blogger and Wordpress blog contents. I even got it updated in <a href="https://gohugo.io/tools/migrations/">Hugo Docs</a> for others to use.</p>
+<p>After trying few solutions, I wrote my own script <a href="https://github.com/palaniraja/blog2md">blog2md</a> to backup both Blogger and Wordpress blog contents. I even got it updated in <a href="https://gohugo.io/tools/migrations/">Hugo Docs</a> for others to use.</p>
 
 <ul>
 <li>Comments</li>
 </ul>
 
-<p>Since this is a static website, it can&rsquo;t have comments. Though the whole world decided against comments. I still love a insightful comment on a post from strangers. I like to think of post without comments as Stackoverflow posts without answers.</p>
+<p>Since this is a static website, it can&rsquo;t have comments. Though the whole world decided against comments. I still love an insightful comment or an appreciation on a post from strangers. I like to think of post without comments as <a href="https://stackoverflow.com/">Stackoverflow</a> posts without answers.</p>
 
-<p>I do not want to use <a href="https://disqus.com">Disqus</a>. It is an additional 3rd party dependency. So I decided to go with <a href="https://www.google.com/forms/about/">Google Forms</a>. Yes it is also a dependency but already Google has all my info. And I prefer Google over Disqus.</p>
+<p>I do not want to use the <em>de facto</em> standard for Static sites - <a href="https://disqus.com">Disqus</a>. It is an additional 3rd party dependency with embeds. So I decided to go with <a href="https://www.google.com/forms/about/">Google Forms</a>. Yes it is also a dependency but already Google has all my info. And I prefer Google over Disqus. I decided to link instead of embeds because I don&rsquo;t want to inject codes which I don&rsquo;t have control over.</p>
 
 <h3 id="sections">Sections</h3>
 

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scripts on PR</title>
+    <link>https://www.palaniraja.com/categories/scripts/</link>
+    <description>Recent content in Scripts on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Sat, 28 Jul 2018 18:53:05 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/categories/scripts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pilapse - Raspberry Pi Camera and Timelapse</title>
+      <link>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</link>
+      <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</guid>
+      <description>It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
+Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
+    </item>
+    
+    <item>
+      <title>Merging multiple MP4 videos with FFMPEG</title>
+      <link>https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/</link>
+      <pubDate>Tue, 26 Jun 2018 09:16:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/</guid>
+      <description>I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp;amp; Dropbox.</description>
+    </item>
+    
+    <item>
+      <title>Poor man&#39;s pdf diff tool</title>
+      <link>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</link>
+      <pubDate>Tue, 08 May 2018 06:30:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</guid>
+      <description>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</description>
+    </item>
+    
+    <item>
+      <title>RescueTime weekly summary and Google Script</title>
+      <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
+      <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
+      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+    </item>
+    
+    <item>
+      <title>RIL2Insta - Import Read it Later links to Instapaper</title>
+      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+    </item>
+    
+    <item>
+      <title>Shell script to generate images for testing</title>
+      <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
+      <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
+      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+    </item>
+    
+    <item>
+      <title>Import Delicious bookmarks to Evernote including tags</title>
+      <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
+      <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
+      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
+Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+    </item>
+    
+    <item>
+      <title>My Userscripts</title>
+      <link>https://www.palaniraja.com/2010/12/my-userscripts/</link>
+      <pubDate>Mon, 06 Dec 2010 01:46:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/my-userscripts/</guid>
+      <description>Finally decided to copy all my published userscripts.org codes here.
+AnchorFree banner killer Remove Banner from the top when you use Anchor Free Hotspot shield / Please deactivate the script after disconnecting Hotspot shield</description>
+    </item>
+    
+    <item>
+      <title>Pure Reader for Chrome</title>
+      <link>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</link>
+      <pubDate>Mon, 06 Dec 2010 01:46:00 -0800</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</guid>
+      <description>I love the theme of the Pure Reader for Safari (http://nadesign.net/safari/). I&amp;rsquo;ve ported the CSS as a userscript to use it with Google Chrome.</description>
+    </item>
+    
+    <item>
+      <title>Batch renaming of files (Mac OSX / *nix)</title>
+      <link>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</link>
+      <pubDate>Thu, 08 Apr 2010 20:35:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
+      <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
+ Create a new directory</description>
+    </item>
+    
+    <item>
+      <title>SVN: Export only updated files between 2 revisions</title>
+      <link>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</link>
+      <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
+      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?</description>
+    </item>
+    
+    <item>
+      <title>SVN: Auto UPDATE WORKING COPY after COMMIT</title>
+      <link>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</link>
+      <pubDate>Fri, 05 Sep 2008 19:12:02 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</guid>
+      <description>In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.</description>
+    </item>
+    
+    <item>
+      <title>Sticky notes with PHP and Jquery</title>
+      <link>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</link>
+      <pubDate>Sat, 19 Jul 2008 13:08:26 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
+      <description>Script speaks louder than words. Please go through the following links
+PHP Gd based Sticky script
+
+Jquery UI based Sticky page</description>
+    </item>
+    
+    <item>
+      <title>Play YouTube with FLV player of your choice</title>
+      <link>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</link>
+      <pubDate>Thu, 25 Oct 2007 09:34:43 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</guid>
+      <description>Not working anymore, but you are free to explore the code. Updates are welcome.
+I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case).</description>
+    </item>
+    
+    <item>
+      <title>Clean yahoo webmail without Ad&#39;s</title>
+      <link>https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/</link>
+      <pubDate>Tue, 10 Jul 2007 12:14:30 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/</guid>
+      <description>Today, I have uploaded my second Greasemonkey scripts to userscripts, Yahoo webmail++ . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side.</description>
+    </item>
+    
+    <item>
+      <title>My first Greasemonkey script</title>
+      <link>https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/</link>
+      <pubDate>Mon, 11 Jun 2007 14:00:26 +0000</pubDate>
+      
+      <guid>https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/</guid>
+      <description>Ok. My first Greasemonkey script is available from userscripts.org (http://userscripts-mirror.org/scripts/show/9740)
+I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.</description>
+    </item>
+    
+  </channel>
+</rss>
