@@ -612,7 +612,7 @@
 
 /* Mobile */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 40.0rem){
     .site-header,
     .site-header-bottom,
     .main,
