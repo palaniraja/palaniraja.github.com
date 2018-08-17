@@ -31,3 +31,8 @@ You can find me almost _everywhere_ on interwebs.
 
 [DevDiary](http://palaniraja.github.io/devdiary)
 
+[Ideavault](https://github.com/palaniraja/ideavault)
+
+[Contents by category](/categories/)
+
+

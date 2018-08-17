@@ -14,7 +14,7 @@ It becomes tedious to remember not to delete `CNAME` or `hugo` folder from my re
 
 Works great, now I do not have to remember the critical files and just `./publish.sh` from my `master` branch. 
 
-Be very careful as it run [`rm -rf`](https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh#L5) at line #5. So and place the `publish.sh` only in your repo's _root folder_. 
+Be very careful as it run [`rm -rf`](https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh#L5) at line #5. So place the `publish.sh` only in your repo's _root folder_. 
 
 ### publish.sh
 
