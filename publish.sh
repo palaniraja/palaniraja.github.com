@@ -7,7 +7,6 @@ rm -rf `ls | grep -v "CNAME\|hugo\|README.md\|publish.sh"`
 # switch to hugo directory and run hugo to build genereate content in hugo/docs and move generated files back to ./
 echo "[ 2/3 ] To build static contents and copy"
 cd hugo && hugo && mv docs/* ../ && cd ..
-echo "COMPLETE"
 
 # git commit changes as "publish"
 echo "[ 3/3 ] Commit changes and push to github"
