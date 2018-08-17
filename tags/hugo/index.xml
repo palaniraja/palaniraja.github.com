@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 palaniraja</copyright>
-    <lastBuildDate>Sun, 12 Aug 2018 21:04:43 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 17 Aug 2018 18:50:27 +0530</lastBuildDate>
     
 	<atom:link href="https://www.palaniraja.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Script to publish Hugo sites for Github</title>
+      <link>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</link>
+      <pubDate>Fri, 17 Aug 2018 18:50:27 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</guid>
+      <description>While deploying my recent hugo website to github, I re-learnt that, you can only publish gh-pages from master branch for user or organization repository.</description>
+    </item>
     
     <item>
       <title>Website redesign</title>

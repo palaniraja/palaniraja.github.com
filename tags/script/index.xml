@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Script on PR</title>
+    <link>https://www.palaniraja.com/tags/script/</link>
+    <description>Recent content in Script on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 palaniraja</copyright>
+    <lastBuildDate>Fri, 17 Aug 2018 18:50:27 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.palaniraja.com/tags/script/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Script to publish Hugo sites for Github</title>
+      <link>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</link>
+      <pubDate>Fri, 17 Aug 2018 18:50:27 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</guid>
+      <description>While deploying my recent hugo website to github, I re-learnt that, you can only publish gh-pages from master branch for user or organization repository.</description>
+    </item>
+    
+    <item>
+      <title>Pilapse - Raspberry Pi Camera and Timelapse</title>
+      <link>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</link>
+      <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</guid>
+      <description>It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
+Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
+    </item>
+    
+  </channel>
+</rss>

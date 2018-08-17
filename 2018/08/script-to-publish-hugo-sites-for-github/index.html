@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Script to publish Hugo sites for Github - PR</title>
+  <meta property="og:title" content="Script to publish Hugo sites for Github - PR" />
+  <meta name="twitter:title" content="Script to publish Hugo sites for Github - PR" />
+  <meta name="description" content="While deploying my recent hugo website to github, I re-learnt that, you can only publish gh-pages from master branch for user or organization repository.">
+  <meta property="og:description" content="While deploying my recent hugo website to github, I re-learnt that, you can only publish gh-pages from master branch for user or organization repository.">
+  <meta name="twitter:description" content="While deploying my recent hugo website to github, I re-learnt that, you can only publish gh-pages from master branch for user or organization repository.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.44" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Aug 17, 2018 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Script to publish Hugo sites for Github</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>While deploying my <a href="https://www.palaniraja.com/2018/08/website-redesign/">recent hugo</a> website to github, I <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/">re-learnt</a> that, you can only publish gh-pages from <code>master</code> branch for <a href="https://help.github.com/articles/user-organization-and-project-pages/">user or organization</a> repository.</p>
+
+<p>So had to change my workflow to remove all old static files from <code>master</code> and copy generated contents from hugo.</p>
+
+<p>It becomes tedious to remember not to delete <code>CNAME</code> or <code>hugo</code> folder from my repo everytime I had to copy the generated content. So I wrote a <code>bash</code> script to automate the tasks for me.</p>
+
+<p>Works great, now I do not have to remember the critical files and just <code>./publish.sh</code> from my <code>master</code> branch.</p>
+
+<p>Be very careful as it run <a href="https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh#L5"><code>rm -rf</code></a> at line #5. So and place the <code>publish.sh</code> only in your repo&rsquo;s <em>root folder</em>.</p>
+
+<h3 id="publish-sh">publish.sh</h3>
+
+<pre><code>#!/usr/bin
+
+echo &quot;[ 1/3 ] Going to remove previously generated files&quot;
+# to delete files that are generated (.git and .ignore as they are hidden)
+rm -rf `ls | grep -v &quot;CNAME\|hugo\|README.md\|publish.sh&quot;`
+
+# switch to hugo directory and run hugo to build genereate content in hugo/docs and move generated files back to ./
+echo &quot;[ 2/3 ] To build static contents and copy&quot;
+cd hugo &amp;&amp; hugo &amp;&amp; mv docs/* ../ &amp;&amp; cd ..
+echo &quot;COMPLETE&quot;
+
+# git commit changes as &quot;publish&quot;
+echo &quot;[ 3/3 ] Commit changes and push to github&quot;
+git add .
+git commit -m &quot;publish&quot;
+git push origin --all
+
+echo &quot;COMPLETE&quot;
+
+</code></pre>
+
+<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh">https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh</a></p>
+
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2018%2f08%2fscript-to-publish-hugo-sites-for-github%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2018/08/website-redesign/" data-toggle="tooltip" data-placement="top" title="Previous Article">Website redesign &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2018 palaniraja</p>
+</div>
+
+</body>
+</html>

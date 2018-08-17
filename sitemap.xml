@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</loc>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/2018/08/website-redesign/</loc>
     <lastmod>2018-08-12T21:04:43+05:30</lastmod>
   </url>
@@ -883,6 +888,12 @@
   </url>
   
   <url>
+    <loc>https://www.palaniraja.com/tags/automation/</loc>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/tags/background/</loc>
     <lastmod>2011-08-18T10:05:00-07:00</lastmod>
     <priority>0</priority>
@@ -891,6 +902,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/backup/</loc>
     <lastmod>2018-08-09T15:01:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/bash/</loc>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -981,6 +998,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/bug/</loc>
     <lastmod>2016-03-28T02:28:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/camera/</loc>
+    <lastmod>2018-07-28T18:53:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1375,7 +1398,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/github/</loc>
-    <lastmod>2016-01-31T07:30:00-08:00</lastmod>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1513,7 +1536,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/hugo/</loc>
-    <lastmod>2018-08-12T21:04:43+05:30</lastmod>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2029,7 +2052,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/posts/</loc>
-    <lastmod>2018-08-12T21:04:43+05:30</lastmod>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2083,7 +2106,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/categories/projects/</loc>
-    <lastmod>2018-07-28T18:53:05+05:30</lastmod>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2107,7 +2130,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/python/</loc>
-    <lastmod>2012-12-15T00:10:00-08:00</lastmod>
+    <lastmod>2018-07-28T18:53:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2126,6 +2149,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/randy-pausch/</loc>
     <lastmod>2012-01-29T00:41:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/raspberry-pi/</loc>
+    <lastmod>2018-07-28T18:53:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2238,6 +2267,12 @@
   </url>
   
   <url>
+    <loc>https://www.palaniraja.com/tags/script/</loc>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/tags/scripts/</loc>
     <lastmod>2012-08-26T06:20:00-07:00</lastmod>
     <priority>0</priority>
@@ -2245,7 +2280,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/categories/scripts/</loc>
-    <lastmod>2018-07-28T18:53:05+05:30</lastmod>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2528,6 +2563,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/texture/</loc>
     <lastmod>2011-08-18T10:54:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/timelapse/</loc>
+    <lastmod>2018-07-28T18:53:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
