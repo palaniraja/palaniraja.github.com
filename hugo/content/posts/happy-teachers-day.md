@@ -8,7 +8,7 @@ tags : [psa, personal, thanks]
 
 This is a post I'm meaning to write for a very long time. I wanted to write this every year around Teachers day ([5-Sep](https://en.wikipedia.org/wiki/List_of_Teachers%27_Days)) and failed to publish. Reason is, I could not find a way to express, anyhow here is an attempt.
 
-I was a _bright(?)_ kid in school, but hated teachers, because I felt they don't know much other than the text books. As in everything in life, I learned very late the value of **Teaching** and no **one** knows everything. 
+I was a _bright(?)_ kid in school, but hated teachers, because I felt they don't know much other than the text books. As in everything in life, I learned very late the value of **Teaching** and **no one** knows everything. 
 
 Happy Teachers Day to all my teachers. I'm deeply sorry for being a smug at times in classes. 
 
