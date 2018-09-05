@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.palaniraja.com/2018/09/happy-teachers-day/</loc>
+    <lastmod>2018-09-05T08:48:00+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</loc>
     <lastmod>2018-08-17T18:50:27+05:30</lastmod>
   </url>
@@ -1980,7 +1985,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/personal/</loc>
-    <lastmod>2014-10-22T00:06:00-07:00</lastmod>
+    <lastmod>2018-09-05T08:48:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2052,7 +2057,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/posts/</loc>
-    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+    <lastmod>2018-09-05T08:48:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2099,14 +2104,14 @@
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/tags/projects/</loc>
-    <lastmod>2016-01-28T19:03:05+05:30</lastmod>
+    <loc>https://www.palaniraja.com/categories/projects/</loc>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/categories/projects/</loc>
-    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+    <loc>https://www.palaniraja.com/tags/projects/</loc>
+    <lastmod>2016-01-28T19:03:05+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2124,7 +2129,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/psa/</loc>
-    <lastmod>2018-08-12T21:04:43+05:30</lastmod>
+    <lastmod>2018-09-05T08:48:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2273,14 +2278,14 @@
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/tags/scripts/</loc>
-    <lastmod>2012-08-26T06:20:00-07:00</lastmod>
+    <loc>https://www.palaniraja.com/categories/scripts/</loc>
+    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/categories/scripts/</loc>
-    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+    <loc>https://www.palaniraja.com/tags/scripts/</loc>
+    <lastmod>2012-08-26T06:20:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2563,6 +2568,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/texture/</loc>
     <lastmod>2011-08-18T10:54:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/thanks/</loc>
+    <lastmod>2018-09-05T08:48:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
