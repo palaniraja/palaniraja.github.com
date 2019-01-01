@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</loc>
+    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/2018/11/my-raspberry-pi-collection/</loc>
     <lastmod>2018-11-24T21:44:58+05:30</lastmod>
   </url>
@@ -880,6 +885,12 @@
   </url>
   
   <url>
+    <loc>https://www.palaniraja.com/tags/architecture/</loc>
+    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/tags/asset-catalog/</loc>
     <lastmod>2015-02-15T09:36:00-08:00</lastmod>
     <priority>0</priority>
@@ -935,7 +946,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/best-practices/</loc>
-    <lastmod>2016-01-31T07:30:00-08:00</lastmod>
+    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1162,7 +1173,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/design/</loc>
-    <lastmod>2015-12-01T12:44:00-08:00</lastmod>
+    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1331,6 +1342,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/firefox/</loc>
     <lastmod>2010-06-23T11:35:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/flickr/</loc>
+    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2068,7 +2085,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/posts/</loc>
-    <lastmod>2018-11-24T21:44:58+05:30</lastmod>
+    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2140,7 +2157,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/psa/</loc>
-    <lastmod>2018-09-05T08:48:00+05:30</lastmod>
+    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2759,6 +2776,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/xcode/</loc>
     <lastmod>2015-02-21T07:03:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/yahoo/</loc>
+    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
     <priority>0</priority>
   </url>
   

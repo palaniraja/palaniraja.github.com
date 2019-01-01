@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Flickr - How not to design backup userdata when shutting down your service</title>
+      <link>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</link>
+      <pubDate>Tue, 01 Jan 2019 16:22:22 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</guid>
+      <description>Happy New Year - 2019
+ It is always easy to find fault in a service. So this isn&amp;rsquo;t very hard for me.</description>
+    </item>
+    
+    <item>
       <title>My Raspberry Pi Collection</title>
       <link>https://www.palaniraja.com/2018/11/my-raspberry-pi-collection/</link>
       <pubDate>Sat, 24 Nov 2018 21:44:58 +0530</pubDate>
