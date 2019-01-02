@@ -20,19 +20,17 @@ Have a nice day!
 
 You can find me almost _everywhere_ on interwebs. 
 
-[Instagram](http://instagram.com/palaniraja) | [Github](https://github.com/palaniraja) | [Youtube](https://www.youtube.com/channel/UCA1Vz9awe4yjxdGJNWB0fZw) | [Stackoverflow](https://stackoverflow.com/users/240255/palaniraja) | [Linked In](www.linkedin.com/in/palaniraja-p) |
-[Flickr](http://flickr.com/palaniraja-mca)
+[Github](https://github.com/palaniraja) | [Instagram](http://instagram.com/palaniraja) |
+[500px](https://500px.com/palaniraja) | [Youtube](https://www.youtube.com/channel/UCA1Vz9awe4yjxdGJNWB0fZw) | [Stackoverflow](https://stackoverflow.com/users/240255/palaniraja) | [Linked In](www.linkedin.com/in/palaniraja-p) 
 
 
 ---
 
-### See also
+### Also
 
 
-[DevDiary](http://palaniraja.github.io/devdiary)
-
-[Ideavault](https://github.com/palaniraja/ideavault)
-
-[Contents by category](/categories/)
+ 1. [DevDiary](http://palaniraja.github.io/devdiary)
+ 2. [Ideavault](https://github.com/palaniraja/ideavault)
+ 3. [Contents by category](/categories/)
 
 
