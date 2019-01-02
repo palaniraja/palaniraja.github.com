@@ -7,11 +7,11 @@
   <meta property="og:title" content="Flickr - How not to design backup userdata when shutting down your service - PR" />
   <meta name="twitter:title" content="Flickr - How not to design backup userdata when shutting down your …" />
   <meta name="description" content="Happy New Year - 2019
- It is always easy to find fault in a service. So this isn&rsquo;t very hard for me.">
+ It is always easy to find fault than fixing. So this isn&rsquo;t very hard to start this year blogging write a rant.">
   <meta property="og:description" content="Happy New Year - 2019
- It is always easy to find fault in a service. So this isn&rsquo;t very hard for me.">
+ It is always easy to find fault than fixing. So this isn&rsquo;t very hard to start this year blogging write a rant.">
   <meta name="twitter:description" content="Happy New Year - 2019
- It is always easy to find fault in a service. So this isn&rsquo;t very hard for me.">
+ It is always easy to find fault than fixing. So this isn&rsquo;t very hard to start this year blogging write a rant.">
   <meta name="author" content="Palani Raja"/>
   <meta property="og:site_name" content="PR" />
   <meta property="og:url" content="https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/" />
@@ -45,7 +45,7 @@
   <div class="main" role="main">
     <article class="article">
       <ul class="article-meta">
-        <li class="article-meta-date"><time>Jan 1, 2019 </time>  &nbsp;&nbsp;<small> &minus; 5 <em>min.</em> read</small></li>
+        <li class="article-meta-date"><time>Jan 1, 2019 </time>  &nbsp;&nbsp;<small> &minus; 6 <em>min.</em> read</small></li>
         
         
       </ul>
@@ -69,7 +69,7 @@
 
 <hr />
 
-<p>It is always easy to find fault in a service. So this isn&rsquo;t very hard for me. But I would like to record it so we don&rsquo;t repeat the same mistakes.</p>
+<p>It is always easy to find fault than fixing. So this isn&rsquo;t very hard to start this year blogging write a rant. I wish I&rsquo;d gone through this earlier; if so, atleast I could have asked Flickr to update minimal fixes. Anyway, I would like to record it so we don&rsquo;t repeat the same mistakes.</p>
 
 <h3 id="end-of-flickr-free-tier">End of Flickr free-tier</h3>
 
@@ -77,9 +77,11 @@
 
 <p>There was only one valid reason to keep an Yahoo account after years of hacking and their weak security policies to handover users&rsquo; data willy-nilly. I was using it to keep a backup of my photos in addition to <a href="https://www.google.com/photos/about/">Google Photos</a>, as Flickr was the only service which keeps original image in Free-tier. Also, I always have ideas for a project or two around Flickr API. Remember the good old Web 2.0 days, with open API&rsquo;s? aww! Golden age of web development.</p>
 
-<p>So as usual, I wasn&rsquo;t taking any action to download the images, as I am 100% certain that I have multiple copies of my ~10GB images in external HDD&rsquo;s. But as the end date is getting near, I&rsquo;m nervous that <em>what if</em> I don&rsquo;t have any images I uploaded to Flickr. And it is also showing up regularly in my <a href="https://orgmode.org/">Org file</a>, as a pending activity with deadline.</p>
+<p>So as usual, I wasn&rsquo;t taking any action to download the images, as I am 100% certain that I have multiple copies of my ~10GB images in external HDD&rsquo;s. But as the end date is getting near, I&rsquo;m nervous that <em>what if</em> I don&rsquo;t have some images I uploaded to Flickr. And it is also showing up regularly in my <a href="https://orgmode.org/">Org file</a>, as a pending activity with deadline.</p>
 
-<p>Yesterday, I decided to download the files, I noticied the user experience is aweful and easy of exports for users were never considered by Flickr team. Given that, I always had high respect to Yahoo web-dev team, as I learnt my skills based on languages/books/frameworks/tutorials by former Yahoo giants like  <a href="https://en.wikipedia.org/wiki/Rasmus_Lerdorf">Rasmus Lerdorf</a>, <a href="https://en.wikipedia.org/wiki/Douglas_Crockford">Douglas Crockford</a>, <a href="https://github.com/nzakas">Nicholas C. Zakas</a>. This is a utter disappointment for me.</p>
+<p>Yesterday, I decided to download the files, I noticied the user experience is aweful and ease of exports for users were never considered by Flickr team. Given that, I always had high respect to Yahoo web-dev team, this is a huge disappointment for me.</p>
+
+<p>Reason for my love/nostalgic towards Yahoo webdevs is, I learned a lot in my early software professional career from languages/books/frameworks/tutorials by former Yahoo giants like  <a href="https://en.wikipedia.org/wiki/Rasmus_Lerdorf">Rasmus Lerdorf</a>, <a href="https://en.wikipedia.org/wiki/Douglas_Crockford">Douglas Crockford</a>, <a href="https://github.com/nzakas">Nicholas C. Zakas</a>, YUI talks/theater to name a few.</p>
 
 <hr />  
 
@@ -91,13 +93,15 @@
 
 <img src="https://www.palaniraja.com/assets/flickr-shutdown/flickr-albums.png" alt="Albums - Download request on hover">
 
-<p>Why would you not let the user download multiple albums as single download? I found few albums in my current HDD, so I don&rsquo;t want to re-download it again part of downloads. I ended up downloading almost all because of you know <em>what if?</em></p>
+<p>Why would you not let the user download multiple albums as single download? I found few albums in my current HDD, so I don&rsquo;t want to re-download it again part of downloads. I ended up downloading <em>almost all</em> because of several reasons listed in that and you know that lingering thought <em>what if?</em></p>
 
 <h4 id="2-api-access-via-3rd-party-is-not-working-anymore">2. API access via 3rd-party is not working anymore</h4>
 
 <img src="https://www.palaniraja.com/assets/flickr-shutdown/flickr-api-error.png" alt="API- Access Denied">
 
-<p>Since I could not find the option to download multiple album as single request, I wanted to try to use any opensource scripts to do each album via any script. Unfortunately, none of the recently updated python scripts I could find in Github were working. The API to get accessToken is throwing 403, even though they let you create new API screen and key. I&rsquo;ve tried few nodejs project as well, different auth offered by their API: OAuth, Web, Native etc., no luck.</p>
+<p>Since I could not find the option to download multiple album as single request, I wanted to try to use any opensource scripts to do each album via any script. Unfortunately, none of the recently updated python scripts I could find in Github were working.</p>
+
+<p>The API to get accessToken is throwing 403, even though they let you create new API screen and key. I&rsquo;ve tried few nodejs project as well, different auth offered by their API: OAuth, Web, Native etc., no luck.</p>
 
 <h4 id="3-download-requests-notifications-messages-doesn-t-include-album-names">3. Download requests (notifications, messages) doesn&rsquo;t include album names</h4>
 
@@ -109,7 +113,7 @@
 
 <p>But the <em>Flickr mail</em> (mind you it is not your email, it is messages/notifications within Flickr) doesn&rsquo;t include the Album names, so I received messages like &ldquo;<em>Your zip file of 669 items is ready to download</em>&rdquo; with links. The number is sum of Photos and Videos from the Album you requested.</p>
 
-<p>Good luck if you have multiple albums with same media count. I had couple, and I downloaded wrong files atleast 3 times.</p>
+<p>Good luck if you have multiple albums with same media count. I had couple, and I ended up downloaded wrong archives atleast 3 times.</p>
 
 <h4 id="4-album-are-archived-for-download-as-a-multi-part-zips">4. Album are archived for download as a multi-part zips</h4>
 
@@ -125,21 +129,21 @@
 
 <img src="https://www.palaniraja.com/assets/flickr-shutdown/flickr-unarchived-zip-2.png" alt="Multi-part zips with no batch archiving and no album name">
 
-<p>The album downloads are with name {SOME_DATE}{SOME_BASE64_LOOKING_STRING}, no sign of Album names. Bad, if you had images uploaded to multiple albums. It was hard me or any user to be sure to map the downloads to the appropriate albums once you download. Note, the only reason I took this activity is just to be sure, and Flickr has no intention to be helpful.</p>
+<p>The album downloads are with name {SOME_DATE}{SOME_BASE64_LOOKING_STRING}, no sign of Album names. It is bad, if you had images uploaded to multiple albums. It was hard me or any user for that matter, to be sure to map the downloads to the appropriate albums once you download. Note, the only reason I took this activity is just to be <em>sure</em>, and Flickr has no intention to be helpful.</p>
 
 <h4 id="6-no-option-to-delete-the-auto-upload-album-created-default-by-flickr-mobile-app">6. No option to delete the &ldquo;Auto Upload&rdquo; album - created default by Flickr mobile app</h4>
 
 <img src="https://www.palaniraja.com/assets/flickr-shutdown/flickr-no-del-autoupload.png" alt="No delete option for Auto Upload album">
 
-<p>This is something I can&rsquo;t figure out a reason why, from an implementation point of view. If you expect the mobile apps to push media to a certain folder/album, they can always create one before assigning the media on first payload. Since there is no input is required from user e.g., album name, permission etc.,</p>
+<p>This is something I can&rsquo;t figure out a reason why, from an implementation point of view. If you expect the mobile apps to push media to a certain folder/album, they can always create one before assigning the media on first payload server side, without expecting user to have latest version. Since there is no input is required from user e.g., album name, permission etc., Or atleast they should have offered empty album photos if not delete album.</p>
 
-<p>The reason why I was expecting this feature is, their new policy to retain 1000 images for Free-tier. My &ldquo;Auto Upload&rdquo; album has ~4000 images all Private by default by design. But, I have around 500-400 images that I&rsquo;d shared with friends &amp; public, which I wanted to retain. Since I not sure how they are going to count the 1000. I wanted to be sure delete all the Private images from &ldquo;Auto Upload&rdquo; and retain shared albums which is well within their new tier. But hey, it is what it is, going to break all the links!</p>
+<p>The reason why I was expecting this feature is, as per their new policy is to retain 1000 images for Free-tier. My &ldquo;Auto Upload&rdquo; album has ~4000 images all Private by default by <em>design</em>. But, I have around 500-400 images that I&rsquo;d shared with friends &amp; public, which I wanted to retain. Since I not sure how they are going to count the 1000. I wanted to be sure delete all the Private images from &ldquo;Auto Upload&rdquo; and retain shared albums which is well within their new tier. But hey, it is what it is, going to break all the links!</p>
 
 <h4 id="7-non-standard-zip-issue-with-default-archive-utility-on-mac">7. Non-standard zip - issue with default archive utility on mac</h4>
 
-<p>To add salt to the injury, some part 2 and part 3 zips downloaded are throwing corrupted with default archive utility on mac. I didn&rsquo;t realize as I have deleted multiple part 2 / part 3 4GB files thinking they were all unarchived as part of multi-part unarchiving. But I was wrong, had to re-download all again.</p>
+<p>To add salt to the injury, some part 2 and part 3 zips downloaded are throwing corrupted with default archive utility on mac. I didn&rsquo;t realize as I have deleted multiple part 2 / part 3 4GB files thinking they were all unarchived as part of multi-part unarchiving. But I was wrong, had to re-download all again; I had to use trusty <a href="https://theunarchiver.com/">The Unarchiver</a> to unzip all files successfully. I wonder if this is something specific to Mac? even if so, I expect them to have a common archive format considering the assumption most of their pro&rsquo;s use Mac.</p>
 
-<p>Anyways, I have downloaded about 40GB atleast twice from flickr bandwidth budget for this month. Credit is where its due, at-least they didn&rsquo;t throttle my downloads or archive requests.</p>
+<p>Anyways, I have downloaded about 40GB atleast twice from flickr bandwidth budget for this month. Credit is where its due, at-least they didn&rsquo;t throttle my downloads neither my archive requests.</p>
 
 <p>&ndash;</p>
 
@@ -194,7 +198,7 @@
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2018 palaniraja</p>
+  <p align="center">&copy; 2019 palaniraja</p>
 </div>
 
 </body>
