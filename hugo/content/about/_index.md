@@ -21,7 +21,7 @@ Have a nice day!
 You can find me almost _everywhere_ on interwebs. 
 
 [Github](https://github.com/palaniraja) | [Instagram](http://instagram.com/palaniraja) |
-[500px](https://500px.com/palaniraja) | [Youtube](https://www.youtube.com/channel/UCA1Vz9awe4yjxdGJNWB0fZw) | [Stackoverflow](https://stackoverflow.com/users/240255/palaniraja) | [Linked In](www.linkedin.com/in/palaniraja-p) 
+[500px](https://500px.com/palaniraja) | [Youtube](https://www.youtube.com/channel/UCA1Vz9awe4yjxdGJNWB0fZw) | [Stackoverflow](https://stackoverflow.com/users/240255/palaniraja) 
 
 
 ---
