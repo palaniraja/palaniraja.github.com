@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Whatchanged - Git history as HTML Report - PR</title>
+  <meta property="og:title" content="Whatchanged - Git history as HTML Report - PR" />
+  <meta name="twitter:title" content="Whatchanged - Git history as HTML Report - PR" />
+  <meta name="description" content="Recently I was requested to produce a report of changes in a git repo between two tags by testing team.">
+  <meta property="og:description" content="Recently I was requested to produce a report of changes in a git repo between two tags by testing team.">
+  <meta name="twitter:description" content="Recently I was requested to produce a report of changes in a git repo between two tags by testing team.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.48" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Mar 18, 2019 </time>  &nbsp;&nbsp;<small> &minus; 2 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Whatchanged - Git history as HTML Report</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>Recently I was requested to produce a report of changes in a git repo between two tags by testing team. I am not sure the basis of the request, as they can go through the git repo themselves. I also kind of thought it is better to have a separate report that can be uploaded to their release ticket for archival; instead of going through each commits between revisions or any changes to repo history.</p>
+
+<p>Initially they want to produce an excel report I wrote a simple <a href="https://github.com/palaniraja/whatchanged/commit/30f731dfcd4bec2be3a023a09150e076b03e9738">bash script</a> to generate the files modified between two revisions and their commit logs (reason for the changes).</p>
+
+<p>As usual, <a href="https://gist.github.com/palaniraja/2bb7d7d64eef279e683b43e19c56c555/revisions#diff-75153e0b9726055d043a88aff751082c">scope</a> of the request grown to include source comparision with diff as well. Somebody had shared Beyondcompare report with them earlier. Since I don&rsquo;t own a license and an opensource fellow, I built one  with the help of <a href="https://git-scm.com/docs/git-log"><code>git log</code></a>, <a href="https://git-scm.com/docs/git-diff"><code>git diff</code></a> and <a href="https://github.com/rtfpessoa/diff2html">diff2html</a>. I was able to produce a decent report with this, unfortunately it takes a long time to render if the no. of files and commits are on a larger side.</p>
+
+<p>Anyhow, it does the job, I&rsquo;m proud of the accomplishment in my first week here in my dream country.</p>
+
+<p>If you find it useful and interested in extending, please go through the TODO list of <a href="https://github.com/palaniraja/whatchanged#todo">repo</a> and share PR.</p>
+
+<hr />
+
+<p>Github: <a href="https://github.com/palaniraja/whatchanged">Whatchanged</a></p>
+
+<hr />
+
+<h3 id="usage-output">Usage &amp; Output</h3>
+
+<pre><code># sh whatchanged.sh &lt;startCommitSHA&gt; &lt;endCommitSHA&gt;
+</code></pre>
+
+<p>e.g.,</p>
+
+<pre><code>sh whatchanged.sh 3b9aea39c7 37c07544408b
+</code></pre>
+
+<img src="https://www.palaniraja.com/assets/whatchanged-diff.png" alt="Whatchanged - sample report">
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2019%2f03%2fwhatchanged---git-history-as-html-report%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/" data-toggle="tooltip" data-placement="top" title="Previous Article">Flickr - How not to design backup userdata when shutting down your service &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2019 palaniraja</p>
+</div>
+
+</body>
+</html>

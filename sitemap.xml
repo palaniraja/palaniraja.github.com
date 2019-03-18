@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</loc>
+    <lastmod>2019-03-18T10:04:20-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</loc>
     <lastmod>2019-01-01T16:22:22+05:30</lastmod>
   </url>
@@ -928,7 +933,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/bash/</loc>
-    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+    <lastmod>2019-03-18T10:04:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1413,7 +1418,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/git/</loc>
-    <lastmod>2016-01-31T07:30:00-08:00</lastmod>
+    <lastmod>2019-03-18T10:04:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2085,7 +2090,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/posts/</loc>
-    <lastmod>2019-01-01T16:22:22+05:30</lastmod>
+    <lastmod>2019-03-18T10:04:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2132,14 +2137,14 @@
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/tags/projects/</loc>
-    <lastmod>2018-11-24T21:44:58+05:30</lastmod>
+    <loc>https://www.palaniraja.com/categories/projects/</loc>
+    <lastmod>2019-03-18T10:04:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/categories/projects/</loc>
-    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+    <loc>https://www.palaniraja.com/tags/projects/</loc>
+    <lastmod>2019-03-18T10:04:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2301,19 +2306,19 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/script/</loc>
-    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
+    <lastmod>2019-03-18T10:04:20-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/categories/scripts/</loc>
+    <lastmod>2019-03-18T10:04:20-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.palaniraja.com/tags/scripts/</loc>
     <lastmod>2012-08-26T06:20:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.palaniraja.com/categories/scripts/</loc>
-    <lastmod>2018-08-17T18:50:27+05:30</lastmod>
     <priority>0</priority>
   </url>
   

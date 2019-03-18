@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 palaniraja</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 16:22:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 10:04:20 -0700</lastBuildDate>
     
 	<atom:link href="https://www.palaniraja.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Whatchanged - Git history as HTML Report</title>
+      <link>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</link>
+      <pubDate>Mon, 18 Mar 2019 10:04:20 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</guid>
+      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team.</description>
+    </item>
     
     <item>
       <title>Flickr - How not to design backup userdata when shutting down your service</title>
