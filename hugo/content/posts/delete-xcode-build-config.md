@@ -1,7 +1,6 @@
 ---
 title: "Script to delete xcode buildconfigurations"
 date: 2019-06-25T20:37:01-07:00
-draft: true
 
 tags: [projects, bash, git, script]
 categories: [projects, scripts]
