@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Script to delete xcode buildconfigurations - PR</title>
+  <meta property="og:title" content="Script to delete xcode buildconfigurations - PR" />
+  <meta name="twitter:title" content="Script to delete xcode buildconfigurations - PR" />
+  <meta name="description" content="Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one.">
+  <meta property="og:description" content="Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one.">
+  <meta name="twitter:description" content="Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.48" />
+  
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jun 25, 2019 </time>  &nbsp;&nbsp;<small> &minus; 4 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Script to delete xcode buildconfigurations</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      
+
+<p>Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one. And the $ Trillion/Billion company do not find enginneers to assign multiple edits in scheme/buildconfig/simulator list in xcode UI.</p>
+
+<p>By the way Apple, I&rsquo;m only 40 min drive away. Call me maybe ;-)</p>
+
+<p>One of my project has more than 200 schemes (for business reasons). Unfortunately opening project in xcode takes more than 10 mins and it frequently hangs when you want to do anything with UI to select scheme or simulator. Though it kind of works once you choose the scheme, xcode occasionally fireup the fan even on a 2018 i9 MBP with 32G memory.</p>
+
+<p>By having closer look at project.pbxproj I found xcodeproj keeps duplicate of groups, files and indexes per scheme. The <code>project.pbxprj</code> itself is about 10 times the size of the file post before deleting the scheme &amp; build config. (that too in plist xml format instead of native plist binary)</p>
+
+<p>The script is not completely automatic, but it will help you to go through each step. It took embarassing amount of time to figureout plistbuddy can&rsquo;t delete a value from the list, it only pops. Anyway, I hope you don&rsquo;t need this script, and it helps you when in need.</p>
+
+<p>E.g., this script take about 15 min on my project. Once done, I don&rsquo;t ever have to worry about xcode freezing. And for entertainment it does update <code>[DELE] / [SKIP]</code> in Red and Green against each build config while running, proud of this :-). And I&rsquo;ve tested only with iTerm2 should work with terminal too.</p>
+
+<img src="https://www.palaniraja.com/assets/pb.sh.png" alt="script dry run with steps">
+
+<h3 id="pb-sh">pb.sh</h3>
+
+<pre><code>
+#!/bin/bash
+
+# get these ids by &quot;grep -B 2 buildConfigurations project.pbxproj&quot;
+targets=(&quot;040030D22004301100C4B676&quot; &quot;0420B3DA1FD1E91B00F66B8C&quot; &quot;042171FE1F7EB27500B3578D&quot; &quot;0421731D1F7EB3EC00B3578D&quot; &quot;04CD5F511FD0D1650053BE87&quot; &quot;3461E09E1A7BF77600B666A1&quot; &quot;3461E0C21A7BF77600B666A1&quot; &quot;A0D180071F46067500E00C0C&quot;)
+
+# get these xcodebuild -project YOURPROJ.xcodeproj -list
+configsToSkip=(&quot;us-debug&quot; &quot;us-debug-free&quot; &quot;us-release&quot; &quot;us-release-free&quot; )
+
+
+# Un-comment below line for debugging
+# set -x
+
+
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+GREEN='\033[0;32m'
+COMMENTCOLOR='\033[0;90m'
+
+
+plistbuddy=/usr/libexec/plistbuddy
+file=project.pbxproj
+
+
+echo &quot;\n&quot;
+echo &quot;${RED}YOU'VE BEEN WARNED:${NC} Xcode buildconfig remover\n\n&quot;
+
+echo &quot;I recommend keep copy of your .xcodeproj file\n\n&quot;
+
+echo &quot;STEPS:\n&quot;
+
+echo &quot;1. Find all build configurations to filter the one you want to keep&quot;
+echo &quot;   &gt; ${GREEN}xcodebuild -project YOURPROJ.xcodeproj -list ${COMMENTCOLOR}#copy config list under build configurations. Replace variable \&quot;configsToSkip\&quot; contents with your config list${NC}&quot;
+echo &quot;2. Convert the text plist to xml based one&quot;
+echo &quot;   &gt;  ${GREEN}/usr/libexec/PlistBuddy -x -c \&quot;Print\&quot; project.pbxproj &gt; project.xml ${COMMENTCOLOR}#duplicate project.xml and rename it as project.pbxproj${NC}&quot;
+echo &quot;3. Find keys of \&quot;buildConfigurations\&quot; from your project.pbxproj&quot;
+echo &quot;   &gt;  ${GREEN}grep -B 2 buildConfigurations project.pbxproj${NC} ${COMMENTCOLOR}#Replace variable \&quot;targets\&quot; with the \&quot;GUIDS\&quot; keys from the command results${NC}&quot;
+echo &quot;4. Comeback after updating variables \&quot;targets\&quot; and \&quot;config2skip\&quot; to run the script&quot;
+
+echo &quot;\n\n&quot;
+read -p &quot;YES to continue or any key to abort: &quot; confirm &amp;&amp; [[ $confirm == &quot;YES&quot; ]] || exit 1
+
+# echo &quot;user typed YES&quot;
+
+echo &quot;\n${RED}YOU'VE BEEN WARNED!${NC} Good luck\n&quot;
+
+
+
+date # for time profiling
+
+
+
+for targetId in ${targets[@]}; do
+  echo &quot;id: $targetId&quot;
+  
+  buildConfigurationList=`$plistbuddy -c &quot;Print :objects:$targetId:buildConfigurations&quot; &quot;$file&quot; | sed -e '/Array {/d' -e '/}/d' -e 's/^[ \t]*//'`
+
+  for configurationId in ${buildConfigurationList[@]}; do
+      # echo $configurationId
+      buildConfig=`$plistbuddy -c &quot;Print :objects:$configurationId:name&quot; &quot;$file&quot;`
+      # echo &quot;$configurationId = $buildConfig&quot;
+      
+      if [[ ${configsToSkip[*]} =~ $buildConfig ]]
+      then
+        echo &quot;[${GREEN}SKIP${NC}] $configurationId = $buildConfig&quot;
+      else
+        echo &quot;[${RED}DELE${NC}] $configurationId = $buildConfig&quot;
+        $plistbuddy -c &quot;delete :objects:$configurationId&quot; &quot;$file&quot; &amp;&amp; sed -i '' &quot;/$configurationId/d&quot; &quot;$file&quot;
+      fi
+
+  done
+done
+
+
+date # for time profiling
+
+</code></pre>
+
+<!-- <script type="application/javascript" src="//gist.github.com/palaniraja/75ae5b7c200c13395fa0ddc0ac818918.js"></script> -->
+
+<p><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/75ae5b7c200c13395fa0ddc0ac818918">https://gist.github.com/palaniraja/75ae5b7c200c13395fa0ddc0ac818918</a></p>
+
+<noscript>
+    <p class="noscript">Content requires Javascript to be enabled.</p>
+
+    <p><a href="https://gist.github.com/palaniraja/75ae5b7c200c13395fa0ddc0ac818918">https://gist.github.com/palaniraja/75ae5b7c200c13395fa0ddc0ac818918</a> </p>
+
+    <br/>
+    
+</noscript>
+<style type="text/css">
+    p.noscript{
+        background-color: #fefea0;
+        border-left: 4px solid #fea0a0;
+        padding: 0 0.25em;
+    }
+</style></p>
+
+<hr />
+
+<p>Though I wrote this during Easter&rsquo;19 weekend and forgot to post, but it took few weekends to figure out the issue.</p>
+
+<p>Note to self: I should start writing any script in python instead of bash. I always think it is simple piping and spend more time in figuring out bash programming nuances.</p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2019%2f06%2fscript-to-delete-xcode-buildconfigurations%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/" data-toggle="tooltip" data-placement="top" title="Previous Article">Whatchanged - Git history as HTML Report &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  
+
+  <p align="center" class="nav-footer-menu">
+    
+    
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2019 palaniraja</p>
+</div>
+
+</body>
+</html>
