@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>SwiftUML - Generate PlantUML class diagram from Swift source code</title>
+      <link>https://www.palaniraja.com/2019/08/swiftuml---generate-plantuml-class-diagram-from-swift-source-code/</link>
+      <pubDate>Sat, 10 Aug 2019 14:56:55 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2019/08/swiftuml---generate-plantuml-class-diagram-from-swift-source-code/</guid>
+      <description>At any point in time, I will always have few project ideas around source code parsing, building a tokenizer or creating a custom DSL and syntaxes.</description>
+    </item>
+    
+    <item>
       <title>Script to delete xcode buildconfigurations</title>
       <link>https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/</link>
       <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
