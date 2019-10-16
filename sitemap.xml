@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.palaniraja.com/2019/10/book-never-grow-up-by-jackie-chan/</loc>
+    <lastmod>2019-10-15T20:02:28-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/2019/08/swiftuml---generate-plantuml-class-diagram-from-swift-source-code/</loc>
     <lastmod>2019-08-10T14:56:55-07:00</lastmod>
   </url>
@@ -991,7 +996,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/book/</loc>
-    <lastmod>2018-03-20T08:42:00-07:00</lastmod>
+    <lastmod>2019-10-15T20:02:28-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1386,7 +1391,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/fun/</loc>
-    <lastmod>2018-03-20T08:42:00-07:00</lastmod>
+    <lastmod>2019-10-15T20:02:28-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1723,6 +1728,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/itunesu/</loc>
     <lastmod>2011-02-28T06:46:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/jackie-chan/</loc>
+    <lastmod>2019-10-15T20:02:28-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2100,7 +2111,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/posts/</loc>
-    <lastmod>2019-08-10T14:56:55-07:00</lastmod>
+    <lastmod>2019-10-15T20:02:28-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2147,13 +2158,13 @@
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/categories/projects/</loc>
+    <loc>https://www.palaniraja.com/tags/projects/</loc>
     <lastmod>2019-06-25T20:37:01-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/tags/projects/</loc>
+    <loc>https://www.palaniraja.com/categories/projects/</loc>
     <lastmod>2019-06-25T20:37:01-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2226,7 +2237,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/recommendation/</loc>
-    <lastmod>2018-03-20T08:42:00-07:00</lastmod>
+    <lastmod>2019-10-15T20:02:28-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2321,14 +2332,14 @@
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/categories/scripts/</loc>
-    <lastmod>2019-06-25T20:37:01-07:00</lastmod>
+    <loc>https://www.palaniraja.com/tags/scripts/</loc>
+    <lastmod>2012-08-26T06:20:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.palaniraja.com/tags/scripts/</loc>
-    <lastmod>2012-08-26T06:20:00-07:00</lastmod>
+    <loc>https://www.palaniraja.com/categories/scripts/</loc>
+    <lastmod>2019-06-25T20:37:01-07:00</lastmod>
     <priority>0</priority>
   </url>
   
