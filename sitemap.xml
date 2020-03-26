@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.palaniraja.com/2020/03/2019-review/</loc>
+    <lastmod>2020-03-25T08:47:04-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/2019/10/book-never-grow-up-by-jackie-chan/</loc>
     <lastmod>2019-10-15T20:02:28-07:00</lastmod>
   </url>
@@ -1181,7 +1186,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/data/</loc>
-    <lastmod>2013-11-03T00:17:00-07:00</lastmod>
+    <lastmod>2020-03-25T08:47:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2111,7 +2116,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/posts/</loc>
-    <lastmod>2019-10-15T20:02:28-07:00</lastmod>
+    <lastmod>2020-03-25T08:47:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2129,7 +2134,7 @@
   
   <url>
     <loc>https://www.palaniraja.com/tags/productivity/</loc>
-    <lastmod>2013-11-03T00:17:00-07:00</lastmod>
+    <lastmod>2020-03-25T08:47:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2292,6 +2297,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/resource/</loc>
     <lastmod>2011-11-06T09:49:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/review/</loc>
+    <lastmod>2020-03-25T08:47:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2632,6 +2643,12 @@
   </url>
   
   <url>
+    <loc>https://www.palaniraja.com/tags/time/</loc>
+    <lastmod>2020-03-25T08:47:04-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.palaniraja.com/tags/timelapse/</loc>
     <lastmod>2018-07-28T18:53:05+05:30</lastmod>
     <priority>0</priority>
@@ -2664,6 +2681,12 @@
   <url>
     <loc>https://www.palaniraja.com/tags/tools/</loc>
     <lastmod>2014-10-22T00:06:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.palaniraja.com/tags/tracking/</loc>
+    <lastmod>2020-03-25T08:47:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   

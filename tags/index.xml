@@ -6,7 +6,7 @@
     <description>Recent content in Tags on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 palaniraja</copyright>
+    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
     <lastBuildDate>Mon, 06 Nov 2006 16:21:00 +0530</lastBuildDate>
     
 	<atom:link href="https://www.palaniraja.com/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -546,7 +546,7 @@
     <item>
       <title>Data</title>
       <link>https://www.palaniraja.com/tags/data/</link>
-      <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
+      <pubDate>Wed, 25 Mar 2020 08:47:04 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/tags/data/</guid>
       <description></description>
@@ -1950,7 +1950,7 @@
     <item>
       <title>Productivity</title>
       <link>https://www.palaniraja.com/tags/productivity/</link>
-      <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
+      <pubDate>Wed, 25 Mar 2020 08:47:04 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/tags/productivity/</guid>
       <description></description>
@@ -2178,6 +2178,15 @@
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/tags/resource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>https://www.palaniraja.com/tags/review/</link>
+      <pubDate>Wed, 25 Mar 2020 08:47:04 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/review/</guid>
       <description></description>
     </item>
     
@@ -2659,6 +2668,15 @@
     </item>
     
     <item>
+      <title>Time</title>
+      <link>https://www.palaniraja.com/tags/time/</link>
+      <pubDate>Wed, 25 Mar 2020 08:47:04 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Timelapse</title>
       <link>https://www.palaniraja.com/tags/timelapse/</link>
       <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
@@ -2709,6 +2727,15 @@
       <pubDate>Wed, 22 Oct 2014 00:06:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracking</title>
+      <link>https://www.palaniraja.com/tags/tracking/</link>
+      <pubDate>Wed, 25 Mar 2020 08:47:04 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/tracking/</guid>
       <description></description>
     </item>
     
