@@ -6,9 +6,9 @@ tags : [data, time, tracking, review, productivity]
 ---
 
 
-I ain't no [Stephen Wolfram](https://writings.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/) but I do try to time myself on any activities I do on my computer whenever possible. Mostly to validate (or train my mind) time took to finish a task is not what I thought it would be. At times I pleasantly suprised, most often my estimates are always under estimated.
+I ain't no [Stephen Wolfram](https://writings.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/) but I do try to time myself on any activities I do on my computer whenever possible. Mostly to validate (or train my mind) time took to finish a task is not what I thought it would be. At times I pleasantly surprised, most often my estimates are always under estimated.
 
-Above all I am facinated with the concept of Time. My pastime inclues watching the second hand move on the clock like the painting [Man, Table, Fish](https://www.wikiart.org/en/michael-sowa/man-table-fish) by Micheal Sowa wondering how can I ever get that time back.
+Above all I am fascinated with the concept of Time. My pastime includes watching the second hand move on the clock like the painting [Man, Table, Fish](https://www.wikiart.org/en/michael-sowa/man-table-fish) by Micheal Sowa wondering how can I ever get that time back.
 
 I have built this app called [Timetracker](/projects/timetracker/) to log my time on each activity during my day, this is mostly to help me keep me not distracted as it always stays on top. It also get some rough estimate of time spent. I still haven't figure out how much time I actually spent in entirety, since these days I juggle with multiple machine and most of my learning for job happens on mobile.
 
