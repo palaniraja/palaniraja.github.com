@@ -31,7 +31,7 @@ An opensource static site generator written in [Go](https://golang.org/). I chos
     
 - Theme - `min`
 
-I built my own theme named `min` for minimalistic. It is based on a theme [whiteplain](https://themes.gohugo.io/theme/whiteplain/) which is similar to my liking, but I had to build several components on top of it. Will shortly publish the source code.
+I built my own theme named `min` for minimalistic. It is based on a theme [whiteplain](https://themes.gohugo.io/themes/whiteplain/) which is similar to my liking, but I had to build several components on top of it. Will shortly publish the source code.
 
 For CSS, I used [milligram.css](https://milligram.io/) - a small 2kb gzipped library to help with defaults and typography. Though I do not use any of their grids or forms styles. I still use the complete css, for easier upgrade later.
 
