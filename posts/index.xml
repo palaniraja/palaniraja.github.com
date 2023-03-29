@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 10 May 2020 21:22:26 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 19:54:59 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to view git change history of a Swift method</title>
+      <link>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</link>
+      <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</guid>
+      <description>I knew git has a feature to get change history of a method.
+e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed something in method/function named myfunction in file myfile.</description>
+    </item>
+    
     <item>
       <title>Instagram Challenge - 2019</title>
       <link>https://www.palaniraja.com/2020/05/instagram-challenge-2019/</link>

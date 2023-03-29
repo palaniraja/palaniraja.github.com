@@ -1,7 +1,7 @@
 ---
 title: "How to view git change history of a Swift method"
 date: 2023-03-28T19:54:59-07:00
-draft: true
+draft: false
 ---
 
 

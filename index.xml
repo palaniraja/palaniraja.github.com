@@ -9,6 +9,44 @@
     <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
     <lastBuildDate>Wed, 08 Aug 2018 17:13:05 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How to view git change history of a Swift method</title>
+      <link>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</link>
+      <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</guid>
+      <description>&lt;p&gt;I knew git has a feature to get change history of a method.&lt;/p&gt;
+&lt;p&gt;e.g., &lt;code&gt;git log -L :myfunction:path/to/myfile.c&lt;/code&gt; list all the commits that changed something in method/function named &lt;code&gt;myfunction&lt;/code&gt; in file &lt;code&gt;myfile.c&lt;/code&gt; &lt;a href=&#34;https://stackoverflow.com/questions/4781405/git-how-do-i-view-the-change-history-of-a-method-function&#34;&gt;stackoverflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I used it all the time with ObjC but it never worked for swift files. I always thought it is because of ObjC and C language similarties. Few years ago, I came across &lt;a href=&#34;https://twitter.com/kastiglione/status/1242113018474819584&#34;&gt;this tweet&lt;/a&gt; and I realized this is something I can &lt;a href=&#34;https://www.git-scm.com/docs/gitattributes&#34;&gt;define for git&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;before-and-after&#34;&gt;Before and After&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/swift-git-method-history-before.png&#34; alt=&#34;Before - Git throws a Fatal error and no match&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/swift-git-method-history-after.png&#34; alt=&#34;After - List the commits that has changes to the method&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-to&#34;&gt;How-to&lt;/h2&gt;
+&lt;p&gt;You need to update couple of meta files in your &lt;code&gt;.git&lt;/code&gt; directory of your git workspace. If you do not find these files in your git workspace, you can create an empty file and add the contents&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Step 1: Add this to your .git/info/attributes
+*.swift     diff=swift
+
+
+# Step 2: Edit your `.git/config` and add 
+[diff &amp;#34;swift&amp;#34;]
+    xfuncname = &amp;#34;^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +|(de)?init\\b).*$&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I had tried few other &lt;em&gt;regex&lt;/em&gt;&amp;rsquo;s for &lt;code&gt;xfuncname&lt;/code&gt;, but the one above is my current version that I use. Here are some I found in github&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#    xfuncname = ^[ \t]*((class|func)[ \t].*)$
+#    xfuncname = &amp;#34;^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +.*|(de)?init\\b.*|(var|let) +(.+?): +(.+?)\\{)$&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;references&#34;&gt;References:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/kastiglione/status/1242113018474819584&#34;&gt;https://twitter.com/kastiglione/status/1242113018474819584&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/kastiglione/status/1242116999494242305&#34;&gt;https://twitter.com/kastiglione/status/1242116999494242305&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/4781405/git-how-do-i-view-the-change-history-of-a-method-function&#34;&gt;https://stackoverflow.com/questions/4781405/git-how-do-i-view-the-change-history-of-a-method-function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://devhints.io/git-log-format&#34;&gt;https://devhints.io/git-log-format&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.git-scm.com/docs/gitattributes&#34;&gt;https://www.git-scm.com/docs/gitattributes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;This post was in my draft for a very long time. Recently, I had to set this up again for a new project. I realized I couldn&amp;rsquo;t cleanup my draft and publish to get out of this pandemic &lt;em&gt;writer&amp;rsquo;s block&lt;/em&gt; and also a quick reference for me in the future.&lt;/p&gt;
+&lt;p&gt;Well spent a day to &lt;a href=&#34;https://github.com/palaniraja/palaniraja.github.com/commit/4ed9d52e6901dfeae6f8fbfd150526e537db9dfe&#34;&gt;fixing my theme&lt;/a&gt; to support &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; changes since my update :-)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Instagram Challenge - 2019</title>
       <link>https://www.palaniraja.com/2020/05/instagram-challenge-2019/</link>
       <pubDate>Sun, 10 May 2020 21:22:26 +0530</pubDate>
