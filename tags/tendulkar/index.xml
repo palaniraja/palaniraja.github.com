@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tendulkar on PR</title>
+    <title>tendulkar on PR</title>
     <link>https://www.palaniraja.com/tags/tendulkar/</link>
-    <description>Recent content in Tendulkar on PR</description>
+    <description>Recent content in tendulkar on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 08 Jun 2014 08:27:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/tendulkar/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 08 Jun 2014 08:27:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/tendulkar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>100th Post</title>
       <link>https://www.palaniraja.com/2014/06/100th-post/</link>

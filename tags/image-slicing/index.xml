@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Image Slicing on PR</title>
+    <title>image slicing on PR</title>
     <link>https://www.palaniraja.com/tags/image-slicing/</link>
-    <description>Recent content in Image Slicing on PR</description>
+    <description>Recent content in image slicing on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 15 Feb 2015 09:36:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/image-slicing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 15 Feb 2015 09:36:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/image-slicing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Slicing (Repeatable image) with Xcode Asset Catalog</title>
       <link>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</link>

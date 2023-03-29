@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jquery on PR</title>
+    <title>jquery on PR</title>
     <link>https://www.palaniraja.com/tags/jquery/</link>
-    <description>Recent content in Jquery on PR</description>
+    <description>Recent content in jquery on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Wed, 16 Jan 2013 21:02:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Wed, 16 Jan 2013 21:02:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prj - Times of India epub</title>
-      <link>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</link>
+      <link>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</link>
       <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</guid>
+      <guid>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</guid>
       <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
     </item>
     
@@ -39,8 +35,7 @@ Evernote does not support direct import of bookmarks from delicious as it does w
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
       <description>Script speaks louder than words. Please go through the following links
 PHP Gd based Sticky script
-
-Jquery UI based Sticky page</description>
+Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
     </item>
     
   </channel>

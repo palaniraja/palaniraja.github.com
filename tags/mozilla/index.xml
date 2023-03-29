@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mozilla on PR</title>
@@ -6,29 +6,24 @@
     <description>Recent content in Mozilla on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Thu, 27 Jan 2011 10:43:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Thu, 27 Jan 2011 10:43:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea Vault: Tile this!</title>
       <link>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</link>
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this 
-I was recently hunting images for a sample design.</description>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
     </item>
     
     <item>
       <title>Google Chrome : Hybrid of all</title>
-      <link>https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/</link>
+      <link>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</link>
       <pubDate>Sat, 06 Sep 2008 03:38:02 +0000</pubDate>
       
-      <guid>https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/</guid>
-      <description>  Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism  What’s new in Google Chrome  No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google  </description>
+      <guid>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</guid>
+      <description> Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism What’s new in Google Chrome No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google </description>
     </item>
     
     <item>

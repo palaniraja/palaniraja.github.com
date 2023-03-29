@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on PR</title>
+    <title>blog on PR</title>
     <link>https://www.palaniraja.com/tags/blog/</link>
-    <description>Recent content in Blog on PR</description>
+    <description>Recent content in blog on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 31 Jan 2016 07:30:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 31 Jan 2016 07:30:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev Diary</title>
       <link>https://www.palaniraja.com/2016/01/dev-diary/</link>

@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on PR</title>
+    <title>projects on PR</title>
     <link>https://www.palaniraja.com/categories/projects/</link>
-    <description>Recent content in Projects on PR</description>
+    <description>Recent content in projects on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Tue, 25 Jun 2019 20:37:01 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/categories/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 25 Jun 2019 20:37:01 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Script to delete xcode buildconfigurations</title>
       <link>https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/</link>
@@ -23,11 +19,11 @@
     
     <item>
       <title>Whatchanged - Git history as HTML Report</title>
-      <link>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</link>
+      <link>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</link>
       <pubDate>Mon, 18 Mar 2019 10:04:20 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</guid>
-      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team.</description>
+      <guid>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</guid>
+      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team. I am not sure the basis of the request, as they can go through the git repo themselves.</description>
     </item>
     
     <item>
@@ -41,10 +37,10 @@
     
     <item>
       <title>Pilapse - Raspberry Pi Camera and Timelapse</title>
-      <link>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</link>
+      <link>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</link>
       <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</guid>
+      <guid>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</guid>
       <description>It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
 Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
     </item>
@@ -79,12 +75,12 @@ It is based on speed reading technique/methodology called Spritz</description>
     
     <item>
       <title>Speedy - Speed reading application for Mac</title>
-      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <link>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <guid>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</guid>
       <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
-I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;rsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
     </item>
     
     <item>
@@ -116,10 +112,10 @@ I created to read the emails &amp;amp; news faster, as I have a tendency to lost
     
     <item>
       <title>Raspbian &#43; XBMC &#43; Airplay</title>
-      <link>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</link>
+      <link>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</link>
       <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</guid>
+      <guid>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</guid>
       <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
 I own a Raspberry Pi for closer to a year now.</description>
     </item>
@@ -135,19 +131,19 @@ I own a Raspberry Pi for closer to a year now.</description>
     
     <item>
       <title>Prj - Times of India epub</title>
-      <link>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</link>
+      <link>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</link>
       <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</guid>
+      <guid>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</guid>
       <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
     </item>
     
     <item>
       <title>Idea Vault: Prj - Dug Me</title>
-      <link>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</link>
+      <link>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</link>
       <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</guid>
+      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</guid>
       <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
 Idea is to log all our project ideas similar to logging notes in nvALT.</description>
     </item>
@@ -162,6 +158,15 @@ Idea is to log all our project ideas similar to logging notes in nvALT.</descrip
     </item>
     
     <item>
+      <title>iForce</title>
+      <link>https://www.palaniraja.com/projects/iforce/</link>
+      <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/iforce/</guid>
+      <description>Note: I no longer develop Salesforce applications, hence I do not maintain this extension. You are free to fork and maintain.</description>
+    </item>
+    
+    <item>
       <title>Mclock</title>
       <link>https://www.palaniraja.com/projects/mclock/</link>
       <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
@@ -169,16 +174,7 @@ Idea is to log all our project ideas similar to logging notes in nvALT.</descrip
       <guid>https://www.palaniraja.com/projects/mclock/</guid>
       <description>A minimalist clock to display time of different timezone of your choice.
 Eg.,
- &amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo;  The app stays in menu bar all the time and you can customize the display format and timezone.</description>
-    </item>
-    
-    <item>
-      <title>iForce</title>
-      <link>https://www.palaniraja.com/projects/iforce/</link>
-      <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
-      
-      <guid>https://www.palaniraja.com/projects/iforce/</guid>
-      <description>Note: I no longer develop Salesforce applications, hence I do not maintain this extension. You are free to fork and maintain.</description>
+&amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo; The app stays in menu bar all the time and you can customize the display format and timezone.</description>
     </item>
     
     <item>
@@ -212,10 +208,10 @@ Remember this is a SOAP based API, there is a new alternative library available 
     
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
-      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
       <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
     </item>
     
@@ -234,8 +230,7 @@ Remember this is a SOAP based API, there is a new alternative library available 
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this 
-I was recently hunting images for a sample design.</description>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
     </item>
     
     <item>
@@ -302,7 +297,7 @@ AnchorFree banner killer Remove Banner from the top when you use Anchor Free Hot
       
       <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
       <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
- Create a new directory</description>
+Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.</description>
     </item>
     
     <item>
@@ -311,7 +306,7 @@ AnchorFree banner killer Remove Banner from the top when you use Anchor Free Hot
       <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
       
       <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
-      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?</description>
+      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</description>
     </item>
     
     <item>
@@ -331,8 +326,7 @@ AnchorFree banner killer Remove Banner from the top when you use Anchor Free Hot
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
       <description>Script speaks louder than words. Please go through the following links
 PHP Gd based Sticky script
-
-Jquery UI based Sticky page</description>
+Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
     </item>
     
     <item>

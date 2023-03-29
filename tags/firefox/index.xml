@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Firefox on PR</title>
@@ -6,27 +6,23 @@
     <description>Recent content in Firefox on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Wed, 23 Jun 2010 11:35:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Wed, 23 Jun 2010 11:35:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
-      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
       <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
     </item>
     
     <item>
       <title>Firefox : Settings are not saved</title>
-      <link>https://www.palaniraja.com/2010/02/firefox--settings-are-not-saved/</link>
+      <link>https://www.palaniraja.com/2010/02/firefox-settings-are-not-saved/</link>
       <pubDate>Wed, 03 Feb 2010 19:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/02/firefox--settings-are-not-saved/</guid>
+      <guid>https://www.palaniraja.com/2010/02/firefox-settings-are-not-saved/</guid>
       <description>I was having an issue recently that none of my settings/preferences were saved in Firefox. It opens the Firefox updated page along with extensions updated page every time I open the browser.</description>
     </item>
     

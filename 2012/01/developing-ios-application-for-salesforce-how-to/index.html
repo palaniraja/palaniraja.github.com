@@ -17,7 +17,8 @@ Remember this is a SOAP based API, there is a new alternative library available 
   <meta property="og:url" content="https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -65,22 +66,17 @@ Remember this is a SOAP based API, there is a new alternative library available 
       
       
       
-      
-
-<p>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).</p>
-
+      <p>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).</p>
 <p>Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</p>
-
 <h4 id="create-new-record-add-new-obj-in-salesforce">Create new record/ add new obj in Salesforce</h4>
-
-<pre><code>    
-    ZKSObject *sfobj = [[ZKSObject alloc] initWithType:@&quot;Your_custom_object__c&quot;] ;    
+<pre tabindex="0"><code>    
+    ZKSObject *sfobj = [[ZKSObject alloc] initWithType:@&#34;Your_custom_object__c&#34;] ;    
     
-    [sfobj setType:@&quot;Your_custom_object__c&quot;];
-    [sfobj setFieldValue:@&quot;Air Conditioning System&quot; field:@&quot;Name&quot;];
-    [sfobj setFieldValue:@&quot;PAL-008&quot; field:@&quot;Service_code__c&quot;];
-    [sfobj setFieldValue:@&quot;Spot&quot; field:@&quot;Service_Status__c&quot;];
-    [sfobj setFieldValue:@&quot;a07M0000000FV5VIAW&quot; field:@&quot;child_of_another_custom_object__c&quot;];
+    [sfobj setType:@&#34;Your_custom_object__c&#34;];
+    [sfobj setFieldValue:@&#34;Air Conditioning System&#34; field:@&#34;Name&#34;];
+    [sfobj setFieldValue:@&#34;PAL-008&#34; field:@&#34;Service_code__c&#34;];
+    [sfobj setFieldValue:@&#34;Spot&#34; field:@&#34;Service_Status__c&#34;];
+    [sfobj setFieldValue:@&#34;a07M0000000FV5VIAW&#34; field:@&#34;child_of_another_custom_object__c&#34;];
     
    
     [[FDCServerSwitchboard switchboard] create:[NSArray arrayWithObject:sfobj] target:self selector:@selector(createObjectResult:error:context:) context:nil];
@@ -94,53 +90,41 @@ called when SF completed the request
     if (results &amp;&amp; !error)
     {
         for (ZKSaveResult *saveResult in results){
-            NSLog(@&quot;saveResult: %@&quot;, saveResult);    
+            NSLog(@&#34;saveResult: %@&#34;, saveResult);    
         }
         
     }
     else {
-         NSLog(@&quot;Error : %@&quot;, [error description])//take care of error
+         NSLog(@&#34;Error : %@&#34;, [error description])//take care of error
     }
 }
-</code></pre>
-
-<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510080#file-createobj-m">https://gist.github.com/palaniraja/1510080#file-createobj-m</a></p>
-
+</code></pre><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510080#file-createobj-m">https://gist.github.com/palaniraja/1510080#file-createobj-m</a></p>
 
 <h4 id="to-update-sf-object">To update SF object</h4>
-
-<pre><code>    ZKSObject *sfobj = [[ZKSObject alloc] initWithType:@&quot;Your_custom_object__c&quot;] ;    
+<pre tabindex="0"><code>    ZKSObject *sfobj = [[ZKSObject alloc] initWithType:@&#34;Your_custom_object__c&#34;] ;    
     
-    [sfobj setType:@&quot;Your_custom_object__c&quot;];
-    [sfobj setFieldValue:@&quot;a0FM0000000XrKcMAK&quot; field:@&quot;Id&quot;];
-    [sfobj setFieldValue:@&quot;PAL-008&quot; field:@&quot;Service_code__c&quot;]; 
-    [sfobj setFieldValue:@&quot;Room heating system&quot; field:@&quot;Name&quot;];   //update the field value required
-    [sfobj setFieldValue:@&quot;Maintenance&quot; field:@&quot;Service_Status__c&quot;];
-    [sfobj setFieldValue:@&quot;a07M0000000FV5VIAW&quot; field:@&quot;child_of_another_custom_object__c&quot;];
+    [sfobj setType:@&#34;Your_custom_object__c&#34;];
+    [sfobj setFieldValue:@&#34;a0FM0000000XrKcMAK&#34; field:@&#34;Id&#34;];
+    [sfobj setFieldValue:@&#34;PAL-008&#34; field:@&#34;Service_code__c&#34;]; 
+    [sfobj setFieldValue:@&#34;Room heating system&#34; field:@&#34;Name&#34;];   //update the field value required
+    [sfobj setFieldValue:@&#34;Maintenance&#34; field:@&#34;Service_Status__c&#34;];
+    [sfobj setFieldValue:@&#34;a07M0000000FV5VIAW&#34; field:@&#34;child_of_another_custom_object__c&#34;];
     
      [[FDCServerSwitchboard switchboard] update:[NSArray arrayWithObject:sfobj] target:self selector:@selector(updatedObjectResult:error:context:) context:nil];
-</code></pre>
-
-<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510096#file-updateobj-m">https://gist.github.com/palaniraja/1510096#file-updateobj-m</a></p>
-
+</code></pre><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510096#file-updateobj-m">https://gist.github.com/palaniraja/1510096#file-updateobj-m</a></p>
 
 <h4 id="delete-or-undelete-object">Delete or Undelete object</h4>
-
-<pre><code>    NSString *id2Del = @&quot;a0BM0000001uUrY&quot;;
+<pre tabindex="0"><code>    NSString *id2Del = @&#34;a0BM0000001uUrY&#34;;
     
     [[FDCServerSwitchboard switchboard] delete:[NSArray arrayWithObject:id2Del] target:self selector:@selector(deleteObjectResult:error:context:) context:nil];
 
 //To undelete the deleted obj. only if available as per Salesforce norms
 
     [[FDCServerSwitchboard switchboard] unDelete:[NSArray arrayWithObject:id2Del] target:self selector:@selector(deleteObjectResult:error:context:) context:nil];
-</code></pre>
+</code></pre><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510105#file-deleteobj-m">https://gist.github.com/palaniraja/1510105#file-deleteobj-m</a></p>
 
-<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510105#file-deleteobj-m">https://gist.github.com/palaniraja/1510105#file-deleteobj-m</a></p>
-
-
-<h4 id="fetching-objects-records-from-salesforce">Fetching objects/records from Salesforce</h4>
-
-<pre><code>    NSString *getCasesSQL = [NSString stringWithFormat:@&quot;SELECT id, Site__r.Name FROM Case WHERE id = '%@'&quot;, @&quot;a0FM0000000XrKcMAK&quot;];
+<h4 id="fetching-objectsrecords-from-salesforce">Fetching objects/records from Salesforce</h4>
+<pre tabindex="0"><code>    NSString *getCasesSQL = [NSString stringWithFormat:@&#34;SELECT id, Site__r.Name FROM Case WHERE id = &#39;%@&#39;&#34;, @&#34;a0FM0000000XrKcMAK&#34;];
     
     
     [[FDCServerSwitchboard switchboard] getCasesSQL target:self selector:@selector(getCasesSiteInfoResult:error:context:) context:nil];
@@ -156,24 +140,20 @@ called when SF completed the request
     //records are of type ZKSObject 
     }
     else if (error){
-        NSLog(@&quot;Error: %@&quot;, [error description]);
+        NSLog(@&#34;Error: %@&#34;, [error description]);
     }
 
 }
-</code></pre>
-
-<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510135#file-getobjects-m">https://gist.github.com/palaniraja/1510135#file-getobjects-m</a></p>
-
+</code></pre><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510135#file-getobjects-m">https://gist.github.com/palaniraja/1510135#file-getobjects-m</a></p>
 
 <h4 id="attachment-adding-binary-objects-to-sf-attachment">Attachment (adding binary objects to SF attachment)</h4>
-
-<pre><code>    ZKSObject *attachment = [ZKSObject withType:@&quot;Attachment&quot;];
-    [attachment setFieldValue:[NSString stringWithFormat:@&quot;Nameofyourattachment%@.png&quot;, [NSDate date]] field:@&quot;Name&quot;];
-    [attachment setFieldValue:@&quot;a07M0000000FV5VIAW&quot; field:@&quot;ParentId&quot;];
+<pre tabindex="0"><code>    ZKSObject *attachment = [ZKSObject withType:@&#34;Attachment&#34;];
+    [attachment setFieldValue:[NSString stringWithFormat:@&#34;Nameofyourattachment%@.png&#34;, [NSDate date]] field:@&#34;Name&#34;];
+    [attachment setFieldValue:@&#34;a07M0000000FV5VIAW&#34; field:@&#34;ParentId&#34;];
     
-    NSData *cSign = UIImagePNGRepresentation([UIImage imageNamed:@&quot;signature.png&quot;]);
+    NSData *cSign = UIImagePNGRepresentation([UIImage imageNamed:@&#34;signature.png&#34;]);
     
-    [attachment setFieldValue:[cSign base64EncodedString] field:@&quot;Body&quot;];
+    [attachment setFieldValue:[cSign base64EncodedString] field:@&#34;Body&#34;];
     
     [[FDCServerSwitchboard switchboard] create:[NSArray arrayWithObject:attachment] target:self selector:@selector(saveAttachmentToSFResult:error:context:) context:attachment];
 
@@ -186,20 +166,15 @@ called when SF completed the request
 
     if (results &amp;&amp; !error){
         NSString* attachmentId = [[results objectAtIndex:0] id]; 
-        NSLog(@&quot;Attachment ObjId: %@ saved to Salesforce&quot;, attachmentId);
+        NSLog(@&#34;Attachment ObjId: %@ saved to Salesforce&#34;, attachmentId);
     }
     else if (error){
-         NSLog(@&quot;Attachment %@&quot;, [error description]);
+         NSLog(@&#34;Attachment %@&#34;, [error description]);
     }
 }
-
-</code></pre>
-
-<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510154#file-attachment-m">https://gist.github.com/palaniraja/1510154#file-attachment-m</a></p>
-
+</code></pre><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/1510154#file-attachment-m">https://gist.github.com/palaniraja/1510154#file-attachment-m</a></p>
 
 <h3 id="references">References</h3>
-
 <ul>
 <li>Github - <a href="https://github.com/palaniraja/Force.com-Toolkit-for-iOS">Force.com toolkit for iOS</a> (deferred now)</li>
 <li>Slidehsare - <a href="http://www.slideshare.net/matthewbotos/beyond-the-forcecom-toolkit-for-ios-dreamforce-2011">Beyond Force.com toolkit for iOS (Dreamforce 2011)</a></li>
@@ -241,11 +216,7 @@ called when SF completed the request
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -255,7 +226,7 @@ called when SF completed the request
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

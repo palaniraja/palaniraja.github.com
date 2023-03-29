@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Solution on PR</title>
+    <title>solution on PR</title>
     <link>https://www.palaniraja.com/tags/solution/</link>
-    <description>Recent content in Solution on PR</description>
+    <description>Recent content in solution on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/solution/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/solution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grep - Swiss army knife</title>
-      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
       <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
     </item>
     
@@ -56,7 +52,7 @@ Remember this is a SOAP based API, there is a new alternative library available 
       <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
-      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.</description>
+      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.</description>
     </item>
     
     <item>
@@ -70,12 +66,12 @@ Remember this is a SOAP based API, there is a new alternative library available 
     
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
-      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
       <description>Update (2016-01-20): The app is now available on Mac App store.
- Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
     </item>
     
     <item>
@@ -89,10 +85,10 @@ Remember this is a SOAP based API, there is a new alternative library available 
     
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
-      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
       <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
     </item>
     
@@ -112,7 +108,7 @@ Remember this is a SOAP based API, there is a new alternative library available 
       
       <guid>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</guid>
       <description>I&amp;rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
-I thought it is cool, thinking of including it in any of my app I plan to do.</description>
+![](/assets/Screen shot 2011-05-31 at 7.</description>
     </item>
     
     <item>
@@ -140,7 +136,7 @@ For those who wants to see all levels without completing a level or struck in a 
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
 It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
     </item>
     
@@ -150,8 +146,7 @@ It captures the complete content of the iPad simulator to the clipboard, You can
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this 
-I was recently hunting images for a sample design.</description>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
     </item>
     
     <item>
@@ -185,10 +180,10 @@ I am not talking about people who send/receive schedules from Outlook (or simila
     
     <item>
       <title>Mac App Store - Source</title>
-      <link>https://www.palaniraja.com/2010/10/mac-app-store---source/</link>
+      <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/10/mac-app-store---source/</guid>
+      <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
       <description>You get the idea? You are not looking for the UI code are you?
 Saurik will be doing the UI for us ;)</description>
     </item>
@@ -213,10 +208,10 @@ Saurik will be doing the UI for us ;)</description>
     
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
-      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
       <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
     </item>
     
@@ -249,10 +244,10 @@ Saurik will be doing the UI for us ;)</description>
     
     <item>
       <title>WinDirStat | My Software Toolbox</title>
-      <link>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</link>
+      <link>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</link>
       <pubDate>Sun, 16 May 2010 11:49:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</guid>
+      <guid>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</guid>
       <description>No matter how large your hard drive is, the data will grow to fill the disk!
 Recently I was running out of space on both of my internal 120Gig and external 320Gig HDD.</description>
     </item>
@@ -264,7 +259,7 @@ Recently I was running out of space on both of my internal 120Gig and external 3
       
       <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
       <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
- Create a new directory</description>
+Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.</description>
     </item>
     
     <item>
@@ -273,7 +268,7 @@ Recently I was running out of space on both of my internal 120Gig and external 3
       <pubDate>Sun, 04 Apr 2010 09:13:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</guid>
-      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found  Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
+      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
     </item>
     
   </channel>

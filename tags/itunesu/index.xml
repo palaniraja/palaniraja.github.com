@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Itunesu on PR</title>
+    <title>iTunesU on PR</title>
     <link>https://www.palaniraja.com/tags/itunesu/</link>
-    <description>Recent content in Itunesu on PR</description>
+    <description>Recent content in iTunesU on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Mon, 28 Feb 2011 06:46:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/itunesu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Mon, 28 Feb 2011 06:46:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/itunesu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
-      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</link>
+      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</guid>
+      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
       <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
 Session on OpenGL ES 2.</description>
     </item>
@@ -33,10 +29,10 @@ Session on OpenGL ES 2.</description>
     
     <item>
       <title>Obj-C | For beginners</title>
-      <link>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</link>
+      <link>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</link>
       <pubDate>Sun, 11 Apr 2010 20:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</guid>
+      <guid>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</guid>
       <description>A quick obj-c cheat-sheet for the beginners.
 Scribd link
 This is taken from RWTH-iPhone Application Programming. You can also download complete videos from iTunesU.</description>

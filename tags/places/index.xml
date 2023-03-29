@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Places on PR</title>
@@ -6,12 +6,8 @@
     <description>Recent content in Places on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 16 Mar 2013 07:56:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/places/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 16 Mar 2013 07:56:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/places/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brooks was here</title>
       <link>https://www.palaniraja.com/2013/03/brooks-was-here/</link>

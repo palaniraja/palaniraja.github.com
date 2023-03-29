@@ -7,17 +7,18 @@
   <meta property="og:title" content="Batch renaming of files (Mac OSX / *nix) - PR" />
   <meta name="twitter:title" content="Batch renaming of files (Mac OSX / *nix) - PR" />
   <meta name="description" content="How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
- Create a new directory">
+Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.">
   <meta property="og:description" content="How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
- Create a new directory">
+Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.">
   <meta name="twitter:description" content="How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
- Create a new directory">
+Create a new directory Run the following command (you can replace newdir …">
   <meta name="author" content="Palani Raja"/>
   <meta property="og:site_name" content="PR" />
   <meta property="og:url" content="https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -65,24 +66,15 @@
       
       
       
-      
-
-<p>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)</p>
-
+      <p>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)</p>
 <ol>
-<li>Create a new directory <strong><em><newdir></em></strong><br /></li>
-<li>Run the following command (you can replace <em><strong>newdir</strong></em> with the your directory name and _<strong>some_prefix</strong>_ with your prefix the same applicable for extension as well. My eg., rename only the <em><strong>png</strong></em> files of the directory (there were no other extensions available).<br />
-<br /></li>
+<li>Create a new directory <strong><em><!-- raw HTML omitted --></em></strong></li>
+<li>Run the following command (you can replace <em><strong>newdir</strong></em> with the your directory name and <em><strong>some_prefix</strong></em> with your prefix the same applicable for extension as well. My eg., rename only the <em><strong>png</strong></em> files of the directory (there were no other extensions available).</li>
 </ol>
-
 <p><code>i=0; for x in *.png; do cp \&quot;$x\&quot; &quot;newdir/some_prefix_$i.png&quot;; i=$(($i+1)); done</code></p>
-
 <p>Windows should have supported bash scripts natively. OSX is handy only because they inherited from unix.</p>
-
 <h4 id="update">Update:</h4>
-
 <p>It doesn&rsquo;t solve the natural ordering sorting problem eg., <code>File1.png, File10.png, File2.png</code>.</p>
-
 <ul>
 <li><a href="https://stackoverflow.com/a/7992921/240255">Stackoverflow</a></li>
 <li><a href="http://hints.macworld.com/article.php?story=20030724161328982">Macworld</a></li>
@@ -111,7 +103,7 @@
     
     <ul class="pager article-pager">
       <li class="pager-newer">
-          <a href="https://www.palaniraja.com/2010/04/obj-c--for-beginners/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Obj-C | For beginners</a>
+          <a href="https://www.palaniraja.com/2010/04/obj-c-for-beginners/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Obj-C | For beginners</a>
       </li>
       <li class="pager-older">
         <a href="https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/" data-toggle="tooltip" data-placement="top" title="Previous Article">[BEROR]Code Sign error: Provisioning profile &#39;579ACFD8-827A-4325-F623-DB8CDD5081DB&#39; can&#39;t be found &gt;</a>
@@ -122,11 +114,7 @@
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -136,7 +124,7 @@
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

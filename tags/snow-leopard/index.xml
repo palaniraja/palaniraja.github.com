@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Snow Leopard on PR</title>
@@ -6,12 +6,8 @@
     <description>Recent content in Snow Leopard on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Wed, 13 Oct 2010 11:32:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/snow-leopard/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Wed, 13 Oct 2010 11:32:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/snow-leopard/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GotoMeeting Video recording (G2M3 codec for Mac)</title>
       <link>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</link>

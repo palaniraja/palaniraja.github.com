@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Itunes on PR</title>
+    <title>iTunes on PR</title>
     <link>https://www.palaniraja.com/tags/itunes/</link>
-    <description>Recent content in Itunes on PR</description>
+    <description>Recent content in iTunes on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Thu, 01 Sep 2011 09:40:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/itunes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Thu, 01 Sep 2011 09:40:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/itunes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iTunes 10 Logo</title>
       <link>https://www.palaniraja.com/2011/09/itunes-10-logo/</link>
@@ -36,16 +32,16 @@
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
 It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
     </item>
     
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
-      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</link>
+      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</guid>
+      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
       <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
 Session on OpenGL ES 2.</description>
     </item>
@@ -57,43 +53,44 @@ Session on OpenGL ES 2.</description>
       
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
       <description>Youtube link
- Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.</description>
+Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
       <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
       <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
     </item>
     
     <item>
       <title>Angry Birds – I give up</title>
-      <link>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</link>
+      <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)</description>
+      <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
+      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
+I am not a great gamer, I give up on games too early.</description>
     </item>
     
     <item>
       <title>WWDC 2010 - iPhone 4</title>
-      <link>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</link>
+      <link>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</link>
       <pubDate>Wed, 16 Jun 2010 21:27:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</guid>
+      <guid>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</guid>
       <description>iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard. Steve can still memorize 24 countries and repeat them in the same order.</description>
     </item>
     
@@ -122,7 +119,7 @@ https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fef
       
       <guid>https://www.palaniraja.com/2010/03/how-to-register-itunes-account-for-free-in-any-country-without-a-credit-card/</guid>
       <description>Follow the steps below:
- Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
+Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
     </item>
     
   </channel>

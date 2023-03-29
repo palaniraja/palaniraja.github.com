@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -62,37 +63,22 @@
       
       
       
-      
-
-<p>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</p>
-
+      <p>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</p>
 <p>Then this crazy idea pop’s in my head, why can’t I do a diff on these pdf with a simple script. Reason is, I do not want to use any online tools, or want to install anything from Adobe.</p>
-
 <p>The idea was to export the pdf to images and do a image diff in batch. I already have <em>automator</em> script to convert pdf to png and <em>image magick</em> installed on my machine.</p>
-
 <ul>
-<li>Step 1: Convert the <strong>pdf</strong> to <strong>png</strong> using the <strong>automator</strong> script<br /></li>
-<li>Step 2: Batch rename the files like <strong>1.png, 2.png</strong> etc.,<br /></li>
-<li>Step 3: run <code>magick compare</code> in batch using simple one-line shell script<br />
-<br /></li>
+<li>Step 1: Convert the <strong>pdf</strong> to <strong>png</strong> using the <strong>automator</strong> script</li>
+<li>Step 2: Batch rename the files like <strong>1.png, 2.png</strong> etc.,</li>
+<li>Step 3: run <code>magick compare</code> in batch using simple one-line shell script</li>
 </ul>
-
-<pre><code>for i in $(seq 62 $END); do magick compare ../v1/$i.png ../v2/$i.png diff-$i.png; done 
-</code></pre>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.04.00-AM-copy.png" alt="" /></p>
-
+<pre tabindex="0"><code>for i in $(seq 62 $END); do magick compare ../v1/$i.png ../v2/$i.png diff-$i.png; done 
+</code></pre><p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.04.00-AM-copy.png" alt=""></p>
 <p><strong>Note</strong>: 62 is the no. of images in each directory. <strong>v1</strong> &amp; <strong>v2</strong> are two directories with images in sequence eg., <code>v1/1.png</code>, <code>v2/1.png</code></p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.10.06-AM.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.10.06-AM.png" alt=""></p>
 <p>Due to some silly font rendering issues (Microsoft Word), I got some pages with output like below, but overall the it worked as expected.</p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.04.16-AM.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2018-05-02-at-10.04.16-AM.png" alt=""></p>
 <h3 id="automator-workflow-for-pdf-to-png">Automator workflow for PDF to PNG</h3>
-
-<p><img src="https://www.palaniraja.com/assets/pdf-to-png-automator-workflow.png" alt="automator workflow pdf-to-png" /></p>
+<p><img src="https://www.palaniraja.com/assets/pdf-to-png-automator-workflow.png" alt="automator workflow pdf-to-png"></p>
 
       
     </article>
@@ -128,11 +114,7 @@
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -142,7 +124,7 @@
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

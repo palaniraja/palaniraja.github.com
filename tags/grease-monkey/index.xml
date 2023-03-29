@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Grease Monkey on PR</title>
+    <title>grease monkey on PR</title>
     <link>https://www.palaniraja.com/tags/grease-monkey/</link>
-    <description>Recent content in Grease Monkey on PR</description>
+    <description>Recent content in grease monkey on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 26 Aug 2012 06:20:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/grease-monkey/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 26 Aug 2012 06:20:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/grease-monkey/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install Grease monkey scripts on Google Chrome 21</title>
       <link>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</link>

@@ -6,15 +6,16 @@
   <title>[BEROR]Code Sign error: Provisioning profile &#39;579ACFD8-827A-4325-F623-DB8CDD5081DB&#39; can&#39;t be found - PR</title>
   <meta property="og:title" content="[BEROR]Code Sign error: Provisioning profile &#39;579ACFD8-827A-4325-F623-DB8CDD5081DB&#39; can&#39;t be found - PR" />
   <meta name="twitter:title" content="[BEROR]Code Sign error: Provisioning profile …" />
-  <meta name="description" content="Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&rsquo; can&rsquo;t be found  Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.">
-  <meta property="og:description" content="Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&rsquo; can&rsquo;t be found  Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.">
-  <meta name="twitter:description" content="Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&rsquo; can&rsquo;t be found  Anyone who is relatively …">
+  <meta name="description" content="Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&rsquo; can&rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.">
+  <meta property="og:description" content="Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&rsquo; can&rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.">
+  <meta name="twitter:description" content="Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&rsquo; can&rsquo;t be found Anyone who is relatively …">
   <meta name="author" content="Palani Raja"/>
   <meta property="og:site_name" content="PR" />
   <meta property="og:url" content="https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -62,57 +63,35 @@
       
       
       
-      
-
-<blockquote>
+      <blockquote>
 <h4 id="check-dependencies-code-sign-error-provisioning-profile">Check dependencies Code Sign error: Provisioning profile</h4>
-
-<h4 id="beror-code-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-can-t-be-found">[BEROR]Code Sign error: Provisioning profile &lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&rsquo; can&rsquo;t be found</h4>
+<h4 id="berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found">[BEROR]Code Sign error: Provisioning profile &lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&rsquo; can&rsquo;t be found</h4>
 </blockquote>
-
 <p>Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</p>
-
 <p>What if you receive this error even if you provide valid device, dev certificate, provisioning profile and bundle identifier? No clue right. I spent almost a day on finding the issue.</p>
-
 <p>This can be resolved by copying all your classes/resources/other files to a newly created project. Easy solution isn’t it? but my case is different, the project was already renamed (Google on how to rename xcodeproj and the steps involved). As the project given to me was already renamed hence it has different name for xcodeproj, different name for appdelegate and another name for info.plist file, copying all the files to a new project is real pain. To add oil to the fire I was supposed to deliver the code to my QA to test the build on device before sending the code to customer by EOD and it was a Friday.</p>
-
 <h3 id="solution">Solution:</h3>
-
 <p>All you have to do is find the provisioning profile ID in your project.pbxprj file and replace it with valid provisioning profile that you had tried to build the code earlier.</p>
-
 <ul>
 <li>Step 1: Open the <strong>project.pbxproj</strong> file in a text editor. (you will find this file in <strong>YourProject/YourProject.xcodeproj</strong> by control-clicking it and selecting &ldquo;<em>Show Package Contents</em>&rdquo;)</li>
 <li>Step 2: Replace all occurrences of the provisioning profile id from the error with the correct provisioning profile id from the organizer.</li>
 </ul>
-
 <h3 id="screenshots">Screenshots:</h3>
-
 <p><strong>How to find project.pbxproj</strong></p>
-
 <p>Right click (Ctrl+click) your <em><strong>prjname.xcodeproj</strong></em> file and select “<strong><em>Show Package Contents</em></strong>”. This will open the Finder with some files.</p>
-
-<p><a href="https://www.palaniraja.com/assets/packagecontents.png"><img src="https://www.palaniraja.com/assets/packagecontents.png" alt="packagecontents" title="packagecontents" /></a></p>
-
-<p> <a href="https://www.palaniraja.com/assets/project.png"><img src="https://www.palaniraja.com/assets/project.png" alt="project" title="project" /></a></p>
-
-<p><strong>Find valid profile identifier of your provisioning file</strong><br />
-<a href="https://www.palaniraja.com/assets/organizer.png"><img src="https://www.palaniraja.com/assets/organizer.png" alt="organizer" title="organizer" /></a></p>
-
-<p><strong>Where to replace the profile identifier</strong><br />
-<a href="pbxprojx.png"><img src="https://www.palaniraja.com/assets//pbxprojx.png" alt="pbxprojx" title="pbxprojx" /></a></p>
-
+<p><a href="https://www.palaniraja.com/assets/packagecontents.png"><img src="https://www.palaniraja.com/assets/packagecontents.png" alt="packagecontents" title="packagecontents"></a></p>
+<p> <a href="https://www.palaniraja.com/assets/project.png"><img src="https://www.palaniraja.com/assets/project.png" alt="project" title="project"></a></p>
+<p><strong>Find valid profile identifier of your provisioning file</strong><br>
+<a href="https://www.palaniraja.com/assets/organizer.png"><img src="https://www.palaniraja.com/assets/organizer.png" alt="organizer" title="organizer"></a></p>
+<p><strong>Where to replace the profile identifier</strong><br>
+<a href="pbxprojx.png"><img src="https://www.palaniraja.com/assets//pbxprojx.png" alt="pbxprojx" title="pbxprojx"></a></p>
 <h3 id="related-issue">Related Issue</h3>
-
 <blockquote>
 <h4 id="check-dependencies">Check dependencies</h4>
-
-<h4 id="beror-codesign-error-no-provisioning-profile-at-path-users-username-library-mobiledevice-provisioning-profiles-579acfd8-827a-4325-f623-db8cdd5081db-mobileprovision">[BEROR]CodeSign error: no provisioning profile at path &lsquo;/Users/username/Library/MobileDevice/Provisioning Profiles/579ACFD8-827A-4325-F623-DB8CDD5081DB.mobileprovision&rsquo;</h4>
+<h4 id="berorcodesign-error-no-provisioning-profile-at-path-usersusernamelibrarymobiledeviceprovisioning-profiles579acfd8-827a-4325-f623-db8cdd5081dbmobileprovision">[BEROR]CodeSign error: no provisioning profile at path &lsquo;/Users/username/Library/MobileDevice/Provisioning Profiles/579ACFD8-827A-4325-F623-DB8CDD5081DB.mobileprovision&rsquo;</h4>
 </blockquote>
-
 <p>The solution to the above error -  Rename your appname.mobileprovision with (alpha-numeric-name) specified in the error.</p>
-
 <p>P.S</p>
-
 <p>Thank you <a href="https://anders.com/">Anders</a> for correcting the text.</p>
 
       
@@ -149,11 +128,7 @@
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -163,7 +138,7 @@
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Subversion Hooks on PR</title>
+    <title>subversion hooks on PR</title>
     <link>https://www.palaniraja.com/tags/subversion-hooks/</link>
-    <description>Recent content in Subversion Hooks on PR</description>
+    <description>Recent content in subversion hooks on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Fri, 05 Sep 2008 19:12:02 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/subversion-hooks/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Fri, 05 Sep 2008 19:12:02 +0000</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/subversion-hooks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SVN: Auto UPDATE WORKING COPY after COMMIT</title>
       <link>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</link>

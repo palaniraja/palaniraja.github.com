@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on PR</title>
+    <title>development on PR</title>
     <link>https://www.palaniraja.com/tags/development/</link>
-    <description>Recent content in Development on PR</description>
+    <description>Recent content in development on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev Diary: Apple Pay</title>
       <link>https://www.palaniraja.com/2017/10/dev-diary-apple-pay/</link>
@@ -23,10 +19,10 @@
     
     <item>
       <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
-      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</link>
+      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</link>
       <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</guid>
+      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</guid>
       <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
     </item>
     
@@ -50,11 +46,11 @@
     
     <item>
       <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
-      <link>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</link>
+      <link>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</link>
       <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</guid>
-      <description>If you did not have enough time to go through the 50G contents from WWDC&amp;rsquo;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+      <guid>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</guid>
+      <description>If you did not have enough time to go through the 50G contents from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -86,10 +82,10 @@
     
     <item>
       <title>Prj - Times of India epub</title>
-      <link>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</link>
+      <link>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</link>
       <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</guid>
+      <guid>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</guid>
       <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
     </item>
     

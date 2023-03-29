@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software Engineering on PR</title>
+    <title>software engineering on PR</title>
     <link>https://www.palaniraja.com/tags/software-engineering/</link>
-    <description>Recent content in Software Engineering on PR</description>
+    <description>Recent content in software engineering on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
@@ -37,7 +33,7 @@ Remember this is a SOAP based API, there is a new alternative library available 
       <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
-      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.</description>
+      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.</description>
     </item>
     
     <item>

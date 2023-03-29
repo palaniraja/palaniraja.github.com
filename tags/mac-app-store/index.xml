@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac App Store on PR</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Mac App Store on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 23 Oct 2010 12:16:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/mac-app-store/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 23 Oct 2010 12:16:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/mac-app-store/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac App Store - Source</title>
-      <link>https://www.palaniraja.com/2010/10/mac-app-store---source/</link>
+      <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/10/mac-app-store---source/</guid>
+      <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
       <description>You get the idea? You are not looking for the UI code are you?
 Saurik will be doing the UI for us ;)</description>
     </item>

@@ -1,25 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Userscript on PR</title>
+    <title>userscript on PR</title>
     <link>https://www.palaniraja.com/tags/userscript/</link>
-    <description>Recent content in Userscript on PR</description>
+    <description>Recent content in userscript on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Thu, 27 Jan 2011 10:43:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/userscript/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Thu, 27 Jan 2011 10:43:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/userscript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea Vault: Tile this!</title>
       <link>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</link>
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this 
-I was recently hunting images for a sample design.</description>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
     </item>
     
     <item>

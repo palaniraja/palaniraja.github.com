@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Salesforce on PR</title>
+    <title>salesforce on PR</title>
     <link>https://www.palaniraja.com/tags/salesforce/</link>
-    <description>Recent content in Salesforce on PR</description>
+    <description>Recent content in salesforce on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/salesforce/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/salesforce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grep - Swiss army knife</title>
-      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
       <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
     </item>
     
@@ -32,10 +28,10 @@
     
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
-      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
       <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
     </item>
     

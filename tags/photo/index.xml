@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photo on PR</title>
+    <title>photo on PR</title>
     <link>https://www.palaniraja.com/tags/photo/</link>
-    <description>Recent content in Photo on PR</description>
+    <description>Recent content in photo on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Fri, 22 Apr 2011 12:11:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/photo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Fri, 22 Apr 2011 12:11:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/photo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capture screenshot of the app with iPad simulator</title>
       <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
 It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
     </item>
     

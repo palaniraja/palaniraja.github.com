@@ -17,7 +17,8 @@ I have been using Greasemonkey for more than a year. Recently I downloaded 2 …
   <meta property="og:url" content="https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -66,14 +67,10 @@ I have been using Greasemonkey for more than a year. Recently I downloaded 2 …
       
       
       <p>Ok. My first Greasemonkey script is available from <a href="http://userscripts.org/">userscripts.org</a> (<a href="http://userscripts-mirror.org/scripts/show/9740">http://userscripts-mirror.org/scripts/show/9740</a>)</p>
-
 <p>I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.</p>
-
 <p>Two days ago, I was assigned to do url rewriting for our free-classifieds site.  As usual I started googling and found a good site with online tools for url rewriting (<a href="http://seochat.com/">seochat.com</a>), but the advertisement on the site annoyed me, since I was working with long urls. So, I created this script. Hope you will find this useful. It certainly helped me :)</p>
-
 <p><strong>Update</strong>: Replaced userscripts link with <a href="http://userscripts-mirror.org">http://userscripts-mirror.org</a>.  Installed 328 times.</p>
-
-<pre><code>/*
+<pre tabindex="0"><code>/*
 
 Remove Banner on seochat.com &amp; devshed.com
 Version 0.2b
@@ -90,14 +87,13 @@ Use this freely under the GNU GPL, http://www.gnu.org/licenses/gpl.html
 // @include       http://devshed.com/*
 // @include       http://www.devshed.com/*
 // ==/UserScript==
-//*[@id=&quot;resultright&quot;]
+//*[@id=&#34;resultright&#34;]
 
-var resultright = document.getElementById('resultright');
+var resultright = document.getElementById(&#39;resultright&#39;);
 if(resultright) {
  resultright.parentNode.removeChild(resultright);
 }
 </code></pre>
-
       
     </article>
 
@@ -132,11 +128,7 @@ if(resultright) {
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -146,7 +138,7 @@ if(resultright) {
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

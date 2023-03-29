@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Getting Things Done on PR</title>
+    <title>Getting-things-done on PR</title>
     <link>https://www.palaniraja.com/tags/getting-things-done/</link>
-    <description>Recent content in Getting Things Done on PR</description>
+    <description>Recent content in Getting-things-done on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/getting-things-done/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/getting-things-done/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
@@ -32,10 +28,10 @@
     
     <item>
       <title>Idea Vault: Prj - Dug Me</title>
-      <link>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</link>
+      <link>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</link>
       <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</guid>
+      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</guid>
       <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
 Idea is to log all our project ideas similar to logging notes in nvALT.</description>
     </item>

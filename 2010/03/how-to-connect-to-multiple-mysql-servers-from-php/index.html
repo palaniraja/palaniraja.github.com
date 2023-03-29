@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2010/03/how-to-connect-to-multiple-mysql-servers-from-php/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -63,14 +64,13 @@
       
       
       <p>Most of the PHP developers remember only the first three parameters of <strong>mysql_connect (host, username, password).</strong> There is a fourth parament called <strong>$new_link</strong> a boolean existscreate a new link. The default value is set to <em>false</em>.</p>
+<pre tabindex="0"><code>&lt;?php
 
-<pre><code>&lt;?php
-
-    $link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+    $link = mysql_connect(&#39;localhost&#39;, &#39;mysql_user&#39;, &#39;mysql_password&#39;);
 
     //create a new link/resource
 
-    $linkRemote = mysql_connect('remotehost', 'mysql_user', 'mysql_password', true); 
+    $linkRemote = mysql_connect(&#39;remotehost&#39;, &#39;mysql_user&#39;, &#39;mysql_password&#39;, true); 
 
     //pass the $link/$linkRemote as second argument to 
 
@@ -84,7 +84,6 @@
 
 ?&gt;
 </code></pre>
-
       
     </article>
 
@@ -119,11 +118,7 @@
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -133,7 +128,7 @@
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -63,10 +64,8 @@
       
       
       <p>Today, I have uploaded my second Greasemonkey scripts to <a href="http://userscripts.org" title="http://userscripts.org">userscripts</a>, <a href="http://userscripts-mirror.org/scripts/show/10590" title="http://userscripts.org/scripts/show/10590">Yahoo webmail++</a> . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side. Initially I was trying to do something similar to Gmail Airskin, but unfortunately yahoo uses lot of tables, which I find difficult to finish the script, at this stage it will remove only the advertisements and I will try to update the script soon.</p>
-
 <p>Installed 2,920 times.</p>
-
-<pre><code>/*
+<pre tabindex="0"><code>/*
 
 Remove Banner on yahoo webmail
 Version 0.4b
@@ -83,18 +82,18 @@ Use this freely under the GNU GPL, http://www.gnu.org/licenses/gpl.html
 // @include        http://*.*.mail.yahoo.*/ym/*
 // ==/UserScript==
 
-var css = &quot;@namespace url(http://www.w3.org/1999/xhtml); .ad_slug_table, #nwad, #swads, #northbanner{ display:none; } body * { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;} div.msgbody *{font-family:inherit; font-size:inherit;}&quot;;
+var css = &#34;@namespace url(http://www.w3.org/1999/xhtml); .ad_slug_table, #nwad, #swads, #northbanner{ display:none; } body * { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;} div.msgbody *{font-family:inherit; font-size:inherit;}&#34;;
 
-if (typeof GM_addStyle != &quot;undefined&quot;) {
+if (typeof GM_addStyle != &#34;undefined&#34;) {
     GM_addStyle(css);
-} else if (typeof addStyle != &quot;undefined&quot;) {
+} else if (typeof addStyle != &#34;undefined&#34;) {
     addStyle(css);
 } else {
-    var heads = document.getElementsByTagName(&quot;head&quot;);
-    //console.log(&quot;printing heads&quot;,heads);
+    var heads = document.getElementsByTagName(&#34;head&#34;);
+    //console.log(&#34;printing heads&#34;,heads);
     if (heads.length &gt; 0) {
-        var node = document.createElement(&quot;style&quot;);
-        node.type = &quot;text/css&quot;;
+        var node = document.createElement(&#34;style&#34;);
+        node.type = &#34;text/css&#34;;
         node.innerHTML = css;
         heads[0].appendChild(node); 
         
@@ -102,13 +101,12 @@ if (typeof GM_addStyle != &quot;undefined&quot;) {
 }
 /*
 //will remove the advertisement, but I am not certain to use this xpath only to remove the ad
-var rhsAd = document.evaluate('/html/body/table/tbody/tr/td[3]/table/tbody/tr/td[3]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+var rhsAd = document.evaluate(&#39;/html/body/table/tbody/tr/td[3]/table/tbody/tr/td[3]&#39;, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 if(rhsAd)  {
         rhsAd.parentNode.removeChild(rhsAd);
 }
 */
 </code></pre>
-
       
     </article>
 
@@ -143,11 +141,7 @@ if(rhsAd)  {
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -157,7 +151,7 @@ if(rhsAd)  {
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

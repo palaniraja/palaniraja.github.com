@@ -1,25 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>World Clock on PR</title>
+    <title>World-clock on PR</title>
     <link>https://www.palaniraja.com/tags/world-clock/</link>
-    <description>Recent content in World Clock on PR</description>
+    <description>Recent content in World-clock on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 06 Nov 2011 09:49:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/world-clock/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 06 Nov 2011 09:49:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/world-clock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
-      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
       <description>Update (2016-01-20): The app is now available on Mac App store.
- Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
     </item>
     
     <item>

@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bookmarks on PR</title>
+    <title>bookmarks on PR</title>
     <link>https://www.palaniraja.com/tags/bookmarks/</link>
-    <description>Recent content in Bookmarks on PR</description>
+    <description>Recent content in bookmarks on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/bookmarks/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/bookmarks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
@@ -23,10 +19,10 @@
     
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
-      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
       <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
     </item>
     

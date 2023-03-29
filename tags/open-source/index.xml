@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Source on PR</title>
+    <title>open source on PR</title>
     <link>https://www.palaniraja.com/tags/open-source/</link>
-    <description>Recent content in Open Source on PR</description>
+    <description>Recent content in open source on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Jul 2013 10:38:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 20 Jul 2013 10:38:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Link: This is Linus</title>
       <link>https://www.palaniraja.com/2013/07/link-this-is-linus/</link>
@@ -23,10 +19,10 @@
     
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
-      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
       <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
     </item>
     
@@ -42,12 +38,12 @@ Remember this is a SOAP based API, there is a new alternative library available 
     
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
-      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
       <description>Update (2016-01-20): The app is now available on Mac App store.
- Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
     </item>
     
     <item>
@@ -99,12 +95,12 @@ I am not talking about people who send/receive schedules from Outlook (or simila
     
     <item>
       <title>EReader friendly Times Of India – EPUB Edition</title>
-      <link>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india--epub-edition/</link>
+      <link>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</link>
       <pubDate>Mon, 16 Aug 2010 23:55:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india--epub-edition/</guid>
+      <guid>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</guid>
       <description>I have completed the 95% of the project I was tweeting and here is the preview
-What does it do?</description>
+What does it do? It is a PHP script that helps you to convert Times of India (Daily newspaper) to EPUB.</description>
     </item>
     
   </channel>

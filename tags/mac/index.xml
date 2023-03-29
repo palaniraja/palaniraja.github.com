@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mac on PR</title>
+    <title>mac on PR</title>
     <link>https://www.palaniraja.com/tags/mac/</link>
-    <description>Recent content in Mac on PR</description>
+    <description>Recent content in mac on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Thu, 09 Aug 2018 15:01:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Thu, 09 Aug 2018 15:01:00 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dropbox Mac - Deletes files on reinstallation?</title>
-      <link>https://www.palaniraja.com/2018/08/dropbox-mac---deletes-files-on-reinstallation/</link>
+      <link>https://www.palaniraja.com/2018/08/dropbox-mac-deletes-files-on-reinstallation/</link>
       <pubDate>Thu, 09 Aug 2018 15:01:00 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2018/08/dropbox-mac---deletes-files-on-reinstallation/</guid>
+      <guid>https://www.palaniraja.com/2018/08/dropbox-mac-deletes-files-on-reinstallation/</guid>
       <description>I uninstalled Dropbox from my work mac before submitting my laptop of reimaging of OS with corporate junk installations.
 Since I was sure, I should be able to install it again and download all synced files back on mac, I had deleted before handing over to IT people.</description>
     </item>
@@ -34,12 +30,12 @@ It is based on speed reading technique/methodology called Spritz</description>
     
     <item>
       <title>Speedy - Speed reading application for Mac</title>
-      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <link>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <guid>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</guid>
       <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
-I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;rsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
     </item>
     
     <item>
@@ -68,7 +64,7 @@ I created to read the emails &amp;amp; news faster, as I have a tendency to lost
       <guid>https://www.palaniraja.com/projects/mclock/</guid>
       <description>A minimalist clock to display time of different timezone of your choice.
 Eg.,
- &amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo;  The app stays in menu bar all the time and you can customize the display format and timezone.</description>
+&amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo; The app stays in menu bar all the time and you can customize the display format and timezone.</description>
     </item>
     
   </channel>

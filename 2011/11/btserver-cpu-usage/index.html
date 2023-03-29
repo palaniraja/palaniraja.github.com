@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2011/11/btserver-cpu-usage/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -63,20 +64,14 @@
       
       
       <p>I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP. Although I freed around 30 GB, noticed an issue shortly. A process named <strong>BTServer</strong> is utilizing high CPU usage.</p>
-
-<p><img src="https://www.palaniraja.com/assets/btserver.jpg" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/btserver.jpg" alt=""></p>
 <p>As quick search found that BTserver is a bluetooth service, I don&rsquo;t switch ON bluetooth service and the process seems to steal complete CPU cycles whenever the system is waking up from sleep.</p>
-
-<p>Initially I was not able to correlate this with xcode as neither xcode nor simulator was running.<br />
+<p>Initially I was not able to correlate this with xcode as neither xcode nor simulator was running.<br>
 Closer studies on process hints as it is part of xcode framework. And here is the solution to fix this issue.</p>
-
 <blockquote>
 <p>Find <strong><code>com.apple.BTServer.plist</code></strong> in your xcode installation path typically <code>/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/LaunchDaemons/</code> and change the value for key <strong><code>Disabled</code></strong> to <code>TRUE</code> from <code>FALSE</code></p>
 </blockquote>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-19-at-11.57.14-AM.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-19-at-11.57.14-AM.png" alt=""></p>
 <p>It seems to solve the problem for me now. But I have not tested with Apple bluetooth keyboard and mouse.</p>
 
       
@@ -105,7 +100,7 @@ Closer studies on process hints as it is part of xcode framework. And here is th
           <a href="https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Installing more simulators for xcode 4.2 without re-downloading everytime</a>
       </li>
       <li class="pager-older">
-        <a href="https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/" data-toggle="tooltip" data-placement="top" title="Previous Article">mclock - Additional clock application for mac menu bar &gt;</a>
+        <a href="https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/" data-toggle="tooltip" data-placement="top" title="Previous Article">mclock - Additional clock application for mac menu bar &gt;</a>
       </li>
     </ul>
   </div>
@@ -113,11 +108,7 @@ Closer studies on process hints as it is part of xcode framework. And here is th
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -127,7 +118,7 @@ Closer studies on process hints as it is part of xcode framework. And here is th
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Provider on PR</title>
+    <title>provider on PR</title>
     <link>https://www.palaniraja.com/tags/provider/</link>
-    <description>Recent content in Provider on PR</description>
+    <description>Recent content in provider on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Fri, 09 Dec 2011 20:04:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/provider/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Fri, 09 Dec 2011 20:04:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/provider/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Airtel Broadband - How to find bandwidth usage</title>
-      <link>https://www.palaniraja.com/2011/12/airtel-broadband---how-to-find-bandwidth-usage/</link>
+      <link>https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/</link>
       <pubDate>Fri, 09 Dec 2011 20:04:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/12/airtel-broadband---how-to-find-bandwidth-usage/</guid>
+      <guid>https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/</guid>
       <description>If you would like to keep tabs on your bandwidth usage?
 http://122.160.230.125:8080/gbod/gb_on_demand.do
 It is good to know your usage, the 10GB fair usage plan from Airtel is peanut for my usage as I download a lot of TED &amp;amp; iOS Dev videos from iTunes.</description>

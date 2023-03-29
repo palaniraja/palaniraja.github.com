@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -62,10 +63,7 @@
       
       
       
-      
-
-<p>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</p>
-
+      <p>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</p>
 <ul>
 <li>I know right away I am not going to meet the deadline, regardless of time provided.</li>
 <li>Splitting the tasks to be developer friendly, without modifying the timeline promised to client by sales is very hard.</li>
@@ -73,17 +71,11 @@
 <li>Introduce milestone to match the target revenue set for the subsequent months by your division.</li>
 <li>And I hate anything related to Money (Revenue/Commercials)</li>
 </ul>
-
 <p>For some reasons I always end up as a Technical lead who does everything related to project /people management in addition to actual development. It has been the same in all the companies I worked so far. Though I know it is good for me in career, every time, I think it is a Project managers&rsquo; responsibility and they are delegating. I do them with cursing every minute.</p>
-
 <p>This past week, I was assigned to prepare a plan for a new project. We don&rsquo;t use MS Project and the Excel format which we use is not very helpful If I miss a non-working day or any modification of tasks to be done in middle of planning. Since I hate it, i was procrastinating happily in finding alternatives. </p>
-
 <p>--- ✄ &mdash;</p>
-
 <p><a href="https://app.gantter.com/">Gantter.com</a> is in my bookmarks for long time, though I didn&rsquo;t use it heavily I thought I had give a try. After spending 3+ hours with it, I kind of liked it. It is far better than MS Project whatever the version I used long ago. </p>
-
 <p>As a true developer and <a href="http://qcfailed.tumblr.com/">a person who notice everything</a>, I also jolted few features that could improve this tool a lot. They do support extensions and I&rsquo;m yet to explore the documentation. Hopefully someone could implement the following features someday.</p>
-
 <ul>
 <li>Modify/Assign resources for multiple tasks?</li>
 <li>Keyboard friendly Predecessors </li>
@@ -96,55 +88,30 @@
 <li>In addition it could have <code>{Id}-{Task Title}</code> in the title.</li>
 <li>Keyboard shortcuts </li>
 </ul>
-
-<p><img src="https://www.palaniraja.com/assets/the-big-picture.png" alt="" /></p>
-
-<h3 id="modify-assign-resources-for-multiple-tasks">Modify/Assign resources for multiple tasks?</h3>
-
+<p><img src="https://www.palaniraja.com/assets/the-big-picture.png" alt=""></p>
+<h3 id="modifyassign-resources-for-multiple-tasks">Modify/Assign resources for multiple tasks?</h3>
 <p>Right now, you had to manually click each task row and select a resource to assign. This could be simplified, by providing a multi check options to update resource and their utilisations for multiple tasks?</p>
-
-<p><img src="https://www.palaniraja.com/assets/assign-resources.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/assign-resources.png" alt=""></p>
 <h3 id="keyboard-friendly-predecessors">Keyboard friendly Predecessors </h3>
-
 <p>The same for Predecessor, I agree if you have more resource you don&rsquo;t include a constrain of completion date for previous task as Finish-to-start for every item. But my issue here is not a multiple update. But have an autocomplete text or a drop down to easily select the predecessor.</p>
-
 <p>Or you could go crazy like Xcode4/Interface Builder or Omnigraffle like joining tool.</p>
-
 <h3 id="option-to-view-just-the-duration-of-filtered-resource">Option to view just the duration of filtered resource?</h3>
-
 <p>When you filter by resource, the total hours displayed are not the sum of hours for the resource.  It is the same as the complete plan.</p>
-
-<p><img src="https://www.palaniraja.com/assets/filtered-Dev1.png" alt="" /></p>
-
-<p><img src="https://www.palaniraja.com/assets/no---filter.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/filtered-Dev1.png" alt=""></p>
+<p><img src="https://www.palaniraja.com/assets/no---filter.png" alt=""></p>
 <h3 id="filter-tasks-for-more-than-one-resource">Filter tasks for more than one resource</h3>
-
 <p>If you provide option to filter tasks for multiple resources say I would like to know the tasks assigned for <em>Dev1, Dev2</em> in case of development and <em>Tester1, Tester2</em> to know my test schedules.</p>
-
 <h3 id="export-to-excel">Export to Excel?</h3>
-
 <p>One thing I learnt in my experience is all bosses would like to see the plan in Excel. Trust me, I wrote a project time sheet management tool with <a href="https://developers.google.com/apps-script/">Google Apps Script</a>. My VP approved this crazy idea because they can just view their data in a spreadsheet. </p>
-
 <p>As of now Gantter doesn&rsquo;t allow multiline copy. Right now, I use a workaround, <strong>Project -&gt; Printable HTML</strong> and copy the content to <a href="http://www.sublimetext.com/2">Sublime text</a>, and do a <em>Find &amp; Replace</em> to get the tasks list.</p>
-
-<h3 id="calendar-marking-non-working-days-could-be-easier">Calendar - Marking non-working days could be easier</h3>
-
+<h3 id="calendar---marking-non-working-days-could-be-easier">Calendar - Marking non-working days could be easier</h3>
 <p>All you have to do to mark a working day as holiday/non-working day, you need to goto a calendar properties. Select a date and clear the working time. This is not very friendly, it would be cool, if I enter/key in series of days to be ignored in planning.</p>
-
 <h3 id="tasks-properties-dialog">Tasks properties Dialog</h3>
-
 <p>Refer the image, it would be immensely helpful to know which task is getting updated. I&rsquo;m not sure whether it is a bug, I see the task list in the plan is scrolled to bottom. May be I was having a FS constraint at the bottom related to the particular task, but it was annoying, to click the General tab to know which tasks I&rsquo;m correctly looking at. </p>
-
-<p><img src="https://www.palaniraja.com/assets/Task-dialog-title.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/Task-dialog-title.png" alt=""></p>
 <h3 id="keyboard-shortcuts">Keyboard shortcuts </h3>
-
 <p>Because of Google, I can&rsquo;t live without keyboard shortcuts. It is also a reason why I can&rsquo;t switch to Feedly like everyone else.</p>
-
 <p>If you provide  keyboard bindings for Task properties dialog to switch between the tabs or the fields, it would be helpful.</p>
-
 <p>The current plan is not an exhaustive list of tasks (around 120+ line items). Still I think Gantter could be more helpful with the suggested features.</p>
 
       
@@ -170,10 +137,10 @@
     
     <ul class="pager article-pager">
       <li class="pager-newer">
-          <a href="https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Laptop Cooling Pad  &amp; Sudden Motion Sensor</a>
+          <a href="https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Laptop Cooling Pad  &amp; Sudden Motion Sensor</a>
       </li>
       <li class="pager-older">
-        <a href="https://www.palaniraja.com/2013/03/google-reader---take-2/" data-toggle="tooltip" data-placement="top" title="Previous Article">Google Reader - Take 2 &gt;</a>
+        <a href="https://www.palaniraja.com/2013/03/google-reader-take-2/" data-toggle="tooltip" data-placement="top" title="Previous Article">Google Reader - Take 2 &gt;</a>
       </li>
     </ul>
   </div>
@@ -181,11 +148,7 @@
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -195,7 +158,7 @@
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

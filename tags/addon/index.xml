@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Addon on PR</title>
+    <title>addon on PR</title>
     <link>https://www.palaniraja.com/tags/addon/</link>
-    <description>Recent content in Addon on PR</description>
+    <description>Recent content in addon on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Thu, 31 Jan 2013 06:55:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/addon/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Thu, 31 Jan 2013 06:55:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/addon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create card in Trello from Salesforce case</title>
       <link>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</link>
@@ -23,10 +19,10 @@
     
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
-      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
       <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
     </item>
     
@@ -41,10 +37,10 @@
     
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
-      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
       <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
     </item>
     
@@ -54,8 +50,7 @@
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this 
-I was recently hunting images for a sample design.</description>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
     </item>
     
   </channel>

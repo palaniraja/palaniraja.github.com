@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Command Line on PR</title>
+    <title>command line on PR</title>
     <link>https://www.palaniraja.com/tags/command-line/</link>
-    <description>Recent content in Command Line on PR</description>
+    <description>Recent content in command line on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Tue, 26 Jun 2018 09:16:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 26 Jun 2018 09:16:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Merging multiple MP4 videos with FFMPEG</title>
       <link>https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/</link>
@@ -32,10 +28,10 @@
     
     <item>
       <title>Grep - Swiss army knife</title>
-      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
       <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
     </item>
     

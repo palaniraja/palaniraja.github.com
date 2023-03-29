@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2014/04/the-bug-that-still-haunts-me/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -62,31 +63,18 @@
       
       
       
-      
-
-<p>My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval. And then they log this bug.</p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2014-04-27-at-8.41.26-PM.png" alt="" /></p>
-
+      <p>My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval. And then they log this bug.</p>
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2014-04-27-at-8.41.26-PM.png" alt=""></p>
 <p>Almost 10 years ago, when I started developing websites, I kind of aware of this bug and I ignored it because, I did not know the solution and I never expected any valid/meaningful users would enter such junk values.</p>
-
-<p>However, I was looking for solutions as I grow up, this is before the CSS era when <strong>font</strong><br />
+<p>However, I was looking for solutions as I grow up, this is before the CSS era when <strong>font</strong><br>
 tag was most used one in webpages. All then dev forums are either ignoring it saying there are no acceptable solutions.</p>
-
 <p>When I learnt about CSS I discovered the gem called _overflow:hidden_and waited for  I started overusing this property. But the testers still log an issue related to this, not all the entered text are visible.</p>
-
 <p>Eventually, I discovered couple of new CSS properties <code>word-wrap:break-word</code> and <code>text-overflow:ellipsis</code> to overcome this issue. Again, these are <em>_recently_</em> added and only now it is commonly supported in all the browsers. Still, <code>text-overflow:ellipsis</code> works only for single line text at the moment?(<em>why</em>!)</p>
-
 <p>To summarise, this is the bug which shoots my blood-pressure as high as Mount Himalayas. Because I get this even before the functionalities are tested.</p>
-
 <h4 id="update">Update:</h4>
-
 <p>While rereading the post, I noticed I didn&rsquo;t explain my current solution. At the moment, I just use javascript and add ellipsis by truncating if the content length is greater than arbitrary number (<em>n</em>). For eg., the following use 500 as &lsquo;<em>n</em>&rsquo;.</p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2014-05-03-at-10.17.03-PM.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/Screen-Shot-2014-05-03-at-10.17.03-PM.png" alt=""></p>
 <p>I am still not happy with it, as you see in the image. We can&rsquo;t use the number 500 for all string unless you use fixed-width font. And I am not aware of solutions to identify the (<em>n</em>) based on the given font size &amp; container size. (Refer: <a href="https://developer.apple.com/library/ios/documentation/uikit/reference/NSAttributedString_UIKit_Additions/Reference/Reference.html#jumpTo_5">NSAttributedString</a>)</p>
-
 <p>Matter of the fact, I just can&rsquo;t set <code>text-overflow:ellipsis</code> to all in my <code>normalize.css</code> or <code>reset.css</code> because this is not expected from any useful data.</p>
 
       
@@ -123,11 +111,7 @@ tag was most used one in webpages. All then dev forums are either ignoring it sa
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -137,7 +121,7 @@ tag was most used one in webpages. All then dev forums are either ignoring it sa
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

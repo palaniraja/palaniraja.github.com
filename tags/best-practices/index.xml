@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Best Practices on PR</title>
@@ -6,20 +6,16 @@
     <description>Recent content in Best Practices on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 16:22:22 +0530</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 16:22:22 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flickr - How not to design backup userdata when shutting down your service</title>
-      <link>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</link>
+      <link>https://www.palaniraja.com/2019/01/flickr-how-not-to-design-backup-userdata-when-shutting-down-your-service/</link>
       <pubDate>Tue, 01 Jan 2019 16:22:22 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</guid>
+      <guid>https://www.palaniraja.com/2019/01/flickr-how-not-to-design-backup-userdata-when-shutting-down-your-service/</guid>
       <description>Happy New Year - 2019
- It is always easy to find fault than fixing. So this isn&amp;rsquo;t very hard to start this year blogging write a rant.</description>
+It is always easy to find fault than fixing. So this isn&amp;rsquo;t very hard to start this year blogging write a rant.</description>
     </item>
     
     <item>
@@ -65,7 +61,7 @@
       
       <guid>https://www.palaniraja.com/2011/12/resolutions-for-2012/</guid>
       <description>For the first time in history, I am publishing resolution list online, let see if this helps.
- Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
+Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
     </item>
     
     <item>
@@ -83,16 +79,16 @@
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
 It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
     </item>
     
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
-      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
       <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
     </item>
     

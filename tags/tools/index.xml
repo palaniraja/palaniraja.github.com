@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on PR</title>
+    <title>tools on PR</title>
     <link>https://www.palaniraja.com/tags/tools/</link>
-    <description>Recent content in Tools on PR</description>
+    <description>Recent content in tools on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Wed, 22 Oct 2014 00:06:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Wed, 22 Oct 2014 00:06:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kids these days</title>
       <link>https://www.palaniraja.com/2014/10/kids-these-days/</link>
@@ -41,12 +37,12 @@
     
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
-      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
       <description>Update (2016-01-20): The app is now available on Mac App store.
- Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
     </item>
     
     <item>
@@ -60,10 +56,10 @@
     
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
-      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
       <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
     </item>
     
@@ -91,16 +87,16 @@
       <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
       
       <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
-      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?</description>
+      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</description>
     </item>
     
     <item>
       <title>Google Chrome : Hybrid of all</title>
-      <link>https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/</link>
+      <link>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</link>
       <pubDate>Sat, 06 Sep 2008 03:38:02 +0000</pubDate>
       
-      <guid>https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/</guid>
-      <description>  Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism  What’s new in Google Chrome  No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google  </description>
+      <guid>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</guid>
+      <description> Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism What’s new in Google Chrome No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google </description>
     </item>
     
     <item>
@@ -120,8 +116,7 @@
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
       <description>Script speaks louder than words. Please go through the following links
 PHP Gd based Sticky script
-
-Jquery UI based Sticky page</description>
+Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
     </item>
     
     <item>

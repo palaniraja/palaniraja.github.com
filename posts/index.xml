@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on PR</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Posts on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 10 May 2020 21:22:26 +0530</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 10 May 2020 21:22:26 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instagram Challenge - 2019</title>
-      <link>https://www.palaniraja.com/2020/05/instagram-challenge---2019/</link>
+      <link>https://www.palaniraja.com/2020/05/instagram-challenge-2019/</link>
       <pubDate>Sun, 10 May 2020 21:22:26 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2020/05/instagram-challenge---2019/</guid>
+      <guid>https://www.palaniraja.com/2020/05/instagram-challenge-2019/</guid>
       <description>Year after year, I see so many gifted people share their art during month of October tagged #inktober
 Guess what, I wanted to join last year and I did.</description>
     </item>
@@ -42,10 +38,10 @@ Guess what, I wanted to join last year and I did.</description>
     
     <item>
       <title>SwiftUML - Generate PlantUML class diagram from Swift source code</title>
-      <link>https://www.palaniraja.com/2019/08/swiftuml---generate-plantuml-class-diagram-from-swift-source-code/</link>
+      <link>https://www.palaniraja.com/2019/08/swiftuml-generate-plantuml-class-diagram-from-swift-source-code/</link>
       <pubDate>Sat, 10 Aug 2019 14:56:55 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2019/08/swiftuml---generate-plantuml-class-diagram-from-swift-source-code/</guid>
+      <guid>https://www.palaniraja.com/2019/08/swiftuml-generate-plantuml-class-diagram-from-swift-source-code/</guid>
       <description>At any point in time, I will always have few project ideas around source code parsing, building a tokenizer or creating a custom DSL and syntaxes.</description>
     </item>
     
@@ -60,21 +56,21 @@ Guess what, I wanted to join last year and I did.</description>
     
     <item>
       <title>Whatchanged - Git history as HTML Report</title>
-      <link>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</link>
+      <link>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</link>
       <pubDate>Mon, 18 Mar 2019 10:04:20 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</guid>
-      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team.</description>
+      <guid>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</guid>
+      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team. I am not sure the basis of the request, as they can go through the git repo themselves.</description>
     </item>
     
     <item>
       <title>Flickr - How not to design backup userdata when shutting down your service</title>
-      <link>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</link>
+      <link>https://www.palaniraja.com/2019/01/flickr-how-not-to-design-backup-userdata-when-shutting-down-your-service/</link>
       <pubDate>Tue, 01 Jan 2019 16:22:22 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</guid>
+      <guid>https://www.palaniraja.com/2019/01/flickr-how-not-to-design-backup-userdata-when-shutting-down-your-service/</guid>
       <description>Happy New Year - 2019
- It is always easy to find fault than fixing. So this isn&amp;rsquo;t very hard to start this year blogging write a rant.</description>
+It is always easy to find fault than fixing. So this isn&amp;rsquo;t very hard to start this year blogging write a rant.</description>
     </item>
     
     <item>
@@ -115,20 +111,20 @@ Guess what, I wanted to join last year and I did.</description>
     
     <item>
       <title>Dropbox Mac - Deletes files on reinstallation?</title>
-      <link>https://www.palaniraja.com/2018/08/dropbox-mac---deletes-files-on-reinstallation/</link>
+      <link>https://www.palaniraja.com/2018/08/dropbox-mac-deletes-files-on-reinstallation/</link>
       <pubDate>Thu, 09 Aug 2018 15:01:00 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2018/08/dropbox-mac---deletes-files-on-reinstallation/</guid>
+      <guid>https://www.palaniraja.com/2018/08/dropbox-mac-deletes-files-on-reinstallation/</guid>
       <description>I uninstalled Dropbox from my work mac before submitting my laptop of reimaging of OS with corporate junk installations.
 Since I was sure, I should be able to install it again and download all synced files back on mac, I had deleted before handing over to IT people.</description>
     </item>
     
     <item>
       <title>Pilapse - Raspberry Pi Camera and Timelapse</title>
-      <link>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</link>
+      <link>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</link>
       <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</guid>
+      <guid>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</guid>
       <description>It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
 Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
     </item>
@@ -180,12 +176,12 @@ Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
     
     <item>
       <title>Speedy - Speed reading application for Mac</title>
-      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <link>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <guid>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</guid>
       <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
-I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;rsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
     </item>
     
     <item>
@@ -226,10 +222,10 @@ I created to read the emails &amp;amp; news faster, as I have a tendency to lost
     
     <item>
       <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
-      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</link>
+      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</link>
       <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</guid>
+      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</guid>
       <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
     </item>
     
@@ -244,10 +240,10 @@ I created to read the emails &amp;amp; news faster, as I have a tendency to lost
     
     <item>
       <title>Book recommendation : Creativity Inc by Ed Catmull</title>
-      <link>https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/</link>
+      <link>https://www.palaniraja.com/2015/01/book-recommendation-creativity-inc-by-ed-catmull/</link>
       <pubDate>Sun, 18 Jan 2015 05:20:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2015/01/book-recommendation--creativity-inc-by-ed-catmull/</guid>
+      <guid>https://www.palaniraja.com/2015/01/book-recommendation-creativity-inc-by-ed-catmull/</guid>
       <description>It is no surprise that you know about Pixar if you are even remotely knew Steve Jobs and his history. And you definitely heard about Pixar’s movies Toy story, Finding Nemo, Wall-E, Up &amp;amp; more.</description>
     </item>
     
@@ -262,10 +258,10 @@ I created to read the emails &amp;amp; news faster, as I have a tendency to lost
     
     <item>
       <title>Configuring your Airtel Broadband DSL with your modem &#43; wifi router</title>
-      <link>https://www.palaniraja.com/2014/07/configuring-your-airtel-broadband-dsl-with-your-modem---wifi-router/</link>
+      <link>https://www.palaniraja.com/2014/07/configuring-your-airtel-broadband-dsl-with-your-modem--wifi-router/</link>
       <pubDate>Mon, 07 Jul 2014 10:27:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2014/07/configuring-your-airtel-broadband-dsl-with-your-modem---wifi-router/</guid>
+      <guid>https://www.palaniraja.com/2014/07/configuring-your-airtel-broadband-dsl-with-your-modem--wifi-router/</guid>
       <description>My modem failed last week(frequent drops), and I was not willing to repair this time. I&amp;rsquo;ve taken a screenshots of configuration from my old modem, with the help I was able to configure my new D-Link 2750u.</description>
     </item>
     
@@ -317,20 +313,20 @@ There have been many people who climbed Mt.</description>
     
     <item>
       <title>Raspbian &#43; XBMC &#43; Airplay</title>
-      <link>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</link>
+      <link>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</link>
       <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</guid>
+      <guid>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</guid>
       <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
 I own a Raspberry Pi for closer to a year now.</description>
     </item>
     
     <item>
       <title>Grep - Swiss army knife</title>
-      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
       <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
     </item>
     
@@ -345,11 +341,11 @@ I own a Raspberry Pi for closer to a year now.</description>
     
     <item>
       <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
-      <link>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</link>
+      <link>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</link>
       <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</guid>
-      <description>If you did not have enough time to go through the 50G contents from WWDC&amp;rsquo;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+      <guid>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</guid>
+      <description>If you did not have enough time to go through the 50G contents from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -390,28 +386,28 @@ I own a Raspberry Pi for closer to a year now.</description>
     
     <item>
       <title>IdeaVault - RPi dashboard</title>
-      <link>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</link>
+      <link>https://www.palaniraja.com/2013/04/ideavault-rpi-dashboard/</link>
       <pubDate>Tue, 16 Apr 2013 17:32:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/04/ideavault---rpi-dashboard/</guid>
+      <guid>https://www.palaniraja.com/2013/04/ideavault-rpi-dashboard/</guid>
       <description>I couldn&amp;rsquo;t help myself after listening to John &amp;amp; Marco discussion about the pricing of Panic&amp;rsquo;s new app Status Board.</description>
     </item>
     
     <item>
       <title>Bitsplitting - Logo</title>
-      <link>https://www.palaniraja.com/2013/04/bitsplitting---logo/</link>
+      <link>https://www.palaniraja.com/2013/04/bitsplitting-logo/</link>
       <pubDate>Sat, 13 Apr 2013 08:32:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/04/bitsplitting---logo/</guid>
+      <guid>https://www.palaniraja.com/2013/04/bitsplitting-logo/</guid>
       <description>Bitsplitting - Beautiful logo I have seen in a long time. I don&amp;rsquo;t know how @danielpunkass decided to use one version of the two.</description>
     </item>
     
     <item>
       <title>Laptop Cooling Pad  &amp; Sudden Motion Sensor</title>
-      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</link>
+      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</link>
       <pubDate>Sat, 06 Apr 2013 10:29:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</guid>
+      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</guid>
       <description>Finally I found a good usecase to test the Sudden Motion Sensor of my macbook pro. I was curious to know whether there is an impact of cooling pad&amp;rsquo;s fan.</description>
     </item>
     
@@ -426,10 +422,10 @@ I own a Raspberry Pi for closer to a year now.</description>
     
     <item>
       <title>Google Reader - Take 2</title>
-      <link>https://www.palaniraja.com/2013/03/google-reader---take-2/</link>
+      <link>https://www.palaniraja.com/2013/03/google-reader-take-2/</link>
       <pubDate>Thu, 21 Mar 2013 11:37:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/03/google-reader---take-2/</guid>
+      <guid>https://www.palaniraja.com/2013/03/google-reader-take-2/</guid>
       <description>I was insanely angry with Google&amp;rsquo;s decision still I am. Here are some stats from my Google Reader takeout data.</description>
     </item>
     
@@ -462,10 +458,10 @@ I own a Raspberry Pi for closer to a year now.</description>
     
     <item>
       <title>Prj - Times of India epub</title>
-      <link>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</link>
+      <link>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</link>
       <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/01/prj---times-of-india-epub/</guid>
+      <guid>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</guid>
       <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
     </item>
     
@@ -480,10 +476,10 @@ I own a Raspberry Pi for closer to a year now.</description>
     
     <item>
       <title>Idea Vault: Prj - Dug Me</title>
-      <link>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</link>
+      <link>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</link>
       <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj---dug-me/</guid>
+      <guid>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</guid>
       <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
 Idea is to log all our project ideas similar to logging notes in nvALT.</description>
     </item>
@@ -509,10 +505,10 @@ It is 2013, another chance for us/me to start a new beginning. I believed in May
     
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
-      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
       <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
     </item>
     
@@ -532,7 +528,7 @@ It is 2013, another chance for us/me to start a new beginning. I believed in May
       
       <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
       <description>If you are experiencing frequent disk I/O and your console is full of
- 25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
     </item>
     
     <item>
@@ -546,10 +542,10 @@ It is 2013, another chance for us/me to start a new beginning. I believed in May
     
     <item>
       <title>RIP - My Macbook Pro (13&#34; Mid 2010)</title>
-      <link>https://www.palaniraja.com/2012/08/rip---my-macbook-pro-13-mid-2010/</link>
+      <link>https://www.palaniraja.com/2012/08/rip-my-macbook-pro-13-mid-2010/</link>
       <pubDate>Thu, 16 Aug 2012 00:07:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2012/08/rip---my-macbook-pro-13-mid-2010/</guid>
+      <guid>https://www.palaniraja.com/2012/08/rip-my-macbook-pro-13-mid-2010/</guid>
       <description>TL;DR If you have a Apple Portable within the 1yr manf. warranty, stop reading and go and buy Apple care if you haven&amp;rsquo;t already.</description>
     </item>
     
@@ -560,7 +556,7 @@ It is 2013, another chance for us/me to start a new beginning. I believed in May
       
       <guid>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</guid>
       <description>Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=ji5_MqicxSo   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.25em; }  Youtube - Randy Pausch Last Lecture | Achieving Your Childhood Dreams</description>
+https://www.youtube.com/watch?v=ji5_MqicxSo Youtube - Randy Pausch Last Lecture | Achieving Your Childhood Dreams</description>
     </item>
     
     <item>
@@ -590,7 +586,7 @@ Remember this is a SOAP based API, there is a new alternative library available 
       
       <guid>https://www.palaniraja.com/2011/12/resolutions-for-2012/</guid>
       <description>For the first time in history, I am publishing resolution list online, let see if this helps.
- Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
+Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
     </item>
     
     <item>
@@ -604,10 +600,10 @@ Remember this is a SOAP based API, there is a new alternative library available 
     
     <item>
       <title>Airtel Broadband - How to find bandwidth usage</title>
-      <link>https://www.palaniraja.com/2011/12/airtel-broadband---how-to-find-bandwidth-usage/</link>
+      <link>https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/</link>
       <pubDate>Fri, 09 Dec 2011 20:04:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/12/airtel-broadband---how-to-find-bandwidth-usage/</guid>
+      <guid>https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/</guid>
       <description>If you would like to keep tabs on your bandwidth usage?
 http://122.160.230.125:8080/gbod/gb_on_demand.do
 It is good to know your usage, the 10GB fair usage plan from Airtel is peanut for my usage as I download a lot of TED &amp;amp; iOS Dev videos from iTunes.</description>
@@ -619,7 +615,7 @@ It is good to know your usage, the 10GB fair usage plan from Airtel is peanut fo
       <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
-      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.</description>
+      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.</description>
     </item>
     
     <item>
@@ -633,22 +629,21 @@ It is good to know your usage, the 10GB fair usage plan from Airtel is peanut fo
     
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
-      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
       <description>Update (2016-01-20): The app is now available on Mac App store.
- Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
     </item>
     
     <item>
       <title>RIP - Steven P. Jobs</title>
-      <link>https://www.palaniraja.com/2011/10/rip---steven-p.-jobs/</link>
+      <link>https://www.palaniraja.com/2011/10/rip-steven-p.-jobs/</link>
       <pubDate>Thu, 06 Oct 2011 00:31:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/10/rip---steven-p.-jobs/</guid>
-      <description> The people who are crazy enough to think they can change the world, are the ones who do.
- </description>
+      <guid>https://www.palaniraja.com/2011/10/rip-steven-p.-jobs/</guid>
+      <description>The people who are crazy enough to think they can change the world, are the ones who do.</description>
     </item>
     
     <item>
@@ -671,19 +666,19 @@ It is good to know your usage, the 10GB fair usage plan from Airtel is peanut fo
     
     <item>
       <title>Wallpaper - Testflight app</title>
-      <link>https://www.palaniraja.com/2011/08/wallpaper---testflight-app/</link>
+      <link>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</link>
       <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/08/wallpaper---testflight-app/</guid>
+      <guid>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</guid>
       <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
     </item>
     
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
-      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
       <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
     </item>
     
@@ -731,17 +726,17 @@ Programming editors on mac like Textwrangler and Textmate has an option to Show 
       
       <guid>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</guid>
       <description>I&amp;rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
-I thought it is cool, thinking of including it in any of my app I plan to do.</description>
+![](/assets/Screen shot 2011-05-31 at 7.</description>
     </item>
     
     <item>
       <title>Shane Warne - The Leader</title>
-      <link>https://www.palaniraja.com/2011/05/shane-warne---the-leader/</link>
+      <link>https://www.palaniraja.com/2011/05/shane-warne-the-leader/</link>
       <pubDate>Mon, 16 May 2011 11:21:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/05/shane-warne---the-leader/</guid>
+      <guid>https://www.palaniraja.com/2011/05/shane-warne-the-leader/</guid>
       <description>Color me surprised, I was amazed by his replies. Here is my favourite one
- Harsha Bhogle: What you strive to do as a leader?</description>
+Harsha Bhogle: What you strive to do as a leader?</description>
     </item>
     
     <item>
@@ -770,7 +765,6 @@ For those who wants to see all levels without completing a level or struck in a 
       
       <guid>https://www.palaniraja.com/2011/04/radio-buttons-and-checkboxes/</guid>
       <description>I have designed the following as one of my side project required a simple radio buttons and checkboxes.
-
 Download the *.</description>
     </item>
     
@@ -780,7 +774,7 @@ Download the *.</description>
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
 It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
     </item>
     
@@ -795,10 +789,10 @@ It captures the complete content of the iPad simulator to the clipboard, You can
     
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
-      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</link>
+      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</guid>
+      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
       <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
 Session on OpenGL ES 2.</description>
     </item>
@@ -809,8 +803,7 @@ Session on OpenGL ES 2.</description>
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this 
-I was recently hunting images for a sample design.</description>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
     </item>
     
     <item>
@@ -882,10 +875,10 @@ AnchorFree banner killer Remove Banner from the top when you use Anchor Free Hot
     
     <item>
       <title>Mac App Store - Source</title>
-      <link>https://www.palaniraja.com/2010/10/mac-app-store---source/</link>
+      <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/10/mac-app-store---source/</guid>
+      <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
       <description>You get the idea? You are not looking for the UI code are you?
 Saurik will be doing the UI for us ;)</description>
     </item>
@@ -906,44 +899,44 @@ Saurik will be doing the UI for us ;)</description>
       
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
       <description>Youtube link
- Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.</description>
+Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
       <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
       <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
     </item>
     
     <item>
       <title>EReader friendly Times Of India – EPUB Edition</title>
-      <link>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india--epub-edition/</link>
+      <link>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</link>
       <pubDate>Mon, 16 Aug 2010 23:55:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india--epub-edition/</guid>
+      <guid>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</guid>
       <description>I have completed the 95% of the project I was tweeting and here is the preview
-What does it do?</description>
+What does it do? It is a PHP script that helps you to convert Times of India (Daily newspaper) to EPUB.</description>
     </item>
     
     <item>
       <title>iPad - Safari background texture</title>
-      <link>https://www.palaniraja.com/2010/08/ipad---safari-background-texture/</link>
+      <link>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</link>
       <pubDate>Sat, 14 Aug 2010 20:22:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/08/ipad---safari-background-texture/</guid>
+      <guid>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</guid>
       <description>TL;DR
 Apple version of the texture
 background_linen.png
@@ -961,28 +954,29 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>Angry Birds – I give up</title>
-      <link>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</link>
+      <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)</description>
+      <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
+      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
+I am not a great gamer, I give up on games too early.</description>
     </item>
     
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
-      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
       <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
     </item>
     
     <item>
       <title>WWDC 2010 - iPhone 4</title>
-      <link>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</link>
+      <link>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</link>
       <pubDate>Wed, 16 Jun 2010 21:27:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</guid>
+      <guid>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</guid>
       <description>iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard. Steve can still memorize 24 countries and repeat them in the same order.</description>
     </item>
     
@@ -997,10 +991,10 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>iPad - My Experience</title>
-      <link>https://www.palaniraja.com/2010/06/ipad---my-experience/</link>
+      <link>https://www.palaniraja.com/2010/06/ipad-my-experience/</link>
       <pubDate>Tue, 15 Jun 2010 07:13:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/ipad---my-experience/</guid>
+      <guid>https://www.palaniraja.com/2010/06/ipad-my-experience/</guid>
       <description>Warning: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)</description>
     </item>
     
@@ -1033,20 +1027,20 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>WinDirStat | My Software Toolbox</title>
-      <link>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</link>
+      <link>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</link>
       <pubDate>Sun, 16 May 2010 11:49:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</guid>
+      <guid>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</guid>
       <description>No matter how large your hard drive is, the data will grow to fill the disk!
 Recently I was running out of space on both of my internal 120Gig and external 320Gig HDD.</description>
     </item>
     
     <item>
       <title>Obj-C | For beginners</title>
-      <link>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</link>
+      <link>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</link>
       <pubDate>Sun, 11 Apr 2010 20:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</guid>
+      <guid>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</guid>
       <description>A quick obj-c cheat-sheet for the beginners.
 Scribd link
 This is taken from RWTH-iPhone Application Programming. You can also download complete videos from iTunesU.</description>
@@ -1059,7 +1053,7 @@ This is taken from RWTH-iPhone Application Programming. You can also download co
       
       <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
       <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
- Create a new directory</description>
+Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.</description>
     </item>
     
     <item>
@@ -1068,7 +1062,7 @@ This is taken from RWTH-iPhone Application Programming. You can also download co
       <pubDate>Sun, 04 Apr 2010 09:13:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</guid>
-      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found  Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
+      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
     </item>
     
     <item>
@@ -1082,12 +1076,11 @@ This is taken from RWTH-iPhone Application Programming. You can also download co
     
     <item>
       <title>iPhone – Accessibility</title>
-      <link>https://www.palaniraja.com/2010/03/iphone--accessibility/</link>
+      <link>https://www.palaniraja.com/2010/03/iphone-accessibility/</link>
       <pubDate>Thu, 25 Mar 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/03/iphone--accessibility/</guid>
+      <guid>https://www.palaniraja.com/2010/03/iphone-accessibility/</guid>
       <description>What if iPhone provides an accessibility option for users with bigger finger?
-
 I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool.</description>
     </item>
     
@@ -1097,7 +1090,7 @@ I found that pinch to zoom and screenshot capturing can be considered as good ph
       <pubDate>Sun, 21 Mar 2010 07:41:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</guid>
-      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&amp;rsquo;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
+      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&#39;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
     </item>
     
     <item>
@@ -1116,7 +1109,7 @@ I found that pinch to zoom and screenshot capturing can be considered as good ph
       
       <guid>https://www.palaniraja.com/2010/03/how-to-register-itunes-account-for-free-in-any-country-without-a-credit-card/</guid>
       <description>Follow the steps below:
- Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
+Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
     </item>
     
     <item>
@@ -1135,9 +1128,7 @@ I found that pinch to zoom and screenshot capturing can be considered as good ph
       
       <guid>https://www.palaniraja.com/2010/03/apple-app-store-bug/</guid>
       <description>It was showing same app Parking Mania Lite twice :)
-Update [28-Mar-2010] 
-
-Wondering what’s wrong with appstore app?</description>
+Update [28-Mar-2010] Wondering what’s wrong with appstore app? is this an API issue or dequecellidentifier issue?</description>
     </item>
     
     <item>
@@ -1160,12 +1151,13 @@ Wondering what’s wrong with appstore app?</description>
     
     <item>
       <title>Steve Jobs - Stanford Commencement Address</title>
-      <link>https://www.palaniraja.com/2010/02/steve-jobs---stanford-commencement-address/</link>
+      <link>https://www.palaniraja.com/2010/02/steve-jobs-stanford-commencement-address/</link>
       <pubDate>Sun, 21 Feb 2010 19:46:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/02/steve-jobs---stanford-commencement-address/</guid>
+      <guid>https://www.palaniraja.com/2010/02/steve-jobs-stanford-commencement-address/</guid>
       <description>Steve Jobs - Standford commencement address 2005. Jobs at his best.
-   Content requires Javascript to be enabled.</description>
+Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=Hd_ptbiPoXM Youtube - https://www.</description>
     </item>
     
     <item>
@@ -1179,10 +1171,10 @@ Wondering what’s wrong with appstore app?</description>
     
     <item>
       <title>Firefox : Settings are not saved</title>
-      <link>https://www.palaniraja.com/2010/02/firefox--settings-are-not-saved/</link>
+      <link>https://www.palaniraja.com/2010/02/firefox-settings-are-not-saved/</link>
       <pubDate>Wed, 03 Feb 2010 19:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/02/firefox--settings-are-not-saved/</guid>
+      <guid>https://www.palaniraja.com/2010/02/firefox-settings-are-not-saved/</guid>
       <description>I was having an issue recently that none of my settings/preferences were saved in Firefox. It opens the Firefox updated page along with extensions updated page every time I open the browser.</description>
     </item>
     
@@ -1193,7 +1185,7 @@ Wondering what’s wrong with appstore app?</description>
       
       <guid>https://www.palaniraja.com/2010/02/sync-contacts-from-your-nokia-to-iphone-without-outlook/</guid>
       <description>It is possible to sync your contacts to your iPhone without MS Outlook? Yes.
-Steps  Export your phonebook to CSV Import the same to your Gmail account Sync contacts from your Google account with iTunes.</description>
+Steps Export your phonebook to CSV Import the same to your Gmail account Sync contacts from your Google account with iTunes.</description>
     </item>
     
     <item>
@@ -1277,16 +1269,16 @@ prjx.org is down at the moment, so all the projects/files hosted there won&amp;r
       <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
       
       <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
-      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?</description>
+      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</description>
     </item>
     
     <item>
       <title>Google Chrome : Hybrid of all</title>
-      <link>https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/</link>
+      <link>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</link>
       <pubDate>Sat, 06 Sep 2008 03:38:02 +0000</pubDate>
       
-      <guid>https://www.palaniraja.com/2008/09/google-chrome--hybrid-of-all/</guid>
-      <description>  Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism  What’s new in Google Chrome  No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google  </description>
+      <guid>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</guid>
+      <description> Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism What’s new in Google Chrome No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google </description>
     </item>
     
     <item>
@@ -1300,11 +1292,11 @@ prjx.org is down at the moment, so all the projects/files hosted there won&amp;r
     
     <item>
       <title>Google Chrome : The application failed to initialize properly (0xc0000005)</title>
-      <link>https://www.palaniraja.com/2008/09/google-chrome--the-application-failed-to-initialize-properly-0xc0000005/</link>
+      <link>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</link>
       <pubDate>Wed, 03 Sep 2008 07:32:52 +0000</pubDate>
       
-      <guid>https://www.palaniraja.com/2008/09/google-chrome--the-application-failed-to-initialize-properly-0xc0000005/</guid>
-      <description>The application failed to initialize properly (0xc0000005). Click on OK to terminate the application  Symantec causes this issue and the temp.</description>
+      <guid>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</guid>
+      <description>The application failed to initialize properly (0xc0000005). Click on OK to terminate the application Symantec causes this issue and the temp.</description>
     </item>
     
     <item>
@@ -1315,8 +1307,7 @@ prjx.org is down at the moment, so all the projects/files hosted there won&amp;r
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
       <description>Script speaks louder than words. Please go through the following links
 PHP Gd based Sticky script
-
-Jquery UI based Sticky page</description>
+Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
     </item>
     
     <item>
@@ -1419,7 +1410,7 @@ I have been using Greasemonkey for more than a year. Recently I downloaded 2 use
       <pubDate>Fri, 22 Dec 2006 15:36:00 +0530</pubDate>
       
       <guid>https://www.palaniraja.com/2006/12/function.php/</guid>
-      <description>&amp;lt;?php /** * @desc Function to print variable for debugging */ function printPre($data, $extended=false) { echo &amp;quot;&amp;lt;pre&amp;gt;&amp;quot;; if($extended) { var_dump($data); } else { print_r($data); } echo &amp;quot;&amp;lt;/pre&amp;gt;&amp;quot;; } ?</description>
+      <description>&amp;lt;?php /** * @desc Function to print variable for debugging */ function printPre($data, $extended=false) { echo &amp;#34;&amp;lt;pre&amp;gt;&amp;#34;; if($extended) { var_dump($data); } else { print_r($data); } echo &amp;#34;&amp;lt;/pre&amp;gt;&amp;#34;; } ?</description>
     </item>
     
     <item>
@@ -1428,7 +1419,7 @@ I have been using Greasemonkey for more than a year. Recently I downloaded 2 use
       <pubDate>Tue, 19 Dec 2006 15:36:00 +0530</pubDate>
       
       <guid>https://www.palaniraja.com/2006/12/hsbc_return.php/</guid>
-      <description> &amp;lt;?php require_once &amp;quot;function.php&amp;quot;; require_once &amp;quot;HSBC.php&amp;quot;; printPre($_POST); $h1 = new HSBC(); echo $h1-&amp;gt;error($_POST[&#39;CpiResultsCode&#39;]); ?&amp;gt;  </description>
+      <description> &amp;lt;?php require_once &amp;#34;function.php&amp;#34;; require_once &amp;#34;HSBC.php&amp;#34;; printPre($_POST); $h1 = new HSBC(); echo $h1-&amp;gt;error($_POST[&amp;#39;CpiResultsCode&amp;#39;]); ?&amp;gt; </description>
     </item>
     
     <item>

@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Iphone on PR</title>
+    <title>iPhone on PR</title>
     <link>https://www.palaniraja.com/tags/iphone/</link>
-    <description>Recent content in Iphone on PR</description>
+    <description>Recent content in iPhone on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Fri, 06 Jan 2012 22:35:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Fri, 06 Jan 2012 22:35:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
@@ -55,16 +51,16 @@ Remember this is a SOAP based API, there is a new alternative library available 
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
 It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
     </item>
     
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
-      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</link>
+      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</guid>
+      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
       <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
 Session on OpenGL ES 2.</description>
     </item>
@@ -76,34 +72,34 @@ Session on OpenGL ES 2.</description>
       
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
       <description>Youtube link
- Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.</description>
+Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
       <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
       <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
     </item>
     
     <item>
       <title>iPad - Safari background texture</title>
-      <link>https://www.palaniraja.com/2010/08/ipad---safari-background-texture/</link>
+      <link>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</link>
       <pubDate>Sat, 14 Aug 2010 20:22:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/08/ipad---safari-background-texture/</guid>
+      <guid>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</guid>
       <description>TL;DR
 Apple version of the texture
 background_linen.png
@@ -112,19 +108,20 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>Angry Birds – I give up</title>
-      <link>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</link>
+      <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)</description>
+      <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
+      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
+I am not a great gamer, I give up on games too early.</description>
     </item>
     
     <item>
       <title>WWDC 2010 - iPhone 4</title>
-      <link>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</link>
+      <link>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</link>
       <pubDate>Wed, 16 Jun 2010 21:27:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</guid>
+      <guid>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</guid>
       <description>iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard. Steve can still memorize 24 countries and repeat them in the same order.</description>
     </item>
     
@@ -139,10 +136,10 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>iPad - My Experience</title>
-      <link>https://www.palaniraja.com/2010/06/ipad---my-experience/</link>
+      <link>https://www.palaniraja.com/2010/06/ipad-my-experience/</link>
       <pubDate>Tue, 15 Jun 2010 07:13:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/ipad---my-experience/</guid>
+      <guid>https://www.palaniraja.com/2010/06/ipad-my-experience/</guid>
       <description>Warning: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)</description>
     </item>
     
@@ -161,7 +158,7 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
       <pubDate>Sun, 04 Apr 2010 09:13:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</guid>
-      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found  Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
+      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
     </item>
     
     <item>
@@ -175,12 +172,11 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>iPhone – Accessibility</title>
-      <link>https://www.palaniraja.com/2010/03/iphone--accessibility/</link>
+      <link>https://www.palaniraja.com/2010/03/iphone-accessibility/</link>
       <pubDate>Thu, 25 Mar 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/03/iphone--accessibility/</guid>
+      <guid>https://www.palaniraja.com/2010/03/iphone-accessibility/</guid>
       <description>What if iPhone provides an accessibility option for users with bigger finger?
-
 I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool.</description>
     </item>
     
@@ -190,7 +186,7 @@ I found that pinch to zoom and screenshot capturing can be considered as good ph
       <pubDate>Sun, 21 Mar 2010 07:41:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</guid>
-      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&amp;rsquo;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
+      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&#39;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
     </item>
     
     <item>
@@ -209,7 +205,7 @@ I found that pinch to zoom and screenshot capturing can be considered as good ph
       
       <guid>https://www.palaniraja.com/2010/02/sync-contacts-from-your-nokia-to-iphone-without-outlook/</guid>
       <description>It is possible to sync your contacts to your iPhone without MS Outlook? Yes.
-Steps  Export your phonebook to CSV Import the same to your Gmail account Sync contacts from your Google account with iTunes.</description>
+Steps Export your phonebook to CSV Import the same to your Gmail account Sync contacts from your Google account with iTunes.</description>
     </item>
     
     <item>

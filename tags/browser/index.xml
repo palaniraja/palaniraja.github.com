@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Browser on PR</title>
+    <title>browser on PR</title>
     <link>https://www.palaniraja.com/tags/browser/</link>
-    <description>Recent content in Browser on PR</description>
+    <description>Recent content in browser on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Tue, 01 Jan 2013 10:32:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 01 Jan 2013 10:32:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea Vault: Tree view</title>
       <link>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</link>
@@ -46,8 +42,7 @@ For those who wants to see all levels without completing a level or struck in a 
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this 
-I was recently hunting images for a sample design.</description>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
     </item>
     
   </channel>

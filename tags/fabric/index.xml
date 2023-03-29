@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fabric on PR</title>
+    <title>fabric on PR</title>
     <link>https://www.palaniraja.com/tags/fabric/</link>
-    <description>Recent content in Fabric on PR</description>
+    <description>Recent content in fabric on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 14 Aug 2010 20:22:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/fabric/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 14 Aug 2010 20:22:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/fabric/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iPad - Safari background texture</title>
-      <link>https://www.palaniraja.com/2010/08/ipad---safari-background-texture/</link>
+      <link>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</link>
       <pubDate>Sat, 14 Aug 2010 20:22:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/08/ipad---safari-background-texture/</guid>
+      <guid>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</guid>
       <description>TL;DR
 Apple version of the texture
 background_linen.png

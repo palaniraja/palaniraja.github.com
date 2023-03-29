@@ -17,7 +17,8 @@ Programming editors on mac like Textwrangler and Textmate has …">
   <meta property="og:url" content="https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -66,27 +67,16 @@ Programming editors on mac like Textwrangler and Textmate has …">
       
       
       <p><a href="http://notepad-plus-plus.org/">Notepad++</a> on windows has this beautiful option &ldquo;View all characters&rdquo; to display all invisbile characters such as line endings.</p>
-
-<p><img src="https://www.palaniraja.com/assets/image001.png" alt="Notepad++ " /></p>
-
+<p><img src="https://www.palaniraja.com/assets/image001.png" alt="Notepad++ "></p>
 <p>Programming editors on mac like <a href="http://www.barebones.com/products/textwrangler/">Textwrangler</a> and <a href="http://macromates.com/">Textmate</a> has an option to <em>Show Invisibles</em> but failed to display the character block for Carriage Return as Notepad used to.</p>
-
 <p>Textwrangler beats Textmate on this case where it display two special characters to refer <strong>CR</strong> and <strong>LF</strong>, where Textmate display only one character.</p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.24.23-PM.png" alt="Textwrangler" /></p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.25.23-PM.png" alt="Textmate" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.24.23-PM.png" alt="Textwrangler"></p>
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.25.23-PM.png" alt="Textmate"></p>
 <p>Our recent iPad project write csv file which is further parsed by a third party app. The 3rd party app requires the line ending to be a combination of Carriage Return (CR) and Line Feed(LF) instead of just Line Feed (LF) as traditional Unix/Mac. To test the csv generated is good, I had to view the character myself in any other editor.</p>
-
 <p>After few failed attempts with both Textwrangler and Textmate, I came across this powerful unix tool called <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?od">OctalDump</a> (od) which is part of OSX.</p>
-
-<pre><code>od -c filename.csv
-</code></pre>
-
-<p>will display the file with C-Style escaped characters. CR as <strong>\r</strong> and LF as <strong>\n</strong>. It has numerous no. of <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?od">options</a> to explore.</p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.18.57-PM.png" alt="od - command" /></p>
+<pre tabindex="0"><code>od -c filename.csv
+</code></pre><p>will display the file with C-Style escaped characters. CR as <strong>\r</strong> and LF as <strong>\n</strong>. It has numerous no. of <a href="http://unixhelp.ed.ac.uk/CGI/man-cgi?od">options</a> to explore.</p>
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-06-15-at-5.18.57-PM.png" alt="od - command"></p>
 
       
     </article>
@@ -122,11 +112,7 @@ Programming editors on mac like Textwrangler and Textmate has …">
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -136,7 +122,7 @@ Programming editors on mac like Textwrangler and Textmate has …">
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

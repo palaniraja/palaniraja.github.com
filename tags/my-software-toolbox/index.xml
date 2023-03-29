@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Software Toolbox on PR</title>
@@ -6,12 +6,8 @@
     <description>Recent content in My Software Toolbox on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 03 Nov 2013 00:17:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/my-software-toolbox/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 03 Nov 2013 00:17:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/my-software-toolbox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RescueTime weekly summary and Google Script</title>
       <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
@@ -23,10 +19,10 @@
     
     <item>
       <title>Grep - Swiss army knife</title>
-      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
       <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
     </item>
     
@@ -50,10 +46,10 @@
     
     <item>
       <title>Laptop Cooling Pad  &amp; Sudden Motion Sensor</title>
-      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</link>
+      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</link>
       <pubDate>Sat, 06 Apr 2013 10:29:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</guid>
+      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</guid>
       <description>Finally I found a good usecase to test the Sudden Motion Sensor of my macbook pro. I was curious to know whether there is an impact of cooling pad&amp;rsquo;s fan.</description>
     </item>
     
@@ -123,10 +119,10 @@ Programming editors on mac like Textwrangler and Textmate has an option to Show 
     
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
-      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
       <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
     </item>
     
@@ -141,10 +137,10 @@ Programming editors on mac like Textwrangler and Textmate has an option to Show 
     
     <item>
       <title>WinDirStat | My Software Toolbox</title>
-      <link>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</link>
+      <link>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</link>
       <pubDate>Sun, 16 May 2010 11:49:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</guid>
+      <guid>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</guid>
       <description>No matter how large your hard drive is, the data will grow to fill the disk!
 Recently I was running out of space on both of my internal 120Gig and external 320Gig HDD.</description>
     </item>

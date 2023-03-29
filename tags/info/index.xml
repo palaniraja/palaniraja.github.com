@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Info on PR</title>
+    <title>info on PR</title>
     <link>https://www.palaniraja.com/tags/info/</link>
-    <description>Recent content in Info on PR</description>
+    <description>Recent content in info on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/info/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
-      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</link>
+      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</link>
       <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</guid>
+      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</guid>
       <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
     </item>
     
@@ -32,20 +28,20 @@
     
     <item>
       <title>Raspbian &#43; XBMC &#43; Airplay</title>
-      <link>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</link>
+      <link>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</link>
       <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/08/raspbian---xbmc---airplay/</guid>
+      <guid>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</guid>
       <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
 I own a Raspberry Pi for closer to a year now.</description>
     </item>
     
     <item>
       <title>Grep - Swiss army knife</title>
-      <link>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</link>
+      <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/grep---swiss-army-knife/</guid>
+      <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
       <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
     </item>
     
@@ -78,10 +74,10 @@ I own a Raspberry Pi for closer to a year now.</description>
     
     <item>
       <title>Laptop Cooling Pad  &amp; Sudden Motion Sensor</title>
-      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</link>
+      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</link>
       <pubDate>Sat, 06 Apr 2013 10:29:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</guid>
+      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</guid>
       <description>Finally I found a good usecase to test the Sudden Motion Sensor of my macbook pro. I was curious to know whether there is an impact of cooling pad&amp;rsquo;s fan.</description>
     </item>
     
@@ -124,10 +120,10 @@ It is 2013, another chance for us/me to start a new beginning. I believed in May
     
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
-      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
       <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
     </item>
     
@@ -138,7 +134,7 @@ It is 2013, another chance for us/me to start a new beginning. I believed in May
       
       <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
       <description>If you are experiencing frequent disk I/O and your console is full of
- 25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
     </item>
     
     <item>
@@ -171,10 +167,10 @@ Remember this is a SOAP based API, there is a new alternative library available 
     
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
-      <link>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</link>
+      <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/07/ril2insta---import-read-it-later-links-to-instapaper/</guid>
+      <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
       <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
     </item>
     
@@ -222,7 +218,7 @@ Programming editors on mac like Textwrangler and Textmate has an option to Show 
       
       <guid>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</guid>
       <description>I&amp;rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
-I thought it is cool, thinking of including it in any of my app I plan to do.</description>
+![](/assets/Screen shot 2011-05-31 at 7.</description>
     </item>
     
     <item>
@@ -250,7 +246,7 @@ For those who wants to see all levels without completing a level or struck in a 
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
 It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
     </item>
     
@@ -265,10 +261,10 @@ It captures the complete content of the iPad simulator to the clipboard, You can
     
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
-      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</link>
+      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</guid>
+      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
       <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
 Session on OpenGL ES 2.</description>
     </item>
@@ -279,8 +275,7 @@ Session on OpenGL ES 2.</description>
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this 
-I was recently hunting images for a sample design.</description>
+      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
     </item>
     
     <item>
@@ -314,10 +309,10 @@ I am not talking about people who send/receive schedules from Outlook (or simila
     
     <item>
       <title>Mac App Store - Source</title>
-      <link>https://www.palaniraja.com/2010/10/mac-app-store---source/</link>
+      <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/10/mac-app-store---source/</guid>
+      <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
       <description>You get the idea? You are not looking for the UI code are you?
 Saurik will be doing the UI for us ;)</description>
     </item>
@@ -338,25 +333,25 @@ Saurik will be doing the UI for us ;)</description>
       
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
       <description>Youtube link
- Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.</description>
+Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
       <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
       <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
     </item>
     
@@ -371,28 +366,29 @@ https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fef
     
     <item>
       <title>Angry Birds – I give up</title>
-      <link>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</link>
+      <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)</description>
+      <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
+      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
+I am not a great gamer, I give up on games too early.</description>
     </item>
     
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
-      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
       <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
     </item>
     
     <item>
       <title>WWDC 2010 - iPhone 4</title>
-      <link>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</link>
+      <link>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</link>
       <pubDate>Wed, 16 Jun 2010 21:27:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</guid>
+      <guid>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</guid>
       <description>iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard. Steve can still memorize 24 countries and repeat them in the same order.</description>
     </item>
     
@@ -407,10 +403,10 @@ https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fef
     
     <item>
       <title>iPad - My Experience</title>
-      <link>https://www.palaniraja.com/2010/06/ipad---my-experience/</link>
+      <link>https://www.palaniraja.com/2010/06/ipad-my-experience/</link>
       <pubDate>Tue, 15 Jun 2010 07:13:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/ipad---my-experience/</guid>
+      <guid>https://www.palaniraja.com/2010/06/ipad-my-experience/</guid>
       <description>Warning: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)</description>
     </item>
     
@@ -443,20 +439,20 @@ https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fef
     
     <item>
       <title>WinDirStat | My Software Toolbox</title>
-      <link>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</link>
+      <link>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</link>
       <pubDate>Sun, 16 May 2010 11:49:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/05/windirstat--my-software-toolbox/</guid>
+      <guid>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</guid>
       <description>No matter how large your hard drive is, the data will grow to fill the disk!
 Recently I was running out of space on both of my internal 120Gig and external 320Gig HDD.</description>
     </item>
     
     <item>
       <title>Obj-C | For beginners</title>
-      <link>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</link>
+      <link>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</link>
       <pubDate>Sun, 11 Apr 2010 20:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</guid>
+      <guid>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</guid>
       <description>A quick obj-c cheat-sheet for the beginners.
 Scribd link
 This is taken from RWTH-iPhone Application Programming. You can also download complete videos from iTunesU.</description>
@@ -469,7 +465,7 @@ This is taken from RWTH-iPhone Application Programming. You can also download co
       
       <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
       <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
- Create a new directory</description>
+Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.</description>
     </item>
     
     <item>
@@ -478,7 +474,7 @@ This is taken from RWTH-iPhone Application Programming. You can also download co
       <pubDate>Sun, 04 Apr 2010 09:13:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</guid>
-      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found  Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
+      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
     </item>
     
     <item>
@@ -492,12 +488,11 @@ This is taken from RWTH-iPhone Application Programming. You can also download co
     
     <item>
       <title>iPhone – Accessibility</title>
-      <link>https://www.palaniraja.com/2010/03/iphone--accessibility/</link>
+      <link>https://www.palaniraja.com/2010/03/iphone-accessibility/</link>
       <pubDate>Thu, 25 Mar 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/03/iphone--accessibility/</guid>
+      <guid>https://www.palaniraja.com/2010/03/iphone-accessibility/</guid>
       <description>What if iPhone provides an accessibility option for users with bigger finger?
-
 I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool.</description>
     </item>
     
@@ -507,7 +502,7 @@ I found that pinch to zoom and screenshot capturing can be considered as good ph
       <pubDate>Sun, 21 Mar 2010 07:41:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</guid>
-      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&amp;rsquo;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
+      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&#39;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
     </item>
     
     <item>
@@ -526,7 +521,7 @@ I found that pinch to zoom and screenshot capturing can be considered as good ph
       
       <guid>https://www.palaniraja.com/2010/03/how-to-register-itunes-account-for-free-in-any-country-without-a-credit-card/</guid>
       <description>Follow the steps below:
- Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
+Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
     </item>
     
     <item>

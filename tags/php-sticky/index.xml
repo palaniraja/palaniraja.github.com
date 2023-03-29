@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Php Sticky on PR</title>
+    <title>PHP Sticky on PR</title>
     <link>https://www.palaniraja.com/tags/php-sticky/</link>
-    <description>Recent content in Php Sticky on PR</description>
+    <description>Recent content in PHP Sticky on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 19 Jul 2008 13:08:26 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/php-sticky/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 19 Jul 2008 13:08:26 +0000</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/php-sticky/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sticky notes with PHP and Jquery</title>
       <link>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</link>
@@ -20,8 +16,7 @@
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
       <description>Script speaks louder than words. Please go through the following links
 PHP Gd based Sticky script
-
-Jquery UI based Sticky page</description>
+Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
     </item>
     
   </channel>

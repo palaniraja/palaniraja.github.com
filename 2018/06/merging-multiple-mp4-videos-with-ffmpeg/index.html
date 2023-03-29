@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -62,49 +63,20 @@
       
       
       
-      
-
-<p>I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp; Dropbox.</p>
-
+      <p>I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp; Dropbox.</p>
 <p>I wanted to merge all the clips to one .mp4 file. And also I want to keep the sections and topics for easy viewing later.</p>
-
 <p>After few searches, I could not find one as I like, so I wrote one using <a href="https://ffmpeg.org/">ffmpeg</a>.</p>
-
 <p><a href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">Github</a> - <a href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">merge-mp4.sh</a></p>
-
 <h4 id="before">Before:</h4>
-
-<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---before.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---before.png" alt=""></p>
 <h4 id="after">After:</h4>
-
-<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---after.png" alt="" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---after.png" alt=""></p>
 <p>You will see two output files, one with &ldquo;-meta.mp4&rdquo; is the one with chapter information.</p>
-
 <h4 id="output-file-with-chapters">Output file with chapters:</h4>
-
-<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---chapters.png" alt="" /></p>
-
-<h4 id="script-merge-mp4-sh">Script: <code>merge-mp4.sh</code></h4>
-
-<!-- <noscript>
-    <p class="noscript">Content requires Javascript to be enabled.</p>
-
-    <p><a href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16</a> </p>
-
-    <br/>
-    
-</noscript>
-<style type="text/css">
-    p.noscript{
-        background-color: #fefea0;
-        border-left: 4px solid #fea0a0;
-        padding: 0 0.25em;
-    }
-</style> -->
-
-<pre><code>#!/bin/bash
+<p><img src="https://www.palaniraja.com/assets/MP4-merge-chapter---chapters.png" alt=""></p>
+<h4 id="script-merge-mp4sh">Script: <code>merge-mp4.sh</code></h4>
+<!-- raw HTML omitted -->
+<pre tabindex="0"><code>#!/bin/bash
 
 ## Script to merge all mp4 videos in current directory (recursively 2 levels)
 ## And update chapter marks to retain the folder/filename
@@ -114,56 +86,53 @@
 
 filename=`basename pwd`
 current=`pwd`
-bname=`basename &quot;$current&quot;`
-find . -maxdepth 2 -iname '*.mp4' | xargs -L 1 echo | awk '{printf &quot;file \x27%s\x27\n&quot;, $0}' &gt;&gt; list.txt
-find . -maxdepth 2 -iname '*.mp4' | xargs -L 1 echo | awk '{print $0}' &gt;&gt; files.txt
-echo -n &quot;Merging the files&quot;
-ffmpeg -f concat -safe 0 -i list.txt -c copy &quot;$bname.mp4&quot; -v quiet
-echo &quot;..........[ DONE ]&quot;
+bname=`basename &#34;$current&#34;`
+find . -maxdepth 2 -iname &#39;*.mp4&#39; | xargs -L 1 echo | awk &#39;{printf &#34;file \x27%s\x27\n&#34;, $0}&#39; &gt;&gt; list.txt
+find . -maxdepth 2 -iname &#39;*.mp4&#39; | xargs -L 1 echo | awk &#39;{print $0}&#39; &gt;&gt; files.txt
+echo -n &#34;Merging the files&#34;
+ffmpeg -f concat -safe 0 -i list.txt -c copy &#34;$bname.mp4&#34; -v quiet
+echo &#34;..........[ DONE ]&#34;
 
 ## extract meta
 # ffmpeg -i all.mp4 -f ffmetadata metafile
-metafile=&quot;metadata.txt&quot;
-echo -n &quot;Extracting meta data&quot;
-ffmpeg -i &quot;$bname.mp4&quot; -f ffmetadata $metafile -v quiet
-echo &quot;..........[ DONE ]&quot;
+metafile=&#34;metadata.txt&#34;
+echo -n &#34;Extracting meta data&#34;
+ffmpeg -i &#34;$bname.mp4&#34; -f ffmetadata $metafile -v quiet
+echo &#34;..........[ DONE ]&#34;
 
 ## chapter marks
 #TODO: (‘=’, ‘;’, ‘#’, ‘\’) to be escaped
 ts=0
-echo -n &quot;Identifying chapters&quot;
+echo -n &#34;Identifying chapters&#34;
 cat files.txt | while read file
 do
-    ds=`ffprobe -v quiet -of csv=p=0 -show_entries format=duration &quot;$file&quot;`
-    # echo &quot;$ds&quot;
-    echo &quot;[CHAPTER]&quot; &gt;&gt; $metafile
-    echo &quot;TIMEBASE=1/1&quot; &gt;&gt; $metafile
-    echo &quot;START=$ts&quot; &gt;&gt; $metafile
+    ds=`ffprobe -v quiet -of csv=p=0 -show_entries format=duration &#34;$file&#34;`
+    # echo &#34;$ds&#34;
+    echo &#34;[CHAPTER]&#34; &gt;&gt; $metafile
+    echo &#34;TIMEBASE=1/1&#34; &gt;&gt; $metafile
+    echo &#34;START=$ts&#34; &gt;&gt; $metafile
     ts=`echo $ts + $ds | bc`
-    echo &quot;END=$ts&quot; &gt;&gt; $metafile
-    echo &quot;TITLE=$file&quot; &gt;&gt; $metafile
+    echo &#34;END=$ts&#34; &gt;&gt; $metafile
+    echo &#34;TITLE=$file&#34; &gt;&gt; $metafile
     
 done
-echo &quot;..........[ DONE ]&quot;
+echo &#34;..........[ DONE ]&#34;
 ## update meta with chaptermarks
 
-echo -n &quot;Adding chapter meta &quot;
+echo -n &#34;Adding chapter meta &#34;
 
-ffmpeg -i &quot;$bname.mp4&quot; -i $metafile -map_metadata 1 -codec copy &quot;$bname-meta.mp4&quot; -v quiet
-echo &quot;..........[ DONE ]&quot;
+ffmpeg -i &#34;$bname.mp4&#34; -i $metafile -map_metadata 1 -codec copy &#34;$bname-meta.mp4&#34; -v quiet
+echo &#34;..........[ DONE ]&#34;
 
 ## cleanup
-echo -n &quot;Cleaning up&quot;
+echo -n &#34;Cleaning up&#34;
 
 rm files.txt list.txt $metafile
 
-echo &quot;..........[ DONE ]&quot;
+echo &#34;..........[ DONE ]&#34;
 
-echo &quot;Job Completed.&quot;
-
-</code></pre>
-
-<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16</a></p>
+echo &#34;Job Completed.&#34;
+</code></pre><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16">https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16</a></p>
 
 
       
@@ -189,7 +158,7 @@ echo &quot;Job Completed.&quot;
     
     <ul class="pager article-pager">
       <li class="pager-newer">
-          <a href="https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Pilapse - Raspberry Pi Camera and Timelapse</a>
+          <a href="https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Pilapse - Raspberry Pi Camera and Timelapse</a>
       </li>
       <li class="pager-older">
         <a href="https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/" data-toggle="tooltip" data-placement="top" title="Previous Article">Poor man&#39;s pdf diff tool &gt;</a>
@@ -200,11 +169,7 @@ echo &quot;Job Completed.&quot;
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -214,7 +179,7 @@ echo &quot;Job Completed.&quot;
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

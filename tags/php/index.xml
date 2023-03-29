@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Php on PR</title>
+    <title>php on PR</title>
     <link>https://www.palaniraja.com/tags/php/</link>
-    <description>Recent content in Php on PR</description>
+    <description>Recent content in php on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Tue, 14 Dec 2010 10:39:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 14 Dec 2010 10:39:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea Vault: When is that?</title>
       <link>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</link>
@@ -24,10 +20,10 @@ I am not talking about people who send/receive schedules from Outlook (or simila
     
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
-      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</link>
+      <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools--best-practices/</guid>
+      <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
       <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
     </item>
     
@@ -46,7 +42,7 @@ I am not talking about people who send/receive schedules from Outlook (or simila
       <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
       
       <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
-      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?</description>
+      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</description>
     </item>
     
     <item>
@@ -66,8 +62,7 @@ I am not talking about people who send/receive schedules from Outlook (or simila
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
       <description>Script speaks louder than words. Please go through the following links
 PHP Gd based Sticky script
-
-Jquery UI based Sticky page</description>
+Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
     </item>
     
     <item>
@@ -87,7 +82,8 @@ I have completed alternative way to view YouTube videos with FLV player of your 
       
       <guid>https://www.palaniraja.com/comments/hsbcphp-comments/</guid>
       <description>This page contains comments for the post - HSBC.php
- i found error bool(false) Prakaash - Feb 4, 2010</description>
+i found error bool(false) Prakaash - Feb 4, 2010
+i found error bool(false)</description>
     </item>
     
     <item>

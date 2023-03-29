@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stats on PR</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Stats on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Thu, 21 Mar 2013 11:37:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/stats/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Thu, 21 Mar 2013 11:37:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Reader - Take 2</title>
-      <link>https://www.palaniraja.com/2013/03/google-reader---take-2/</link>
+      <link>https://www.palaniraja.com/2013/03/google-reader-take-2/</link>
       <pubDate>Thu, 21 Mar 2013 11:37:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/03/google-reader---take-2/</guid>
+      <guid>https://www.palaniraja.com/2013/03/google-reader-take-2/</guid>
       <description>I was insanely angry with Google&amp;rsquo;s decision still I am. Here are some stats from my Google Reader takeout data.</description>
     </item>
     

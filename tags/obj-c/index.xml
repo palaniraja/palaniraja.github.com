@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Obj C on PR</title>
+    <title>Obj-C on PR</title>
     <link>https://www.palaniraja.com/tags/obj-c/</link>
-    <description>Recent content in Obj C on PR</description>
+    <description>Recent content in Obj-C on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/obj-c/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/obj-c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
-      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</link>
+      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</link>
       <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability---behind-the-configure-bridging-header-dialog/</guid>
+      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</guid>
       <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
     </item>
     
@@ -33,12 +29,12 @@ Remember this is a SOAP based API, there is a new alternative library available 
     
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
-      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
       <description>Update (2016-01-20): The app is now available on Mac App store.
- Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
     </item>
     
     <item>
@@ -47,26 +43,26 @@ Remember this is a SOAP based API, there is a new alternative library available 
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut Ctrl + Cmd + C 
+      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
 It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
     </item>
     
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
-      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</link>
+      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</guid>
+      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
       <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
 Session on OpenGL ES 2.</description>
     </item>
     
     <item>
       <title>Obj-C | For beginners</title>
-      <link>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</link>
+      <link>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</link>
       <pubDate>Sun, 11 Apr 2010 20:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</guid>
+      <guid>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</guid>
       <description>A quick obj-c cheat-sheet for the beginners.
 Scribd link
 This is taken from RWTH-iPhone Application Programming. You can also download complete videos from iTunesU.</description>

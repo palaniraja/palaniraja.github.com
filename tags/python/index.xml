@@ -1,33 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on PR</title>
+    <title>python on PR</title>
     <link>https://www.palaniraja.com/tags/python/</link>
-    <description>Recent content in Python on PR</description>
+    <description>Recent content in python on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 28 Jul 2018 18:53:05 +0530</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 28 Jul 2018 18:53:05 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pilapse - Raspberry Pi Camera and Timelapse</title>
-      <link>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</link>
+      <link>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</link>
       <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2018/07/pilapse---raspberry-pi-camera-and-timelapse/</guid>
+      <guid>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</guid>
       <description>It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
 Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
     </item>
     
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
-      <link>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</link>
+      <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2012/12/iforce---sublime-text-plugin-for-salesforce-development./</guid>
+      <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
       <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
     </item>
     

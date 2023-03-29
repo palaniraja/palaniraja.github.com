@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Core Data on PR</title>
+    <title>core data on PR</title>
     <link>https://www.palaniraja.com/tags/core-data/</link>
-    <description>Recent content in Core Data on PR</description>
+    <description>Recent content in core data on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 17 Dec 2011 23:08:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/core-data/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 17 Dec 2011 23:08:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/core-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iCloud Gotchas</title>
       <link>https://www.palaniraja.com/2011/12/icloud-gotchas/</link>

@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on PR</title>
+    <title>projects on PR</title>
     <link>https://www.palaniraja.com/tags/projects/</link>
-    <description>Recent content in Projects on PR</description>
+    <description>Recent content in projects on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Tue, 25 Jun 2019 20:37:01 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 25 Jun 2019 20:37:01 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Script to delete xcode buildconfigurations</title>
       <link>https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/</link>
@@ -23,11 +19,11 @@
     
     <item>
       <title>Whatchanged - Git history as HTML Report</title>
-      <link>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</link>
+      <link>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</link>
       <pubDate>Mon, 18 Mar 2019 10:04:20 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/</guid>
-      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team.</description>
+      <guid>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</guid>
+      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team. I am not sure the basis of the request, as they can go through the git repo themselves.</description>
     </item>
     
     <item>
@@ -49,6 +45,15 @@
     </item>
     
     <item>
+      <title>iForce</title>
+      <link>https://www.palaniraja.com/projects/iforce/</link>
+      <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
+      
+      <guid>https://www.palaniraja.com/projects/iforce/</guid>
+      <description>Note: I no longer develop Salesforce applications, hence I do not maintain this extension. You are free to fork and maintain.</description>
+    </item>
+    
+    <item>
       <title>Mclock</title>
       <link>https://www.palaniraja.com/projects/mclock/</link>
       <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
@@ -56,16 +61,7 @@
       <guid>https://www.palaniraja.com/projects/mclock/</guid>
       <description>A minimalist clock to display time of different timezone of your choice.
 Eg.,
- &amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo;  The app stays in menu bar all the time and you can customize the display format and timezone.</description>
-    </item>
-    
-    <item>
-      <title>iForce</title>
-      <link>https://www.palaniraja.com/projects/iforce/</link>
-      <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
-      
-      <guid>https://www.palaniraja.com/projects/iforce/</guid>
-      <description>Note: I no longer develop Salesforce applications, hence I do not maintain this extension. You are free to fork and maintain.</description>
+&amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo; The app stays in menu bar all the time and you can customize the display format and timezone.</description>
     </item>
     
   </channel>

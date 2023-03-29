@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2016/01/integrating-chromecast-with-kaltura-sdk-ios/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -63,16 +64,15 @@
       
       
       <p>Their documentation says it is built in, but I couldn&rsquo;t find a sample anywhere, so here it is for everyone on how to integrate <a href="https://www.google.com/intl/en_in/chrome/devices/chromecast/index.html?utm_source=chromecast.com">Chromecast</a> with your <a href="https://github.com/kaltura/player-sdk-native-ios">Kaltura Player</a>.</p>
-
-<pre><code>
+<pre tabindex="0"><code>
 - (KPViewController *)player {
     if (!_player) {
-        KPPlayerConfig *config = [[KPPlayerConfig alloc] initWithDomain:@&quot;http://cdnapi.kaltura.com&quot;
-                                                               uiConfID:@&quot;PlayerConfigId&quot;
-                                                              partnerId:@&quot;YourPartnerId&quot;];
-        config.entryId = @&quot;YourContentId&quot;;
+        KPPlayerConfig *config = [[KPPlayerConfig alloc] initWithDomain:@&#34;http://cdnapi.kaltura.com&#34;
+                                                               uiConfID:@&#34;PlayerConfigId&#34;
+                                                              partnerId:@&#34;YourPartnerId&#34;];
+        config.entryId = @&#34;YourContentId&#34;;
         
-        [config addConfigKey:@&quot;chromecast&quot; withDictionary:@{@&quot;plugin&quot;:@&quot;true&quot;}];
+        [config addConfigKey:@&#34;chromecast&#34; withDictionary:@{@&#34;plugin&#34;:@&#34;true&#34;}];
         
         config.cacheSize = 0.8;
         _player = [[KPViewController alloc] initWithConfiguration:config];
@@ -80,9 +80,7 @@
     return _player;
 }
   
-</code></pre>
-
-<p>I&rsquo;ll cherish the moment where I had to demo this to a customer in order to gain the confidence and to prove my report was correct.</p>
+</code></pre><p>I&rsquo;ll cherish the moment where I had to demo this to a customer in order to gain the confidence and to prove my report was correct.</p>
 
       
     </article>
@@ -118,11 +116,7 @@
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -132,7 +126,7 @@
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

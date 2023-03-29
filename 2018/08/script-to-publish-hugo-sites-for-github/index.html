@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -62,42 +63,31 @@
       
       
       
-      
-
-<p>While deploying my <a href="https://www.palaniraja.com/2018/08/website-redesign/">recent hugo</a> website to github, I <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/">re-learnt</a> that, you can only publish gh-pages from <code>master</code> branch for <a href="https://help.github.com/articles/user-organization-and-project-pages/">user or organization</a> repository.</p>
-
+      <p>While deploying my <a href="https://www.palaniraja.com/2018/08/website-redesign/">recent hugo</a> website to github, I <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/">re-learnt</a> that, you can only publish gh-pages from <code>master</code> branch for <a href="https://help.github.com/articles/user-organization-and-project-pages/">user or organization</a> repository.</p>
 <p>So had to change my workflow to remove all old static files from <code>master</code> and copy generated contents from hugo.</p>
-
 <p>It becomes tedious to remember not to delete <code>CNAME</code> or <code>hugo</code> folder from my repo everytime I had to copy the generated content. So I wrote a <code>bash</code> script to automate the tasks for me.</p>
-
 <p>Works great, now I do not have to remember the critical files and just <code>./publish.sh</code> from my <code>master</code> branch.</p>
-
 <p>Be very careful as it run <a href="https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh#L5"><code>rm -rf</code></a> at line #5. So place the <code>publish.sh</code> only in your repo&rsquo;s <em>root folder</em>.</p>
+<h3 id="publishsh">publish.sh</h3>
+<pre tabindex="0"><code>#!/usr/bin
 
-<h3 id="publish-sh">publish.sh</h3>
-
-<pre><code>#!/usr/bin
-
-echo &quot;[ 1/3 ] Going to remove previously generated files&quot;
+echo &#34;[ 1/3 ] Going to remove previously generated files&#34;
 # to delete files that are generated (.git and .ignore as they are hidden)
-rm -rf `ls | grep -v &quot;CNAME\|hugo\|README.md\|publish.sh&quot;`
+rm -rf `ls | grep -v &#34;CNAME\|hugo\|README.md\|publish.sh&#34;`
 
 # switch to hugo directory and run hugo to build genereate content in hugo/docs and move generated files back to ./
-echo &quot;[ 2/3 ] To build static contents and copy&quot;
+echo &#34;[ 2/3 ] To build static contents and copy&#34;
 cd hugo &amp;&amp; hugo &amp;&amp; mv docs/* ../ &amp;&amp; cd ..
-echo &quot;COMPLETE&quot;
+echo &#34;COMPLETE&#34;
 
-# git commit changes as &quot;publish&quot;
-echo &quot;[ 3/3 ] Commit changes and push to github&quot;
+# git commit changes as &#34;publish&#34;
+echo &#34;[ 3/3 ] Commit changes and push to github&#34;
 git add .
-git commit -m &quot;publish&quot;
+git commit -m &#34;publish&#34;
 git push origin --all
 
-echo &quot;COMPLETE&quot;
-
-</code></pre>
-
-<p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh">https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh</a></p>
+echo &#34;COMPLETE&#34;
+</code></pre><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh">https://github.com/palaniraja/palaniraja.github.com/blob/master/publish.sh</a></p>
 
 
       
@@ -134,11 +124,7 @@ echo &quot;COMPLETE&quot;
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -148,7 +134,7 @@ echo &quot;COMPLETE&quot;
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

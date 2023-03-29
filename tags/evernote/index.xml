@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evernote on PR</title>
+    <title>evernote on PR</title>
     <link>https://www.palaniraja.com/tags/evernote/</link>
-    <description>Recent content in Evernote on PR</description>
+    <description>Recent content in evernote on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 18 Dec 2010 01:44:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 18 Dec 2010 01:44:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Import Delicious bookmarks to Evernote including tags</title>
       <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>

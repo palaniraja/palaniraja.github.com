@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Icloud on PR</title>
+    <title>icloud on PR</title>
     <link>https://www.palaniraja.com/tags/icloud/</link>
-    <description>Recent content in Icloud on PR</description>
+    <description>Recent content in icloud on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 17 Dec 2011 23:08:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/icloud/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 17 Dec 2011 23:08:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/icloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iCloud Gotchas</title>
       <link>https://www.palaniraja.com/2011/12/icloud-gotchas/</link>

@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2010/12/pure-reader-for-chrome/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -63,14 +64,10 @@
       
       
       <p>I love the theme of the Pure Reader for Safari (<a href="http://nadesign.net/safari/">http://nadesign.net/safari/</a>). I&rsquo;ve ported the CSS as a userscript to use it with Google Chrome. Firefox need some css modification pls find the <a href="http://idzr.org/c5br">css here</a>.</p>
-
 <p><a href="http://userscripts-mirror.org/scripts/show/92064">http://userscripts-mirror.org/scripts/show/92064</a></p>
-
-<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-12-06-at-2.33.04-PM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-12-06-at-2.33.04-PM.png" alt="" /></a></p>
-
+<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-12-06-at-2.33.04-PM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-12-06-at-2.33.04-PM.png" alt=""></a></p>
 <p><strong>Update:</strong> Links updated with userscripts-mirror.org. Installed 2,059 times.</p>
-
-<pre><code>// ==UserScript==
+<pre tabindex="0"><code>// ==UserScript==
 // @name        Pure Reader 
 // @description Pure Reader ported for Chrome, original author http://nadesign.net/safari/
 // @include     https://*.google.com/reader/view/*
@@ -80,15 +77,14 @@
 // ==/UserScript==
 
 
-var cssNode = document.createElement('link');
-cssNode.type = 'text/css';
-cssNode.rel = 'stylesheet';
-cssNode.href = 'http://idzr.org/c5br';
-cssNode.media = 'screen';
-cssNode.title = 'dynamicLoadedSheet';
-document.getElementsByTagName(&quot;head&quot;)[0].appendChild(cssNode);
+var cssNode = document.createElement(&#39;link&#39;);
+cssNode.type = &#39;text/css&#39;;
+cssNode.rel = &#39;stylesheet&#39;;
+cssNode.href = &#39;http://idzr.org/c5br&#39;;
+cssNode.media = &#39;screen&#39;;
+cssNode.title = &#39;dynamicLoadedSheet&#39;;
+document.getElementsByTagName(&#34;head&#34;)[0].appendChild(cssNode);
 </code></pre>
-
       
     </article>
 
@@ -123,11 +119,7 @@ document.getElementsByTagName(&quot;head&quot;)[0].appendChild(cssNode);
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -137,7 +129,7 @@ document.getElementsByTagName(&quot;head&quot;)[0].appendChild(cssNode);
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

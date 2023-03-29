@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Grep - Swiss army knife - PR</title>
+  <meta property="og:title" content="Grep - Swiss army knife - PR" />
+  <meta name="twitter:title" content="Grep - Swiss army knife - PR" />
+  <meta name="description" content="I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.">
+  <meta property="og:description" content="I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.">
+  <meta name="twitter:description" content="I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2013/07/grep-swiss-army-knife/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.111.3">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.palaniraja.com/favicon-16x16.png">
+  <link rel="manifest" href="https://www.palaniraja.com/site.webmanifest">
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Jul 20, 2013 </time>  &nbsp;&nbsp;<small> &minus; 4 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">Grep - Swiss army knife</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems. I really don&rsquo;t know whether grep is the right choice here, but hey! it worked :-)</p>
+<h4 id="problem-1-filtering-csv">Problem 1: Filtering CSV</h4>
+<p>I had a very large CSV file of size 620Mb, a report exported from salesforce. I have to find the duplicate accounts and contacts with same email id.</p>
+<p>Excel and Numbers were either crashing or taking light years to respond to any of the action I had to perform on the data.</p>
+<p>The CSV was in the format:</p>
+<pre tabindex="0"><code>Email: unique@domain.com  
+ 
+Contact: 1 Sales Contact  
+Duplicate Contact 1  
+ 
+Email: duplicate-exists@domain.com  
+ 
+Contact: 2 Sales Contacts  
+Duplicate Contact 1  
+Duplicate Contact 2  
+ 
+Email: duplicate-exists@another-domain.com  
+ 
+Contact: 3 Sales Contacts  
+Duplicate Contact 1  
+Duplicate Contact 2  
+Duplicate Contact 3
+</code></pre><p>I knew I could just see how many contacts has duplicates by simply doing a grep -i &lsquo;contacts&rsquo; | wc -l but I would like to know the email id associated with the contacts which is not in the same line.</p>
+<p>Quick search on man grep lists an option to print previous lines in addition to the line which matches the string. Here is the recipe I used to solve the problem.</p>
+<pre tabindex="0"><code># this is to return all emails and sales contacts  
+~/shell$ grep -B 2 &#39;Contacts&#39; filename.csv | grep &#39;Email:&#39;
+</code></pre><p><a href="http://linux.die.net/man/1/grep">From Manual</a> </p>
+<pre><code>-B num, --before-context=num  
+    Print num lines of leading context before each match.  See also the -A and -C options.  
+</code></pre>
+<h4 id="problem-2-objects-and-apex-classes-linked-to-a-particular-object"> Problem 2: Objects and APEX classes linked to a particular object.</h4>
+<p>We are in need to provide effort required to do an impact analysis of migrating an existing salesforce object to a new object. This activity includes identifying the no. of classes has a reference to the object in question and an effort estimate to analyse those source files which has also has a reference to the object.</p>
+<p>To arrive an approximate effort estimate, we need a list of files and no. of lines of each files.</p>
+<p>Salesforce Schema browser is not very helpful if I want to know just the _number_ of objects associated, not what is the relation and how it is related to another object. And it is also a real pain to collapse and follow the links/pipes in a production environment with larger number of objects.</p>
+<p>Like every other occasion, management was asking the numbers as soon as possible. And developers were doing a Ctrl + F on Eclipse on classes and counting the no. of files. I could not suggest or question the team as I have only very little knowledge about salesforce APEX development.</p>
+<p>Since I am the author of iForce (a Sublimetext extension to help salesforce development) I knew that all the files are just text with metadata. So If I know the pattern to search for I could use grep to get the list of files and pipe it to wc to get approximate number we were looking for.</p>
+<p>Well, it took more time to finalise the pattern of object usage in APEX code than to find the number. Also the default payload.xml of iForce doesn&rsquo;t fetch all the required objects so I had quickly replaced the payload.xml on my iForce working copy with the one from Eclipse workspace.</p>
+<p>Once I refresh my <a href="https://github.com/palaniraja/iForce/">iForce</a> working copy with one from the server, the answer is just a minutes away. Here is the list of commands I ran to get the number, I just copied it to excel, formatted columns with bright colour background for the people <em>above my food chain</em> to process ;)</p>
+<pre tabindex="0"><code>
+salesforce-sandbox/classes$ grep -iE &#39;new contact||new account|&#39; -l *.cls |wc -l 
+  
+salesforce-sandbox/triggers$ grep -iE &#39;new contact||new account|&#39; -l *.trigger |wc -l  
+
+salesforce-sandbox/components$ grep -iE &#39;new contact||new account|&#39; -l *.component | wc -l
+</code></pre><p><strong>P.S</strong>:
+Though count from <code>wc -l</code> doesn&rsquo;t provide the meaningful number of lines as <a href="http://cloc.sourceforge.net/">CLOC</a>. But I was in a hurry, and I have not tried CLOC with <a href="http://www.salesforce.com/us/developer/docs/apexcode/">APEX</a> code.</p>
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2013%2f07%2fgrep-swiss-army-knife%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Raspbian &#43; XBMC &#43; Airplay</a>
+      </li>
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2013/07/link-this-is-linus/" data-toggle="tooltip" data-placement="top" title="Previous Article">Link: This is Linus &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  <p align="center" class="nav-footer-menu">
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2006-2023 palaniraja</p>
+</div>
+
+</body>
+</html>

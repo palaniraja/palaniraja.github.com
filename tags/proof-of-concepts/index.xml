@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proof of Concepts on PR</title>
+    <title>proof-of-concepts on PR</title>
     <link>https://www.palaniraja.com/tags/proof-of-concepts/</link>
-    <description>Recent content in Proof of Concepts on PR</description>
+    <description>Recent content in proof-of-concepts on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 06:25:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/proof-of-concepts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 06:25:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/proof-of-concepts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Integrating Chromecast with Kaltura SDK (iOS)</title>
       <link>https://www.palaniraja.com/2016/01/integrating-chromecast-with-kaltura-sdk-ios/</link>

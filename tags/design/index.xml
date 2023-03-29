@@ -1,25 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design on PR</title>
+    <title>design on PR</title>
     <link>https://www.palaniraja.com/tags/design/</link>
-    <description>Recent content in Design on PR</description>
+    <description>Recent content in design on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 16:22:22 +0530</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 16:22:22 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flickr - How not to design backup userdata when shutting down your service</title>
-      <link>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</link>
+      <link>https://www.palaniraja.com/2019/01/flickr-how-not-to-design-backup-userdata-when-shutting-down-your-service/</link>
       <pubDate>Tue, 01 Jan 2019 16:22:22 +0530</pubDate>
       
-      <guid>https://www.palaniraja.com/2019/01/flickr---how-not-to-design-backup-userdata-when-shutting-down-your-service/</guid>
+      <guid>https://www.palaniraja.com/2019/01/flickr-how-not-to-design-backup-userdata-when-shutting-down-your-service/</guid>
       <description>Happy New Year - 2019
- It is always easy to find fault than fixing. So this isn&amp;rsquo;t very hard to start this year blogging write a rant.</description>
+It is always easy to find fault than fixing. So this isn&amp;rsquo;t very hard to start this year blogging write a rant.</description>
     </item>
     
     <item>
@@ -42,10 +38,10 @@
     
     <item>
       <title>Bitsplitting - Logo</title>
-      <link>https://www.palaniraja.com/2013/04/bitsplitting---logo/</link>
+      <link>https://www.palaniraja.com/2013/04/bitsplitting-logo/</link>
       <pubDate>Sat, 13 Apr 2013 08:32:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/04/bitsplitting---logo/</guid>
+      <guid>https://www.palaniraja.com/2013/04/bitsplitting-logo/</guid>
       <description>Bitsplitting - Beautiful logo I have seen in a long time. I don&amp;rsquo;t know how @danielpunkass decided to use one version of the two.</description>
     </item>
     
@@ -69,10 +65,10 @@
     
     <item>
       <title>Wallpaper - Testflight app</title>
-      <link>https://www.palaniraja.com/2011/08/wallpaper---testflight-app/</link>
+      <link>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</link>
       <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/08/wallpaper---testflight-app/</guid>
+      <guid>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</guid>
       <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
     </item>
     
@@ -83,7 +79,6 @@
       
       <guid>https://www.palaniraja.com/2011/04/radio-buttons-and-checkboxes/</guid>
       <description>I have designed the following as one of my side project required a simple radio buttons and checkboxes.
-
 Download the *.</description>
     </item>
     

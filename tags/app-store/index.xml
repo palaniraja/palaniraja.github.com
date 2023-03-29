@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>App Store on PR</title>
@@ -6,12 +6,8 @@
     <description>Recent content in App Store on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/app-store/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/app-store/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev Diary: Apple Pay</title>
       <link>https://www.palaniraja.com/2017/10/dev-diary-apple-pay/</link>
@@ -33,12 +29,12 @@ It is based on speed reading technique/methodology called Spritz</description>
     
     <item>
       <title>Speedy - Speed reading application for Mac</title>
-      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <link>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <guid>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</guid>
       <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
-I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;rsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
     </item>
     
     <item>
@@ -62,10 +58,10 @@ For those who wants to see all levels without completing a level or struck in a 
     
     <item>
       <title>Mac App Store - Source</title>
-      <link>https://www.palaniraja.com/2010/10/mac-app-store---source/</link>
+      <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/10/mac-app-store---source/</guid>
+      <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
       <description>You get the idea? You are not looking for the UI code are you?
 Saurik will be doing the UI for us ;)</description>
     </item>
@@ -77,35 +73,36 @@ Saurik will be doing the UI for us ;)</description>
       
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
       <description>Youtube link
- Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.</description>
+Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
       <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
       <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
     </item>
     
     <item>
       <title>Angry Birds – I give up</title>
-      <link>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</link>
+      <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)</description>
+      <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
+      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
+I am not a great gamer, I give up on games too early.</description>
     </item>
     
   </channel>

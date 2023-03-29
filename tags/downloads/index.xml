@@ -1,34 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Downloads on PR</title>
+    <title>downloads on PR</title>
     <link>https://www.palaniraja.com/tags/downloads/</link>
-    <description>Recent content in Downloads on PR</description>
+    <description>Recent content in downloads on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Mon, 28 Nov 2011 03:34:00 -0800</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/downloads/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Mon, 28 Nov 2011 03:34:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/downloads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing more simulators for xcode 4.2 without re-downloading everytime</title>
       <link>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</link>
       <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
-      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.</description>
+      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.</description>
     </item>
     
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
-      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
       <description>Update (2016-01-20): The app is now available on Mac App store.
- Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
     </item>
     
     <item>
@@ -38,7 +34,6 @@
       
       <guid>https://www.palaniraja.com/2011/04/radio-buttons-and-checkboxes/</guid>
       <description>I have designed the following as one of my side project required a simple radio buttons and checkboxes.
-
 Download the *.</description>
     </item>
     

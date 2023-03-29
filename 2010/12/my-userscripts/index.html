@@ -17,7 +17,8 @@ AnchorFree banner killer Remove Banner from the top when you use Anchor Free Hot
   <meta property="og:url" content="https://www.palaniraja.com/2010/12/my-userscripts/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -65,19 +66,12 @@ AnchorFree banner killer Remove Banner from the top when you use Anchor Free Hot
       
       
       
-      
-
-<p>Finally decided to copy all my published userscripts.org codes here.</p>
-
-<p><img src="https://www.palaniraja.com/assets/userscript-all.png" alt="all userscripts" /></p>
-
+      <p>Finally decided to copy all my published userscripts.org codes here.</p>
+<p><img src="https://www.palaniraja.com/assets/userscript-all.png" alt="all userscripts"></p>
 <h3 id="anchorfree-banner-killer">AnchorFree banner killer</h3>
-
 <p>Remove Banner from the top when you use Anchor Free Hotspot shield / Please deactivate the script after disconnecting Hotspot shield</p>
-
 <p><a href="http://userscripts-mirror.org/scripts/show/11070">AnchorFree banner killer</a>. Installed 6,931 times.</p>
-
-<pre><code>/*
+<pre tabindex="0"><code>/*
 
 Remove Banner from the top when you use Anchor Free Hotspot shield
 
@@ -91,47 +85,40 @@ Use this freely under the GNU GPL, http://www.gnu.org/licenses/gpl.html
 // @description   Remove Banner from the top when you use Anchor Free Hotspot shield / Please deactivate the script after disconnecting Hotspot shield
 // @include       *
 // ==/UserScript==
-//*[@id=&quot;resultright&quot;]
+//*[@id=&#34;resultright&#34;]
 
-var css = &quot;@namespace url(http://www.w3.org/1999/xhtml); html {margin-top:0px} body{margin-top:-90px;}&quot;;
+var css = &#34;@namespace url(http://www.w3.org/1999/xhtml); html {margin-top:0px} body{margin-top:-90px;}&#34;;
 
-if (typeof GM_addStyle != &quot;undefined&quot;) {
+if (typeof GM_addStyle != &#34;undefined&#34;) {
     GM_addStyle(css);
-} else if (typeof addStyle != &quot;undefined&quot;) {
+} else if (typeof addStyle != &#34;undefined&#34;) {
     addStyle(css);
 } else {
-    var heads = document.getElementsByTagName(&quot;head&quot;);
-    //console.log(&quot;printing heads&quot;,heads);
+    var heads = document.getElementsByTagName(&#34;head&#34;);
+    //console.log(&#34;printing heads&#34;,heads);
     if (heads.length &gt; 0) {
-        var node = document.createElement(&quot;style&quot;);
-        node.type = &quot;text/css&quot;;
+        var node = document.createElement(&#34;style&#34;);
+        node.type = &#34;text/css&#34;;
         node.innerHTML = css;
         heads[0].appendChild(node); 
         
     }
 }
 
-var topBar = document.getElementById('iframe-af-container');
+var topBar = document.getElementById(&#39;iframe-af-container&#39;);
 if(topBar) {
  topBar.parentNode.removeChild(topBar);
 }
 
-/*document.getElementById('body-af-container').style.position='absolute';
-document.getElementById('body-af-container').style.top='0px';
-document.getElementById('body-af-container').style.left='0px';*/
-//document.getElementById('body-af-container').style.marginTop='-90px';
-</code></pre>
-
-<h3 id="yahoo-webmail">Yahoo webmail++</h3>
-
+/*document.getElementById(&#39;body-af-container&#39;).style.position=&#39;absolute&#39;;
+document.getElementById(&#39;body-af-container&#39;).style.top=&#39;0px&#39;;
+document.getElementById(&#39;body-af-container&#39;).style.left=&#39;0px&#39;;*/
+//document.getElementById(&#39;body-af-container&#39;).style.marginTop=&#39;-90px&#39;;
+</code></pre><h3 id="yahoo-webmail">Yahoo webmail++</h3>
 <p><a href="https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/">Clean yahoo webmail without Ad&rsquo;s</a></p>
-
 <h3 id="pure-reader-for-chrome">Pure Reader for Chrome</h3>
-
 <p><a href="https://www.palaniraja.com/2010/12/pure-reader-for-chrome/">Pure reader for Chrome</a></p>
-
-<h3 id="seochat-devshed-banner-killer">SEOchat/Devshed banner killer</h3>
-
+<h3 id="seochatdevshed-banner-killer">SEOchat/Devshed banner killer</h3>
 <p><a href="https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/">My first Greasemonkey script</a></p>
 
       
@@ -168,11 +155,7 @@ document.getElementById('body-af-container').style.left='0px';*/
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -182,7 +165,7 @@ document.getElementById('body-af-container').style.left='0px';*/
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

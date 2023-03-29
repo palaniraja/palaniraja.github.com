@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Students on PR</title>
+    <title>students on PR</title>
     <link>https://www.palaniraja.com/tags/students/</link>
-    <description>Recent content in Students on PR</description>
+    <description>Recent content in students on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Wed, 22 Oct 2014 00:06:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/students/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Wed, 22 Oct 2014 00:06:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/students/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kids these days</title>
       <link>https://www.palaniraja.com/2014/10/kids-these-days/</link>

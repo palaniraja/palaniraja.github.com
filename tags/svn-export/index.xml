@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Svn Export on PR</title>
+    <title>svn export on PR</title>
     <link>https://www.palaniraja.com/tags/svn-export/</link>
-    <description>Recent content in Svn Export on PR</description>
+    <description>Recent content in svn export on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Sep 2008 19:27:21 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/svn-export/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 20 Sep 2008 19:27:21 +0000</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/svn-export/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SVN: Export only updated files between 2 revisions</title>
       <link>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</link>
       <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
       
       <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
-      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions?</description>
+      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</description>
     </item>
     
   </channel>

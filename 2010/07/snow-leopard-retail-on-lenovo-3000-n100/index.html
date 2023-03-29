@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -62,117 +63,53 @@
       
       
       
-      
-
-<p><a href="https://www.palaniraja.com/assets/lenovo_thumb.jpg"><img src="https://www.palaniraja.com/assets/lenovo_thumb.jpg" alt="lenovo" title="lenovo" /></a></p>
-
+      <p><a href="https://www.palaniraja.com/assets/lenovo_thumb.jpg"><img src="https://www.palaniraja.com/assets/lenovo_thumb.jpg" alt="lenovo" title="lenovo"></a></p>
 <p><strong>Disclaimer:</strong> <em>There is no alternative to real Mac, if you like Mac go and buy it. If buying a real Mac is too much, you can at least buy a license for Mac OS X Snow Leopard which costs $29 only. This post is to test the Snow Leopard compatibility with Lenovo 3000 N100.</em></p>
-
 <p>After some hard work I have successfully installed Snow Leopard on a Lenovo 3000 N100 (0768-BVG) model.</p>
-
 <h3 id="lenovo-3000-n100-hardware-info">Lenovo 3000 N100 Hardware info</h3>
-
-<table width="552" cellspacing="5" cellpadding="1" border="0"><tbody>
-<tr>       <td width="200" valign="top">Computer Type</td>        <td width="350" valign="top">ACPI x86-based PC (Mobile)</td>     </tr>
-<tr>       <td width="200" valign="top">CPU Type</td>        <td width="350" valign="top">Intel(R) Core(TM) Duo CPU T2350 @ 1.86GHz</td>     </tr>
-<tr>       <td width="200" valign="top">Multiplier x FSB</td>        <td width="350" valign="top">6.0 x 133.0 MHz</td>     </tr>
-<tr>       <td width="200" valign="top">Video Adapter</td>        <td width="350" valign="top">Mobile Intel(R) 945GM Express Chipset Family</td>     </tr>
-<tr>       <td width="200" valign="top">Audio Adapter</td>        <td width="350" valign="top">Intel 82801GBM ICH7-M - High Definition Audio</td>     </tr>
-<tr>       <td width="200" valign="top">Ethernet</td>        <td width="350" valign="top">Realtek 8139C</td>     </tr>
-</tbody></table>
-
-<h3 id="hackintosh-snow-leopard">Hackintosh | Snow Leopard</h3>
-
-<table width="621" cellspacing="5" cellpadding="1" border="0"><tbody>
-<tr>       <td width="200" valign="top">Architecture</td>        <td width="419" valign="top">x86(32-bit)</td>     </tr>
-<tr>       <td width="200" valign="top">Graphics</td>        <td width="419" valign="top">Yes</td>     </tr>
-<tr>       <td width="200" valign="top">Quartz Extreme / Core Image</td>        <td width="419" valign="top">Yes</td>     </tr>
-<tr>       <td width="200" valign="top">Audio</td>        <td width="419" valign="top">Yes (with audio-in)</td>     </tr>
-<tr>       <td width="200" valign="top">Ethernet </td>        <td width="419" valign="top">Yes (Inbuilt RTL8139)</td>     </tr>
-<tr>       <td width="200" valign="top">iPhone SDK</td>        <td width="419" valign="top">Yes (tested with both 3.2/4.0)</td>     </tr>
-<tr>       <td width="200" valign="top">Upgrade</td>        <td width="419" valign="top">Yes running 10.6.4 upgraded from 10.6.3 with combo update</td>     </tr>
-</tbody></table>
-
+<!-- raw HTML omitted -->
+<h3 id="hackintosh--snow-leopard">Hackintosh | Snow Leopard</h3>
+<!-- raw HTML omitted -->
 <h3 id="installation-method">Installation Method</h3>
-
 <p>There is an awesome post by <a href="http://prasys.co.cc/2009/08/installing-snow-leopard-for-osx86/">Prasys</a> on installing Snow Leopard on PC with details you must know before trying any Hackintosh installation.</p>
-
 <p>I have installed Snow Leopard retail(10.6.3) from my Hackintosh running 10.5.7. If you want to have dual/tri/quad booting patch your <strong>OSInstall.mpkg</strong> (Google is your friend) to install on MBR partition, else you have to repartition your drive as GUID with the default setup.</p>
-
 <p>Mount/Insert your Snow Leopard DVD and go to <strong>/Volumes/OSX86/System/Installation/Packages</strong> and double click <strong>OSInstall.mpkg</strong> file to install. All you have to do is select the partition you want to install.</p>
-
 <p>Do not forget to uncheck printer drivers. Funny thing is OSX Installation DVD has 4.5G printer drivers :)</p>
-
 <p>Select only &ldquo;<strong>Essential System Software</strong>&rdquo; (default) to install, you can install additional language and translation later. Installation will be done in somewhere between 30 minutes and an hour.</p>
-
 <p>Install boot loaders like Chameleon to boot from hard-drive. Please follow Prasys blog for the steps and there are other utilities available eg., (<a href="http://tonymacx86.blogspot.com/2010/04/iboot-multibeast-install-mac-os-x-on.html">Multibeast</a>, <a href="http://osx86.sojugarden.com/2010/06/myhack-installer-1-1-released/">MyHackInstaller</a>)</p>
-
 <p>Boot with <strong>-v</strong> option always or update your <strong>com.apple.Boot.plist</strong> to have verbose boot as default.</p>
-
 <p>GUI boot is not good for any hackintosh build. You end up restarting after seeing spinner for longtime. Verbose mode print the status and you can reboot when you don&rsquo;t see any activity for a minute or so.</p>
-
-<p>Install <strong>BSD.pkg</strong> from <strong>/Volumes/Mac OS X Install DVD/System/Installation/Packages</strong> to solve “_<strong>No Installer packages can be found for this disk</strong>_” whenever you want to verify permission and fix permission from Disk Utility. You need to run the <strong>BSD.pkg</strong> from recently installed Snow Leopard.</p>
-
+<p>Install <strong>BSD.pkg</strong> from <strong>/Volumes/Mac OS X Install DVD/System/Installation/Packages</strong> to solve “<em><strong>No Installer packages can be found for this disk</strong></em>” whenever you want to verify permission and fix permission from Disk Utility. You need to run the <strong>BSD.pkg</strong> from recently installed Snow Leopard.</p>
 <p>Boot with <strong>-v -x -f</strong> flag until you get 1280x800 resolution (It is the max. resolution of Lenovo 3000 N100 )</p>
-
 <h3 id="issue-1-grey-screen-of-death">Issue #1: Grey screen of death</h3>
-
 <p>You end up seeing Grey screen or <a href="http://farm3.static.flickr.com/2446/3876638949_617df0e63a_o.jpg">kernel panic</a> </p>
-
 <p>Solution: Boot to single user mode (<strong>-s</strong>) and delete the <strong>AppleIntelIntegratedFramebuffer.kext</strong> and reboot with <strong>-v –f</strong></p>
-
 <h3 id="issue-2-no-gui-and-mouse-pointer-blinks-at-the-top-left-in-verbose-boot">Issue #2: NO GUI and mouse pointer blinks at the top left in verbose boot</h3>
-
 <p>No GUI after verbose log. You may notice a cursor(mouse pointer) blink at the top left of the screen.</p>
-
 <p>Solution: Boot to single user mode (<strong>-s</strong>) and delete the <strong>ATIFramebuffer.kext</strong> and reboot with <strong>-v –f</strong></p>
-
-<h3 id="issue-3-ui-works-only-with-safemode-x">Issue #3: UI works only with safemode (-x)</h3>
-
+<h3 id="issue-3-ui-works-only-with-safemode--x">Issue #3: UI works only with safemode (-x)</h3>
 <p>Solution: All you have to do is install <strong>AppleIntelIntegratedFramebuffer.kext</strong> v1.4.20. The default Intel GMA950 kext works but you have to delete the default framebuffer kext with the one mentioned above in-order to work in normal mode.</p>
-
-<h3 id="issue-4-can-t-able-to-take-screenshot">Issue #4: Can&rsquo;t able to take screenshot</h3>
-
+<h3 id="issue-4-cant-able-to-take-screenshot">Issue #4: Can&rsquo;t able to take screenshot</h3>
 <p>Command + Shift + 3 doesn&rsquo;t create any screenshot/file on your desktop.</p>
-
 <p>Solution: If so please  install <strong>Essentials.pkg</strong> from <strong>/Volumes/Mac OS X Install DVD/System/Installation/Packages</strong></p>
-
-<h3 id="issue-5-black-empty-screenshot-or-preview-app-doesn-t-display-the-jpg-files">Issue #5: Black/empty screenshot or Preview.app doesn&rsquo;t display the .jpg files</h3>
-
+<h3 id="issue-5-blackempty-screenshot-or-previewapp-doesnt-display-the-jpg-files">Issue #5: Black/empty screenshot or Preview.app doesn&rsquo;t display the .jpg files</h3>
 <p>You see this issue when QE/CI are not enabled.</p>
-
 <p>Solution: You need to replace the file mentioned in Issue#3.</p>
-
-<h4 id="check-whether-quartz-extreme-core-image-qe-ci-enabled">Check whether Quartz Extreme &amp; Core Image (QE/CI) enabled?</h4>
-
+<h4 id="check-whether-quartz-extreme--core-image-qeci-enabled">Check whether Quartz Extreme &amp; Core Image (QE/CI) enabled?</h4>
 <p>Once you install the above mentioned kext QE/CI should be enabled by default. You can verify the same by following.</p>
-
 <p><strong>a) Translucent menu bar</strong></p>
-
-<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.40.06-AM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.40.06-AM.png" alt="Screen shot 2010-07-07 at 10.40.06 AM" title="Screen shot 2010-07-07 at 10.40.06 AM" /></a></p>
-
-<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.38.49-AM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.38.49-AM.png" alt="Screen shot 2010-07-07 at 10.38.49 AM" title="Screen shot 2010-07-07 at 10.38.49 AM" /></a> </p>
-
+<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.40.06-AM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.40.06-AM.png" alt="Screen shot 2010-07-07 at 10.40.06 AM" title="Screen shot 2010-07-07 at 10.40.06 AM"></a></p>
+<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.38.49-AM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.38.49-AM.png" alt="Screen shot 2010-07-07 at 10.38.49 AM" title="Screen shot 2010-07-07 at 10.38.49 AM"></a> </p>
 <p><strong>b) All default Screensavers should work</strong></p>
-
-<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.38.39-AM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.38.39-AM.png" alt="Screen shot 2010-07-07 at 10.38.39 AM" title="Screen shot 2010-07-07 at 10.38.39 AM" /></a></p>
-
+<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.38.39-AM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-07-07-at-10.38.39-AM.png" alt="Screen shot 2010-07-07 at 10.38.39 AM" title="Screen shot 2010-07-07 at 10.38.39 AM"></a></p>
 <p><strong>c) Ripple effect when you add a widget in dashboard</strong></p>
-
-<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-07-13-at-9.14.32-PM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-07-13-at-9.14.32-PM.png" alt="Screen-shot-2010-07-13-at-9.14.32-PM" title="Screen-shot-2010-07-13-at-9.14.32-PM" /></a></p>
-
+<p><a href="https://www.palaniraja.com/assets/Screen-shot-2010-07-13-at-9.14.32-PM.png"><img src="https://www.palaniraja.com/assets/Screen-shot-2010-07-13-at-9.14.32-PM.png" alt="Screen-shot-2010-07-13-at-9.14.32-PM" title="Screen-shot-2010-07-13-at-9.14.32-PM"></a></p>
 <p>d) <a href="http://prasys.co.cc/2009/09/quartz-extreme-and-core-image-in-snow-leopard/">More ways</a> to identify</p>
-
 <h3 id="issue-6-ethernet-card-not-detected-or-detects-very-rarely">Issue #6: Ethernet card not detected or detects very rarely</h3>
-
 <p>Though some reports RTL8139 supported natively with IONetworkingFamily.kext v1.9. My case was completely different it wasn&rsquo;t detected in first place. But the hardware is working flawlessly with Leopard 10.5.7 w/ PCGenRTL8139Ethernet.kext and WinXP, Ubuntu natively.</p>
-
 <p>OSX seldom detects my Ethernet card. But failed to work after a reboot.</p>
-
 <p>Solution: Please find the <a href="http://www.insanelymac.com/forum/index.php?showtopic=224472">solution here</a>.</p>
-
 <p><strong>P.S</strong>: If you have an iPhone (jail-broken one) then you can use your iPhone to access internet by an awesome <a href="http://www.junefabrics.com/iphone/index.php">PDAnet</a> application. You can use your either phone&rsquo;s 3G or your Wi-Fi.</p>
-
 <p>You can also download the <a href="http://www.kexts.com/view/757-lenovo_3000_n100_kexts_for_10.6.4.html">complete kexts</a> from kexts.com</p>
 
       
@@ -198,10 +135,10 @@
     
     <ul class="pager article-pager">
       <li class="pager-newer">
-          <a href="https://www.palaniraja.com/2010/08/ipad---safari-background-texture/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; iPad - Safari background texture</a>
+          <a href="https://www.palaniraja.com/2010/08/ipad-safari-background-texture/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; iPad - Safari background texture</a>
       </li>
       <li class="pager-older">
-        <a href="https://www.palaniraja.com/2010/07/angry-birds--i-give-up/" data-toggle="tooltip" data-placement="top" title="Previous Article">Angry Birds – I give up &gt;</a>
+        <a href="https://www.palaniraja.com/2010/07/angry-birds-i-give-up/" data-toggle="tooltip" data-placement="top" title="Previous Article">Angry Birds – I give up &gt;</a>
       </li>
     </ul>
   </div>
@@ -209,11 +146,7 @@
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -223,7 +156,7 @@
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

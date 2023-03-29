@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -46,7 +47,7 @@
   <div class="main" role="main">
     <article class="article">
       <ul class="article-meta">
-        <li class="article-meta-date"><time>Jun 25, 2019 </time>  &nbsp;&nbsp;<small> &minus; 4 <em>min.</em> read</small></li>
+        <li class="article-meta-date"><time>Jun 25, 2019 </time>  &nbsp;&nbsp;<small> &minus; 3 <em>min.</em> read</small></li>
         
         
       </ul>
@@ -62,69 +63,59 @@
       
       
       
-      
-
-<p>Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one. And the $ Trillion/Billion company do not find enginneers to assign multiple edits in scheme/buildconfig/simulator list in xcode UI.</p>
-
+      <p>Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one. And the $ Trillion/Billion company do not find enginneers to assign multiple edits in scheme/buildconfig/simulator list in xcode UI.</p>
 <p>By the way Apple, I&rsquo;m only 40 min drive away. Call me maybe ;-)</p>
-
 <p>One of my project has more than 200 schemes (for business reasons). Unfortunately opening project in xcode takes more than 10 mins and it frequently hangs when you want to do anything with UI to select scheme or simulator. Though it kind of works once you choose the scheme, xcode occasionally fireup the fan even on a 2018 i9 MBP with 32G memory.</p>
-
 <p>By having closer look at project.pbxproj I found xcodeproj keeps duplicate of groups, files and indexes per scheme. The <code>project.pbxprj</code> itself is about 10 times the size of the file post before deleting the scheme &amp; build config. (that too in plist xml format instead of native plist binary)</p>
-
 <p>The script is not completely automatic, but it will help you to go through each step. It took embarassing amount of time to figureout plistbuddy can&rsquo;t delete a value from the list, it only pops. Anyway, I hope you don&rsquo;t need this script, and it helps you when in need.</p>
-
 <p>E.g., this script take about 15 min on my project. Once done, I don&rsquo;t ever have to worry about xcode freezing. And for entertainment it does update <code>[DELE] / [SKIP]</code> in Red and Green against each build config while running, proud of this :-). And I&rsquo;ve tested only with iTerm2 should work with terminal too.</p>
-
 <img src="https://www.palaniraja.com/assets/pb.sh.png" alt="script dry run with steps">
-
-<h3 id="pb-sh">pb.sh</h3>
-
-<pre><code>
+<h3 id="pbsh">pb.sh</h3>
+<pre tabindex="0"><code>
 #!/bin/bash
 
-# get these ids by &quot;grep -B 2 buildConfigurations project.pbxproj&quot;
-targets=(&quot;040030D22004301100C4B676&quot; &quot;0420B3DA1FD1E91B00F66B8C&quot; &quot;042171FE1F7EB27500B3578D&quot; &quot;0421731D1F7EB3EC00B3578D&quot; &quot;04CD5F511FD0D1650053BE87&quot; &quot;3461E09E1A7BF77600B666A1&quot; &quot;3461E0C21A7BF77600B666A1&quot; &quot;A0D180071F46067500E00C0C&quot;)
+# get these ids by &#34;grep -B 2 buildConfigurations project.pbxproj&#34;
+targets=(&#34;040030D22004301100C4B676&#34; &#34;0420B3DA1FD1E91B00F66B8C&#34; &#34;042171FE1F7EB27500B3578D&#34; &#34;0421731D1F7EB3EC00B3578D&#34; &#34;04CD5F511FD0D1650053BE87&#34; &#34;3461E09E1A7BF77600B666A1&#34; &#34;3461E0C21A7BF77600B666A1&#34; &#34;A0D180071F46067500E00C0C&#34;)
 
 # get these xcodebuild -project YOURPROJ.xcodeproj -list
-configsToSkip=(&quot;us-debug&quot; &quot;us-debug-free&quot; &quot;us-release&quot; &quot;us-release-free&quot; )
+configsToSkip=(&#34;us-debug&#34; &#34;us-debug-free&#34; &#34;us-release&#34; &#34;us-release-free&#34; )
 
 
 # Un-comment below line for debugging
 # set -x
 
 
-RED='\033[0;31m'
-NC='\033[0m' # No Color
-GREEN='\033[0;32m'
-COMMENTCOLOR='\033[0;90m'
+RED=&#39;\033[0;31m&#39;
+NC=&#39;\033[0m&#39; # No Color
+GREEN=&#39;\033[0;32m&#39;
+COMMENTCOLOR=&#39;\033[0;90m&#39;
 
 
 plistbuddy=/usr/libexec/plistbuddy
 file=project.pbxproj
 
 
-echo &quot;\n&quot;
-echo &quot;${RED}YOU'VE BEEN WARNED:${NC} Xcode buildconfig remover\n\n&quot;
+echo &#34;\n&#34;
+echo &#34;${RED}YOU&#39;VE BEEN WARNED:${NC} Xcode buildconfig remover\n\n&#34;
 
-echo &quot;I recommend keep copy of your .xcodeproj file\n\n&quot;
+echo &#34;I recommend keep copy of your .xcodeproj file\n\n&#34;
 
-echo &quot;STEPS:\n&quot;
+echo &#34;STEPS:\n&#34;
 
-echo &quot;1. Find all build configurations to filter the one you want to keep&quot;
-echo &quot;   &gt; ${GREEN}xcodebuild -project YOURPROJ.xcodeproj -list ${COMMENTCOLOR}#copy config list under build configurations. Replace variable \&quot;configsToSkip\&quot; contents with your config list${NC}&quot;
-echo &quot;2. Convert the text plist to xml based one&quot;
-echo &quot;   &gt;  ${GREEN}/usr/libexec/PlistBuddy -x -c \&quot;Print\&quot; project.pbxproj &gt; project.xml ${COMMENTCOLOR}#duplicate project.xml and rename it as project.pbxproj${NC}&quot;
-echo &quot;3. Find keys of \&quot;buildConfigurations\&quot; from your project.pbxproj&quot;
-echo &quot;   &gt;  ${GREEN}grep -B 2 buildConfigurations project.pbxproj${NC} ${COMMENTCOLOR}#Replace variable \&quot;targets\&quot; with the \&quot;GUIDS\&quot; keys from the command results${NC}&quot;
-echo &quot;4. Comeback after updating variables \&quot;targets\&quot; and \&quot;config2skip\&quot; to run the script&quot;
+echo &#34;1. Find all build configurations to filter the one you want to keep&#34;
+echo &#34;   &gt; ${GREEN}xcodebuild -project YOURPROJ.xcodeproj -list ${COMMENTCOLOR}#copy config list under build configurations. Replace variable \&#34;configsToSkip\&#34; contents with your config list${NC}&#34;
+echo &#34;2. Convert the text plist to xml based one&#34;
+echo &#34;   &gt;  ${GREEN}/usr/libexec/PlistBuddy -x -c \&#34;Print\&#34; project.pbxproj &gt; project.xml ${COMMENTCOLOR}#duplicate project.xml and rename it as project.pbxproj${NC}&#34;
+echo &#34;3. Find keys of \&#34;buildConfigurations\&#34; from your project.pbxproj&#34;
+echo &#34;   &gt;  ${GREEN}grep -B 2 buildConfigurations project.pbxproj${NC} ${COMMENTCOLOR}#Replace variable \&#34;targets\&#34; with the \&#34;GUIDS\&#34; keys from the command results${NC}&#34;
+echo &#34;4. Comeback after updating variables \&#34;targets\&#34; and \&#34;config2skip\&#34; to run the script&#34;
 
-echo &quot;\n\n&quot;
-read -p &quot;YES to continue or any key to abort: &quot; confirm &amp;&amp; [[ $confirm == &quot;YES&quot; ]] || exit 1
+echo &#34;\n\n&#34;
+read -p &#34;YES to continue or any key to abort: &#34; confirm &amp;&amp; [[ $confirm == &#34;YES&#34; ]] || exit 1
 
-# echo &quot;user typed YES&quot;
+# echo &#34;user typed YES&#34;
 
-echo &quot;\n${RED}YOU'VE BEEN WARNED!${NC} Good luck\n&quot;
+echo &#34;\n${RED}YOU&#39;VE BEEN WARNED!${NC} Good luck\n&#34;
 
 
 
@@ -133,21 +124,21 @@ date # for time profiling
 
 
 for targetId in ${targets[@]}; do
-  echo &quot;id: $targetId&quot;
+  echo &#34;id: $targetId&#34;
   
-  buildConfigurationList=`$plistbuddy -c &quot;Print :objects:$targetId:buildConfigurations&quot; &quot;$file&quot; | sed -e '/Array {/d' -e '/}/d' -e 's/^[ \t]*//'`
+  buildConfigurationList=`$plistbuddy -c &#34;Print :objects:$targetId:buildConfigurations&#34; &#34;$file&#34; | sed -e &#39;/Array {/d&#39; -e &#39;/}/d&#39; -e &#39;s/^[ \t]*//&#39;`
 
   for configurationId in ${buildConfigurationList[@]}; do
       # echo $configurationId
-      buildConfig=`$plistbuddy -c &quot;Print :objects:$configurationId:name&quot; &quot;$file&quot;`
-      # echo &quot;$configurationId = $buildConfig&quot;
+      buildConfig=`$plistbuddy -c &#34;Print :objects:$configurationId:name&#34; &#34;$file&#34;`
+      # echo &#34;$configurationId = $buildConfig&#34;
       
       if [[ ${configsToSkip[*]} =~ $buildConfig ]]
       then
-        echo &quot;[${GREEN}SKIP${NC}] $configurationId = $buildConfig&quot;
+        echo &#34;[${GREEN}SKIP${NC}] $configurationId = $buildConfig&#34;
       else
-        echo &quot;[${RED}DELE${NC}] $configurationId = $buildConfig&quot;
-        $plistbuddy -c &quot;delete :objects:$configurationId&quot; &quot;$file&quot; &amp;&amp; sed -i '' &quot;/$configurationId/d&quot; &quot;$file&quot;
+        echo &#34;[${RED}DELE${NC}] $configurationId = $buildConfig&#34;
+        $plistbuddy -c &#34;delete :objects:$configurationId&#34; &#34;$file&#34; &amp;&amp; sed -i &#39;&#39; &#34;/$configurationId/d&#34; &#34;$file&#34;
       fi
 
   done
@@ -155,11 +146,7 @@ done
 
 
 date # for time profiling
-
-</code></pre>
-
-<!-- <script type="application/javascript" src="//gist.github.com/palaniraja/75ae5b7c200c13395fa0ddc0ac818918.js"></script> -->
-
+</code></pre><!-- raw HTML omitted -->
 <p><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/75ae5b7c200c13395fa0ddc0ac818918">https://gist.github.com/palaniraja/75ae5b7c200c13395fa0ddc0ac818918</a></p>
 
 <noscript>
@@ -177,11 +164,8 @@ date # for time profiling
         padding: 0 0.25em;
     }
 </style></p>
-
-<hr />
-
-<p>Though I wrote this during Easter&rsquo;19 weekend and forgot to post, but it took few weekends to figure out the issue.</p>
-
+<hr>
+<p>Though I wrote this during Easter'19 weekend and forgot to post, but it took few weekends to figure out the issue.</p>
 <p>Note to self: I should start writing any script in python instead of bash. I always think it is simple piping and spend more time in figuring out bash programming nuances.</p>
 
       
@@ -207,10 +191,10 @@ date # for time profiling
     
     <ul class="pager article-pager">
       <li class="pager-newer">
-          <a href="https://www.palaniraja.com/2019/08/swiftuml---generate-plantuml-class-diagram-from-swift-source-code/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; SwiftUML - Generate PlantUML class diagram from Swift source code</a>
+          <a href="https://www.palaniraja.com/2019/08/swiftuml-generate-plantuml-class-diagram-from-swift-source-code/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; SwiftUML - Generate PlantUML class diagram from Swift source code</a>
       </li>
       <li class="pager-older">
-        <a href="https://www.palaniraja.com/2019/03/whatchanged---git-history-as-html-report/" data-toggle="tooltip" data-placement="top" title="Previous Article">Whatchanged - Git history as HTML Report &gt;</a>
+        <a href="https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/" data-toggle="tooltip" data-placement="top" title="Previous Article">Whatchanged - Git history as HTML Report &gt;</a>
       </li>
     </ul>
   </div>
@@ -218,11 +202,7 @@ date # for time profiling
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -232,7 +212,7 @@ date # for time profiling
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

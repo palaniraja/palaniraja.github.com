@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Appraisal on PR</title>
@@ -6,12 +6,8 @@
     <description>Recent content in Appraisal on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Sat, 27 Apr 2013 10:49:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/appraisal/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Sat, 27 Apr 2013 10:49:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/appraisal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some funniest moments from my appraisal</title>
       <link>https://www.palaniraja.com/2013/04/some-funniest-moments-from-my-appraisal/</link>

@@ -14,7 +14,8 @@
   <meta property="og:url" content="https://www.palaniraja.com/2011/12/icloud-gotchas/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.111.3">
+
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
@@ -62,48 +63,28 @@
       
       
       
-      
-
-<p>Integrating iCloud with core data was easy when I found <a href="http://goddess-gate.com/dc2/index.php/post/452">this tutorial</a>, but I ran into few issues while implementing and testing it on devices. And here are the steps how I managed to solve it.</p>
-
+      <p>Integrating iCloud with core data was easy when I found <a href="http://goddess-gate.com/dc2/index.php/post/452">this tutorial</a>, but I ran into few issues while implementing and testing it on devices. And here are the steps how I managed to solve it.</p>
 <h3 id="issue-1">Issue 1:</h3>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-21-at-10.55.47-PM.png" alt="Code 
-Signing Entitlements file do not match" /></p>
-
-<pre><code>The entitlements specified in your application’s Code 
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-21-at-10.55.47-PM.png" alt="CodeSigning Entitlements file do not match"></p>
+<pre tabindex="0"><code>The entitlements specified in your application’s Code 
 Signing Entitlements file do not match those 
 specified in your provisioning profile.  
   
   
 (0xE8008016).
-</code></pre>
-
-<p>If you create a new application Id and enable iCloud then you miss the adventure. It seems enabling iCloud on existing account provide different identifiers for key value store from app identifier.</p>
-
+</code></pre><p>If you create a new application Id and enable iCloud then you miss the adventure. It seems enabling iCloud on existing account provide different identifiers for key value store from app identifier.</p>
 <p>And editing .entitlements file with Xcode adds some extra identifiers i.e., {APP_IDENFITIER}</p>
-
 <p>Text is an awesome format, don&rsquo;t ruin the beauty with IDE/ plist editors.</p>
-
 <p>Solution to this problem is, copy for key <em>entitlements</em> from your mobile provisioning file and paste the same in place of in your entitlements file.</p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-21-at-10.55.27-PM.png" alt="appname.mobileprovision" /></p>
-
-<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-12-18-at-12.11.52-PM.png" alt="appname.entitlements" /></p>
-
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-11-21-at-10.55.27-PM.png" alt="appname.mobileprovision"></p>
+<p><img src="https://www.palaniraja.com/assets/Screen-shot-2011-12-18-at-12.11.52-PM.png" alt="appname.entitlements"></p>
 <h3 id="issue-2">Issue 2:</h3>
-
 <blockquote>
 <p>2011-11-21 22:57:35.770 appname[6338:1c03] *** -[NSFileManager URLForUbiquityContainerIdentifier:]: An error occurred while getting ubiquity container URL: Error Domain=LibrarianErrorDomain Code=11 &ldquo;The operation couldn’t be completed. (LibrarianErrorDomain error 11 - The requested container identifier is not permitted by the client&rsquo;s com.apple.developer.ubiquity-container-identifiers entitlement.)&rdquo; UserInfo=0x1b14b0 {NSDescription=The requested container identifier is not permitted by the client&rsquo;s com.apple.developer.ubiquity-container-identifiers entitlement.}</p>
 </blockquote>
-
 <p>If you see this issue then your missed to update [nsfilemanager fileManager URLForUbiquityContainerIdentifier:@&ldquo;with your valid identifier&rdquo;] in your appdelegate</p>
-
-<pre><code>NSURL *cloudURL = [fileManager URLForUbiquityContainerIdentifier:@&quot;3JCZ6A8BSY.com.yoursite.appname&quot;];
-</code></pre>
-
-<h4 id="other-common-issues-are">Other common issues are:</h4>
-
+<pre tabindex="0"><code>NSURL *cloudURL = [fileManager URLForUbiquityContainerIdentifier:@&#34;3JCZ6A8BSY.com.yoursite.appname&#34;];
+</code></pre><h4 id="other-common-issues-are">Other common issues are:</h4>
 <ul>
 <li>Forgot to turn on wifi when your device is in airplane mode (It beats me every-time)</li>
 <li>Forgot to switch to your developer certificate from distribution to developer signing (code signing)</li>
@@ -135,7 +116,7 @@ specified in your provisioning profile.
           <a href="https://www.palaniraja.com/2011/12/resolutions-for-2012/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; Resolutions for 2012</a>
       </li>
       <li class="pager-older">
-        <a href="https://www.palaniraja.com/2011/12/airtel-broadband---how-to-find-bandwidth-usage/" data-toggle="tooltip" data-placement="top" title="Previous Article">Airtel Broadband - How to find bandwidth usage &gt;</a>
+        <a href="https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/" data-toggle="tooltip" data-placement="top" title="Previous Article">Airtel Broadband - How to find bandwidth usage &gt;</a>
       </li>
     </ul>
   </div>
@@ -143,11 +124,7 @@ specified in your provisioning profile.
 
 <div class="site-footer-invalid">
 
-  
-
   <p align="center" class="nav-footer-menu">
-    
-    
       <a href="https://www.palaniraja.com/" title="Home">Home</a> 
       <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
       <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
@@ -157,7 +134,7 @@ specified in your provisioning profile.
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2020 palaniraja</p>
+  <p align="center">&copy; 2006-2023 palaniraja</p>
 </div>
 
 </body>

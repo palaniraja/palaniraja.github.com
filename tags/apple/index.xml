@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apple on PR</title>
@@ -6,12 +6,8 @@
     <description>Recent content in Apple on PR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2020 palaniraja</copyright>
-    <lastBuildDate>Tue, 20 Mar 2018 08:42:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.palaniraja.com/tags/apple/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 20 Mar 2018 08:42:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/apple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Recommendations</title>
       <link>https://www.palaniraja.com/2018/03/book-recommendations/</link>
@@ -42,12 +38,12 @@ It is based on speed reading technique/methodology called Spritz</description>
     
     <item>
       <title>Speedy - Speed reading application for Mac</title>
-      <link>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</link>
+      <link>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2017/01/speedy---speed-reading-application-for-mac/</guid>
+      <guid>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</guid>
       <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
-I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;lsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;rsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
     </item>
     
     <item>
@@ -70,19 +66,19 @@ I created to read the emails &amp;amp; news faster, as I have a tendency to lost
     
     <item>
       <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
-      <link>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</link>
+      <link>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</link>
       <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/07/wwdc13---hidden-gems-in-cocoa-and-cocoa-touch/</guid>
-      <description>If you did not have enough time to go through the 50G contents from WWDC&amp;rsquo;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+      <guid>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</guid>
+      <description>If you did not have enough time to go through the 50G contents from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Laptop Cooling Pad  &amp; Sudden Motion Sensor</title>
-      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</link>
+      <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</link>
       <pubDate>Sat, 06 Apr 2013 10:29:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad---sudden-motion-sensor/</guid>
+      <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</guid>
       <description>Finally I found a good usecase to test the Sudden Motion Sensor of my macbook pro. I was curious to know whether there is an impact of cooling pad&amp;rsquo;s fan.</description>
     </item>
     
@@ -102,15 +98,15 @@ I created to read the emails &amp;amp; news faster, as I have a tendency to lost
       
       <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
       <description>If you are experiencing frequent disk I/O and your console is full of
- 25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
     </item>
     
     <item>
       <title>RIP - My Macbook Pro (13&#34; Mid 2010)</title>
-      <link>https://www.palaniraja.com/2012/08/rip---my-macbook-pro-13-mid-2010/</link>
+      <link>https://www.palaniraja.com/2012/08/rip-my-macbook-pro-13-mid-2010/</link>
       <pubDate>Thu, 16 Aug 2012 00:07:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2012/08/rip---my-macbook-pro-13-mid-2010/</guid>
+      <guid>https://www.palaniraja.com/2012/08/rip-my-macbook-pro-13-mid-2010/</guid>
       <description>TL;DR If you have a Apple Portable within the 1yr manf. warranty, stop reading and go and buy Apple care if you haven&amp;rsquo;t already.</description>
     </item>
     
@@ -139,7 +135,7 @@ The original pointers of this idea from my notebook are</description>
       <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
-      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.</description>
+      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.</description>
     </item>
     
     <item>
@@ -153,22 +149,21 @@ The original pointers of this idea from my notebook are</description>
     
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
-      <link>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</link>
+      <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/11/mclock---additional-clock-application-for-mac-menu-bar/</guid>
+      <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
       <description>Update (2016-01-20): The app is now available on Mac App store.
- Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
     </item>
     
     <item>
       <title>RIP - Steven P. Jobs</title>
-      <link>https://www.palaniraja.com/2011/10/rip---steven-p.-jobs/</link>
+      <link>https://www.palaniraja.com/2011/10/rip-steven-p.-jobs/</link>
       <pubDate>Thu, 06 Oct 2011 00:31:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/10/rip---steven-p.-jobs/</guid>
-      <description> The people who are crazy enough to think they can change the world, are the ones who do.
- </description>
+      <guid>https://www.palaniraja.com/2011/10/rip-steven-p.-jobs/</guid>
+      <description>The people who are crazy enough to think they can change the world, are the ones who do.</description>
     </item>
     
     <item>
@@ -200,10 +195,10 @@ The original pointers of this idea from my notebook are</description>
     
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
-      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</link>
+      <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
       
-      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development---itunesu/</guid>
+      <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
       <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
 Session on OpenGL ES 2.</description>
     </item>
@@ -219,10 +214,10 @@ Session on OpenGL ES 2.</description>
     
     <item>
       <title>Mac App Store - Source</title>
-      <link>https://www.palaniraja.com/2010/10/mac-app-store---source/</link>
+      <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/10/mac-app-store---source/</guid>
+      <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
       <description>You get the idea? You are not looking for the UI code are you?
 Saurik will be doing the UI for us ;)</description>
     </item>
@@ -234,34 +229,34 @@ Saurik will be doing the UI for us ;)</description>
       
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
       <description>Youtube link
- Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg   p.noscript{ background-color: #fefea0; border-left: 4px solid #fea0a0; padding: 0 0.</description>
+Content requires Javascript to be enabled.
+https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-ii/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
       <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
     </item>
     
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
-      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</link>
+      <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010---part-i/</guid>
+      <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
       <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
     </item>
     
     <item>
       <title>iPad - Safari background texture</title>
-      <link>https://www.palaniraja.com/2010/08/ipad---safari-background-texture/</link>
+      <link>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</link>
       <pubDate>Sat, 14 Aug 2010 20:22:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/08/ipad---safari-background-texture/</guid>
+      <guid>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</guid>
       <description>TL;DR
 Apple version of the texture
 background_linen.png
@@ -279,19 +274,20 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>Angry Birds – I give up</title>
-      <link>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</link>
+      <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/07/angry-birds--i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)</description>
+      <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
+      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
+I am not a great gamer, I give up on games too early.</description>
     </item>
     
     <item>
       <title>WWDC 2010 - iPhone 4</title>
-      <link>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</link>
+      <link>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</link>
       <pubDate>Wed, 16 Jun 2010 21:27:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/wwdc-2010---iphone-4/</guid>
+      <guid>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</guid>
       <description>iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard. Steve can still memorize 24 countries and repeat them in the same order.</description>
     </item>
     
@@ -306,10 +302,10 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>iPad - My Experience</title>
-      <link>https://www.palaniraja.com/2010/06/ipad---my-experience/</link>
+      <link>https://www.palaniraja.com/2010/06/ipad-my-experience/</link>
       <pubDate>Tue, 15 Jun 2010 07:13:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/06/ipad---my-experience/</guid>
+      <guid>https://www.palaniraja.com/2010/06/ipad-my-experience/</guid>
       <description>Warning: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)</description>
     </item>
     
@@ -324,10 +320,10 @@ Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari backgr
     
     <item>
       <title>Obj-C | For beginners</title>
-      <link>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</link>
+      <link>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</link>
       <pubDate>Sun, 11 Apr 2010 20:51:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/04/obj-c--for-beginners/</guid>
+      <guid>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</guid>
       <description>A quick obj-c cheat-sheet for the beginners.
 Scribd link
 This is taken from RWTH-iPhone Application Programming. You can also download complete videos from iTunesU.</description>
@@ -339,7 +335,7 @@ This is taken from RWTH-iPhone Application Programming. You can also download co
       <pubDate>Sun, 04 Apr 2010 09:13:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</guid>
-      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found  Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
+      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
     </item>
     
     <item>
@@ -353,12 +349,11 @@ This is taken from RWTH-iPhone Application Programming. You can also download co
     
     <item>
       <title>iPhone – Accessibility</title>
-      <link>https://www.palaniraja.com/2010/03/iphone--accessibility/</link>
+      <link>https://www.palaniraja.com/2010/03/iphone-accessibility/</link>
       <pubDate>Thu, 25 Mar 2010 12:28:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/2010/03/iphone--accessibility/</guid>
+      <guid>https://www.palaniraja.com/2010/03/iphone-accessibility/</guid>
       <description>What if iPhone provides an accessibility option for users with bigger finger?
-
 I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool.</description>
     </item>
     
@@ -369,7 +364,7 @@ I found that pinch to zoom and screenshot capturing can be considered as good ph
       
       <guid>https://www.palaniraja.com/2010/03/how-to-register-itunes-account-for-free-in-any-country-without-a-credit-card/</guid>
       <description>Follow the steps below:
- Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
+Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
     </item>
     
   </channel>
