@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "PR"
 theme = "min"
 
-copyright = "&copy; 2006-2020 palaniraja"
+copyright = "&copy; 2006-2023 palaniraja"
 
 
 publishDir = "docs"
