@@ -7,7 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 10 May 2020 21:22:26 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 21:55:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bitbucket</title>
+      <link>https://www.palaniraja.com/tags/bitbucket/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/bitbucket/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bookmarklet</title>
+      <link>https://www.palaniraja.com/tags/bookmarklet/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/bookmarklet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>editor</title>
+      <link>https://www.palaniraja.com/tags/editor/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kotlin</title>
+      <link>https://www.palaniraja.com/tags/kotlin/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monaco</title>
+      <link>https://www.palaniraja.com/tags/monaco/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/monaco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>script</title>
+      <link>https://www.palaniraja.com/tags/script/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>syntax-highlighting</title>
+      <link>https://www.palaniraja.com/tags/syntax-highlighting/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/syntax-highlighting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://www.palaniraja.com/tags/bash/</link>
+      <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://www.palaniraja.com/tags/git/</link>
+      <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift.</title>
+      <link>https://www.palaniraja.com/tags/swift./</link>
+      <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/tags/swift./</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hobby</title>
       <link>https://www.palaniraja.com/tags/hobby/</link>
@@ -126,38 +216,11 @@
     </item>
     
     <item>
-      <title>bash</title>
-      <link>https://www.palaniraja.com/tags/bash/</link>
-      <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
-      
-      <guid>https://www.palaniraja.com/tags/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://www.palaniraja.com/tags/git/</link>
-      <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
-      
-      <guid>https://www.palaniraja.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>projects</title>
       <link>https://www.palaniraja.com/tags/projects/</link>
       <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/tags/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>script</title>
-      <link>https://www.palaniraja.com/tags/script/</link>
-      <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
-      
-      <guid>https://www.palaniraja.com/tags/script/</guid>
       <description></description>
     </item>
     
@@ -1710,15 +1773,6 @@
     </item>
     
     <item>
-      <title>bookmarklet</title>
-      <link>https://www.palaniraja.com/tags/bookmarklet/</link>
-      <pubDate>Thu, 31 Jan 2013 06:55:00 -0800</pubDate>
-      
-      <guid>https://www.palaniraja.com/tags/bookmarklet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>case-management</title>
       <link>https://www.palaniraja.com/tags/case-management/</link>
       <pubDate>Thu, 31 Jan 2013 06:55:00 -0800</pubDate>
@@ -1877,15 +1931,6 @@
       <pubDate>Tue, 01 Jan 2013 09:41:00 -0800</pubDate>
       
       <guid>https://www.palaniraja.com/tags/new-year/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>editor</title>
-      <link>https://www.palaniraja.com/tags/editor/</link>
-      <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
-      
-      <guid>https://www.palaniraja.com/tags/editor/</guid>
       <description></description>
     </item>
     
@@ -2975,15 +3020,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.palaniraja.com/tags/quick-reference./</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swift.</title>
-      <link>https://www.palaniraja.com/tags/swift./</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.palaniraja.com/tags/swift./</guid>
       <description></description>
     </item>
     

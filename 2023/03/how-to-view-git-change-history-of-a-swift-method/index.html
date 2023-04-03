@@ -6,12 +6,9 @@
   <title>How to view git change history of a Swift method - PR</title>
   <meta property="og:title" content="How to view git change history of a Swift method - PR" />
   <meta name="twitter:title" content="How to view git change history of a Swift method - PR" />
-  <meta name="description" content="I knew git has a feature to get change history of a method.
-e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed something in method/function named myfunction in file myfile.">
-  <meta property="og:description" content="I knew git has a feature to get change history of a method.
-e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed something in method/function named myfunction in file myfile.">
-  <meta name="twitter:description" content="I knew git has a feature to get change history of a method.
-e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed something in method/function named myfunction in file …">
+  <meta name="description" content="I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.">
+  <meta property="og:description" content="I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.">
+  <meta name="twitter:description" content="I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.">
   <meta name="author" content="Palani Raja"/>
   <meta property="og:site_name" content="PR" />
   <meta property="og:url" content="https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/" />
@@ -66,14 +63,14 @@ e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed 
       
       
       
-      <p>I knew git has a feature to get change history of a method.</p>
-<p>e.g., <code>git log -L :myfunction:path/to/myfile.c</code> list all the commits that changed something in method/function named <code>myfunction</code> in file <code>myfile.c</code> <a href="https://stackoverflow.com/questions/4781405/git-how-do-i-view-the-change-history-of-a-method-function">stackoverflow</a></p>
-<p>I used it all the time with ObjC but it never worked for swift files. I always thought it is because of ObjC and C language similarties. Few years ago, I came across <a href="https://twitter.com/kastiglione/status/1242113018474819584">this tweet</a> and I realized this is something I can <a href="https://www.git-scm.com/docs/gitattributes">define for git</a>.</p>
+      <p>I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.</p>
+<p>e.g., <code>git log -L :myfunction:path/to/myfile.c</code> list all the commits that changed something in method/function named <code>myfunction</code> in file <code>myfile.c</code> <a href="https://stackoverflow.com/questions/4781405/git-how-do-i-view-the-change-history-of-a-method-function">[stackoverflow]</a></p>
+<p>I always thought it was because of ObjC and C language similarities. Few years ago, I came across <a href="https://twitter.com/kastiglione/status/1242113018474819584">this tweet</a> and I realized this is something I can <a href="https://www.git-scm.com/docs/gitattributes">define for git</a>.</p>
 <h2 id="before-and-after">Before and After</h2>
 <p><img src="https://www.palaniraja.com/assets/swift-git-method-history-before.png" alt="Before - Git throws a Fatal error and no match"></p>
 <p><img src="https://www.palaniraja.com/assets/swift-git-method-history-after.png" alt="After - List the commits that has changes to the method"></p>
 <h2 id="how-to">How-to</h2>
-<p>You need to update couple of meta files in your <code>.git</code> directory of your git workspace. If you do not find these files in your git workspace, you can create an empty file and add the contents</p>
+<p>You need to update a couple of meta files in your <code>.git</code> directory of your git workspace. If you do not find these files in your git workspace, you can create an empty file and add the contents</p>
 <pre tabindex="0"><code># Step 1: Add this to your .git/info/attributes
 *.swift     diff=swift
 
@@ -81,7 +78,7 @@ e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed 
 # Step 2: Edit your `.git/config` and add 
 [diff &#34;swift&#34;]
     xfuncname = &#34;^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +|(de)?init\\b).*$&#34;
-</code></pre><p>I had tried few other <em>regex</em>&rsquo;s for <code>xfuncname</code>, but the one above is my current version that I use. Here are some I found in github</p>
+</code></pre><p>I had tried a few other <em>regex</em>&rsquo;s for <code>xfuncname</code>, but the one above is my current version that I use. Here are some I found in github</p>
 <pre tabindex="0"><code>#    xfuncname = ^[ \t]*((class|func)[ \t].*)$
 #    xfuncname = &#34;^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +.*|(de)?init\\b.*|(var|let) +(.+?): +(.+?)\\{)$&#34;
 </code></pre><h4 id="references">References:</h4>
@@ -93,8 +90,8 @@ e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed 
 <li><a href="https://www.git-scm.com/docs/gitattributes">https://www.git-scm.com/docs/gitattributes</a></li>
 </ul>
 <hr>
-<p>This post was in my draft for a very long time. Recently, I had to set this up again for a new project. I realized I couldn&rsquo;t cleanup my draft and publish to get out of this pandemic <em>writer&rsquo;s block</em> and also a quick reference for me in the future.</p>
-<p>Well spent a day to <a href="https://github.com/palaniraja/palaniraja.github.com/commit/4ed9d52e6901dfeae6f8fbfd150526e537db9dfe">fixing my theme</a> to support <a href="https://gohugo.io">Hugo</a> changes since my update :-)</p>
+<p>This post was in my draft for a very long time. Recently, I had to set this up again for a new project. I realized I could clean up my draft and publish to get out of this pandemic <em>writer&rsquo;s block</em> and also a quick reference for me in the future.</p>
+<p>I spent a day to <a href="https://github.com/palaniraja/palaniraja.github.com/commit/4ed9d52e6901dfeae6f8fbfd150526e537db9dfe">fixing my theme</a> to support <a href="https://gohugo.io">Hugo</a> changes since my update :-)</p>
 
       
     </article>
@@ -118,6 +115,9 @@ e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed 
     <hr  style="border-color:transparent;"/>
     
     <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/" data-toggle="tooltip" data-placement="top" title="Recent Article">&lt; How to add syntax highlighting to any source code in Bitbucket</a>
+      </li>
       <li class="pager-older">
         <a href="https://www.palaniraja.com/2020/05/instagram-challenge-2019/" data-toggle="tooltip" data-placement="top" title="Previous Article">Instagram Challenge - 2019 &gt;</a>
       </li>

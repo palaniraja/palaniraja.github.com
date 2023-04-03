@@ -7,22 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 25 Jun 2019 20:37:01 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 21:55:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>projects</title>
-      <link>https://www.palaniraja.com/categories/projects/</link>
-      <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
+      <title>kotlin</title>
+      <link>https://www.palaniraja.com/categories/kotlin/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
       
-      <guid>https://www.palaniraja.com/categories/projects/</guid>
+      <guid>https://www.palaniraja.com/categories/kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monaco</title>
+      <link>https://www.palaniraja.com/categories/monaco/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/categories/monaco/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scripts</title>
       <link>https://www.palaniraja.com/categories/scripts/</link>
-      <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/categories/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://www.palaniraja.com/categories/git/</link>
+      <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swift</title>
+      <link>https://www.palaniraja.com/categories/swift/</link>
+      <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/categories/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://www.palaniraja.com/categories/projects/</link>
+      <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/categories/projects/</guid>
       <description></description>
     </item>
     

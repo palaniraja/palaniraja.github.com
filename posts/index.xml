@@ -7,15 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 28 Mar 2023 19:54:59 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 21:55:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add syntax highlighting to any source code in Bitbucket</title>
+      <link>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</guid>
+      <description>My work Bitbucket doesn&amp;rsquo;t support proper syntax highlighting for kotlin for unknown reasons. A quick search led me to this Atlassian public jira ticket from 2018.</description>
+    </item>
+    
     <item>
       <title>How to view git change history of a Swift method</title>
       <link>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</link>
       <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</guid>
-      <description>I knew git has a feature to get change history of a method.
-e.g., git log -L :myfunction:path/to/myfile.c list all the commits that changed something in method/function named myfunction in file myfile.</description>
+      <description>I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.</description>
     </item>
     
     <item>

@@ -9,19 +9,316 @@
     <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
     <lastBuildDate>Wed, 08 Aug 2018 17:13:05 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How to add syntax highlighting to any source code in Bitbucket</title>
+      <link>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</guid>
+      <description>&lt;p&gt;My work Bitbucket doesn&amp;rsquo;t support proper syntax highlighting for &lt;code&gt;kotlin&lt;/code&gt; for unknown reasons. A quick search led me to this &lt;a href=&#34;https://jira.atlassian.com/browse/BCLOUD-16513&#34;&gt;Atlassian public jira&lt;/a&gt; ticket from 2018.&lt;/p&gt;
+&lt;p&gt;They closed the ticket now - &lt;em&gt;like last week&lt;/em&gt;! But the issue they linked is a ticket that adds syntax highlight to diffs not for viewing source files. Anyway, I still do not see syntax highlights on our repo for &lt;code&gt;.kt&lt;/code&gt; files.&lt;/p&gt;
+&lt;p&gt;And it is frustrating to stop and share multiple windows during Microsoft Teams/Slack sessions. I prefer to share one browser window so I can simply open another repo in another tab instead of doing a &lt;em&gt;stop and start sharing&lt;/em&gt; routine after switching it to a new repo with Android Studio. Also I do need to wait for Gradle sync or resolving errors.&lt;/p&gt;
+&lt;p&gt;I initially thought I could use &lt;a href=&#34;https://github.com/highlightjs/highlight.js&#34;&gt;highlight.js&lt;/a&gt; to add syntax highlighting. But digging a little deeper I found that Bitbucket uses &lt;a href=&#34;https://github.com/microsoft/monaco-editor&#34;&gt;Monaco-editor&lt;/a&gt; as their editor/viewer for source code.&lt;/p&gt;
+&lt;p&gt;After spending some time reviewing &lt;code&gt;Monaco&lt;/code&gt; documentation and &lt;a href=&#34;https://microsoft.github.io/monaco-editor/playground.html&#34;&gt;monaco&lt;/a&gt; / &lt;a href=&#34;https://microsoft.github.io/monaco-editor/monarch.html&#34;&gt;monarch&lt;/a&gt; playgrounds. I was able to add syntax-highlighting to &lt;code&gt;kotlin&lt;/code&gt; relatively easily. Fortunately, I was able to find &lt;a href=&#34;https://github.com/microsoft/monaco-editor/blob/main/src/basic-languages/kotlin/kotlin.ts&#34;&gt;kotlin syntax in monaco-repo&lt;/a&gt; and most of my time spent on figuring out what goes into &lt;code&gt;setMonarchTokensProvider&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Now, I have a bookmarklet to add kotlin syntax highlight with one click.&lt;/p&gt;
+&lt;p&gt;The same can be used for adding support to any custom language that may not be supported by your Bitbucket instance.&lt;/p&gt;
+&lt;p&gt;Here is the before and after.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I pasted the screengrab of the post syntax highlight on the screenshot for easier comparison. The below script doesn&amp;rsquo;t do split screen :-)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/kotlin-syntax-highlight-to-cloud-hosted-bitbucket.png&#34; alt=&#34;Before &amp;amp; After applying syntax highlighting to a kotlin source code&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;js&#34;&gt;JS&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// source: https://github.com/microsoft/monaco-editor/blob/main/src/basic-languages/kotlin/kotlin.ts
+
+monaco.languages.register({ id: &amp;#34;kotlin&amp;#34; });
+
+monaco.languages.setLanguageConfiguration(&amp;#34;kotlin&amp;#34;, {
+	// the default separators except `@$`
+	wordPattern: /(-?\d*\.\d\w*)|([^\`\~\!\#\%\^\&amp;amp;\*\(\)\-\=\+\[\{\]\}\\\|\;\:\&amp;#39;\&amp;#34;\,\.\&amp;lt;\&amp;gt;\/\?\s]+)/g,
+	comments: {
+		lineComment: &amp;#39;//&amp;#39;,
+		blockComment: [&amp;#39;/*&amp;#39;, &amp;#39;*/&amp;#39;]
+	},
+	brackets: [
+		[&amp;#39;{&amp;#39;, &amp;#39;}&amp;#39;],
+		[&amp;#39;[&amp;#39;, &amp;#39;]&amp;#39;],
+		[&amp;#39;(&amp;#39;, &amp;#39;)&amp;#39;]
+	],
+	autoClosingPairs: [
+		{ open: &amp;#39;{&amp;#39;, close: &amp;#39;}&amp;#39; },
+		{ open: &amp;#39;[&amp;#39;, close: &amp;#39;]&amp;#39; },
+		{ open: &amp;#39;(&amp;#39;, close: &amp;#39;)&amp;#39; },
+		{ open: &amp;#39;&amp;#34;&amp;#39;, close: &amp;#39;&amp;#34;&amp;#39; },
+		{ open: &amp;#34;&amp;#39;&amp;#34;, close: &amp;#34;&amp;#39;&amp;#34; }
+	],
+	surroundingPairs: [
+		{ open: &amp;#39;{&amp;#39;, close: &amp;#39;}&amp;#39; },
+		{ open: &amp;#39;[&amp;#39;, close: &amp;#39;]&amp;#39; },
+		{ open: &amp;#39;(&amp;#39;, close: &amp;#39;)&amp;#39; },
+		{ open: &amp;#39;&amp;#34;&amp;#39;, close: &amp;#39;&amp;#34;&amp;#39; },
+		{ open: &amp;#34;&amp;#39;&amp;#34;, close: &amp;#34;&amp;#39;&amp;#34; },
+		{ open: &amp;#39;&amp;lt;&amp;#39;, close: &amp;#39;&amp;gt;&amp;#39; }
+	],
+	folding: {
+		markers: {
+			start: new RegExp(&amp;#39;^\\s*//\\s*(?:(?:#?region\\b)|(?:&amp;lt;editor-fold\\b))&amp;#39;),
+			end: new RegExp(&amp;#39;^\\s*//\\s*(?:(?:#?endregion\\b)|(?:&amp;lt;/editor-fold&amp;gt;))&amp;#39;)
+		}
+	}
+});
+
+
+
+monaco.languages.setMonarchTokensProvider(&amp;#34;kotlin&amp;#34;, {
+	defaultToken: &amp;#39;&amp;#39;,
+	tokenPostfix: &amp;#39;.kt&amp;#39;,
+
+	keywords: [
+		&amp;#39;as&amp;#39;,
+		&amp;#39;as?&amp;#39;,
+		&amp;#39;break&amp;#39;,
+		&amp;#39;class&amp;#39;,
+		&amp;#39;continue&amp;#39;,
+		&amp;#39;do&amp;#39;,
+		&amp;#39;else&amp;#39;,
+		&amp;#39;false&amp;#39;,
+		&amp;#39;for&amp;#39;,
+		&amp;#39;fun&amp;#39;,
+		&amp;#39;if&amp;#39;,
+		&amp;#39;in&amp;#39;,
+		&amp;#39;!in&amp;#39;,
+		&amp;#39;interface&amp;#39;,
+		&amp;#39;is&amp;#39;,
+		&amp;#39;!is&amp;#39;,
+		&amp;#39;null&amp;#39;,
+		&amp;#39;object&amp;#39;,
+		&amp;#39;package&amp;#39;,
+		&amp;#39;return&amp;#39;,
+		&amp;#39;super&amp;#39;,
+		&amp;#39;this&amp;#39;,
+		&amp;#39;throw&amp;#39;,
+		&amp;#39;true&amp;#39;,
+		&amp;#39;try&amp;#39;,
+		&amp;#39;typealias&amp;#39;,
+		&amp;#39;val&amp;#39;,
+		&amp;#39;var&amp;#39;,
+		&amp;#39;when&amp;#39;,
+		&amp;#39;while&amp;#39;,
+		&amp;#39;by&amp;#39;,
+		&amp;#39;catch&amp;#39;,
+		&amp;#39;constructor&amp;#39;,
+		&amp;#39;delegate&amp;#39;,
+		&amp;#39;dynamic&amp;#39;,
+		&amp;#39;field&amp;#39;,
+		&amp;#39;file&amp;#39;,
+		&amp;#39;finally&amp;#39;,
+		&amp;#39;get&amp;#39;,
+		&amp;#39;import&amp;#39;,
+		&amp;#39;init&amp;#39;,
+		&amp;#39;param&amp;#39;,
+		&amp;#39;property&amp;#39;,
+		&amp;#39;receiver&amp;#39;,
+		&amp;#39;set&amp;#39;,
+		&amp;#39;setparam&amp;#39;,
+		&amp;#39;where&amp;#39;,
+		&amp;#39;actual&amp;#39;,
+		&amp;#39;abstract&amp;#39;,
+		&amp;#39;annotation&amp;#39;,
+		&amp;#39;companion&amp;#39;,
+		&amp;#39;const&amp;#39;,
+		&amp;#39;crossinline&amp;#39;,
+		&amp;#39;data&amp;#39;,
+		&amp;#39;enum&amp;#39;,
+		&amp;#39;expect&amp;#39;,
+		&amp;#39;external&amp;#39;,
+		&amp;#39;final&amp;#39;,
+		&amp;#39;infix&amp;#39;,
+		&amp;#39;inline&amp;#39;,
+		&amp;#39;inner&amp;#39;,
+		&amp;#39;internal&amp;#39;,
+		&amp;#39;lateinit&amp;#39;,
+		&amp;#39;noinline&amp;#39;,
+		&amp;#39;open&amp;#39;,
+		&amp;#39;operator&amp;#39;,
+		&amp;#39;out&amp;#39;,
+		&amp;#39;override&amp;#39;,
+		&amp;#39;private&amp;#39;,
+		&amp;#39;protected&amp;#39;,
+		&amp;#39;public&amp;#39;,
+		&amp;#39;reified&amp;#39;,
+		&amp;#39;sealed&amp;#39;,
+		&amp;#39;suspend&amp;#39;,
+		&amp;#39;tailrec&amp;#39;,
+		&amp;#39;vararg&amp;#39;,
+		&amp;#39;field&amp;#39;,
+		&amp;#39;it&amp;#39;
+	],
+
+	operators: [
+		&amp;#39;+&amp;#39;,
+		&amp;#39;-&amp;#39;,
+		&amp;#39;*&amp;#39;,
+		&amp;#39;/&amp;#39;,
+		&amp;#39;%&amp;#39;,
+		&amp;#39;=&amp;#39;,
+		&amp;#39;+=&amp;#39;,
+		&amp;#39;-=&amp;#39;,
+		&amp;#39;*=&amp;#39;,
+		&amp;#39;/=&amp;#39;,
+		&amp;#39;%=&amp;#39;,
+		&amp;#39;++&amp;#39;,
+		&amp;#39;--&amp;#39;,
+		&amp;#39;&amp;amp;&amp;amp;&amp;#39;,
+		&amp;#39;||&amp;#39;,
+		&amp;#39;!&amp;#39;,
+		&amp;#39;==&amp;#39;,
+		&amp;#39;!=&amp;#39;,
+		&amp;#39;===&amp;#39;,
+		&amp;#39;!==&amp;#39;,
+		&amp;#39;&amp;gt;&amp;#39;,
+		&amp;#39;&amp;lt;&amp;#39;,
+		&amp;#39;&amp;lt;=&amp;#39;,
+		&amp;#39;&amp;gt;=&amp;#39;,
+		&amp;#39;[&amp;#39;,
+		&amp;#39;]&amp;#39;,
+		&amp;#39;!!&amp;#39;,
+		&amp;#39;?.&amp;#39;,
+		&amp;#39;?:&amp;#39;,
+		&amp;#39;::&amp;#39;,
+		&amp;#39;..&amp;#39;,
+		&amp;#39;:&amp;#39;,
+		&amp;#39;?&amp;#39;,
+		&amp;#39;-&amp;gt;&amp;#39;,
+		&amp;#39;@&amp;#39;,
+		&amp;#39;;&amp;#39;,
+		&amp;#39;$&amp;#39;,
+		&amp;#39;_&amp;#39;
+	],
+
+	// we include these common regular expressions
+	symbols: /[=&amp;gt;&amp;lt;!~?:&amp;amp;|+\-*\/\^%]+/,
+	escapes: /\\(?:[abfnrtv\\&amp;#34;&amp;#39;]|x[0-9A-Fa-f]{1,4}|u[0-9A-Fa-f]{4}|U[0-9A-Fa-f]{8})/,
+	digits: /\d+(_+\d+)*/,
+	octaldigits: /[0-7]+(_+[0-7]+)*/,
+	binarydigits: /[0-1]+(_+[0-1]+)*/,
+	hexdigits: /[[0-9a-fA-F]+(_+[0-9a-fA-F]+)*/,
+
+	// The main tokenizer for our languages
+	tokenizer: {
+		root: [
+			// class name highlighting
+			[/[A-Z][\w\$]*/, &amp;#39;type.identifier&amp;#39;],
+
+			// identifiers and keywords
+			[
+				/[a-zA-Z_$][\w$]*/,
+				{
+					cases: {
+						&amp;#39;@keywords&amp;#39;: { token: &amp;#39;keyword.$0&amp;#39; },
+						&amp;#39;@default&amp;#39;: &amp;#39;identifier&amp;#39;
+					}
+				}
+			],
+
+			// whitespace
+			{ include: &amp;#39;@whitespace&amp;#39; },
+
+			// delimiters and operators
+			[/[{}()\[\]]/, &amp;#39;@brackets&amp;#39;],
+			[/[&amp;lt;&amp;gt;](?!@symbols)/, &amp;#39;@brackets&amp;#39;],
+			[
+				/@symbols/,
+				{
+					cases: {
+						&amp;#39;@operators&amp;#39;: &amp;#39;delimiter&amp;#39;,
+						&amp;#39;@default&amp;#39;: &amp;#39;&amp;#39;
+					}
+				}
+			],
+
+			// @ annotations.
+			[/@\s*[a-zA-Z_\$][\w\$]*/, &amp;#39;annotation&amp;#39;],
+
+			// numbers
+			[/(@digits)[eE]([\-+]?(@digits))?[fFdD]?/, &amp;#39;number.float&amp;#39;],
+			[/(@digits)\.(@digits)([eE][\-+]?(@digits))?[fFdD]?/, &amp;#39;number.float&amp;#39;],
+			[/0[xX](@hexdigits)[Ll]?/, &amp;#39;number.hex&amp;#39;],
+			[/0(@octaldigits)[Ll]?/, &amp;#39;number.octal&amp;#39;],
+			[/0[bB](@binarydigits)[Ll]?/, &amp;#39;number.binary&amp;#39;],
+			[/(@digits)[fFdD]/, &amp;#39;number.float&amp;#39;],
+			[/(@digits)[lL]?/, &amp;#39;number&amp;#39;],
+
+			// delimiter: after number because of .\d floats
+			[/[;,.]/, &amp;#39;delimiter&amp;#39;],
+
+			// strings
+			[/&amp;#34;([^&amp;#34;\\]|\\.)*$/, &amp;#39;string.invalid&amp;#39;], // non-teminated string
+			[/&amp;#34;&amp;#34;&amp;#34;/, &amp;#39;string&amp;#39;, &amp;#39;@multistring&amp;#39;],
+			[/&amp;#34;/, &amp;#39;string&amp;#39;, &amp;#39;@string&amp;#39;],
+
+			// characters
+			[/&amp;#39;[^\\&amp;#39;]&amp;#39;/, &amp;#39;string&amp;#39;],
+			[/(&amp;#39;)(@escapes)(&amp;#39;)/, [&amp;#39;string&amp;#39;, &amp;#39;string.escape&amp;#39;, &amp;#39;string&amp;#39;]],
+			[/&amp;#39;/, &amp;#39;string.invalid&amp;#39;]
+		],
+
+		whitespace: [
+			[/[ \t\r\n]+/, &amp;#39;&amp;#39;],
+			[/\/\*\*(?!\/)/, &amp;#39;comment.doc&amp;#39;, &amp;#39;@javadoc&amp;#39;],
+			[/\/\*/, &amp;#39;comment&amp;#39;, &amp;#39;@comment&amp;#39;],
+			[/\/\/.*$/, &amp;#39;comment&amp;#39;]
+		],
+
+		comment: [
+			[/[^\/*]+/, &amp;#39;comment&amp;#39;],
+			[/\/\*/, &amp;#39;comment&amp;#39;, &amp;#39;@comment&amp;#39;],
+			[/\*\//, &amp;#39;comment&amp;#39;, &amp;#39;@pop&amp;#39;],
+			[/[\/*]/, &amp;#39;comment&amp;#39;]
+		],
+		//Identical copy of comment above, except for the addition of .doc
+		javadoc: [
+			[/[^\/*]+/, &amp;#39;comment.doc&amp;#39;],
+			[/\/\*/, &amp;#39;comment.doc&amp;#39;, &amp;#39;@push&amp;#39;],
+			[/\/\*/, &amp;#39;comment.doc.invalid&amp;#39;],
+			[/\*\//, &amp;#39;comment.doc&amp;#39;, &amp;#39;@pop&amp;#39;],
+			[/[\/*]/, &amp;#39;comment.doc&amp;#39;]
+		],
+
+		string: [
+			[/[^\\&amp;#34;]+/, &amp;#39;string&amp;#39;],
+			[/@escapes/, &amp;#39;string.escape&amp;#39;],
+			[/\\./, &amp;#39;string.escape.invalid&amp;#39;],
+			[/&amp;#34;/, &amp;#39;string&amp;#39;, &amp;#39;@pop&amp;#39;]
+		],
+
+		multistring: [
+			[/[^\\&amp;#34;]+/, &amp;#39;string&amp;#39;],
+			[/@escapes/, &amp;#39;string.escape&amp;#39;],
+			[/\\./, &amp;#39;string.escape.invalid&amp;#39;],
+			[/&amp;#34;&amp;#34;&amp;#34;/, &amp;#39;string&amp;#39;, &amp;#39;@pop&amp;#39;],
+			[/./, &amp;#39;string&amp;#39;]
+		]
+	}});
+
+
+var ed = monaco.editor.getModels()[0]
+monaco.editor.setModelLanguage(ed, &amp;#39;kotlin&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Latest version of the script can be found at &lt;a class=&#34;external-links&#34; target=&#34;_blank&#34; href=&#34;https://gist.github.com/palaniraja/c987ed0cc23b3cdbfaa329ce69ed888e&#34;&gt;https://gist.github.com/palaniraja/c987ed0cc23b3cdbfaa329ce69ed888e&lt;/a&gt;&lt;/p&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>How to view git change history of a Swift method</title>
       <link>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</link>
       <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
       
       <guid>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</guid>
-      <description>&lt;p&gt;I knew git has a feature to get change history of a method.&lt;/p&gt;
-&lt;p&gt;e.g., &lt;code&gt;git log -L :myfunction:path/to/myfile.c&lt;/code&gt; list all the commits that changed something in method/function named &lt;code&gt;myfunction&lt;/code&gt; in file &lt;code&gt;myfile.c&lt;/code&gt; &lt;a href=&#34;https://stackoverflow.com/questions/4781405/git-how-do-i-view-the-change-history-of-a-method-function&#34;&gt;stackoverflow&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I used it all the time with ObjC but it never worked for swift files. I always thought it is because of ObjC and C language similarties. Few years ago, I came across &lt;a href=&#34;https://twitter.com/kastiglione/status/1242113018474819584&#34;&gt;this tweet&lt;/a&gt; and I realized this is something I can &lt;a href=&#34;https://www.git-scm.com/docs/gitattributes&#34;&gt;define for git&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.&lt;/p&gt;
+&lt;p&gt;e.g., &lt;code&gt;git log -L :myfunction:path/to/myfile.c&lt;/code&gt; list all the commits that changed something in method/function named &lt;code&gt;myfunction&lt;/code&gt; in file &lt;code&gt;myfile.c&lt;/code&gt; &lt;a href=&#34;https://stackoverflow.com/questions/4781405/git-how-do-i-view-the-change-history-of-a-method-function&#34;&gt;[stackoverflow]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I always thought it was because of ObjC and C language similarities. Few years ago, I came across &lt;a href=&#34;https://twitter.com/kastiglione/status/1242113018474819584&#34;&gt;this tweet&lt;/a&gt; and I realized this is something I can &lt;a href=&#34;https://www.git-scm.com/docs/gitattributes&#34;&gt;define for git&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;before-and-after&#34;&gt;Before and After&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/swift-git-method-history-before.png&#34; alt=&#34;Before - Git throws a Fatal error and no match&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/swift-git-method-history-after.png&#34; alt=&#34;After - List the commits that has changes to the method&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-to&#34;&gt;How-to&lt;/h2&gt;
-&lt;p&gt;You need to update couple of meta files in your &lt;code&gt;.git&lt;/code&gt; directory of your git workspace. If you do not find these files in your git workspace, you can create an empty file and add the contents&lt;/p&gt;
+&lt;p&gt;You need to update a couple of meta files in your &lt;code&gt;.git&lt;/code&gt; directory of your git workspace. If you do not find these files in your git workspace, you can create an empty file and add the contents&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Step 1: Add this to your .git/info/attributes
 *.swift     diff=swift
 
@@ -29,7 +326,7 @@
 # Step 2: Edit your `.git/config` and add 
 [diff &amp;#34;swift&amp;#34;]
     xfuncname = &amp;#34;^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +|(de)?init\\b).*$&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I had tried few other &lt;em&gt;regex&lt;/em&gt;&amp;rsquo;s for &lt;code&gt;xfuncname&lt;/code&gt;, but the one above is my current version that I use. Here are some I found in github&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I had tried a few other &lt;em&gt;regex&lt;/em&gt;&amp;rsquo;s for &lt;code&gt;xfuncname&lt;/code&gt;, but the one above is my current version that I use. Here are some I found in github&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#    xfuncname = ^[ \t]*((class|func)[ \t].*)$
 #    xfuncname = &amp;#34;^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +.*|(de)?init\\b.*|(var|let) +(.+?): +(.+?)\\{)$&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;references&#34;&gt;References:&lt;/h4&gt;
@@ -41,8 +338,8 @@
 &lt;li&gt;&lt;a href=&#34;https://www.git-scm.com/docs/gitattributes&#34;&gt;https://www.git-scm.com/docs/gitattributes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;This post was in my draft for a very long time. Recently, I had to set this up again for a new project. I realized I couldn&amp;rsquo;t cleanup my draft and publish to get out of this pandemic &lt;em&gt;writer&amp;rsquo;s block&lt;/em&gt; and also a quick reference for me in the future.&lt;/p&gt;
-&lt;p&gt;Well spent a day to &lt;a href=&#34;https://github.com/palaniraja/palaniraja.github.com/commit/4ed9d52e6901dfeae6f8fbfd150526e537db9dfe&#34;&gt;fixing my theme&lt;/a&gt; to support &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; changes since my update :-)&lt;/p&gt;
+&lt;p&gt;This post was in my draft for a very long time. Recently, I had to set this up again for a new project. I realized I could clean up my draft and publish to get out of this pandemic &lt;em&gt;writer&amp;rsquo;s block&lt;/em&gt; and also a quick reference for me in the future.&lt;/p&gt;
+&lt;p&gt;I spent a day to &lt;a href=&#34;https://github.com/palaniraja/palaniraja.github.com/commit/4ed9d52e6901dfeae6f8fbfd150526e537db9dfe&#34;&gt;fixing my theme&lt;/a&gt; to support &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; changes since my update :-)&lt;/p&gt;
 </description>
     </item>
     

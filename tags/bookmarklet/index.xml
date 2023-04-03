@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Thu, 31 Jan 2013 06:55:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/bookmarklet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 21:55:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/bookmarklet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add syntax highlighting to any source code in Bitbucket</title>
+      <link>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</link>
+      <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</guid>
+      <description>My work Bitbucket doesn&amp;rsquo;t support proper syntax highlighting for kotlin for unknown reasons. A quick search led me to this Atlassian public jira ticket from 2018.</description>
+    </item>
+    
     <item>
       <title>Create card in Trello from Salesforce case</title>
       <link>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</link>

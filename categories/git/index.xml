@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on PR</title>
+    <link>https://www.palaniraja.com/categories/git/</link>
+    <description>Recent content in git on PR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
+    <lastBuildDate>Tue, 28 Mar 2023 19:54:59 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to view git change history of a Swift method</title>
+      <link>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</link>
+      <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
+      
+      <guid>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</guid>
+      <description>I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.</description>
+    </item>
+    
+  </channel>
+</rss>

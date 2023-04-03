@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>How to add syntax highlighting to any source code in Bitbucket - PR</title>
+  <meta property="og:title" content="How to add syntax highlighting to any source code in Bitbucket - PR" />
+  <meta name="twitter:title" content="How to add syntax highlighting to any source code in Bitbucket - PR" />
+  <meta name="description" content="My work Bitbucket doesn&rsquo;t support proper syntax highlighting for kotlin for unknown reasons. A quick search led me to this Atlassian public jira ticket from 2018.">
+  <meta property="og:description" content="My work Bitbucket doesn&rsquo;t support proper syntax highlighting for kotlin for unknown reasons. A quick search led me to this Atlassian public jira ticket from 2018.">
+  <meta name="twitter:description" content="My work Bitbucket doesn&rsquo;t support proper syntax highlighting for kotlin for unknown reasons. A quick search led me to this Atlassian public jira ticket from 2018.">
+  <meta name="author" content="Palani Raja"/>
+  <meta property="og:site_name" content="PR" />
+  <meta property="og:url" content="https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.111.3">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.palaniraja.com/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.palaniraja.com/favicon-16x16.png">
+  <link rel="manifest" href="https://www.palaniraja.com/site.webmanifest">
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/milligram.css" media="all" />
+  <link rel="stylesheet" href="https://www.palaniraja.com/css/style.css" media="all" />
+  
+  
+   <style type="text/css">
+   </style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="https://www.palaniraja.com/">PR</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-projects"><a href="https://www.palaniraja.com/projects" title="Projects">Projects</a></li>
+      <li class="site-navi-item-blog"><a href="https://www.palaniraja.com/posts" title="Blog">Blog</a></li>
+      <li class="site-navi-item-archive"><a href="https://www.palaniraja.com/archives" title="Archive">Archive</a></li>
+      <li class="site-navi-item-about"><a href="https://www.palaniraja.com/about" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>Apr 2, 2023 </time>  &nbsp;&nbsp;<small> &minus; 4 <em>min.</em> read</small></li>
+        
+        
+      </ul>
+      
+      
+
+      
+        <h1 class="article-title">How to add syntax highlighting to any source code in Bitbucket</h1>
+      
+      
+      
+      <hr class="article-title-bottom">
+      
+      
+      
+      <p>My work Bitbucket doesn&rsquo;t support proper syntax highlighting for <code>kotlin</code> for unknown reasons. A quick search led me to this <a href="https://jira.atlassian.com/browse/BCLOUD-16513">Atlassian public jira</a> ticket from 2018.</p>
+<p>They closed the ticket now - <em>like last week</em>! But the issue they linked is a ticket that adds syntax highlight to diffs not for viewing source files. Anyway, I still do not see syntax highlights on our repo for <code>.kt</code> files.</p>
+<p>And it is frustrating to stop and share multiple windows during Microsoft Teams/Slack sessions. I prefer to share one browser window so I can simply open another repo in another tab instead of doing a <em>stop and start sharing</em> routine after switching it to a new repo with Android Studio. Also I do need to wait for Gradle sync or resolving errors.</p>
+<p>I initially thought I could use <a href="https://github.com/highlightjs/highlight.js">highlight.js</a> to add syntax highlighting. But digging a little deeper I found that Bitbucket uses <a href="https://github.com/microsoft/monaco-editor">Monaco-editor</a> as their editor/viewer for source code.</p>
+<p>After spending some time reviewing <code>Monaco</code> documentation and <a href="https://microsoft.github.io/monaco-editor/playground.html">monaco</a> / <a href="https://microsoft.github.io/monaco-editor/monarch.html">monarch</a> playgrounds. I was able to add syntax-highlighting to <code>kotlin</code> relatively easily. Fortunately, I was able to find <a href="https://github.com/microsoft/monaco-editor/blob/main/src/basic-languages/kotlin/kotlin.ts">kotlin syntax in monaco-repo</a> and most of my time spent on figuring out what goes into <code>setMonarchTokensProvider</code></p>
+<p>Now, I have a bookmarklet to add kotlin syntax highlight with one click.</p>
+<p>The same can be used for adding support to any custom language that may not be supported by your Bitbucket instance.</p>
+<p>Here is the before and after.</p>
+<p><em>I pasted the screengrab of the post syntax highlight on the screenshot for easier comparison. The below script doesn&rsquo;t do split screen :-)</em></p>
+<p><img src="https://www.palaniraja.com/assets/kotlin-syntax-highlight-to-cloud-hosted-bitbucket.png" alt="Before &amp; After applying syntax highlighting to a kotlin source code"></p>
+<h3 id="js">JS</h3>
+<pre tabindex="0"><code>// source: https://github.com/microsoft/monaco-editor/blob/main/src/basic-languages/kotlin/kotlin.ts
+
+monaco.languages.register({ id: &#34;kotlin&#34; });
+
+monaco.languages.setLanguageConfiguration(&#34;kotlin&#34;, {
+	// the default separators except `@$`
+	wordPattern: /(-?\d*\.\d\w*)|([^\`\~\!\#\%\^\&amp;\*\(\)\-\=\+\[\{\]\}\\\|\;\:\&#39;\&#34;\,\.\&lt;\&gt;\/\?\s]+)/g,
+	comments: {
+		lineComment: &#39;//&#39;,
+		blockComment: [&#39;/*&#39;, &#39;*/&#39;]
+	},
+	brackets: [
+		[&#39;{&#39;, &#39;}&#39;],
+		[&#39;[&#39;, &#39;]&#39;],
+		[&#39;(&#39;, &#39;)&#39;]
+	],
+	autoClosingPairs: [
+		{ open: &#39;{&#39;, close: &#39;}&#39; },
+		{ open: &#39;[&#39;, close: &#39;]&#39; },
+		{ open: &#39;(&#39;, close: &#39;)&#39; },
+		{ open: &#39;&#34;&#39;, close: &#39;&#34;&#39; },
+		{ open: &#34;&#39;&#34;, close: &#34;&#39;&#34; }
+	],
+	surroundingPairs: [
+		{ open: &#39;{&#39;, close: &#39;}&#39; },
+		{ open: &#39;[&#39;, close: &#39;]&#39; },
+		{ open: &#39;(&#39;, close: &#39;)&#39; },
+		{ open: &#39;&#34;&#39;, close: &#39;&#34;&#39; },
+		{ open: &#34;&#39;&#34;, close: &#34;&#39;&#34; },
+		{ open: &#39;&lt;&#39;, close: &#39;&gt;&#39; }
+	],
+	folding: {
+		markers: {
+			start: new RegExp(&#39;^\\s*//\\s*(?:(?:#?region\\b)|(?:&lt;editor-fold\\b))&#39;),
+			end: new RegExp(&#39;^\\s*//\\s*(?:(?:#?endregion\\b)|(?:&lt;/editor-fold&gt;))&#39;)
+		}
+	}
+});
+
+
+
+monaco.languages.setMonarchTokensProvider(&#34;kotlin&#34;, {
+	defaultToken: &#39;&#39;,
+	tokenPostfix: &#39;.kt&#39;,
+
+	keywords: [
+		&#39;as&#39;,
+		&#39;as?&#39;,
+		&#39;break&#39;,
+		&#39;class&#39;,
+		&#39;continue&#39;,
+		&#39;do&#39;,
+		&#39;else&#39;,
+		&#39;false&#39;,
+		&#39;for&#39;,
+		&#39;fun&#39;,
+		&#39;if&#39;,
+		&#39;in&#39;,
+		&#39;!in&#39;,
+		&#39;interface&#39;,
+		&#39;is&#39;,
+		&#39;!is&#39;,
+		&#39;null&#39;,
+		&#39;object&#39;,
+		&#39;package&#39;,
+		&#39;return&#39;,
+		&#39;super&#39;,
+		&#39;this&#39;,
+		&#39;throw&#39;,
+		&#39;true&#39;,
+		&#39;try&#39;,
+		&#39;typealias&#39;,
+		&#39;val&#39;,
+		&#39;var&#39;,
+		&#39;when&#39;,
+		&#39;while&#39;,
+		&#39;by&#39;,
+		&#39;catch&#39;,
+		&#39;constructor&#39;,
+		&#39;delegate&#39;,
+		&#39;dynamic&#39;,
+		&#39;field&#39;,
+		&#39;file&#39;,
+		&#39;finally&#39;,
+		&#39;get&#39;,
+		&#39;import&#39;,
+		&#39;init&#39;,
+		&#39;param&#39;,
+		&#39;property&#39;,
+		&#39;receiver&#39;,
+		&#39;set&#39;,
+		&#39;setparam&#39;,
+		&#39;where&#39;,
+		&#39;actual&#39;,
+		&#39;abstract&#39;,
+		&#39;annotation&#39;,
+		&#39;companion&#39;,
+		&#39;const&#39;,
+		&#39;crossinline&#39;,
+		&#39;data&#39;,
+		&#39;enum&#39;,
+		&#39;expect&#39;,
+		&#39;external&#39;,
+		&#39;final&#39;,
+		&#39;infix&#39;,
+		&#39;inline&#39;,
+		&#39;inner&#39;,
+		&#39;internal&#39;,
+		&#39;lateinit&#39;,
+		&#39;noinline&#39;,
+		&#39;open&#39;,
+		&#39;operator&#39;,
+		&#39;out&#39;,
+		&#39;override&#39;,
+		&#39;private&#39;,
+		&#39;protected&#39;,
+		&#39;public&#39;,
+		&#39;reified&#39;,
+		&#39;sealed&#39;,
+		&#39;suspend&#39;,
+		&#39;tailrec&#39;,
+		&#39;vararg&#39;,
+		&#39;field&#39;,
+		&#39;it&#39;
+	],
+
+	operators: [
+		&#39;+&#39;,
+		&#39;-&#39;,
+		&#39;*&#39;,
+		&#39;/&#39;,
+		&#39;%&#39;,
+		&#39;=&#39;,
+		&#39;+=&#39;,
+		&#39;-=&#39;,
+		&#39;*=&#39;,
+		&#39;/=&#39;,
+		&#39;%=&#39;,
+		&#39;++&#39;,
+		&#39;--&#39;,
+		&#39;&amp;&amp;&#39;,
+		&#39;||&#39;,
+		&#39;!&#39;,
+		&#39;==&#39;,
+		&#39;!=&#39;,
+		&#39;===&#39;,
+		&#39;!==&#39;,
+		&#39;&gt;&#39;,
+		&#39;&lt;&#39;,
+		&#39;&lt;=&#39;,
+		&#39;&gt;=&#39;,
+		&#39;[&#39;,
+		&#39;]&#39;,
+		&#39;!!&#39;,
+		&#39;?.&#39;,
+		&#39;?:&#39;,
+		&#39;::&#39;,
+		&#39;..&#39;,
+		&#39;:&#39;,
+		&#39;?&#39;,
+		&#39;-&gt;&#39;,
+		&#39;@&#39;,
+		&#39;;&#39;,
+		&#39;$&#39;,
+		&#39;_&#39;
+	],
+
+	// we include these common regular expressions
+	symbols: /[=&gt;&lt;!~?:&amp;|+\-*\/\^%]+/,
+	escapes: /\\(?:[abfnrtv\\&#34;&#39;]|x[0-9A-Fa-f]{1,4}|u[0-9A-Fa-f]{4}|U[0-9A-Fa-f]{8})/,
+	digits: /\d+(_+\d+)*/,
+	octaldigits: /[0-7]+(_+[0-7]+)*/,
+	binarydigits: /[0-1]+(_+[0-1]+)*/,
+	hexdigits: /[[0-9a-fA-F]+(_+[0-9a-fA-F]+)*/,
+
+	// The main tokenizer for our languages
+	tokenizer: {
+		root: [
+			// class name highlighting
+			[/[A-Z][\w\$]*/, &#39;type.identifier&#39;],
+
+			// identifiers and keywords
+			[
+				/[a-zA-Z_$][\w$]*/,
+				{
+					cases: {
+						&#39;@keywords&#39;: { token: &#39;keyword.$0&#39; },
+						&#39;@default&#39;: &#39;identifier&#39;
+					}
+				}
+			],
+
+			// whitespace
+			{ include: &#39;@whitespace&#39; },
+
+			// delimiters and operators
+			[/[{}()\[\]]/, &#39;@brackets&#39;],
+			[/[&lt;&gt;](?!@symbols)/, &#39;@brackets&#39;],
+			[
+				/@symbols/,
+				{
+					cases: {
+						&#39;@operators&#39;: &#39;delimiter&#39;,
+						&#39;@default&#39;: &#39;&#39;
+					}
+				}
+			],
+
+			// @ annotations.
+			[/@\s*[a-zA-Z_\$][\w\$]*/, &#39;annotation&#39;],
+
+			// numbers
+			[/(@digits)[eE]([\-+]?(@digits))?[fFdD]?/, &#39;number.float&#39;],
+			[/(@digits)\.(@digits)([eE][\-+]?(@digits))?[fFdD]?/, &#39;number.float&#39;],
+			[/0[xX](@hexdigits)[Ll]?/, &#39;number.hex&#39;],
+			[/0(@octaldigits)[Ll]?/, &#39;number.octal&#39;],
+			[/0[bB](@binarydigits)[Ll]?/, &#39;number.binary&#39;],
+			[/(@digits)[fFdD]/, &#39;number.float&#39;],
+			[/(@digits)[lL]?/, &#39;number&#39;],
+
+			// delimiter: after number because of .\d floats
+			[/[;,.]/, &#39;delimiter&#39;],
+
+			// strings
+			[/&#34;([^&#34;\\]|\\.)*$/, &#39;string.invalid&#39;], // non-teminated string
+			[/&#34;&#34;&#34;/, &#39;string&#39;, &#39;@multistring&#39;],
+			[/&#34;/, &#39;string&#39;, &#39;@string&#39;],
+
+			// characters
+			[/&#39;[^\\&#39;]&#39;/, &#39;string&#39;],
+			[/(&#39;)(@escapes)(&#39;)/, [&#39;string&#39;, &#39;string.escape&#39;, &#39;string&#39;]],
+			[/&#39;/, &#39;string.invalid&#39;]
+		],
+
+		whitespace: [
+			[/[ \t\r\n]+/, &#39;&#39;],
+			[/\/\*\*(?!\/)/, &#39;comment.doc&#39;, &#39;@javadoc&#39;],
+			[/\/\*/, &#39;comment&#39;, &#39;@comment&#39;],
+			[/\/\/.*$/, &#39;comment&#39;]
+		],
+
+		comment: [
+			[/[^\/*]+/, &#39;comment&#39;],
+			[/\/\*/, &#39;comment&#39;, &#39;@comment&#39;],
+			[/\*\//, &#39;comment&#39;, &#39;@pop&#39;],
+			[/[\/*]/, &#39;comment&#39;]
+		],
+		//Identical copy of comment above, except for the addition of .doc
+		javadoc: [
+			[/[^\/*]+/, &#39;comment.doc&#39;],
+			[/\/\*/, &#39;comment.doc&#39;, &#39;@push&#39;],
+			[/\/\*/, &#39;comment.doc.invalid&#39;],
+			[/\*\//, &#39;comment.doc&#39;, &#39;@pop&#39;],
+			[/[\/*]/, &#39;comment.doc&#39;]
+		],
+
+		string: [
+			[/[^\\&#34;]+/, &#39;string&#39;],
+			[/@escapes/, &#39;string.escape&#39;],
+			[/\\./, &#39;string.escape.invalid&#39;],
+			[/&#34;/, &#39;string&#39;, &#39;@pop&#39;]
+		],
+
+		multistring: [
+			[/[^\\&#34;]+/, &#39;string&#39;],
+			[/@escapes/, &#39;string.escape&#39;],
+			[/\\./, &#39;string.escape.invalid&#39;],
+			[/&#34;&#34;&#34;/, &#39;string&#39;, &#39;@pop&#39;],
+			[/./, &#39;string&#39;]
+		]
+	}});
+
+
+var ed = monaco.editor.getModels()[0]
+monaco.editor.setModelLanguage(ed, &#39;kotlin&#39;)
+</code></pre><p>Latest version of the script can be found at <a class="external-links" target="_blank" href="https://gist.github.com/palaniraja/c987ed0cc23b3cdbfaa329ce69ed888e">https://gist.github.com/palaniraja/c987ed0cc23b3cdbfaa329ce69ed888e</a></p>
+
+
+      
+    </article>
+
+    
+    <hr style="border-color:#4484ce44;"/>
+    
+    
+      
+
+        <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfYu6LCtDC4q0pxinkTJLLY9u-ATk_HQyqU6A8LzNmuNplohw/viewform?usp=pp_url&entry.1500707377=https%3a%2f%2fwww.palaniraja.com%2f2023%2f04%2fhow-to-add-syntax-highlighting-to-any-source-code-in-bitbucket%2f" title="Link to Google Forms">Post Comment</a> 
+      
+      
+
+      
+
+        
+        
+        
+
+    <hr  style="border-color:transparent;"/>
+    
+    <ul class="pager article-pager">
+      <li class="pager-older">
+        <a href="https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/" data-toggle="tooltip" data-placement="top" title="Previous Article">How to view git change history of a Swift method &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer-invalid">
+
+  <p align="center" class="nav-footer-menu">
+      <a href="https://www.palaniraja.com/" title="Home">Home</a> 
+      <a href="https://www.palaniraja.com/index.xml" title="RSS">RSS</a> 
+      <a href="https://www.palaniraja.com/archives/" title="Archive">Archive</a> 
+      <a href="https://www.palaniraja.com/categories/" title="Categories">Categories</a> 
+      <a href="https://www.palaniraja.com/tags/" title="Tags">Tags</a> 
+      <a href="https://www.palaniraja.com/devdiary/" title="DevDiary">DevDiary</a> 
+      <a href="https://www.palaniraja.com/about/" title="About">About</a> 
+  </p>
+
+  <p align="center">&copy; 2006-2023 palaniraja</p>
+</div>
+
+</body>
+</html>

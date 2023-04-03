@@ -2,10 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.palaniraja.com/tags/bitbucket/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/bookmarklet/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/categories/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/editor/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/kotlin/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/categories/kotlin/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/monaco/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/categories/monaco/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/posts/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/script/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/categories/scripts/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/syntax-highlighting/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/</loc>
+    <lastmod>2023-04-02T21:55:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/bash/</loc>
+    <lastmod>2023-03-28T19:54:59-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/git/</loc>
+    <lastmod>2023-03-28T19:54:59-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/categories/git/</loc>
+    <lastmod>2023-03-28T19:54:59-07:00</lastmod>
+  </url><url>
     <loc>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</loc>
     <lastmod>2023-03-28T19:54:59-07:00</lastmod>
   </url><url>
-    <loc>https://www.palaniraja.com/posts/</loc>
+    <loc>https://www.palaniraja.com/categories/swift/</loc>
+    <lastmod>2023-03-28T19:54:59-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/swift./</loc>
     <lastmod>2023-03-28T19:54:59-07:00</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/tags/hobby/</loc>
@@ -24,9 +78,6 @@
     <lastmod>2020-05-10T21:22:26+05:30</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/tags/review/</loc>
-    <lastmod>2020-05-10T21:22:26+05:30</lastmod>
-  </url><url>
-    <loc>https://www.palaniraja.com/tags/</loc>
     <lastmod>2020-05-10T21:22:26+05:30</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/2020/03/2019-review/</loc>
@@ -62,28 +113,13 @@
     <loc>https://www.palaniraja.com/2019/08/swiftuml-generate-plantuml-class-diagram-from-swift-source-code/</loc>
     <lastmod>2019-08-10T14:56:55-07:00</lastmod>
   </url><url>
-    <loc>https://www.palaniraja.com/tags/bash/</loc>
-    <lastmod>2019-06-25T20:37:01-07:00</lastmod>
-  </url><url>
-    <loc>https://www.palaniraja.com/categories/</loc>
-    <lastmod>2019-06-25T20:37:01-07:00</lastmod>
-  </url><url>
-    <loc>https://www.palaniraja.com/tags/git/</loc>
-    <lastmod>2019-06-25T20:37:01-07:00</lastmod>
-  </url><url>
     <loc>https://www.palaniraja.com/tags/projects/</loc>
     <lastmod>2019-06-25T20:37:01-07:00</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/categories/projects/</loc>
     <lastmod>2019-06-25T20:37:01-07:00</lastmod>
   </url><url>
-    <loc>https://www.palaniraja.com/tags/script/</loc>
-    <lastmod>2019-06-25T20:37:01-07:00</lastmod>
-  </url><url>
     <loc>https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/</loc>
-    <lastmod>2019-06-25T20:37:01-07:00</lastmod>
-  </url><url>
-    <loc>https://www.palaniraja.com/categories/scripts/</loc>
     <lastmod>2019-06-25T20:37:01-07:00</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</loc>
@@ -746,9 +782,6 @@
     <loc>https://www.palaniraja.com/tags/addon/</loc>
     <lastmod>2013-01-31T06:55:00-08:00</lastmod>
   </url><url>
-    <loc>https://www.palaniraja.com/tags/bookmarklet/</loc>
-    <lastmod>2013-01-31T06:55:00-08:00</lastmod>
-  </url><url>
     <loc>https://www.palaniraja.com/tags/case-management/</loc>
     <lastmod>2013-01-31T06:55:00-08:00</lastmod>
   </url><url>
@@ -823,9 +856,6 @@
   </url><url>
     <loc>https://www.palaniraja.com/2013/01/project-dumps/</loc>
     <lastmod>2013-01-01T09:41:00-08:00</lastmod>
-  </url><url>
-    <loc>https://www.palaniraja.com/tags/editor/</loc>
-    <lastmod>2012-12-15T00:10:00-08:00</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/tags/extension/</loc>
     <lastmod>2012-12-15T00:10:00-08:00</lastmod>
@@ -1515,7 +1545,5 @@
     <priority>0</priority>
   </url><url>
     <loc>https://www.palaniraja.com/tags/quick-reference./</loc>
-  </url><url>
-    <loc>https://www.palaniraja.com/tags/swift./</loc>
   </url>
 </urlset>
