@@ -10,7 +10,7 @@ My work Bitbucket doesn't support proper syntax highlighting for `kotlin` for un
 
 They closed the ticket now - _like last week_! But the issue they linked is a ticket that adds syntax highlight to diffs not for viewing source files. Anyway, I still do not see syntax highlights on our repo for `.kt` files. 
 
-And it is frustrating to stop and share multiple windows during Microsoft Teams/Slack sessions. I prefer to share one browser window so I can simply open another repo in another tab instead of doing a _stop and start sharing_ routine after switching it to a new repo with Android Studio. Also I do need to wait for Gradle sync or resolving errors.
+And it is frustrating to stop and share multiple windows during Microsoft Teams/Slack sessions. I prefer to share one browser window so I can simply open another repo in another tab instead of doing a _stop and start sharing_ routine after switching it to a new repo with Android Studio. Also I do not need to wait for Gradle sync or resolve errors.
 
 
 I initially thought I could use [highlight.js](https://github.com/highlightjs/highlight.js) to add syntax highlighting. But digging a little deeper I found that Bitbucket uses [Monaco-editor](https://github.com/microsoft/monaco-editor) as their editor/viewer for source code.
