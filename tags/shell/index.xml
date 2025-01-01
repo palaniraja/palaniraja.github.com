@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shell on PR</title>
+    <title>Shell on PR</title>
     <link>https://www.palaniraja.com/tags/shell/</link>
-    <description>Recent content in shell on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Shell on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 15 Jun 2011 05:50:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jun 2011 05:50:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shell script to generate images for testing</title>
       <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
       <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
-      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+      <description>&lt;p&gt;Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

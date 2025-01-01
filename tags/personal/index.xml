@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>personal on PR</title>
+    <title>Personal on PR</title>
     <link>https://www.palaniraja.com/tags/personal/</link>
-    <description>Recent content in personal on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Personal on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 05 Sep 2018 08:48:00 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Sep 2018 08:48:00 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Happy Teachers Day</title>
       <link>https://www.palaniraja.com/2018/09/happy-teachers-day/</link>
       <pubDate>Wed, 05 Sep 2018 08:48:00 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/09/happy-teachers-day/</guid>
-      <description>This is a post I&amp;rsquo;m meaning to write for a very long time. I wanted to write this every year around Teachers day (5-Sep) and failed to publish.</description>
+      <description>&lt;p&gt;This is a post I&amp;rsquo;m meaning to write for a very long time. I wanted to write this every year around Teachers day (&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_Teachers%27_Days&#34;&gt;5-Sep&lt;/a&gt;) and failed to publish. Reason is, I could not find a way to express, anyhow here is an attempt.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kids these days</title>
       <link>https://www.palaniraja.com/2014/10/kids-these-days/</link>
       <pubDate>Wed, 22 Oct 2014 00:06:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/10/kids-these-days/</guid>
-      <description>Last weekend I was fortunate to be a technical evaluator of an hackathon. Yes, I&amp;rsquo;m trying to be vague here, as my company sponsored this event at a most reputed university of our state, this post is just my view.</description>
+      <description>&lt;p&gt;Last weekend I was fortunate to be a technical evaluator of an hackathon. Yes, I&amp;rsquo;m trying to be vague here, as my company sponsored this event at a most reputed university of our state,  this post is just my view.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RescueTime weekly summary and Google Script</title>
       <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
       <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
-      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+      <description>&lt;p&gt;I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else. I have always run two or three passive self policing apps like &lt;a href=&#34;https://www.rescuetime.com/&#34;&gt;Rescuetime&lt;/a&gt; and &lt;a href=&#34;https://itunes.apple.com/ca/app/free-time-tracker-timing-lite/id467410757?mt=12&#34;&gt;Timing&lt;/a&gt; etc.,&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rest In Peace</title>
       <link>https://www.palaniraja.com/2012/12/rest-in-peace/</link>
       <pubDate>Thu, 13 Dec 2012 09:07:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/12/rest-in-peace/</guid>
-      <description>We received an unusual call at 4am on 6th only to know my Uncle and Aunt are no more. Suicide at the age of 70+ is not an easy decision, it has been a week and I couldn&amp;rsquo;t digest the news.</description>
+      <description>&lt;p&gt;We received an unusual call at 4am on 6th only to know my Uncle and Aunt are no more. Suicide at the age of 70+ is not an easy decision, it has been a week and I couldn&amp;rsquo;t digest the news.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

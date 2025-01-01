@@ -4,8 +4,8 @@
     <title>PR</title>
     <link>https://www.palaniraja.com/archives/</link>
     <description>Recent content on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright><atom:link href="https://www.palaniraja.com/archives/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.palaniraja.com/archives/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

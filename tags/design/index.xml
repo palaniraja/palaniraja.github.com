@@ -1,86 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>design on PR</title>
+    <title>Design on PR</title>
     <link>https://www.palaniraja.com/tags/design/</link>
-    <description>Recent content in design on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Design on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 16:22:22 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jan 2019 16:22:22 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flickr - How not to design backup userdata when shutting down your service</title>
       <link>https://www.palaniraja.com/2019/01/flickr-how-not-to-design-backup-userdata-when-shutting-down-your-service/</link>
       <pubDate>Tue, 01 Jan 2019 16:22:22 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2019/01/flickr-how-not-to-design-backup-userdata-when-shutting-down-your-service/</guid>
-      <description>Happy New Year - 2019
-It is always easy to find fault than fixing. So this isn&amp;rsquo;t very hard to start this year blogging write a rant.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Happy New Year - 2019&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;It is always easy to find fault than fixing. So this isn&amp;rsquo;t very hard to start this year blogging write a rant. I wish I&amp;rsquo;d gone through this earlier; if so, atleast I could have asked Flickr to update minimal fixes. Anyway, I would like to record it so we don&amp;rsquo;t repeat the same mistakes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPad Pro and Apple</title>
       <link>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</link>
       <pubDate>Tue, 01 Dec 2015 12:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</guid>
-      <description>Last Sunday, I got to try iPad pro with all its accessories (most of the outlet here has only iPad pro without keyboard &amp;amp; pencil).</description>
+      <description>&lt;p&gt;Last Sunday, I got to try &lt;a href=&#34;http://www.apple.com/ipad-pro/&#34;&gt;iPad pro&lt;/a&gt; with all its accessories (most of the outlet here has only iPad pro without &lt;a href=&#34;http://www.apple.com/shop/product/MJYR2/smart-keyboard-for-ipad-pro&#34;&gt;keyboard&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.apple.com/shop/product/MK0C2/apple-pencil-for-ipad-pro&#34;&gt;pencil&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Image Slicing (Repeatable image) with Xcode Asset Catalog</title>
       <link>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</link>
       <pubDate>Sun, 15 Feb 2015 09:36:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</guid>
-      <description>Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.</description>
+      <description>&lt;p&gt;Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bitsplitting - Logo</title>
       <link>https://www.palaniraja.com/2013/04/bitsplitting-logo/</link>
       <pubDate>Sat, 13 Apr 2013 08:32:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/bitsplitting-logo/</guid>
-      <description>Bitsplitting - Beautiful logo I have seen in a long time. I don&amp;rsquo;t know how @danielpunkass decided to use one version of the two.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/bitsplitting.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bitsplitting - Beautiful logo I have seen in a long time. I don&amp;rsquo;t know how &lt;a href=&#34;https://twitter.com/danielpunkass&#34;&gt;@danielpunkass&lt;/a&gt; decided to use one version of the two. I couldn&amp;rsquo;t decide which is the one I like the most.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iTunes 10 Logo</title>
       <link>https://www.palaniraja.com/2011/09/itunes-10-logo/</link>
       <pubDate>Thu, 01 Sep 2011 09:40:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/09/itunes-10-logo/</guid>
-      <description>End credits from the movie Up iTunes logo updated with version 10 in Sep &amp;lsquo;10</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-09-01-at-4.00.39-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;End credits from the movie &lt;a href=&#34;http://www.imdb.com/title/tt1049413/&#34;&gt;Up&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/itunes10logo380.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;iTunes logo updated with version 10 in Sep &amp;lsquo;10&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea to action: Tile this</title>
       <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
       <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
-      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-08-18-at-11.15.36-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Wallpaper - Testflight app</title>
       <link>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</link>
       <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</guid>
-      <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
+      <description>&lt;p&gt;I really liked the background image pattern used in &lt;a href=&#34;http://testflightapp.com/&#34;&gt;testflightapp.com&lt;/a&gt;. It is so cool that I have replaced my all time favorite &lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/08/ipad-safari-background-texture.html&#34;&gt;iPad-Safari-fabric&lt;/a&gt; texture to gray varient given below.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Radio buttons and Checkboxes</title>
       <link>https://www.palaniraja.com/2011/04/radio-buttons-and-checkboxes/</link>
       <pubDate>Sun, 24 Apr 2011 10:57:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/radio-buttons-and-checkboxes/</guid>
-      <description>I have designed the following as one of my side project required a simple radio buttons and checkboxes.
-Download the *.</description>
+      <description>&lt;p&gt;I have designed the following as one of my side project required a simple radio buttons and checkboxes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://goo.gl/zXvTH&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Radio-Checkbox.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://goo.gl/zXvTH&#34;&gt;Download&lt;/a&gt; the *.png files.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

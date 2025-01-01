@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>minimalist on PR</title>
+    <title>Minimalist on PR</title>
     <link>https://www.palaniraja.com/tags/minimalist/</link>
-    <description>Recent content in minimalist on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Minimalist on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Thu, 18 Aug 2011 10:05:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/minimalist/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Aug 2011 10:05:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/minimalist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wallpaper - Testflight app</title>
       <link>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</link>
       <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</guid>
-      <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
+      <description>&lt;p&gt;I really liked the background image pattern used in &lt;a href=&#34;http://testflightapp.com/&#34;&gt;testflightapp.com&lt;/a&gt;. It is so cool that I have replaced my all time favorite &lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/08/ipad-safari-background-texture.html&#34;&gt;iPad-Safari-fabric&lt;/a&gt; texture to gray varient given below.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPad wallpaper for minimalist</title>
       <link>https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/</link>
       <pubDate>Sun, 23 Jan 2011 10:22:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/</guid>
-      <description>Here is the background image I am using for my iPad. It is looking gorgeous on Home screen.
-Looks good on both orientations.</description>
+      <description>&lt;p&gt;Here is the background image I am using for my iPad. It is looking gorgeous on Home screen.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/bgboard.png&#34; alt=&#34;bgboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Looks good on both orientations.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

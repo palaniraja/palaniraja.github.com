@@ -1,103 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on PR</title>
+    <title>Development on PR</title>
     <link>https://www.palaniraja.com/tags/development/</link>
-    <description>Recent content in development on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Development on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev Diary: Apple Pay</title>
       <link>https://www.palaniraja.com/2017/10/dev-diary-apple-pay/</link>
       <pubDate>Sun, 22 Oct 2017 07:25:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2017/10/dev-diary-apple-pay/</guid>
-      <description>I&amp;rsquo;ve recently integrated Apple Pay for an iOS app. Though I have heard it is very easy to integrate and lot of tutorials available, I could not find overall requirements/activities involved in integrating Apple Pay.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently integrated &lt;a href=&#34;https://www.apple.com/apple-pay/&#34;&gt;Apple Pay&lt;/a&gt; for an iOS app. Though I have heard it is very easy to integrate and lot of tutorials available, I could not find overall requirements/activities involved in integrating Apple Pay.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
       <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</link>
       <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</guid>
-      <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
+      <description>&lt;p&gt;&lt;em&gt;Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Image Slicing (Repeatable image) with Xcode Asset Catalog</title>
       <link>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</link>
       <pubDate>Sun, 15 Feb 2015 09:36:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</guid>
-      <description>Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.</description>
+      <description>&lt;p&gt;Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RescueTime weekly summary and Google Script</title>
       <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
       <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
-      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+      <description>&lt;p&gt;I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else. I have always run two or three passive self policing apps like &lt;a href=&#34;https://www.rescuetime.com/&#34;&gt;Rescuetime&lt;/a&gt; and &lt;a href=&#34;https://itunes.apple.com/ca/app/free-time-tracker-timing-lite/id467410757?mt=12&#34;&gt;Timing&lt;/a&gt; etc.,&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
       <link>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</link>
       <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</guid>
-      <description>If you did not have enough time to go through the 50G contents from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+      <description>&lt;p&gt;If you did not have enough time to go through the &lt;a href=&#34;http://www.flickr.com/photos/palaniraja-mca/9149855356/&#34;&gt;50G contents&lt;/a&gt; from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;&lt;em&gt;Hidden Gems in Cocoa and Cocoa Touch&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
       <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
       <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
-      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://efendibooks.com/minibooks/testing-with-coffeescript&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-04-21-at-11.49.28-AM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; (Test Driven Development) was introduced to me around 2006 with &lt;a href=&#34;http://www.phpunit.de/manual/current/en/index.html&#34;&gt;PHPUnit&lt;/a&gt;. As a naive, I couldn&amp;rsquo;t see the benefits, eg., I saw the pattern of code has been updated very often (growing organically) and frequent failing test. I was like, &lt;em&gt;Why should I write unit test to test my own code? with the same data I used for manual testing?&lt;/em&gt; As they say I was seeing the forest for the trees. I failed to realize the failing test is actually the benefit of practicing TDD.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Disable networking/internet from command line on a Mac</title>
       <link>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</link>
       <pubDate>Fri, 19 Apr 2013 09:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</guid>
-      <description>If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.</description>
+      <description>&lt;p&gt;If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
       <pubDate>Sat, 30 Mar 2013 07:08:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</guid>
-      <description>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</description>
+      <description>&lt;p&gt;Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Prj - Times of India epub</title>
       <link>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</link>
       <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</guid>
-      <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
+      <description>&lt;p&gt;Remember my &lt;a href=&#34;https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/&#34;&gt;old post about the TOI - Epub project&lt;/a&gt;? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source. Kindly go through the &lt;a href=&#34;https://github.com/palaniraja/toi-epub/blob/master/Dev-Notes.txt&#34;&gt;Dev-Notes.txt&lt;/a&gt;, as it has all the urls and image path used to inspect their mpaper hiearchy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
       <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
-      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
-Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+      <description>&lt;p&gt;Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).&lt;/p&gt;&#xA;&lt;p&gt;Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>csv on PR</title>
+    <title>Csv on PR</title>
     <link>https://www.palaniraja.com/tags/csv/</link>
-    <description>Recent content in csv on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Csv on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/csv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/csv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grep - Swiss army knife</title>
       <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
-      <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
+      <description>&lt;p&gt;I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems. I really don&amp;rsquo;t know whether grep is the right choice here, but hey! it worked :-)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

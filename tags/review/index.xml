@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>review on PR</title>
+    <title>Review on PR</title>
     <link>https://www.palaniraja.com/tags/review/</link>
-    <description>Recent content in review on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Review on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 10 May 2020 21:22:26 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2020 21:22:26 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instagram Challenge - 2019</title>
       <link>https://www.palaniraja.com/2020/05/instagram-challenge-2019/</link>
       <pubDate>Sun, 10 May 2020 21:22:26 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2020/05/instagram-challenge-2019/</guid>
-      <description>Year after year, I see so many gifted people share their art during month of October tagged #inktober
-Guess what, I wanted to join last year and I did.</description>
+      <description>&lt;p&gt;Year after year, I see so many &lt;em&gt;gifted&lt;/em&gt; people share their art during month of October tagged #inktober&lt;/p&gt;&#xA;&lt;p&gt;Guess what, I wanted to join last year and I did. I challenge myself to post one photo each day of October and I successfully completed that. ~90% of them are without any edits except cropping or minor color corrections.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2019 Review</title>
       <link>https://www.palaniraja.com/2020/03/2019-review/</link>
       <pubDate>Wed, 25 Mar 2020 08:47:04 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2020/03/2019-review/</guid>
-      <description>I ain&amp;rsquo;t no Stephen Wolfram but I do try to time myself on any activities I do on my computer whenever possible.</description>
+      <description>&lt;p&gt;I ain&amp;rsquo;t no &lt;a href=&#34;https://writings.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/&#34;&gt;Stephen Wolfram&lt;/a&gt; but I do try to time myself on any activities I do on my computer whenever possible. Mostly to validate (or train my mind) the time took to finish a task is not what I thought it would be. At times I pleasantly surprised, most often my estimates are always under estimated.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

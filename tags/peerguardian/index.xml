@@ -4,18 +4,16 @@
     <title>PeerGuardian on PR</title>
     <link>https://www.palaniraja.com/tags/peerguardian/</link>
     <description>Recent content in PeerGuardian on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 16 May 2010 12:02:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/peerguardian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2010 12:02:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/peerguardian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PeerGuardian and history.db</title>
       <link>https://www.palaniraja.com/2010/05/peerguardian-and-history.db/</link>
       <pubDate>Sun, 16 May 2010 12:02:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/05/peerguardian-and-history.db/</guid>
-      <description>PeerGuardian is a great tool to maintain your privacy. But you should be aware of a fact that it uses a sqlite db to maintain the history called history.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://phoenixlabs.org/pg2/&#34;&gt;PeerGuardian&lt;/a&gt; is a great tool to maintain your privacy. But you should be aware of a fact that it uses a sqlite db to maintain the history called &lt;strong&gt;history.db&lt;/strong&gt; in its directory under &lt;em&gt;Program Files.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

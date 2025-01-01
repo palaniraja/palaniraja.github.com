@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on PR</title>
+    <title>Programming on PR</title>
     <link>https://www.palaniraja.com/tags/programming/</link>
-    <description>Recent content in programming on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Programming on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 28 Apr 2013 06:38:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2013 06:38:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Request To Webdevs: Include IP/User-Agent Info In Forgot Password Email</title>
       <link>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</link>
       <pubDate>Sun, 28 Apr 2013 06:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</guid>
-      <description>The Forgot password email template has been the same for more than a decade. It is time to include more information in the email.</description>
+      <description>&lt;p&gt;The &lt;em&gt;Forgot password&lt;/em&gt; email template has been the same for more than a decade. It is time to include more information in the email.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
       <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
       <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
-      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://efendibooks.com/minibooks/testing-with-coffeescript&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-04-21-at-11.49.28-AM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; (Test Driven Development) was introduced to me around 2006 with &lt;a href=&#34;http://www.phpunit.de/manual/current/en/index.html&#34;&gt;PHPUnit&lt;/a&gt;. As a naive, I couldn&amp;rsquo;t see the benefits, eg., I saw the pattern of code has been updated very often (growing organically) and frequent failing test. I was like, &lt;em&gt;Why should I write unit test to test my own code? with the same data I used for manual testing?&lt;/em&gt; As they say I was seeing the forest for the trees. I failed to realize the failing test is actually the benefit of practicing TDD.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iCloud Gotchas</title>
       <link>https://www.palaniraja.com/2011/12/icloud-gotchas/</link>
       <pubDate>Sat, 17 Dec 2011 23:08:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/icloud-gotchas/</guid>
-      <description>Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.</description>
+      <description>&lt;p&gt;Integrating iCloud with core data was easy when I found &lt;a href=&#34;http://goddess-gate.com/dc2/index.php/post/452&#34;&gt;this tutorial&lt;/a&gt;, but I ran into few issues while implementing and testing it on devices. And here are the steps how I managed to solve it.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,18 +4,16 @@
     <title>MDM on PR</title>
     <link>https://www.palaniraja.com/tags/mdm/</link>
     <description>Recent content in MDM on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 22 Jun 2014 04:55:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/mdm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jun 2014 04:55:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/mdm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to run any iPad (iOS) applications in Kiosk mode</title>
       <link>https://www.palaniraja.com/2014/06/how-to-run-any-ipad-ios-applications-in-kiosk-mode/</link>
       <pubDate>Sun, 22 Jun 2014 04:55:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/06/how-to-run-any-ipad-ios-applications-in-kiosk-mode/</guid>
-      <description>This is the one feature I know since the release but never bothered to try. Recently I had to provide the steps for a client on how to setup.</description>
+      <description>&lt;p&gt;This is the one feature I know since the release but never bothered to try. Recently I had to provide the steps for a client on how to setup. After trying &lt;a href=&#34;http://www.zchristopoulos.com/2012/02/how-to-disable-ipad-home-button-kioskstore-demo-mode/&#34;&gt;multiple&lt;/a&gt; &lt;a href=&#34;http://stackoverflow.com/questions/15068318/how-to-enable-a-kiosk-mode-programmatically-in-ipad&#34;&gt;methods&lt;/a&gt; without any &lt;a href=&#34;http://stackoverflow.com/questions/22500036/guided-access-kiosk-mode-of-ipad?lq=1&#34;&gt;success&lt;/a&gt;, I figured out the steps.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

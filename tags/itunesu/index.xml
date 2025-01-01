@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>iTunesU on PR</title>
+    <title>ITunesU on PR</title>
     <link>https://www.palaniraja.com/tags/itunesu/</link>
-    <description>Recent content in iTunesU on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in ITunesU on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 28 Feb 2011 06:46:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/itunesu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2011 06:46:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/itunesu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
       <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
-      <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
-Session on OpenGL ES 2.</description>
+      <description>&lt;p&gt;Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson&lt;/p&gt;&#xA;&lt;p&gt;Session on OpenGL ES 2.0 recommended by Gurus. Go and download the complete sessions from &lt;a href=&#34;http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=407243028&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Download Apple WWDC Keynote videos</title>
       <link>https://www.palaniraja.com/2010/06/download-apple-wwdc-keynote-videos/</link>
       <pubDate>Wed, 16 Jun 2010 21:02:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/download-apple-wwdc-keynote-videos/</guid>
-      <description>I was always disappointed with Apple Keynote pages. It allows you to stream and watch the videos with QuickTime which is not great for streaming and videos are not HTML5 yet.</description>
+      <description>&lt;p&gt;I was always disappointed with Apple Keynote pages. It allows you to stream and watch the videos with QuickTime which is not great for streaming and videos are not HTML5 yet. Another restriction with QuickTime is, you need to have QuickTime Pro to save the video.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Obj-C | For beginners</title>
       <link>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</link>
       <pubDate>Sun, 11 Apr 2010 20:51:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</guid>
-      <description>A quick obj-c cheat-sheet for the beginners.
-Scribd link
-This is taken from RWTH-iPhone Application Programming. You can also download complete videos from iTunesU.</description>
+      <description>&lt;p&gt;A quick obj-c cheat-sheet for the beginners.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.scribd.com/doc/29769999/RWTH-Objective-C&#34;&gt;Scribd link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is taken from &lt;a href=&#34;http://hci.rwth-aachen.de/iphone&#34;&gt;RWTH-iPhone Application Programming&lt;/a&gt;. You can also download complete videos from &lt;a href=&#34;http://deimos3.apple.com/WebObjects/Core.woa/Browse/rwth-aachen.de.2800424446.02876463968&#34;&gt;iTunesU&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

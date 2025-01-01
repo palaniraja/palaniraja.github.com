@@ -4,36 +4,30 @@
     <title>Snow Leopard on PR</title>
     <link>https://www.palaniraja.com/tags/snow-leopard/</link>
     <description>Recent content in Snow Leopard on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 13 Oct 2010 11:32:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/snow-leopard/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Oct 2010 11:32:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/snow-leopard/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GotoMeeting Video recording (G2M3 codec for Mac)</title>
       <link>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</link>
       <pubDate>Wed, 13 Oct 2010 11:32:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</guid>
-      <description>If you use GotoMeeting to record video of the shared screen, make sure that you DO NOT use G2M3 codec. It does a great job in compressing the size of the video but it is not compatible with OSX or any OS other than Windows.</description>
+      <description>&lt;p&gt;If you use GotoMeeting to record video of the shared screen, make sure that you DO NOT use G2M3 codec. It does a great job in compressing the size of the video but it is not compatible with OSX or any OS other than Windows.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Snow Leopard (Retail) on Lenovo 3000 N100</title>
       <link>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</link>
       <pubDate>Tue, 13 Jul 2010 11:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</guid>
-      <description>Disclaimer: There is no alternative to real Mac, if you like Mac go and buy it. If buying a real Mac is too much, you can at least buy a license for Mac OS X Snow Leopard which costs $29 only.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/lenovo_thumb.jpg&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/lenovo_thumb.jpg&#34; alt=&#34;lenovo&#34; title=&#34;lenovo&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; &lt;em&gt;There is no alternative to real Mac, if you like Mac go and buy it. If buying a real Mac is too much, you can at least buy a license for Mac OS X Snow Leopard which costs $29 only. This post is to test the Snow Leopard compatibility with Lenovo 3000 N100.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hackintosh Guide: Snow Leopard 10.6.1-10.6.2 Intel AMD made by Hazard</title>
       <link>https://www.palaniraja.com/2010/05/hackintosh-guide-snow-leopard-10.6.1-10.6.2-intel-amd-made-by-hazard/</link>
       <pubDate>Mon, 17 May 2010 02:36:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/05/hackintosh-guide-snow-leopard-10.6.1-10.6.2-intel-amd-made-by-hazard/</guid>
-      <description>Last Saturday I was successful in installing Snow Leopard on Sony Vaio with Core i3 Processor. I have tried many distro&amp;rsquo;s in past 2 years and I can tell you it is not easy to install on any given PC.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/sonyvaio.jpg&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/sonyvaio.jpg&#34; alt=&#34;sonyvaio&#34; title=&#34;sonyvaio&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Last Saturday I was successful in installing Snow Leopard on &lt;a href=&#34;http://www.sony.co.in/product/vpceb16fg&#34;&gt;Sony Vaio&lt;/a&gt; with Core i3 Processor. I have tried many distro&amp;rsquo;s in past 2 years and I can tell you it is not easy to install on any given PC.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

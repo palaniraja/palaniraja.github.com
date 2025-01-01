@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>recovery on PR</title>
+    <title>Recovery on PR</title>
     <link>https://www.palaniraja.com/tags/recovery/</link>
-    <description>Recent content in recovery on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Recovery on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Thu, 09 Aug 2018 15:01:00 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/recovery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Aug 2018 15:01:00 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/recovery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dropbox Mac - Deletes files on reinstallation?</title>
       <link>https://www.palaniraja.com/2018/08/dropbox-mac-deletes-files-on-reinstallation/</link>
       <pubDate>Thu, 09 Aug 2018 15:01:00 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/08/dropbox-mac-deletes-files-on-reinstallation/</guid>
-      <description>I uninstalled Dropbox from my work mac before submitting my laptop of reimaging of OS with corporate junk installations.
-Since I was sure, I should be able to install it again and download all synced files back on mac, I had deleted before handing over to IT people.</description>
+      <description>&lt;p&gt;I uninstalled Dropbox from my work mac before submitting my laptop of reimaging of OS with &lt;em&gt;corporate junk&lt;/em&gt; installations.&lt;/p&gt;&#xA;&lt;p&gt;Since I was sure, I should be able to install it again and download all synced files back on mac, I had deleted before handing over to IT people. So I didn&amp;rsquo;t copy files in &lt;code&gt;~/Dropbox&lt;/code&gt; to my backup hdd.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

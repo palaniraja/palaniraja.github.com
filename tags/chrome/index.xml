@@ -1,95 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chrome on PR</title>
+    <title>Chrome on PR</title>
     <link>https://www.palaniraja.com/tags/chrome/</link>
-    <description>Recent content in chrome on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Chrome on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 26 Aug 2012 06:20:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Aug 2012 06:20:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install Grease monkey scripts on Google Chrome 21</title>
       <link>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</link>
       <pubDate>Sun, 26 Aug 2012 06:20:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</guid>
-      <description>Chrome updated its policy to not to install extensions and scripts outside of Google webstore by default. (Gatekeeper, everyone wants to be the police)</description>
+      <description>&lt;p&gt;Chrome updated its policy to not to install extensions and scripts outside of Google webstore by default. (Gatekeeper, everyone wants to be the police)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea to action: Tile this</title>
       <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
       <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
-      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-08-18-at-11.15.36-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
       <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
-      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+      <description>&lt;p&gt;One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at &lt;a href=&#34;http://apple.stackexchange.com/questions/17229/is-there-a-way-i-can-import-readitlaters-exported-html-file-into-my-instapaper/&#34;&gt;apple.stackexchange.com&lt;/a&gt;, the original answer was based on my experience sometime ago I was searching to migrate my links between my Instapaper accounts.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Desktop Notification with Html5</title>
       <link>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</link>
       <pubDate>Tue, 31 May 2011 06:27:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</guid>
-      <description>I&amp;rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
-![](/assets/Screen shot 2011-05-31 at 7.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently stumbled upon &lt;a href=&#34;http://studio.html5rocks.com/#Time!&#34;&gt;studio.html5rocks.com&lt;/a&gt; and found the cool trick to display desktop notifications like &lt;a href=&#34;http://gmailblog.blogspot.com/2011/01/desktop-notifications-for-emails-and.html&#34;&gt;Gmail&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;![](/assets/Screen shot 2011-05-31 at 7.02.36 PM.png)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Play Angrybirds on web (Chrome)</title>
       <link>https://www.palaniraja.com/2011/05/play-angrybirds-on-web-chrome/</link>
       <pubDate>Sat, 14 May 2011 10:50:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/play-angrybirds-on-web-chrome/</guid>
-      <description>HD for good configuration computers | SD for little out of date computers
-For those who wants to see all levels without completing a level or struck in a level, here is the hack, copy the following code, paste it on url textbox and hit enter.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/angry-birds-chrome.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://chrome.angrybirds.com/&#34;&gt;HD for good configuration computers&lt;/a&gt; | &lt;a href=&#34;http://chrome.angrybirds.com/?version=standard&#34;&gt;SD for little out of date computers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;For those who wants to see all levels without completing a level or struck in a level, here is the hack, copy the following code, paste it on url textbox and hit enter.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Tile this!</title>
       <link>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</link>
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Check the extension and more information @ &lt;a href=&#34;https://www.palaniraja.com/2011/08/idea-to-action-tile-this/&#34;&gt;Idea to action: Tile this &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently hunting images for a sample design. I was trying to find a pattern that can be tiled/repeated to fill.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pure Reader for Chrome</title>
       <link>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</link>
       <pubDate>Mon, 06 Dec 2010 01:46:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</guid>
-      <description>I love the theme of the Pure Reader for Safari (http://nadesign.net/safari/). I&amp;rsquo;ve ported the CSS as a userscript to use it with Google Chrome.</description>
+      <description>&lt;p&gt;I love the theme of the Pure Reader for Safari (&lt;a href=&#34;http://nadesign.net/safari/&#34;&gt;http://nadesign.net/safari/&lt;/a&gt;). I&amp;rsquo;ve ported the CSS as a userscript to use it with Google Chrome. Firefox need some css modification pls find the &lt;a href=&#34;http://idzr.org/c5br&#34;&gt;css here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Google Chrome : Hybrid of all</title>
       <link>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</link>
       <pubDate>Sat, 06 Sep 2008 03:38:02 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</guid>
-      <description> Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism What’s new in Google Chrome No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Webkit&lt;/strong&gt; as rendering engine like Safari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tabstyles&lt;/strong&gt; are from Flock&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Startup page&lt;/strong&gt; similar to Opera speed-dial and Flock myhome page&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Paste and go&lt;/strong&gt; in the address bar like Opera&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;No menu ba&lt;/strong&gt;r like IE 7&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tab-to-window&lt;/strong&gt; and vice versa from Opera/Safari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Incognito browsing&lt;/strong&gt; similar to Private Browsing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Create Application Shortcuts&lt;/strong&gt; like Mozilla Prism&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;whats-new-in-google-chrome&#34;&gt;What’s new in Google Chrome&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;No two&lt;/strong&gt; separate &lt;strong&gt;textboxes&lt;/strong&gt; for URL and for Search&lt;/li&gt;&#xA;&lt;li&gt;Every tab is a separate &lt;strong&gt;process&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Innovative Search&lt;/strong&gt;, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari&lt;/li&gt;&#xA;&lt;li&gt;Built-in support for &lt;strong&gt;Google Gears&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Above all its from the giant &lt;strong&gt;Google&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Google Chrome : The application failed to initialize properly (0xc0000005)</title>
       <link>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</link>
       <pubDate>Wed, 03 Sep 2008 07:32:52 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</guid>
-      <description>The application failed to initialize properly (0xc0000005). Click on OK to terminate the application Symantec causes this issue and the temp.</description>
+      <description>&lt;p&gt; &lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;The application failed to initialize properly (0xc0000005). Click on OK to terminate the application&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Symantec causes this issue and the temp. solution is to disable the sandbox. And the solution from Google Groups is   &#xA;You can try running Google Chrome with &lt;strong&gt;&lt;code&gt;--no-sandbox&lt;/code&gt;&lt;/strong&gt; (you need to edit the properties of the shortcut you use to launch it).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

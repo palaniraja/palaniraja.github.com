@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>simulator on PR</title>
+    <title>Simulator on PR</title>
     <link>https://www.palaniraja.com/tags/simulator/</link>
-    <description>Recent content in simulator on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Simulator on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 28 Nov 2011 03:34:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/simulator/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2011 03:34:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/simulator/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing more simulators for xcode 4.2 without re-downloading everytime</title>
       <link>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</link>
       <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
-      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.</description>
+      <description>&lt;p&gt;If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.x simulator without re-downloading it on every machine? then I&amp;rsquo;ve got a solution.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

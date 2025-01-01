@@ -4,18 +4,16 @@
     <title>QA on PR</title>
     <link>https://www.palaniraja.com/tags/qa/</link>
     <description>Recent content in QA on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 27 Apr 2014 08:17:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/qa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Apr 2014 08:17:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/qa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The bug that *still* haunts me</title>
       <link>https://www.palaniraja.com/2014/04/the-bug-that-still-haunts-me/</link>
       <pubDate>Sun, 27 Apr 2014 08:17:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/04/the-bug-that-still-haunts-me/</guid>
-      <description>My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval.</description>
+      <description>&lt;p&gt;My recent project was to build an html5 app on top of Salesforce1. As usual after the development is complete we send it to QA for approval. And then they log this bug.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

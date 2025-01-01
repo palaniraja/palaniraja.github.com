@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>plugin on PR</title>
+    <title>Plugin on PR</title>
     <link>https://www.palaniraja.com/tags/plugin/</link>
-    <description>Recent content in plugin on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Plugin on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 15 Dec 2012 00:10:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Dec 2012 00:10:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
       <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
-      <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
+      <description>&lt;p&gt;I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my &lt;em&gt;idea to project&lt;/em&gt; execution.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

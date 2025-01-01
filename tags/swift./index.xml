@@ -4,9 +4,16 @@
     <title>Swift. on PR</title>
     <link>https://www.palaniraja.com/tags/swift./</link>
     <description>Recent content in Swift. on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 28 Mar 2023 19:54:59 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/swift./index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/swift./index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
+      <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</link>
+      <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
+      <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -4,28 +4,23 @@
     <title>E-Daily on PR</title>
     <link>https://www.palaniraja.com/tags/e-daily/</link>
     <description>Recent content in E-Daily on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 16 Jan 2013 21:02:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/e-daily/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jan 2013 21:02:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/e-daily/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prj - Times of India epub</title>
       <link>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</link>
       <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</guid>
-      <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
+      <description>&lt;p&gt;Remember my &lt;a href=&#34;https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/&#34;&gt;old post about the TOI - Epub project&lt;/a&gt;? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source. Kindly go through the &lt;a href=&#34;https://github.com/palaniraja/toi-epub/blob/master/Dev-Notes.txt&#34;&gt;Dev-Notes.txt&lt;/a&gt;, as it has all the urls and image path used to inspect their mpaper hiearchy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>EReader friendly Times Of India – EPUB Edition</title>
       <link>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</link>
       <pubDate>Mon, 16 Aug 2010 23:55:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</guid>
-      <description>I have completed the 95% of the project I was tweeting and here is the preview
-What does it do? It is a PHP script that helps you to convert Times of India (Daily newspaper) to EPUB.</description>
+      <description>&lt;p&gt;I have completed the &lt;strong&gt;95%&lt;/strong&gt; of the project I was tweeting and here is the preview&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/147006922-3fa0114ff9e6e3eea2efcd1f29eddd23.4c6aaaf8-full.png&#34; alt=&#34;EPUB viewed in Adobe Digital Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

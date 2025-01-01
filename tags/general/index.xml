@@ -1,86 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>general on PR</title>
+    <title>General on PR</title>
     <link>https://www.palaniraja.com/tags/general/</link>
-    <description>Recent content in general on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in General on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 31 Dec 2008 17:24:35 +0000</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2008 17:24:35 +0000</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wish You A Happy New Year 2009</title>
       <link>https://www.palaniraja.com/2008/12/wish-you-a-happy-new-year-2009/</link>
       <pubDate>Wed, 31 Dec 2008 17:24:35 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/12/wish-you-a-happy-new-year-2009/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/buddha2009.png&#34; alt=&#34;buddha2009&#34; title=&#34;buddha2009&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>www.prjx.org is down</title>
       <link>https://www.palaniraja.com/2008/12/www.prjx.org-is-down/</link>
       <pubDate>Mon, 08 Dec 2008 05:30:06 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/12/www.prjx.org-is-down/</guid>
-      <description>Friends,
-prjx.org is down at the moment, so all the projects/files hosted there won&amp;rsquo;t be available now. Please use contact me if you need the files.</description>
+      <description>&lt;p&gt;Friends,&lt;/p&gt;&#xA;&lt;p&gt;prjx.org is down at the moment, so all the projects/files hosted there won&amp;rsquo;t be available now. Please use contact me if you need the files.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Google Chrome : Hybrid of all</title>
       <link>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</link>
       <pubDate>Sat, 06 Sep 2008 03:38:02 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</guid>
-      <description> Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism What’s new in Google Chrome No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Webkit&lt;/strong&gt; as rendering engine like Safari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tabstyles&lt;/strong&gt; are from Flock&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Startup page&lt;/strong&gt; similar to Opera speed-dial and Flock myhome page&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Paste and go&lt;/strong&gt; in the address bar like Opera&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;No menu ba&lt;/strong&gt;r like IE 7&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tab-to-window&lt;/strong&gt; and vice versa from Opera/Safari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Incognito browsing&lt;/strong&gt; similar to Private Browsing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Create Application Shortcuts&lt;/strong&gt; like Mozilla Prism&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;whats-new-in-google-chrome&#34;&gt;What’s new in Google Chrome&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;No two&lt;/strong&gt; separate &lt;strong&gt;textboxes&lt;/strong&gt; for URL and for Search&lt;/li&gt;&#xA;&lt;li&gt;Every tab is a separate &lt;strong&gt;process&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Innovative Search&lt;/strong&gt;, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari&lt;/li&gt;&#xA;&lt;li&gt;Built-in support for &lt;strong&gt;Google Gears&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Above all its from the giant &lt;strong&gt;Google&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Google Chrome : The application failed to initialize properly (0xc0000005)</title>
       <link>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</link>
       <pubDate>Wed, 03 Sep 2008 07:32:52 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</guid>
-      <description>The application failed to initialize properly (0xc0000005). Click on OK to terminate the application Symantec causes this issue and the temp.</description>
+      <description>&lt;p&gt; &lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;The application failed to initialize properly (0xc0000005). Click on OK to terminate the application&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Symantec causes this issue and the temp. solution is to disable the sandbox. And the solution from Google Groups is   &#xA;You can try running Google Chrome with &lt;strong&gt;&lt;code&gt;--no-sandbox&lt;/code&gt;&lt;/strong&gt; (you need to edit the properties of the shortcut you use to launch it).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Play YouTube with FLV player of your choice</title>
       <link>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</link>
       <pubDate>Thu, 25 Oct 2007 09:34:43 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</guid>
-      <description>Not working anymore, but you are free to explore the code. Updates are welcome.
-I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case).</description>
+      <description>&lt;p&gt;&lt;strong&gt;Not working anymore, but you are free to explore the code. Updates are welcome.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case). The flv files will not be download to the server, it streams directly from YouTube .&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tamil.net links xTamil tool</title>
       <link>https://www.palaniraja.com/2007/07/tamil.net-links-xtamil-tool/</link>
       <pubDate>Tue, 24 Jul 2007 09:45:13 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/07/tamil.net-links-xtamil-tool/</guid>
-      <description>I&amp;rsquo;m overwhelmed with happiness after I saw my Google analytics report today. This blog and the new tool which I wrote xTamil - English to Tamil convertor (Unicode) are linked in a Tamil portal site Tamil.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m overwhelmed with happiness after I saw my Google analytics report today. This blog and the new tool which I wrote &lt;a href=&#34;http://palaniraja.12gbfree.com/xTamil&#34; title=&#34;xTamil - English to Tamil unicode convertor&#34;&gt;xTamil&lt;/a&gt; - English to Tamil convertor (Unicode) are linked in a Tamil portal site &lt;a href=&#34;http://www.tamil.net&#34; title=&#34;Tamil.net&#34;&gt;Tamil.net&lt;/a&gt;. They also list numerous no. of phonetic English to Tamil Unicode convertor, I promise you all that my tool will be unique after the completion (will take a month or two).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>English to Tamil convertor (Unicode)</title>
       <link>https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/</link>
       <pubDate>Mon, 23 Jul 2007 09:45:37 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/</guid>
-      <description>Atlast, I finished my first verison of English to Tamil unicode convertor(Transliterater). What I planned to do was bit different than the one which is available now.</description>
+      <description>&lt;p&gt;Atlast, I finished my first verison of English to Tamil unicode convertor(Transliterater). What I planned to do was bit different than the one which is available now. Hope I will get the time to upgrade my unicode convertor( or Transliterater) to unique tool within a month.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Why does my dreamweaver look so beautiful?</title>
       <link>https://www.palaniraja.com/2007/06/why-does-my-dreamweaver-look-so-beautiful/</link>
       <pubDate>Mon, 11 Jun 2007 14:55:06 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/06/why-does-my-dreamweaver-look-so-beautiful/</guid>
-      <description>I don’t find an alternative title. Like anyone out there, I envy Textmate features where it is present in all the screencasts for PHP &amp;amp; RoR out there.</description>
+      <description>&lt;p&gt;I don’t find an alternative title. Like anyone out there, I envy Textmate features where it is present in all the screencasts for PHP &amp;amp; RoR out there. So, I started looking for a Textmate alternate on windows, and came to this post &lt;a href=&#34;http://www.webdevkungfu.com/textmate-envy-aka-monaco-font-for-windows/&#34; title=&#34;Textmate Envy Monaco on Windows&#34;&gt;Textmate envy&lt;/a&gt;. I tried the font Monaco (Textmate&amp;rsquo;s default), which looked beautiful in &lt;a href=&#34;http://www.getfirebug.com&#34; title=&#34;Firebug&#34;&gt;Firebug&lt;/a&gt; but not in Dreamweaver. Filled with dissapointment, I google again for a download for the font Monaco, then, eureka! I found this link, &lt;a href=&#34;http://www.openwatcom.org/index.php/Programmers_Fonts&#34; title=&#34;Programmers fonts&#34;&gt;Programmers font&lt;/a&gt;. Which means, I am not alone, there are more people out there looking for the suitable replacement to Courier New (isn’t it time to change?). I have tried a few Monaca, Dejavu, Bitstream Vera.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

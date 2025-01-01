@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>raspberrypi on PR</title>
+    <title>Raspberrypi on PR</title>
     <link>https://www.palaniraja.com/tags/raspberrypi/</link>
-    <description>Recent content in raspberrypi on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Raspberrypi on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 24 Nov 2018 21:44:58 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Nov 2018 21:44:58 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Raspberry Pi Collection</title>
       <link>https://www.palaniraja.com/2018/11/my-raspberry-pi-collection/</link>
       <pubDate>Sat, 24 Nov 2018 21:44:58 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/11/my-raspberry-pi-collection/</guid>
-      <description>I&amp;rsquo;ve always been interested in Raspberry Pi. I pre-ordered, waited for about 3+ months and even paid Customs (ridiculous amount) to import my very first Pi.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve always been interested in Raspberry Pi. I  pre-ordered, waited for about 3+ months and even paid Customs (ridiculous amount) to import my very first Pi.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Raspbian &#43; XBMC &#43; Airplay</title>
       <link>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</link>
       <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</guid>
-      <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
-I own a Raspberry Pi for closer to a year now.</description>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/em&gt;: Yes, you can. If you are only interested in the steps skip to the relevant section.&lt;/p&gt;&#xA;&lt;p&gt;I own a Raspberry Pi for closer to a year now. I was not able to use my Netgear N150 (WNA1100) dongle until last week with it, I was kind of lost my enthusiasm by this bitter experience and hold my experiments for long time. Other than installing some console emulators and XBMC in last 6 months, I have not done anything with my Raspberry Pi.  You can refer my adventures &lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/4344/diy-external-powered-usb-hub-not-working&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/4687/setting-up-netgear-n150-usb-wifi-adapter-with-raspberrypi-wheezy&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>IdeaVault - RPi dashboard</title>
       <link>https://www.palaniraja.com/2013/04/ideavault-rpi-dashboard/</link>
       <pubDate>Tue, 16 Apr 2013 17:32:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/ideavault-rpi-dashboard/</guid>
-      <description>I couldn&amp;rsquo;t help myself after listening to John &amp;amp; Marco discussion about the pricing of Panic&amp;rsquo;s new app Status Board.</description>
+      <description>&lt;p&gt;I couldn&amp;rsquo;t help myself after listening to &lt;a href=&#34;http://atp.fm/episodes/8-hold-me&#34;&gt;John &amp;amp; Marco discussion&lt;/a&gt; about the pricing of Panic&amp;rsquo;s new app &lt;a href=&#34;http://www.panic.com/statusboard/&#34;&gt;Status Board&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I agree with the pricing of the app, who could deny John&amp;rsquo;s reasoning? With all due respect,  a dedicated iPad just to display a dashboard? sounds like diamond studded car. It is a overkill and I would argue you ruining the destiny of your iPad. It deserves more care than hiding behind your old TV/Monitor.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

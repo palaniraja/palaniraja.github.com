@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>application on PR</title>
+    <title>Application on PR</title>
     <link>https://www.palaniraja.com/tags/application/</link>
-    <description>Recent content in application on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Application on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 22 Jun 2014 04:55:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/application/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jun 2014 04:55:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/application/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to run any iPad (iOS) applications in Kiosk mode</title>
       <link>https://www.palaniraja.com/2014/06/how-to-run-any-ipad-ios-applications-in-kiosk-mode/</link>
       <pubDate>Sun, 22 Jun 2014 04:55:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/06/how-to-run-any-ipad-ios-applications-in-kiosk-mode/</guid>
-      <description>This is the one feature I know since the release but never bothered to try. Recently I had to provide the steps for a client on how to setup.</description>
+      <description>&lt;p&gt;This is the one feature I know since the release but never bothered to try. Recently I had to provide the steps for a client on how to setup. After trying &lt;a href=&#34;http://www.zchristopoulos.com/2012/02/how-to-disable-ipad-home-button-kioskstore-demo-mode/&#34;&gt;multiple&lt;/a&gt; &lt;a href=&#34;http://stackoverflow.com/questions/15068318/how-to-enable-a-kiosk-mode-programmatically-in-ipad&#34;&gt;methods&lt;/a&gt; without any &lt;a href=&#34;http://stackoverflow.com/questions/22500036/guided-access-kiosk-mode-of-ipad?lq=1&#34;&gt;success&lt;/a&gt;, I figured out the steps.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
       <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
-      <description>Update (2016-01-20): The app is now available on Mac App store.
-Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; (2016-01-20)&lt;strong&gt;:&lt;/strong&gt; The app is now available on &lt;a href=&#34;https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1076119164&amp;amp;mt=12&#34;&gt;Mac App store&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

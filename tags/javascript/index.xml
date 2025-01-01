@@ -1,49 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>javascript on PR</title>
+    <title>Javascript on PR</title>
     <link>https://www.palaniraja.com/tags/javascript/</link>
-    <description>Recent content in javascript on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Javascript on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 06 Sep 2008 03:38:02 +0000</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Sep 2008 03:38:02 +0000</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Chrome : Hybrid of all</title>
       <link>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</link>
       <pubDate>Sat, 06 Sep 2008 03:38:02 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</guid>
-      <description> Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism What’s new in Google Chrome No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Webkit&lt;/strong&gt; as rendering engine like Safari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tabstyles&lt;/strong&gt; are from Flock&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Startup page&lt;/strong&gt; similar to Opera speed-dial and Flock myhome page&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Paste and go&lt;/strong&gt; in the address bar like Opera&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;No menu ba&lt;/strong&gt;r like IE 7&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tab-to-window&lt;/strong&gt; and vice versa from Opera/Safari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Incognito browsing&lt;/strong&gt; similar to Private Browsing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Create Application Shortcuts&lt;/strong&gt; like Mozilla Prism&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;whats-new-in-google-chrome&#34;&gt;What’s new in Google Chrome&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;No two&lt;/strong&gt; separate &lt;strong&gt;textboxes&lt;/strong&gt; for URL and for Search&lt;/li&gt;&#xA;&lt;li&gt;Every tab is a separate &lt;strong&gt;process&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Innovative Search&lt;/strong&gt;, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari&lt;/li&gt;&#xA;&lt;li&gt;Built-in support for &lt;strong&gt;Google Gears&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Above all its from the giant &lt;strong&gt;Google&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>English to Tamil convertor (Unicode)</title>
       <link>https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/</link>
       <pubDate>Mon, 23 Jul 2007 09:45:37 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/</guid>
-      <description>Atlast, I finished my first verison of English to Tamil unicode convertor(Transliterater). What I planned to do was bit different than the one which is available now.</description>
+      <description>&lt;p&gt;Atlast, I finished my first verison of English to Tamil unicode convertor(Transliterater). What I planned to do was bit different than the one which is available now. Hope I will get the time to upgrade my unicode convertor( or Transliterater) to unique tool within a month.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Clean yahoo webmail without Ad&#39;s</title>
       <link>https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/</link>
       <pubDate>Tue, 10 Jul 2007 12:14:30 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/</guid>
-      <description>Today, I have uploaded my second Greasemonkey scripts to userscripts, Yahoo webmail++ . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side.</description>
+      <description>&lt;p&gt;Today, I have uploaded my second Greasemonkey scripts to &lt;a href=&#34;http://userscripts.org&#34; title=&#34;http://userscripts.org&#34;&gt;userscripts&lt;/a&gt;, &lt;a href=&#34;http://userscripts-mirror.org/scripts/show/10590&#34; title=&#34;http://userscripts.org/scripts/show/10590&#34;&gt;Yahoo webmail++&lt;/a&gt; . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side. Initially I was trying to do something similar to Gmail Airskin, but unfortunately yahoo uses lot of tables, which I find difficult to finish the script, at this stage it will remove only the advertisements and I will try to update the script soon.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My first Greasemonkey script</title>
       <link>https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/</link>
       <pubDate>Mon, 11 Jun 2007 14:00:26 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/</guid>
-      <description>Ok. My first Greasemonkey script is available from userscripts.org (http://userscripts-mirror.org/scripts/show/9740)
-I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.</description>
+      <description>&lt;p&gt;Ok. My first Greasemonkey script is available from &lt;a href=&#34;http://userscripts.org/&#34;&gt;userscripts.org&lt;/a&gt; (&lt;a href=&#34;http://userscripts-mirror.org/scripts/show/9740&#34;&gt;http://userscripts-mirror.org/scripts/show/9740&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

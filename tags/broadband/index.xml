@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>broadband on PR</title>
+    <title>Broadband on PR</title>
     <link>https://www.palaniraja.com/tags/broadband/</link>
-    <description>Recent content in broadband on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Broadband on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 07 Jul 2014 10:27:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/broadband/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jul 2014 10:27:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/broadband/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuring your Airtel Broadband DSL with your modem &#43; wifi router</title>
       <link>https://www.palaniraja.com/2014/07/configuring-your-airtel-broadband-dsl-with-your-modem--wifi-router/</link>
       <pubDate>Mon, 07 Jul 2014 10:27:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/07/configuring-your-airtel-broadband-dsl-with-your-modem--wifi-router/</guid>
-      <description>My modem failed last week(frequent drops), and I was not willing to repair this time. I&amp;rsquo;ve taken a screenshots of configuration from my old modem, with the help I was able to configure my new D-Link 2750u.</description>
+      <description>&lt;p&gt;My modem failed last week(frequent drops), and I was not willing to repair this time. I&amp;rsquo;ve taken a screenshots of configuration from my old modem, with the help I was able to configure my new D-Link 2750u.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Airtel Broadband - How to find bandwidth usage</title>
       <link>https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/</link>
       <pubDate>Fri, 09 Dec 2011 20:04:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/</guid>
-      <description>If you would like to keep tabs on your bandwidth usage?
-http://122.160.230.125:8080/gbod/gb_on_demand.do
-It is good to know your usage, the 10GB fair usage plan from Airtel is peanut for my usage as I download a lot of TED &amp;amp; iOS Dev videos from iTunes.</description>
+      <description>&lt;p&gt;If you would like to keep tabs on your bandwidth usage?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://122.160.230.125:8080/gbod/gb_on_demand.do&#34;&gt;http://122.160.230.125:8080/gbod/gb_on_demand.do&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-11-28-at-11.52.57-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is good to know your usage, the 10GB fair usage plan from Airtel is peanut for my usage as I download a lot of TED &amp;amp; iOS Dev videos from iTunes.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

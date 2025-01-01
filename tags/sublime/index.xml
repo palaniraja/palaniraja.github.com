@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sublime on PR</title>
+    <title>Sublime on PR</title>
     <link>https://www.palaniraja.com/tags/sublime/</link>
-    <description>Recent content in sublime on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Sublime on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 08 Aug 2012 14:03:05 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/sublime/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Aug 2012 14:03:05 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/sublime/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iForce</title>
       <link>https://www.palaniraja.com/projects/iforce/</link>
       <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/projects/iforce/</guid>
-      <description>Note: I no longer develop Salesforce applications, hence I do not maintain this extension. You are free to fork and maintain.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Note: I no longer develop &lt;a href=&#34;https://www.salesforce.com&#34;&gt;Salesforce&lt;/a&gt; applications, hence I do not maintain this extension. You are free to fork and maintain.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

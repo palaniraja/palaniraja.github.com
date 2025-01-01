@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>unix commands on PR</title>
+    <title>Unix Commands on PR</title>
     <link>https://www.palaniraja.com/tags/unix-commands/</link>
-    <description>Recent content in unix commands on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Unix Commands on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/unix-commands/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/unix-commands/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grep - Swiss army knife</title>
       <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
-      <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
+      <description>&lt;p&gt;I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems. I really don&amp;rsquo;t know whether grep is the right choice here, but hey! it worked :-)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to view (Windows) line ending characters on Mac OSX</title>
       <link>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</link>
       <pubDate>Wed, 15 Jun 2011 05:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</guid>
-      <description>Notepad++ on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.
-Programming editors on mac like Textwrangler and Textmate has an option to Show Invisibles but failed to display the character block for Carriage Return as Notepad used to.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://notepad-plus-plus.org/&#34;&gt;Notepad++&lt;/a&gt; on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/image001.png&#34; alt=&#34;Notepad++ &#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

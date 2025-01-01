@@ -1,66 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>issues on PR</title>
+    <title>Issues on PR</title>
     <link>https://www.palaniraja.com/tags/issues/</link>
-    <description>Recent content in issues on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Issues on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 01 Dec 2015 12:44:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/issues/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2015 12:44:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/issues/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iPad Pro and Apple</title>
       <link>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</link>
       <pubDate>Tue, 01 Dec 2015 12:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</guid>
-      <description>Last Sunday, I got to try iPad pro with all its accessories (most of the outlet here has only iPad pro without keyboard &amp;amp; pencil).</description>
+      <description>&lt;p&gt;Last Sunday, I got to try &lt;a href=&#34;http://www.apple.com/ipad-pro/&#34;&gt;iPad pro&lt;/a&gt; with all its accessories (most of the outlet here has only iPad pro without &lt;a href=&#34;http://www.apple.com/shop/product/MJYR2/smart-keyboard-for-ipad-pro&#34;&gt;keyboard&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.apple.com/shop/product/MK0C2/apple-pencil-for-ipad-pro&#34;&gt;pencil&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
       <pubDate>Sat, 30 Mar 2013 07:08:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</guid>
-      <description>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</description>
+      <description>&lt;p&gt;Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Tree view</title>
       <link>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</link>
       <pubDate>Tue, 01 Jan 2013 10:32:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</guid>
-      <description>A Bookmarklet or a Browser extension to select the root element of a DOM (UL/OL) to view the Inverted tree structure of its child nodes.</description>
+      <description>&lt;p&gt;A Bookmarklet or a Browser extension to select the root element of a DOM (UL/OL) to view the Inverted tree structure of its child nodes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RIP - My Macbook Pro (13&#34; Mid 2010)</title>
       <link>https://www.palaniraja.com/2012/08/rip-my-macbook-pro-13-mid-2010/</link>
       <pubDate>Thu, 16 Aug 2012 00:07:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/08/rip-my-macbook-pro-13-mid-2010/</guid>
-      <description>TL;DR If you have a Apple Portable within the 1yr manf. warranty, stop reading and go and buy Apple care if you haven&amp;rsquo;t already.</description>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; If you have a Apple Portable within the 1yr manf. warranty, stop reading and go and buy Apple care if you haven&amp;rsquo;t already.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iCloud Gotchas</title>
       <link>https://www.palaniraja.com/2011/12/icloud-gotchas/</link>
       <pubDate>Sat, 17 Dec 2011 23:08:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/icloud-gotchas/</guid>
-      <description>Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.</description>
+      <description>&lt;p&gt;Integrating iCloud with core data was easy when I found &lt;a href=&#34;http://goddess-gate.com/dc2/index.php/post/452&#34;&gt;this tutorial&lt;/a&gt;, but I ran into few issues while implementing and testing it on devices. And here are the steps how I managed to solve it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BTServer CPU Usage</title>
       <link>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</link>
       <pubDate>Sat, 19 Nov 2011 09:40:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</guid>
-      <description>I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP.</description>
+      <description>&lt;p&gt;I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP. Although I freed around 30 GB, noticed an issue shortly. A process named &lt;strong&gt;BTServer&lt;/strong&gt; is utilizing high CPU usage.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

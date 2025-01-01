@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>image slicing on PR</title>
+    <title>Image Slicing on PR</title>
     <link>https://www.palaniraja.com/tags/image-slicing/</link>
-    <description>Recent content in image slicing on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Image Slicing on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 15 Feb 2015 09:36:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/image-slicing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Feb 2015 09:36:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/image-slicing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Slicing (Repeatable image) with Xcode Asset Catalog</title>
       <link>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</link>
       <pubDate>Sun, 15 Feb 2015 09:36:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/02/image-slicing-repeatable-image-with-xcode-asset-catalog/</guid>
-      <description>Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.</description>
+      <description>&lt;p&gt;Image slicing option in xcode asset catalog allows you to define resiziable area an image so it can be repeated to fit the object&amp;rsquo;s height &amp;amp; width.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

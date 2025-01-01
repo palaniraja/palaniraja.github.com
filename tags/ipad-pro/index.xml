@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>iPad Pro on PR</title>
+    <title>IPad Pro on PR</title>
     <link>https://www.palaniraja.com/tags/ipad-pro/</link>
-    <description>Recent content in iPad Pro on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in IPad Pro on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 01 Dec 2015 12:44:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/ipad-pro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2015 12:44:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/ipad-pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iPad Pro and Apple</title>
       <link>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</link>
       <pubDate>Tue, 01 Dec 2015 12:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</guid>
-      <description>Last Sunday, I got to try iPad pro with all its accessories (most of the outlet here has only iPad pro without keyboard &amp;amp; pencil).</description>
+      <description>&lt;p&gt;Last Sunday, I got to try &lt;a href=&#34;http://www.apple.com/ipad-pro/&#34;&gt;iPad pro&lt;/a&gt; with all its accessories (most of the outlet here has only iPad pro without &lt;a href=&#34;http://www.apple.com/shop/product/MJYR2/smart-keyboard-for-ipad-pro&#34;&gt;keyboard&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.apple.com/shop/product/MK0C2/apple-pencil-for-ipad-pro&#34;&gt;pencil&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

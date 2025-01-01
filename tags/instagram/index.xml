@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>instagram on PR</title>
+    <title>Instagram on PR</title>
     <link>https://www.palaniraja.com/tags/instagram/</link>
-    <description>Recent content in instagram on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Instagram on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 10 May 2020 21:22:26 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/instagram/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2020 21:22:26 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/instagram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instagram Challenge - 2019</title>
       <link>https://www.palaniraja.com/2020/05/instagram-challenge-2019/</link>
       <pubDate>Sun, 10 May 2020 21:22:26 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2020/05/instagram-challenge-2019/</guid>
-      <description>Year after year, I see so many gifted people share their art during month of October tagged #inktober
-Guess what, I wanted to join last year and I did.</description>
+      <description>&lt;p&gt;Year after year, I see so many &lt;em&gt;gifted&lt;/em&gt; people share their art during month of October tagged #inktober&lt;/p&gt;&#xA;&lt;p&gt;Guess what, I wanted to join last year and I did. I challenge myself to post one photo each day of October and I successfully completed that. ~90% of them are without any edits except cropping or minor color corrections.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

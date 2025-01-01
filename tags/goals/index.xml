@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>goals on PR</title>
+    <title>Goals on PR</title>
     <link>https://www.palaniraja.com/tags/goals/</link>
-    <description>Recent content in goals on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Goals on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 06 Jan 2013 03:38:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/goals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jan 2013 03:38:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/goals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea Vault: Prj - Dug Me</title>
       <link>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</link>
       <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</guid>
-      <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
-Idea is to log all our project ideas similar to logging notes in nvALT.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-01-06-at-4.30.39-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Task management app with little twist. Yep, &lt;a href=&#34;http://pixar.wikia.com/Dug&#34;&gt;Dug&lt;/a&gt; instead of &lt;a href=&#34;http://en.wikipedia.org/wiki/Office_Assistant&#34;&gt;clippy&lt;/a&gt; while nagging.&lt;/p&gt;&#xA;&lt;p&gt;Idea is to log all our project ideas similar to logging notes in nvALT. This app runs in the background and randomly nag you to split a one line task you had logged earlier to multiple small tasks.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Resolutions for 2012</title>
       <link>https://www.palaniraja.com/2011/12/resolutions-for-2012/</link>
       <pubDate>Sat, 31 Dec 2011 23:03:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/resolutions-for-2012/</guid>
-      <description>For the first time in history, I am publishing resolution list online, let see if this helps.
-Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
+      <description>&lt;p&gt;For the first time in history, I am publishing resolution list online, let see if this helps.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Shed at least 5kg weight&lt;/li&gt;&#xA;&lt;li&gt;The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.&lt;/li&gt;&#xA;&lt;li&gt;Donate the pile of books I&amp;rsquo;m keeping to the library&lt;/li&gt;&#xA;&lt;li&gt;Publish at least 2 iOS apps&lt;/li&gt;&#xA;&lt;li&gt;At least 2 mac apps&lt;/li&gt;&#xA;&lt;li&gt;Publish at least 5 prototype from my idea vault.&lt;/li&gt;&#xA;&lt;li&gt;Gift at least one device&lt;/li&gt;&#xA;&lt;li&gt;Author 5 library/codes on Github&lt;/li&gt;&#xA;&lt;li&gt;Gift/sell my other devices - Too many Apple devices &lt;/li&gt;&#xA;&lt;li&gt;Learn a new language/Framework (Ruby, Coffeescript, Node?)&lt;/li&gt;&#xA;&lt;li&gt;Build at least 2 Html5 app/util&lt;/li&gt;&#xA;&lt;li&gt;A vacation? I didn&amp;rsquo;t leave home for almost 4 yrs.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Other than this there are quite a lot like perfect pitch training, learn a music instrument, painting etc., I carry from previous years.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

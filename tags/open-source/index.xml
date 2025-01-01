@@ -1,107 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>open source on PR</title>
+    <title>Open Source on PR</title>
     <link>https://www.palaniraja.com/tags/open-source/</link>
-    <description>Recent content in open source on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Open Source on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Jul 2013 10:38:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2013 10:38:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Link: This is Linus</title>
       <link>https://www.palaniraja.com/2013/07/link-this-is-linus/</link>
       <pubDate>Sat, 20 Jul 2013 10:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/link-this-is-linus/</guid>
-      <description>Last week Zite suggested this article, I&amp;rsquo;ve known about Linus and his rude comments. But reading this article, I realised that being polite is not right solution for everything.</description>
+      <description>&lt;p&gt;Last week &lt;a href=&#34;http://zite.com/&#34;&gt;Zite&lt;/a&gt; suggested &lt;a href=&#34;http://arstechnica.com/information-technology/2013/07/linus-torvalds-defends-his-right-to-shame-linux-kernel-developers/&#34;&gt;this article&lt;/a&gt;, I&amp;rsquo;ve known about Linus and his rude comments. But reading this article, I realised that being polite is not right solution for everything. Having the experience of working with the many developers over the years, I met only very few people who act on subtle comments I pass during discussion about code/best practices. The rest just ignore and do what they have always been doing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
       <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
-      <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
+      <description>&lt;p&gt;I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my &lt;em&gt;idea to project&lt;/em&gt; execution.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
       <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
-      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
-Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+      <description>&lt;p&gt;Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).&lt;/p&gt;&#xA;&lt;p&gt;Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
       <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
-      <description>Update (2016-01-20): The app is now available on Mac App store.
-Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; (2016-01-20)&lt;strong&gt;:&lt;/strong&gt; The app is now available on &lt;a href=&#34;https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1076119164&amp;amp;mt=12&#34;&gt;Mac App store&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea to action: Tile this</title>
       <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
       <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
-      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-08-18-at-11.15.36-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Shell script to generate images for testing</title>
       <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
       <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
-      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+      <description>&lt;p&gt;Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Import Delicious bookmarks to Evernote including tags</title>
       <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
       <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
-      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
-Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/enex.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/enex.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.&lt;/p&gt;&#xA;&lt;p&gt;Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.  I wrote this script to move my delicious bookmarks to evernote for my use.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: When is that?</title>
       <link>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</link>
       <pubDate>Tue, 14 Dec 2010 10:39:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</guid>
-      <description>I guess like me there will be many people often confuse appointments/client calls due to timezone differences.
-I am not talking about people who send/receive schedules from Outlook (or similar apps).</description>
+      <description>&lt;p&gt;I guess like me there will be many people often confuse appointments/client calls due to timezone differences.&lt;/p&gt;&#xA;&lt;p&gt;I am not talking about people who send/receive schedules from Outlook (or similar apps).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Custom UISplitViewController now available on GitHub</title>
       <link>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</link>
       <pubDate>Sun, 05 Dec 2010 07:02:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</guid>
-      <description>I created this custom UISplitViewController as one of my iPad project required Split view for only one screen. The default UISplitViewController provided by Apple can only be added to UIWindow which means you can&amp;rsquo;t use it with normal UINavigation based project with only one splitview screen.</description>
+      <description>&lt;p&gt;I created this custom UISplitViewController as one of my iPad project required Split view for only one screen. The default UISplitViewController provided by Apple can only be added to UIWindow which means you can&amp;rsquo;t use it with normal UINavigation based project with only one splitview screen.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>EReader friendly Times Of India – EPUB Edition</title>
       <link>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</link>
       <pubDate>Mon, 16 Aug 2010 23:55:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</guid>
-      <description>I have completed the 95% of the project I was tweeting and here is the preview
-What does it do? It is a PHP script that helps you to convert Times of India (Daily newspaper) to EPUB.</description>
+      <description>&lt;p&gt;I have completed the &lt;strong&gt;95%&lt;/strong&gt; of the project I was tweeting and here is the preview&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/147006922-3fa0114ff9e6e3eea2efcd1f29eddd23.4c6aaaf8-full.png&#34; alt=&#34;EPUB viewed in Adobe Digital Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

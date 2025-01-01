@@ -7,17 +7,27 @@
   <meta property="og:title" content="Batch renaming of files (Mac OSX / *nix) - PR" />
   <meta name="twitter:title" content="Batch renaming of files (Mac OSX / *nix) - PR" />
   <meta name="description" content="How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
-Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.">
+
+Create a new directory 
+Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well. My eg., rename only the png files of the directory (there were no other extensions available).
+
+i=0; for x in *.png; do cp \&quot;$x\&quot; &quot;newdir/some_prefix_$i.png&quot;; i=$(($i&#43;1)); done">
   <meta property="og:description" content="How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
-Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.">
+
+Create a new directory 
+Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well. My eg., rename only the png files of the directory (there were no other extensions available).
+
+i=0; for x in *.png; do cp \&quot;$x\&quot; &quot;newdir/some_prefix_$i.png&quot;; i=$(($i&#43;1)); done">
   <meta name="twitter:description" content="How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
-Create a new directory Run the following command (you can replace newdir …">
+
+Create a new directory 
+Run the following command (you can replace newdir …">
   <meta name="author" content="Palani Raja"/>
   <meta property="og:site_name" content="PR" />
   <meta property="og:url" content="https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.111.3">
+  <meta name="generator" content="Hugo 0.140.2">
 
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
@@ -124,7 +134,7 @@ Create a new directory Run the following command (you can replace newdir …">
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2023 palaniraja</p>
+  <p align="center"></p>
 </div>
 
 </body>

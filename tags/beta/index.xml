@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>beta on PR</title>
+    <title>Beta on PR</title>
     <link>https://www.palaniraja.com/tags/beta/</link>
-    <description>Recent content in beta on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Beta on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 06 Nov 2011 09:49:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/beta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2011 09:49:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/beta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
       <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
-      <description>Update (2016-01-20): The app is now available on Mac App store.
-Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; (2016-01-20)&lt;strong&gt;:&lt;/strong&gt; The app is now available on &lt;a href=&#34;https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1076119164&amp;amp;mt=12&#34;&gt;Mac App store&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
       <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
       <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
-      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I recently found this site called &lt;a href=&#34;http://diawi.com/&#34;&gt;diawi.com&lt;/a&gt; which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

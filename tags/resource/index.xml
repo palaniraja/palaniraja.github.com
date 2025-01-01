@@ -1,97 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>resource on PR</title>
+    <title>Resource on PR</title>
     <link>https://www.palaniraja.com/tags/resource/</link>
-    <description>Recent content in resource on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Resource on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 06 Nov 2011 09:49:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/resource/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2011 09:49:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/resource/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
       <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
-      <description>Update (2016-01-20): The app is now available on Mac App store.
-Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; (2016-01-20)&lt;strong&gt;:&lt;/strong&gt; The app is now available on &lt;a href=&#34;https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1076119164&amp;amp;mt=12&#34;&gt;Mac App store&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea to action: Tile this</title>
       <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
       <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
-      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-08-18-at-11.15.36-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Wallpaper - Testflight app</title>
       <link>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</link>
       <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</guid>
-      <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
+      <description>&lt;p&gt;I really liked the background image pattern used in &lt;a href=&#34;http://testflightapp.com/&#34;&gt;testflightapp.com&lt;/a&gt;. It is so cool that I have replaced my all time favorite &lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/08/ipad-safari-background-texture.html&#34;&gt;iPad-Safari-fabric&lt;/a&gt; texture to gray varient given below.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Recommended Git workflow</title>
       <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
       <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
-      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;http://stackoverflow.com/questions/871/why-is-git-better-than-subversion&#34;&gt;Git&lt;/a&gt; as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches. Our company use SVN and other peers were not aware/interested in &lt;a href=&#34;http://git.or.cz/course/svn.html&#34;&gt;Git&lt;/a&gt;. So I took the initiative to use svn-git. After months of progress I left with so many branches for features, svn, QA-release and quick-fix for released builds.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Desktop Notification with Html5</title>
       <link>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</link>
       <pubDate>Tue, 31 May 2011 06:27:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</guid>
-      <description>I&amp;rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
-![](/assets/Screen shot 2011-05-31 at 7.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently stumbled upon &lt;a href=&#34;http://studio.html5rocks.com/#Time!&#34;&gt;studio.html5rocks.com&lt;/a&gt; and found the cool trick to display desktop notifications like &lt;a href=&#34;http://gmailblog.blogspot.com/2011/01/desktop-notifications-for-emails-and.html&#34;&gt;Gmail&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;![](/assets/Screen shot 2011-05-31 at 7.02.36 PM.png)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Enter into / Exit from Recovery mode for iPhone</title>
       <link>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</link>
       <pubDate>Sat, 14 May 2011 10:47:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</guid>
-      <description>Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations.</description>
+      <description>&lt;p&gt;Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations. And some time it is very frustrating to hold your buttons so long.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Capture screenshot of the app with iPad simulator</title>
       <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
-It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
+      <description>&lt;p&gt;Until recently I was not aware of the shortcut &lt;strong&gt;_Ctrl + Cmd + C _&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by &lt;strong&gt;File -&amp;gt; New from Clipboard&lt;/strong&gt; with &lt;strong&gt;preview.app&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Tile this!</title>
       <link>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</link>
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Check the extension and more information @ &lt;a href=&#34;https://www.palaniraja.com/2011/08/idea-to-action-tile-this/&#34;&gt;Idea to action: Tile this &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently hunting images for a sample design. I was trying to find a pattern that can be tiled/repeated to fill.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPad wallpaper for minimalist</title>
       <link>https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/</link>
       <pubDate>Sun, 23 Jan 2011 10:22:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/</guid>
-      <description>Here is the background image I am using for my iPad. It is looking gorgeous on Home screen.
-Looks good on both orientations.</description>
+      <description>&lt;p&gt;Here is the background image I am using for my iPad. It is looking gorgeous on Home screen.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/bgboard.png&#34; alt=&#34;bgboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Looks good on both orientations.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

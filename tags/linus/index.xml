@@ -4,18 +4,16 @@
     <title>Linus on PR</title>
     <link>https://www.palaniraja.com/tags/linus/</link>
     <description>Recent content in Linus on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Jul 2013 10:38:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/linus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2013 10:38:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/linus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Link: This is Linus</title>
       <link>https://www.palaniraja.com/2013/07/link-this-is-linus/</link>
       <pubDate>Sat, 20 Jul 2013 10:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/link-this-is-linus/</guid>
-      <description>Last week Zite suggested this article, I&amp;rsquo;ve known about Linus and his rude comments. But reading this article, I realised that being polite is not right solution for everything.</description>
+      <description>&lt;p&gt;Last week &lt;a href=&#34;http://zite.com/&#34;&gt;Zite&lt;/a&gt; suggested &lt;a href=&#34;http://arstechnica.com/information-technology/2013/07/linus-torvalds-defends-his-right-to-shame-linux-kernel-developers/&#34;&gt;this article&lt;/a&gt;, I&amp;rsquo;ve known about Linus and his rude comments. But reading this article, I realised that being polite is not right solution for everything. Having the experience of working with the many developers over the years, I met only very few people who act on subtle comments I pass during discussion about code/best practices. The rest just ignore and do what they have always been doing.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

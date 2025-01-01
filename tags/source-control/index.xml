@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>source control on PR</title>
+    <title>Source Control on PR</title>
     <link>https://www.palaniraja.com/tags/source-control/</link>
-    <description>Recent content in source control on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Source Control on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 01 Jun 2011 04:59:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/source-control/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jun 2011 04:59:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/source-control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recommended Git workflow</title>
       <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
       <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
-      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;http://stackoverflow.com/questions/871/why-is-git-better-than-subversion&#34;&gt;Git&lt;/a&gt; as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches. Our company use SVN and other peers were not aware/interested in &lt;a href=&#34;http://git.or.cz/course/svn.html&#34;&gt;Git&lt;/a&gt;. So I took the initiative to use svn-git. After months of progress I left with so many branches for features, svn, QA-release and quick-fix for released builds.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

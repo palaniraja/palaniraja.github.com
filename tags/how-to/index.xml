@@ -1,95 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>how to on PR</title>
+    <title>How To on PR</title>
     <link>https://www.palaniraja.com/tags/how-to/</link>
-    <description>Recent content in how to on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in How To on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 08 May 2018 06:30:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 May 2018 06:30:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poor man&#39;s pdf diff tool</title>
       <link>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</link>
       <pubDate>Tue, 08 May 2018 06:30:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</guid>
-      <description>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</description>
+      <description>&lt;p&gt;Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to open/view/share embedded documents in Microsoft Word for Mac (2011/2016)</title>
       <link>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</link>
       <pubDate>Mon, 28 Mar 2016 02:28:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</guid>
-      <description>You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .</description>
+      <description>&lt;p&gt;You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .docx files doesn&amp;rsquo;t allow you to save even in latest version of Microsoft word for OS X.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Raspbian &#43; XBMC &#43; Airplay</title>
       <link>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</link>
       <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</guid>
-      <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
-I own a Raspberry Pi for closer to a year now.</description>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/em&gt;: Yes, you can. If you are only interested in the steps skip to the relevant section.&lt;/p&gt;&#xA;&lt;p&gt;I own a Raspberry Pi for closer to a year now. I was not able to use my Netgear N150 (WNA1100) dongle until last week with it, I was kind of lost my enthusiasm by this bitter experience and hold my experiments for long time. Other than installing some console emulators and XBMC in last 6 months, I have not done anything with my Raspberry Pi.  You can refer my adventures &lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/4344/diy-external-powered-usb-hub-not-working&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/4687/setting-up-netgear-n150-usb-wifi-adapter-with-raspberrypi-wheezy&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Grep - Swiss army knife</title>
       <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
-      <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
+      <description>&lt;p&gt;I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems. I really don&amp;rsquo;t know whether grep is the right choice here, but hey! it worked :-)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Disable networking/internet from command line on a Mac</title>
       <link>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</link>
       <pubDate>Fri, 19 Apr 2013 09:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</guid>
-      <description>If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.</description>
+      <description>&lt;p&gt;If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Expired distribution provisioning and Yak shaving</title>
       <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
       <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
-      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+      <description>&lt;p&gt;Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app. App users are for &lt;a href=&#34;http://en.wikipedia.org/wiki/HVAC&#34;&gt;HVAC&lt;/a&gt; technicians, app integrates with their organization&amp;rsquo;s CRM (&lt;a href=&#34;http://login.salesforce.com/&#34;&gt;Salesforce&lt;/a&gt;) so distributing it with App store doesn&amp;rsquo;t make any sense.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
       <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
-      <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
+      <description>&lt;p&gt;I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my &lt;em&gt;idea to project&lt;/em&gt; execution.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
       <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
-      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
-Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+      <description>&lt;p&gt;Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).&lt;/p&gt;&#xA;&lt;p&gt;Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Google Chrome : The application failed to initialize properly (0xc0000005)</title>
       <link>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</link>
       <pubDate>Wed, 03 Sep 2008 07:32:52 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</guid>
-      <description>The application failed to initialize properly (0xc0000005). Click on OK to terminate the application Symantec causes this issue and the temp.</description>
+      <description>&lt;p&gt; &lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;The application failed to initialize properly (0xc0000005). Click on OK to terminate the application&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Symantec causes this issue and the temp. solution is to disable the sandbox. And the solution from Google Groups is   &#xA;You can try running Google Chrome with &lt;strong&gt;&lt;code&gt;--no-sandbox&lt;/code&gt;&lt;/strong&gt; (you need to edit the properties of the shortcut you use to launch it).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

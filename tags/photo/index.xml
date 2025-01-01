@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>photo on PR</title>
+    <title>Photo on PR</title>
     <link>https://www.palaniraja.com/tags/photo/</link>
-    <description>Recent content in photo on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Photo on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Fri, 22 Apr 2011 12:11:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/photo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2011 12:11:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/photo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Capture screenshot of the app with iPad simulator</title>
       <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
-It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
+      <description>&lt;p&gt;Until recently I was not aware of the shortcut &lt;strong&gt;_Ctrl + Cmd + C _&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by &lt;strong&gt;File -&amp;gt; New from Clipboard&lt;/strong&gt; with &lt;strong&gt;preview.app&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>We are the Champions</title>
       <link>https://www.palaniraja.com/2011/04/we-are-the-champions/</link>
       <pubDate>Sun, 03 Apr 2011 02:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/we-are-the-champions/</guid>
-      <description>After all the hiccups over years, we were able to witness the ultimate glory of bring back the cup to India after 28 years.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/team.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;After all the hiccups over years, we were able to witness the ultimate glory of bring back the cup to India after 28 years. India is a nation with at-least 50 million cricket experts including me. Though I&amp;rsquo;m not a professional player or an expert I do have rights to talk (who cares anyway)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My new photo (screenshot sharing) blog</title>
       <link>https://www.palaniraja.com/2010/11/my-new-photo-screenshot-sharing-blog/</link>
       <pubDate>Fri, 19 Nov 2010 01:33:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/11/my-new-photo-screenshot-sharing-blog/</guid>
-      <description>A colleague told me that I should be a QA Engineer in a random conversation few months ago. Though I did not consider it but he stands by it even now.</description>
+      <description>&lt;p&gt;A colleague told me that I should be a QA Engineer in a random conversation few months ago. Though I did not consider it but he stands by it even now. So I thought why don&amp;rsquo;t I start a photo blog to share the random screens I capture in my daily routine.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,170 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>iOS on PR</title>
+    <title>IOS on PR</title>
     <link>https://www.palaniraja.com/tags/ios/</link>
-    <description>Recent content in iOS on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in IOS on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 06:25:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2016 06:25:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Integrating Chromecast with Kaltura SDK (iOS)</title>
       <link>https://www.palaniraja.com/2016/01/integrating-chromecast-with-kaltura-sdk-ios/</link>
       <pubDate>Fri, 01 Jan 2016 06:25:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2016/01/integrating-chromecast-with-kaltura-sdk-ios/</guid>
-      <description>Their documentation says it is built in, but I couldn&amp;rsquo;t find a sample anywhere, so here it is for everyone on how to integrate Chromecast with your Kaltura Player.</description>
+      <description>&lt;p&gt;Their documentation says it is built in, but I couldn&amp;rsquo;t find a sample anywhere, so here it is for everyone on how to integrate &lt;a href=&#34;https://www.google.com/intl/en_in/chrome/devices/chromecast/index.html?utm_source=chromecast.com&#34;&gt;Chromecast&lt;/a&gt; with your &lt;a href=&#34;https://github.com/kaltura/player-sdk-native-ios&#34;&gt;Kaltura Player&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPad Pro and Apple</title>
       <link>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</link>
       <pubDate>Tue, 01 Dec 2015 12:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/12/ipad-pro-and-apple/</guid>
-      <description>Last Sunday, I got to try iPad pro with all its accessories (most of the outlet here has only iPad pro without keyboard &amp;amp; pencil).</description>
+      <description>&lt;p&gt;Last Sunday, I got to try &lt;a href=&#34;http://www.apple.com/ipad-pro/&#34;&gt;iPad pro&lt;/a&gt; with all its accessories (most of the outlet here has only iPad pro without &lt;a href=&#34;http://www.apple.com/shop/product/MJYR2/smart-keyboard-for-ipad-pro&#34;&gt;keyboard&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.apple.com/shop/product/MK0C2/apple-pencil-for-ipad-pro&#34;&gt;pencil&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
       <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</link>
       <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</guid>
-      <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
+      <description>&lt;p&gt;&lt;em&gt;Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to run any iPad (iOS) applications in Kiosk mode</title>
       <link>https://www.palaniraja.com/2014/06/how-to-run-any-ipad-ios-applications-in-kiosk-mode/</link>
       <pubDate>Sun, 22 Jun 2014 04:55:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/06/how-to-run-any-ipad-ios-applications-in-kiosk-mode/</guid>
-      <description>This is the one feature I know since the release but never bothered to try. Recently I had to provide the steps for a client on how to setup.</description>
+      <description>&lt;p&gt;This is the one feature I know since the release but never bothered to try. Recently I had to provide the steps for a client on how to setup. After trying &lt;a href=&#34;http://www.zchristopoulos.com/2012/02/how-to-disable-ipad-home-button-kioskstore-demo-mode/&#34;&gt;multiple&lt;/a&gt; &lt;a href=&#34;http://stackoverflow.com/questions/15068318/how-to-enable-a-kiosk-mode-programmatically-in-ipad&#34;&gt;methods&lt;/a&gt; without any &lt;a href=&#34;http://stackoverflow.com/questions/22500036/guided-access-kiosk-mode-of-ipad?lq=1&#34;&gt;success&lt;/a&gt;, I figured out the steps.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Raspbian &#43; XBMC &#43; Airplay</title>
       <link>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</link>
       <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</guid>
-      <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
-I own a Raspberry Pi for closer to a year now.</description>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/em&gt;: Yes, you can. If you are only interested in the steps skip to the relevant section.&lt;/p&gt;&#xA;&lt;p&gt;I own a Raspberry Pi for closer to a year now. I was not able to use my Netgear N150 (WNA1100) dongle until last week with it, I was kind of lost my enthusiasm by this bitter experience and hold my experiments for long time. Other than installing some console emulators and XBMC in last 6 months, I have not done anything with my Raspberry Pi.  You can refer my adventures &lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/4344/diy-external-powered-usb-hub-not-working&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/4687/setting-up-netgear-n150-usb-wifi-adapter-with-raspberrypi-wheezy&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
       <link>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</link>
       <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</guid>
-      <description>If you did not have enough time to go through the 50G contents from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+      <description>&lt;p&gt;If you did not have enough time to go through the &lt;a href=&#34;http://www.flickr.com/photos/palaniraja-mca/9149855356/&#34;&gt;50G contents&lt;/a&gt; from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;&lt;em&gt;Hidden Gems in Cocoa and Cocoa Touch&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Expired distribution provisioning and Yak shaving</title>
       <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
       <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
-      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+      <description>&lt;p&gt;Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app. App users are for &lt;a href=&#34;http://en.wikipedia.org/wiki/HVAC&#34;&gt;HVAC&lt;/a&gt; technicians, app integrates with their organization&amp;rsquo;s CRM (&lt;a href=&#34;http://login.salesforce.com/&#34;&gt;Salesforce&lt;/a&gt;) so distributing it with App store doesn&amp;rsquo;t make any sense.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: iBooks 3.0</title>
       <link>https://www.palaniraja.com/2012/01/idea-vault-ibooks-3.0/</link>
       <pubDate>Fri, 20 Jan 2012 06:37:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/idea-vault-ibooks-3.0/</guid>
-      <description>The idea supposed to be named as iBooks 2.0 well it is taken by Apple yesterday :)
-The original pointers of this idea from my notebook are</description>
+      <description>&lt;p&gt;The idea supposed to be named as iBooks 2.0 well it is taken by Apple yesterday :)&lt;/p&gt;&#xA;&lt;p&gt;The original pointers of this idea from my notebook are&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
       <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
-      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
-Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+      <description>&lt;p&gt;Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).&lt;/p&gt;&#xA;&lt;p&gt;Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iCloud Gotchas</title>
       <link>https://www.palaniraja.com/2011/12/icloud-gotchas/</link>
       <pubDate>Sat, 17 Dec 2011 23:08:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/icloud-gotchas/</guid>
-      <description>Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.</description>
+      <description>&lt;p&gt;Integrating iCloud with core data was easy when I found &lt;a href=&#34;http://goddess-gate.com/dc2/index.php/post/452&#34;&gt;this tutorial&lt;/a&gt;, but I ran into few issues while implementing and testing it on devices. And here are the steps how I managed to solve it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Installing more simulators for xcode 4.2 without re-downloading everytime</title>
       <link>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</link>
       <pubDate>Mon, 28 Nov 2011 03:34:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/installing-more-simulators-for-xcode-4.2-without-re-downloading-everytime/</guid>
-      <description>If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.</description>
+      <description>&lt;p&gt;If you are like me, who use more than one machine to develop iOS app and wants to install 4.x and 3.x simulator without re-downloading it on every machine? then I&amp;rsquo;ve got a solution.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BTServer CPU Usage</title>
       <link>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</link>
       <pubDate>Sat, 19 Nov 2011 09:40:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</guid>
-      <description>I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP.</description>
+      <description>&lt;p&gt;I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP. Although I freed around 30 GB, noticed an issue shortly. A process named &lt;strong&gt;BTServer&lt;/strong&gt; is utilizing high CPU usage.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
       <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
       <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
-      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I recently found this site called &lt;a href=&#34;http://diawi.com/&#34;&gt;diawi.com&lt;/a&gt; which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Enter into / Exit from Recovery mode for iPhone</title>
       <link>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</link>
       <pubDate>Sat, 14 May 2011 10:47:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</guid>
-      <description>Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations.</description>
+      <description>&lt;p&gt;Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations. And some time it is very frustrating to hold your buttons so long.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Capture screenshot of the app with iPad simulator</title>
       <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
-It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
+      <description>&lt;p&gt;Until recently I was not aware of the shortcut &lt;strong&gt;_Ctrl + Cmd + C _&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by &lt;strong&gt;File -&amp;gt; New from Clipboard&lt;/strong&gt; with &lt;strong&gt;preview.app&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
       <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
-      <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
-Session on OpenGL ES 2.</description>
+      <description>&lt;p&gt;Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson&lt;/p&gt;&#xA;&lt;p&gt;Session on OpenGL ES 2.0 recommended by Gurus. Go and download the complete sessions from &lt;a href=&#34;http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=407243028&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Custom UISplitViewController now available on GitHub</title>
       <link>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</link>
       <pubDate>Sun, 05 Dec 2010 07:02:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/custom-uisplitviewcontroller-now-available-on-github/</guid>
-      <description>I created this custom UISplitViewController as one of my iPad project required Split view for only one screen. The default UISplitViewController provided by Apple can only be added to UIWindow which means you can&amp;rsquo;t use it with normal UINavigation based project with only one splitview screen.</description>
+      <description>&lt;p&gt;I created this custom UISplitViewController as one of my iPad project required Split view for only one screen. The default UISplitViewController provided by Apple can only be added to UIWindow which means you can&amp;rsquo;t use it with normal UINavigation based project with only one splitview screen.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>texture on PR</title>
+    <title>Texture on PR</title>
     <link>https://www.palaniraja.com/tags/texture/</link>
-    <description>Recent content in texture on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Texture on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Thu, 18 Aug 2011 10:54:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/texture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Aug 2011 10:54:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/texture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea to action: Tile this</title>
       <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
       <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
-      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-08-18-at-11.15.36-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Wallpaper - Testflight app</title>
       <link>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</link>
       <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</guid>
-      <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
+      <description>&lt;p&gt;I really liked the background image pattern used in &lt;a href=&#34;http://testflightapp.com/&#34;&gt;testflightapp.com&lt;/a&gt;. It is so cool that I have replaced my all time favorite &lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/08/ipad-safari-background-texture.html&#34;&gt;iPad-Safari-fabric&lt;/a&gt; texture to gray varient given below.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPad - Safari background texture</title>
       <link>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</link>
       <pubDate>Sat, 14 Aug 2010 20:22:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</guid>
-      <description>TL;DR
-Apple version of the texture
-background_linen.png
-Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari background fabric texture.</description>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple version of the texture&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://devimages.apple.com.edgekey.net/assets/elements/layout/background_linen.png&#34;&gt;background_linen.png&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari background fabric texture.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

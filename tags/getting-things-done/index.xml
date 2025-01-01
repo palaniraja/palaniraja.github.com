@@ -1,50 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Getting-things-done on PR</title>
+    <title>Getting-Things-Done on PR</title>
     <link>https://www.palaniraja.com/tags/getting-things-done/</link>
-    <description>Recent content in Getting-things-done on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Getting-Things-Done on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/getting-things-done/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/getting-things-done/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
       <pubDate>Sat, 30 Mar 2013 07:08:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</guid>
-      <description>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</description>
+      <description>&lt;p&gt;Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Create card in Trello from Salesforce case</title>
       <link>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</link>
       <pubDate>Thu, 31 Jan 2013 06:55:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</guid>
-      <description>Yes. Danlec already created a bookmarklet that lets you create Trello card from many services like Fogbugz, JIRA, Github and more.</description>
+      <description>&lt;p&gt;Yes. &lt;a href=&#34;https://github.com/danlec/Trello-Bookmarklet&#34;&gt;Danlec&lt;/a&gt; already created a bookmarklet that lets you create Trello card from many services like Fogbugz, JIRA, Github and more. I forked his code and included the functionality to create card with salesforce case information.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Prj - Dug Me</title>
       <link>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</link>
       <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</guid>
-      <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
-Idea is to log all our project ideas similar to logging notes in nvALT.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-01-06-at-4.30.39-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Task management app with little twist. Yep, &lt;a href=&#34;http://pixar.wikia.com/Dug&#34;&gt;Dug&lt;/a&gt; instead of &lt;a href=&#34;http://en.wikipedia.org/wiki/Office_Assistant&#34;&gt;clippy&lt;/a&gt; while nagging.&lt;/p&gt;&#xA;&lt;p&gt;Idea is to log all our project ideas similar to logging notes in nvALT. This app runs in the background and randomly nag you to split a one line task you had logged earlier to multiple small tasks.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Project Dumps</title>
       <link>https://www.palaniraja.com/2013/01/project-dumps/</link>
       <pubDate>Tue, 01 Jan 2013 09:41:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/project-dumps/</guid>
-      <description>Wish you all a very happy new year!
-It is 2013, another chance for us/me to start a new beginning. I believed in Mayan so much, I never had a plan post 20th Dec 2012 :)</description>
+      <description>&lt;p&gt;Wish you all a very happy new year!&lt;/p&gt;&#xA;&lt;p&gt;It is 2013, another chance for us/me to start a new beginning. I believed in &lt;a href=&#34;http://en.wikipedia.org/wiki/Maya_civilization&#34;&gt;Mayan&lt;/a&gt; so much, I never had a plan post &lt;a href=&#34;http://rationalwiki.org/wiki/2012_apocalypse&#34;&gt;20th Dec 2012&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>thanks on PR</title>
+    <title>Thanks on PR</title>
     <link>https://www.palaniraja.com/tags/thanks/</link>
-    <description>Recent content in thanks on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Thanks on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 05 Sep 2018 08:48:00 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/thanks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Sep 2018 08:48:00 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/thanks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Happy Teachers Day</title>
       <link>https://www.palaniraja.com/2018/09/happy-teachers-day/</link>
       <pubDate>Wed, 05 Sep 2018 08:48:00 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/09/happy-teachers-day/</guid>
-      <description>This is a post I&amp;rsquo;m meaning to write for a very long time. I wanted to write this every year around Teachers day (5-Sep) and failed to publish.</description>
+      <description>&lt;p&gt;This is a post I&amp;rsquo;m meaning to write for a very long time. I wanted to write this every year around Teachers day (&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_Teachers%27_Days&#34;&gt;5-Sep&lt;/a&gt;) and failed to publish. Reason is, I could not find a way to express, anyhow here is an attempt.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

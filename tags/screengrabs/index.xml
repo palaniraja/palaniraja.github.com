@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>screengrabs on PR</title>
+    <title>Screengrabs on PR</title>
     <link>https://www.palaniraja.com/tags/screengrabs/</link>
-    <description>Recent content in screengrabs on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Screengrabs on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 07 Jul 2014 10:27:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/screengrabs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jul 2014 10:27:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/screengrabs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuring your Airtel Broadband DSL with your modem &#43; wifi router</title>
       <link>https://www.palaniraja.com/2014/07/configuring-your-airtel-broadband-dsl-with-your-modem--wifi-router/</link>
       <pubDate>Mon, 07 Jul 2014 10:27:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/07/configuring-your-airtel-broadband-dsl-with-your-modem--wifi-router/</guid>
-      <description>My modem failed last week(frequent drops), and I was not willing to repair this time. I&amp;rsquo;ve taken a screenshots of configuration from my old modem, with the help I was able to configure my new D-Link 2750u.</description>
+      <description>&lt;p&gt;My modem failed last week(frequent drops), and I was not willing to repair this time. I&amp;rsquo;ve taken a screenshots of configuration from my old modem, with the help I was able to configure my new D-Link 2750u.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

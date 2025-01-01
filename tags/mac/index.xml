@@ -1,71 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mac on PR</title>
+    <title>Mac on PR</title>
     <link>https://www.palaniraja.com/tags/mac/</link>
-    <description>Recent content in mac on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Mac on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Thu, 09 Aug 2018 15:01:00 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Aug 2018 15:01:00 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dropbox Mac - Deletes files on reinstallation?</title>
       <link>https://www.palaniraja.com/2018/08/dropbox-mac-deletes-files-on-reinstallation/</link>
       <pubDate>Thu, 09 Aug 2018 15:01:00 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/08/dropbox-mac-deletes-files-on-reinstallation/</guid>
-      <description>I uninstalled Dropbox from my work mac before submitting my laptop of reimaging of OS with corporate junk installations.
-Since I was sure, I should be able to install it again and download all synced files back on mac, I had deleted before handing over to IT people.</description>
+      <description>&lt;p&gt;I uninstalled Dropbox from my work mac before submitting my laptop of reimaging of OS with &lt;em&gt;corporate junk&lt;/em&gt; installations.&lt;/p&gt;&#xA;&lt;p&gt;Since I was sure, I should be able to install it again and download all synced files back on mac, I had deleted before handing over to IT people. So I didn&amp;rsquo;t copy files in &lt;code&gt;~/Dropbox&lt;/code&gt; to my backup hdd.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Speedy</title>
       <link>https://www.palaniraja.com/projects/speedy/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/projects/speedy/</guid>
-      <description>Speedy is a Speed reading application for Mac OS X that lets you speed read the text contents.
-It is based on speed reading technique/methodology called Spritz</description>
+      <description>&lt;p&gt;Speedy is a Speed reading application for Mac OS X that lets you speed read the text contents.&lt;/p&gt;&#xA;&lt;p&gt;It is based on speed reading technique/methodology called &lt;a href=&#34;http://spritzinc.com/the-science&#34;&gt;Spritz&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Speedy - Speed reading application for Mac</title>
       <link>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</guid>
-      <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
-I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;rsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+      <description>&lt;p&gt;Speedy is an utility application for Mac OS X that lets you speed read the text contents.&lt;/p&gt;&#xA;&lt;p&gt;I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &lt;a href=&#34;http://www.imdb.com/title/tt1798709/quotes?item=qt2085733&#34;&gt;&amp;rsquo;endless space between the words&amp;rsquo;&lt;/a&gt; with my lack of concentration or I should say gift of imagination?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to open/view/share embedded documents in Microsoft Word for Mac (2011/2016)</title>
       <link>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</link>
       <pubDate>Mon, 28 Mar 2016 02:28:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2016/03/how-to-open/view/share-embedded-documents-in-microsoft-word-for-mac-2011/2016/</guid>
-      <description>You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .</description>
+      <description>&lt;p&gt;You would be surprised to know that Microsoft doesn&amp;rsquo;t support a viable option to view embedded documents. Embedded PDF&amp;rsquo;s are the worst, even the .docx files doesn&amp;rsquo;t allow you to save even in latest version of Microsoft word for OS X.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TimeTracker</title>
       <link>https://www.palaniraja.com/projects/timetracker/</link>
       <pubDate>Thu, 28 Jan 2016 19:03:05 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/projects/timetracker/</guid>
-      <description>A native mac app for tracking time to help you manage your productivity. It accepts current task (free text), and keep a timer to log the minutes you spent on task.</description>
+      <description>&lt;p&gt;A native mac app for tracking time to help you manage your productivity. It accepts current task (free text), and keep a timer to log the minutes you spent on task.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mclock</title>
       <link>https://www.palaniraja.com/projects/mclock/</link>
       <pubDate>Wed, 08 Aug 2012 14:03:05 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/projects/mclock/</guid>
-      <description>A minimalist clock to display time of different timezone of your choice.
-Eg.,
-&amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time &amp;ldquo;EST&amp;rdquo; for Eastern time Or try &amp;ldquo;UTC+10&amp;rdquo; The app stays in menu bar all the time and you can customize the display format and timezone.</description>
+      <description>&lt;p&gt;A minimalist clock to display time of different timezone of your choice.&lt;/p&gt;&#xA;&lt;p&gt;Eg.,&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;IST&amp;rdquo; to have a additional clock in your menubar to display Indian Standard Time&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;EST&amp;rdquo; for Eastern time&lt;/li&gt;&#xA;&lt;li&gt;Or try &amp;ldquo;UTC+10&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The app stays in menu bar all the time and you can customize the display format and timezone.  Application support native &lt;code&gt;cmd&lt;/code&gt; drag to reorder and also works with &lt;code&gt;darkmode&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

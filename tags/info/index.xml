@@ -1,546 +1,411 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>info on PR</title>
+    <title>Info on PR</title>
     <link>https://www.palaniraja.com/tags/info/</link>
-    <description>Recent content in info on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Info on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Feb 2015 07:03:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swift/Objective-C Interoperability - Behind the &#34;Configure Bridging Header&#34; dialog</title>
       <link>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</link>
       <pubDate>Sat, 21 Feb 2015 07:03:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</guid>
-      <description>Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)</description>
+      <description>&lt;p&gt;&lt;em&gt;Disclaimer: Yes, I know about the typo &amp;ldquo;briding&amp;rdquo; in screenshots, but I&amp;rsquo;m lazy to redo all, so please ignore and read the article in peace :-)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RescueTime weekly summary and Google Script</title>
       <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
       <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
-      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+      <description>&lt;p&gt;I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else. I have always run two or three passive self policing apps like &lt;a href=&#34;https://www.rescuetime.com/&#34;&gt;Rescuetime&lt;/a&gt; and &lt;a href=&#34;https://itunes.apple.com/ca/app/free-time-tracker-timing-lite/id467410757?mt=12&#34;&gt;Timing&lt;/a&gt; etc.,&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Raspbian &#43; XBMC &#43; Airplay</title>
       <link>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</link>
       <pubDate>Sun, 18 Aug 2013 05:00:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/08/raspbian--xbmc--airplay/</guid>
-      <description>TL;DR: Yes, you can. If you are only interested in the steps skip to the relevant section.
-I own a Raspberry Pi for closer to a year now.</description>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/em&gt;: Yes, you can. If you are only interested in the steps skip to the relevant section.&lt;/p&gt;&#xA;&lt;p&gt;I own a Raspberry Pi for closer to a year now. I was not able to use my Netgear N150 (WNA1100) dongle until last week with it, I was kind of lost my enthusiasm by this bitter experience and hold my experiments for long time. Other than installing some console emulators and XBMC in last 6 months, I have not done anything with my Raspberry Pi.  You can refer my adventures &lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/4344/diy-external-powered-usb-hub-not-working&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://raspberrypi.stackexchange.com/questions/4687/setting-up-netgear-n150-usb-wifi-adapter-with-raspberrypi-wheezy&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Grep - Swiss army knife</title>
       <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
-      <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
+      <description>&lt;p&gt;I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems. I really don&amp;rsquo;t know whether grep is the right choice here, but hey! it worked :-)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Request To Webdevs: Include IP/User-Agent Info In Forgot Password Email</title>
       <link>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</link>
       <pubDate>Sun, 28 Apr 2013 06:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</guid>
-      <description>The Forgot password email template has been the same for more than a decade. It is time to include more information in the email.</description>
+      <description>&lt;p&gt;The &lt;em&gt;Forgot password&lt;/em&gt; email template has been the same for more than a decade. It is time to include more information in the email.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
       <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
       <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
-      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://efendibooks.com/minibooks/testing-with-coffeescript&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-04-21-at-11.49.28-AM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; (Test Driven Development) was introduced to me around 2006 with &lt;a href=&#34;http://www.phpunit.de/manual/current/en/index.html&#34;&gt;PHPUnit&lt;/a&gt;. As a naive, I couldn&amp;rsquo;t see the benefits, eg., I saw the pattern of code has been updated very often (growing organically) and frequent failing test. I was like, &lt;em&gt;Why should I write unit test to test my own code? with the same data I used for manual testing?&lt;/em&gt; As they say I was seeing the forest for the trees. I failed to realize the failing test is actually the benefit of practicing TDD.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Disable networking/internet from command line on a Mac</title>
       <link>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</link>
       <pubDate>Fri, 19 Apr 2013 09:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</guid>
-      <description>If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.</description>
+      <description>&lt;p&gt;If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Laptop Cooling Pad  &amp; Sudden Motion Sensor</title>
       <link>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</link>
       <pubDate>Sat, 06 Apr 2013 10:29:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/laptop-cooling-pad-sudden-motion-sensor/</guid>
-      <description>Finally I found a good usecase to test the Sudden Motion Sensor of my macbook pro. I was curious to know whether there is an impact of cooling pad&amp;rsquo;s fan.</description>
+      <description>&lt;p&gt;Finally I found a good usecase to test the &lt;a href=&#34;http://support.apple.com/kb/ht1935&#34;&gt;Sudden Motion Sensor&lt;/a&gt; of my macbook pro. I was curious to know whether there is an impact of cooling pad&amp;rsquo;s fan.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
       <pubDate>Sat, 30 Mar 2013 07:08:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</guid>
-      <description>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</description>
+      <description>&lt;p&gt;Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Expired distribution provisioning and Yak shaving</title>
       <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
       <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
-      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+      <description>&lt;p&gt;Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app. App users are for &lt;a href=&#34;http://en.wikipedia.org/wiki/HVAC&#34;&gt;HVAC&lt;/a&gt; technicians, app integrates with their organization&amp;rsquo;s CRM (&lt;a href=&#34;http://login.salesforce.com/&#34;&gt;Salesforce&lt;/a&gt;) so distributing it with App store doesn&amp;rsquo;t make any sense.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Tree view</title>
       <link>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</link>
       <pubDate>Tue, 01 Jan 2013 10:32:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</guid>
-      <description>A Bookmarklet or a Browser extension to select the root element of a DOM (UL/OL) to view the Inverted tree structure of its child nodes.</description>
+      <description>&lt;p&gt;A Bookmarklet or a Browser extension to select the root element of a DOM (UL/OL) to view the Inverted tree structure of its child nodes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Project Dumps</title>
       <link>https://www.palaniraja.com/2013/01/project-dumps/</link>
       <pubDate>Tue, 01 Jan 2013 09:41:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/project-dumps/</guid>
-      <description>Wish you all a very happy new year!
-It is 2013, another chance for us/me to start a new beginning. I believed in Mayan so much, I never had a plan post 20th Dec 2012 :)</description>
+      <description>&lt;p&gt;Wish you all a very happy new year!&lt;/p&gt;&#xA;&lt;p&gt;It is 2013, another chance for us/me to start a new beginning. I believed in &lt;a href=&#34;http://en.wikipedia.org/wiki/Maya_civilization&#34;&gt;Mayan&lt;/a&gt; so much, I never had a plan post &lt;a href=&#34;http://rationalwiki.org/wiki/2012_apocalypse&#34;&gt;20th Dec 2012&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
       <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
-      <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
+      <description>&lt;p&gt;I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my &lt;em&gt;idea to project&lt;/em&gt; execution.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Failed to get brightness for displayID</title>
       <link>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</link>
       <pubDate>Mon, 27 Aug 2012 10:53:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
-      <description>If you are experiencing frequent disk I/O and your console is full of
-25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+      <description>&lt;p&gt;If you are experiencing frequent disk I/O and your &lt;em&gt;&lt;strong&gt;console&lt;/strong&gt;&lt;/em&gt; is full of&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to install Grease monkey scripts on Google Chrome 21</title>
       <link>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</link>
       <pubDate>Sun, 26 Aug 2012 06:20:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</guid>
-      <description>Chrome updated its policy to not to install extensions and scripts outside of Google webstore by default. (Gatekeeper, everyone wants to be the police)</description>
+      <description>&lt;p&gt;Chrome updated its policy to not to install extensions and scripts outside of Google webstore by default. (Gatekeeper, everyone wants to be the police)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
       <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
-      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
-Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+      <description>&lt;p&gt;Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).&lt;/p&gt;&#xA;&lt;p&gt;Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BTServer CPU Usage</title>
       <link>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</link>
       <pubDate>Sat, 19 Nov 2011 09:40:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</guid>
-      <description>I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP.</description>
+      <description>&lt;p&gt;I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP. Although I freed around 30 GB, noticed an issue shortly. A process named &lt;strong&gt;BTServer&lt;/strong&gt; is utilizing high CPU usage.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
       <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
-      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+      <description>&lt;p&gt;One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at &lt;a href=&#34;http://apple.stackexchange.com/questions/17229/is-there-a-way-i-can-import-readitlaters-exported-html-file-into-my-instapaper/&#34;&gt;apple.stackexchange.com&lt;/a&gt;, the original answer was based on my experience sometime ago I was searching to migrate my links between my Instapaper accounts.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
       <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
       <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
-      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I recently found this site called &lt;a href=&#34;http://diawi.com/&#34;&gt;diawi.com&lt;/a&gt; which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Shell script to generate images for testing</title>
       <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
       <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
-      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+      <description>&lt;p&gt;Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to view (Windows) line ending characters on Mac OSX</title>
       <link>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</link>
       <pubDate>Wed, 15 Jun 2011 05:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</guid>
-      <description>Notepad++ on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.
-Programming editors on mac like Textwrangler and Textmate has an option to Show Invisibles but failed to display the character block for Carriage Return as Notepad used to.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://notepad-plus-plus.org/&#34;&gt;Notepad++&lt;/a&gt; on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/image001.png&#34; alt=&#34;Notepad++ &#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Recommended Git workflow</title>
       <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
       <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
-      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;http://stackoverflow.com/questions/871/why-is-git-better-than-subversion&#34;&gt;Git&lt;/a&gt; as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches. Our company use SVN and other peers were not aware/interested in &lt;a href=&#34;http://git.or.cz/course/svn.html&#34;&gt;Git&lt;/a&gt;. So I took the initiative to use svn-git. After months of progress I left with so many branches for features, svn, QA-release and quick-fix for released builds.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Desktop Notification with Html5</title>
       <link>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</link>
       <pubDate>Tue, 31 May 2011 06:27:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/desktop-notification-with-html5/</guid>
-      <description>I&amp;rsquo;ve recently stumbled upon studio.html5rocks.com and found the cool trick to display desktop notifications like Gmail.
-![](/assets/Screen shot 2011-05-31 at 7.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently stumbled upon &lt;a href=&#34;http://studio.html5rocks.com/#Time!&#34;&gt;studio.html5rocks.com&lt;/a&gt; and found the cool trick to display desktop notifications like &lt;a href=&#34;http://gmailblog.blogspot.com/2011/01/desktop-notifications-for-emails-and.html&#34;&gt;Gmail&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;![](/assets/Screen shot 2011-05-31 at 7.02.36 PM.png)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Play Angrybirds on web (Chrome)</title>
       <link>https://www.palaniraja.com/2011/05/play-angrybirds-on-web-chrome/</link>
       <pubDate>Sat, 14 May 2011 10:50:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/play-angrybirds-on-web-chrome/</guid>
-      <description>HD for good configuration computers | SD for little out of date computers
-For those who wants to see all levels without completing a level or struck in a level, here is the hack, copy the following code, paste it on url textbox and hit enter.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/angry-birds-chrome.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://chrome.angrybirds.com/&#34;&gt;HD for good configuration computers&lt;/a&gt; | &lt;a href=&#34;http://chrome.angrybirds.com/?version=standard&#34;&gt;SD for little out of date computers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;For those who wants to see all levels without completing a level or struck in a level, here is the hack, copy the following code, paste it on url textbox and hit enter.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Enter into / Exit from Recovery mode for iPhone</title>
       <link>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</link>
       <pubDate>Sat, 14 May 2011 10:47:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</guid>
-      <description>Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations.</description>
+      <description>&lt;p&gt;Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations. And some time it is very frustrating to hold your buttons so long.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Capture screenshot of the app with iPad simulator</title>
       <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
-It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
+      <description>&lt;p&gt;Until recently I was not aware of the shortcut &lt;strong&gt;_Ctrl + Cmd + C _&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by &lt;strong&gt;File -&amp;gt; New from Clipboard&lt;/strong&gt; with &lt;strong&gt;preview.app&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>We are the Champions</title>
       <link>https://www.palaniraja.com/2011/04/we-are-the-champions/</link>
       <pubDate>Sun, 03 Apr 2011 02:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/we-are-the-champions/</guid>
-      <description>After all the hiccups over years, we were able to witness the ultimate glory of bring back the cup to India after 28 years.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/team.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;After all the hiccups over years, we were able to witness the ultimate glory of bring back the cup to India after 28 years. India is a nation with at-least 50 million cricket experts including me. Though I&amp;rsquo;m not a professional player or an expert I do have rights to talk (who cares anyway)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
       <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
-      <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
-Session on OpenGL ES 2.</description>
+      <description>&lt;p&gt;Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson&lt;/p&gt;&#xA;&lt;p&gt;Session on OpenGL ES 2.0 recommended by Gurus. Go and download the complete sessions from &lt;a href=&#34;http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=407243028&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Tile this!</title>
       <link>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</link>
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Check the extension and more information @ &lt;a href=&#34;https://www.palaniraja.com/2011/08/idea-to-action-tile-this/&#34;&gt;Idea to action: Tile this &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently hunting images for a sample design. I was trying to find a pattern that can be tiled/repeated to fill.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Import Delicious bookmarks to Evernote including tags</title>
       <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
       <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
-      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
-Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/enex.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/enex.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.&lt;/p&gt;&#xA;&lt;p&gt;Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.  I wrote this script to move my delicious bookmarks to evernote for my use.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: When is that?</title>
       <link>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</link>
       <pubDate>Tue, 14 Dec 2010 10:39:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</guid>
-      <description>I guess like me there will be many people often confuse appointments/client calls due to timezone differences.
-I am not talking about people who send/receive schedules from Outlook (or similar apps).</description>
+      <description>&lt;p&gt;I guess like me there will be many people often confuse appointments/client calls due to timezone differences.&lt;/p&gt;&#xA;&lt;p&gt;I am not talking about people who send/receive schedules from Outlook (or similar apps).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My new photo (screenshot sharing) blog</title>
       <link>https://www.palaniraja.com/2010/11/my-new-photo-screenshot-sharing-blog/</link>
       <pubDate>Fri, 19 Nov 2010 01:33:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/11/my-new-photo-screenshot-sharing-blog/</guid>
-      <description>A colleague told me that I should be a QA Engineer in a random conversation few months ago. Though I did not consider it but he stands by it even now.</description>
+      <description>&lt;p&gt;A colleague told me that I should be a QA Engineer in a random conversation few months ago. Though I did not consider it but he stands by it even now. So I thought why don&amp;rsquo;t I start a photo blog to share the random screens I capture in my daily routine.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mac App Store - Source</title>
       <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
-      <description>You get the idea? You are not looking for the UI code are you?
-Saurik will be doing the UI for us ;)</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-10-24-at-12.27.51-AM.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-10-24-at-12.27.51-AM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You get the idea? You are not looking for the UI code are you?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://twitter.com/SAURIK&#34;&gt;Saurik&lt;/a&gt; will be doing the UI for us ;)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GotoMeeting Video recording (G2M3 codec for Mac)</title>
       <link>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</link>
       <pubDate>Wed, 13 Oct 2010 11:32:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/10/gotomeeting-video-recording-g2m3-codec-for-mac/</guid>
-      <description>If you use GotoMeeting to record video of the shared screen, make sure that you DO NOT use G2M3 codec. It does a great job in compressing the size of the video but it is not compatible with OSX or any OS other than Windows.</description>
+      <description>&lt;p&gt;If you use GotoMeeting to record video of the shared screen, make sure that you DO NOT use G2M3 codec. It does a great job in compressing the size of the video but it is not compatible with OSX or any OS other than Windows.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Apple Sep 1, 2010 Event under 3 min</title>
       <link>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</link>
       <pubDate>Thu, 09 Sep 2010 11:33:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
-      <description>Youtube link
-Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-24euRgImPg&#34;&gt;Youtube link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;noscript&gt;&#xA;    &lt;p class=&#34;noscript&#34;&gt;Content requires Javascript to be enabled.&lt;/p&gt;&#xA;&#xA;    &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-24euRgImPg&#34;&gt;https://www.youtube.com/watch?v=-24euRgImPg&lt;/a&gt; &lt;/p&gt;&#xA;&#xA;    &lt;br/&gt;&#xA;    &#xA;&lt;/noscript&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;    p.noscript{&#xA;        background-color: #fefea0;&#xA;        border-left: 4px solid #fea0a0;&#xA;        padding: 0 0.25em;&#xA;    }&#xA;&lt;/style&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-24euRgImPg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/09/call-me-hypocrite-my-take-on-apple.html&#34;&gt;Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/09/call-me-hypocrite-my-take-on-apple_08.html&#34;&gt;Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
       <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
-      <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
+      <description>&lt;h3 id=&#34;itunes-10&#34;&gt;iTunes 10&lt;/h3&gt;&#xA;&lt;p&gt;Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys! they have changed the boring icon after a decade.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
       <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
-      <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-09-04-at-10.00.40-PM.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-09-04-at-10.00.40-PM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Only yesterday I got a chance to view the Keynote video. You can also &lt;a href=&#34;http://itunes.apple.com/us/podcast/apple-special-event-september/id275834665?i=86766489&#34;&gt;download&lt;/a&gt; the video from iTunes for Free.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Snow Leopard (Retail) on Lenovo 3000 N100</title>
       <link>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</link>
       <pubDate>Tue, 13 Jul 2010 11:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/07/snow-leopard-retail-on-lenovo-3000-n100/</guid>
-      <description>Disclaimer: There is no alternative to real Mac, if you like Mac go and buy it. If buying a real Mac is too much, you can at least buy a license for Mac OS X Snow Leopard which costs $29 only.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/lenovo_thumb.jpg&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/lenovo_thumb.jpg&#34; alt=&#34;lenovo&#34; title=&#34;lenovo&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; &lt;em&gt;There is no alternative to real Mac, if you like Mac go and buy it. If buying a real Mac is too much, you can at least buy a license for Mac OS X Snow Leopard which costs $29 only. This post is to test the Snow Leopard compatibility with Lenovo 3000 N100.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Angry Birds – I give up</title>
       <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
-I am not a great gamer, I give up on games too early.</description>
+      <description>&lt;p&gt;Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)&lt;/p&gt;&#xA;&lt;p&gt;I am not a great gamer, I give up on games too early. But this Angry Birds is one hell of a game (next to Road Rash &amp;amp; NFS II) that makes me addicted for a long time.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
       <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
-      <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
+      <description>&lt;p&gt;I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices. Please add your comments and I will update.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WWDC 2010 - iPhone 4</title>
       <link>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</link>
       <pubDate>Wed, 16 Jun 2010 21:27:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</guid>
-      <description>iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard. Steve can still memorize 24 countries and repeat them in the same order.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard.&lt;/li&gt;&#xA;&lt;li&gt;Steve can still memorize 24 countries and repeat them in the same order. Bravo! Good job Steve.&lt;/li&gt;&#xA;&lt;li&gt;Yes, he appreciated Microsoft for their HTML5 demos.&lt;/li&gt;&#xA;&lt;li&gt;Now the revenue will be shared  60-40%. 40% of iAd revenue to Apple.&lt;/li&gt;&#xA;&lt;li&gt;Will FaceTime work if there are quite a few devices on the Wi-Fi network?&lt;/li&gt;&#xA;&lt;li&gt;If FaceTime is Open, then H.264 and AAC too?&lt;/li&gt;&#xA;&lt;li&gt;If the same front side glass was used in the back of iPhone 4, can we replace the backside glass for the front in case of damages to the front?&lt;/li&gt;&#xA;&lt;li&gt;29$ for bumb ( a band covers the antennas&amp;rsquo;). Come on Steve, let the poor guys live with the iPhone/iPad cover business.&lt;/li&gt;&#xA;&lt;li&gt;FaceTime is open since it use many OpenSource tools &amp;amp; standards.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;are few points I noticed during Keynote.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Download Apple WWDC Keynote videos</title>
       <link>https://www.palaniraja.com/2010/06/download-apple-wwdc-keynote-videos/</link>
       <pubDate>Wed, 16 Jun 2010 21:02:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/download-apple-wwdc-keynote-videos/</guid>
-      <description>I was always disappointed with Apple Keynote pages. It allows you to stream and watch the videos with QuickTime which is not great for streaming and videos are not HTML5 yet.</description>
+      <description>&lt;p&gt;I was always disappointed with Apple Keynote pages. It allows you to stream and watch the videos with QuickTime which is not great for streaming and videos are not HTML5 yet. Another restriction with QuickTime is, you need to have QuickTime Pro to save the video.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPad - My Experience</title>
       <link>https://www.palaniraja.com/2010/06/ipad-my-experience/</link>
       <pubDate>Tue, 15 Jun 2010 07:13:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/ipad-my-experience/</guid>
-      <description>Warning: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)</description>
+      <description>&lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Solving Read-Only Notes.app issue</title>
       <link>https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/</link>
       <pubDate>Wed, 09 Jun 2010 01:12:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/</guid>
-      <description>Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the manual backup of notes.</description>
+      <description>&lt;p&gt;Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the &lt;a href=&#34;http://www.funkyspacemonkey.com/howto-manually-backup-iphone&#34;&gt;manual backup&lt;/a&gt; of notes.db. I have taken the backup of my Address book, notes and images data with &lt;a href=&#34;http://www.macroplant.com/iphoneexplorer/&#34;&gt;iPhone Explorer&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hackintosh Guide: Snow Leopard 10.6.1-10.6.2 Intel AMD made by Hazard</title>
       <link>https://www.palaniraja.com/2010/05/hackintosh-guide-snow-leopard-10.6.1-10.6.2-intel-amd-made-by-hazard/</link>
       <pubDate>Mon, 17 May 2010 02:36:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/05/hackintosh-guide-snow-leopard-10.6.1-10.6.2-intel-amd-made-by-hazard/</guid>
-      <description>Last Saturday I was successful in installing Snow Leopard on Sony Vaio with Core i3 Processor. I have tried many distro&amp;rsquo;s in past 2 years and I can tell you it is not easy to install on any given PC.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/sonyvaio.jpg&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/sonyvaio.jpg&#34; alt=&#34;sonyvaio&#34; title=&#34;sonyvaio&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Last Saturday I was successful in installing Snow Leopard on &lt;a href=&#34;http://www.sony.co.in/product/vpceb16fg&#34;&gt;Sony Vaio&lt;/a&gt; with Core i3 Processor. I have tried many distro&amp;rsquo;s in past 2 years and I can tell you it is not easy to install on any given PC.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>PeerGuardian and history.db</title>
       <link>https://www.palaniraja.com/2010/05/peerguardian-and-history.db/</link>
       <pubDate>Sun, 16 May 2010 12:02:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/05/peerguardian-and-history.db/</guid>
-      <description>PeerGuardian is a great tool to maintain your privacy. But you should be aware of a fact that it uses a sqlite db to maintain the history called history.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://phoenixlabs.org/pg2/&#34;&gt;PeerGuardian&lt;/a&gt; is a great tool to maintain your privacy. But you should be aware of a fact that it uses a sqlite db to maintain the history called &lt;strong&gt;history.db&lt;/strong&gt; in its directory under &lt;em&gt;Program Files.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WinDirStat | My Software Toolbox</title>
       <link>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</link>
       <pubDate>Sun, 16 May 2010 11:49:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/05/windirstat-my-software-toolbox/</guid>
-      <description>No matter how large your hard drive is, the data will grow to fill the disk!
-Recently I was running out of space on both of my internal 120Gig and external 320Gig HDD.</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;No matter how large your hard drive is, the data will grow to fill the disk!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recently I was running out of space on both of my internal 120Gig and external 320Gig HDD. I don’t have any clue on what to delete I have tried CCleaner to delete the history to save some space.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Obj-C | For beginners</title>
       <link>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</link>
       <pubDate>Sun, 11 Apr 2010 20:51:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</guid>
-      <description>A quick obj-c cheat-sheet for the beginners.
-Scribd link
-This is taken from RWTH-iPhone Application Programming. You can also download complete videos from iTunesU.</description>
+      <description>&lt;p&gt;A quick obj-c cheat-sheet for the beginners.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.scribd.com/doc/29769999/RWTH-Objective-C&#34;&gt;Scribd link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is taken from &lt;a href=&#34;http://hci.rwth-aachen.de/iphone&#34;&gt;RWTH-iPhone Application Programming&lt;/a&gt;. You can also download complete videos from &lt;a href=&#34;http://deimos3.apple.com/WebObjects/Core.woa/Browse/rwth-aachen.de.2800424446.02876463968&#34;&gt;iTunesU&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Batch renaming of files (Mac OSX / *nix)</title>
       <link>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</link>
       <pubDate>Thu, 08 Apr 2010 20:35:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
-      <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
-Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.</description>
+      <description>&lt;p&gt;How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a new directory &lt;strong&gt;&lt;em&gt;&lt;!-- raw HTML omitted --&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run the following command (you can replace &lt;em&gt;&lt;strong&gt;newdir&lt;/strong&gt;&lt;/em&gt; with the your directory name and &lt;em&gt;&lt;strong&gt;some_prefix&lt;/strong&gt;&lt;/em&gt; with your prefix the same applicable for extension as well. My eg., rename only the &lt;em&gt;&lt;strong&gt;png&lt;/strong&gt;&lt;/em&gt; files of the directory (there were no other extensions available).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;code&gt;i=0; for x in *.png; do cp \&amp;quot;$x\&amp;quot; &amp;quot;newdir/some_prefix_$i.png&amp;quot;; i=$(($i+1)); done&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>[BEROR]Code Sign error: Provisioning profile &#39;579ACFD8-827A-4325-F623-DB8CDD5081DB&#39; can&#39;t be found</title>
       <link>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</link>
       <pubDate>Sun, 04 Apr 2010 09:13:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</guid>
-      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h4 id=&#34;check-dependencies-code-sign-error-provisioning-profile&#34;&gt;Check dependencies Code Sign error: Provisioning profile&lt;/h4&gt;&#xA;&lt;h4 id=&#34;berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found&#34;&gt;[BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found&lt;/h4&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Why AppStore submission process sucks!</title>
       <link>https://www.palaniraja.com/2010/04/why-appstore-submission-process-sucks/</link>
       <pubDate>Sun, 04 Apr 2010 07:59:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/why-appstore-submission-process-sucks/</guid>
-      <description>They only check the binary to see if they use any private API nothing other than that. Sometimes they reject the app and give you a reason that it doesn&amp;rsquo;t fit with their HIG standards.</description>
+      <description>&lt;p&gt;They only check the binary to see if they use any private API nothing other than that. Sometimes they reject the app and give you a reason that it doesn&amp;rsquo;t fit with their HIG standards. Eg., one of our app got rejected for this reason. They said + button should be used when you use add contacts to the app from Address book. But the same + icon was used in USA Today app and is available in appstore. Moreover we just copied the idea to have + to show larger images.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPhone – Accessibility</title>
       <link>https://www.palaniraja.com/2010/03/iphone-accessibility/</link>
       <pubDate>Thu, 25 Mar 2010 12:28:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/iphone-accessibility/</guid>
-      <description>What if iPhone provides an accessibility option for users with bigger finger?
-I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool.</description>
+      <description>&lt;p&gt;What if iPhone provides an accessibility option for users with bigger finger?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/photo_thumb.jpg&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/photo_thumb.jpg&#34; alt=&#34;photo&#34; title=&#34;photo&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool. This was done in the following sequence screenshot + zoom + screenshot. You can see the same with the UIPageControl aligned little left instead of center.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Objective-C Crash Course for Web Developers</title>
       <link>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</link>
       <pubDate>Sun, 21 Mar 2010 07:41:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</guid>
-      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&#39;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
+      <description>&lt;p&gt;Please find the below presentation which explains obj-c for web developers (js/php). This is taken from &lt;a href=&#34;http://my.sxsw.com/events/event/615&#34;&gt;SXSW&#39;10&lt;/a&gt;. I&amp;rsquo;m also searching for the video will share if I come across any.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Nobody is using NOSCRIPT tag?</title>
       <link>https://www.palaniraja.com/2010/03/nobody-is-using-noscript-tag/</link>
       <pubDate>Sun, 14 Mar 2010 21:13:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/nobody-is-using-noscript-tag/</guid>
-      <description>It seems nobody is using NOSCRIPT tag. I never used in my application as well. But it is surprising that even Google itself ignoring the NOSCRIPT.</description>
+      <description>&lt;p&gt;It seems nobody is using NOSCRIPT tag. I never used in my application as well. But it is surprising that even Google itself ignoring the NOSCRIPT.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Register iTunes Account for Free (In Any Country Without A Credit Card)</title>
       <link>https://www.palaniraja.com/2010/03/how-to-register-itunes-account-for-free-in-any-country-without-a-credit-card/</link>
       <pubDate>Sun, 14 Mar 2010 20:55:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/how-to-register-itunes-account-for-free-in-any-country-without-a-credit-card/</guid>
-      <description>Follow the steps below:
-Launch iTunes Log out of your account (if any) Scroll down the iTunes page and hit the flag on the right Select your country of interest Try to buy a random free app (Note: You will see payment option None only when you register after/while downloading a free app) iTunes will ask you for your credentials, hit open a new account Accept the terms Enter a valid email, pick a password and so on.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/create-us-itunes-account-without-providing-credit-card-information-450x307_thumb.jpg&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/create-us-itunes-account-without-providing-credit-card-information-450x307_thumb.jpg&#34; alt=&#34;create-us-itunes-account-without-providing-credit-card-information-450x307&#34; title=&#34;create-us-itunes-account-without-providing-credit-card-information-450x307&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Follow the steps below:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Launch iTunes&lt;/li&gt;&#xA;&lt;li&gt;Log out of your account (if any)&lt;/li&gt;&#xA;&lt;li&gt;Scroll down the iTunes page and hit the flag on the right&lt;/li&gt;&#xA;&lt;li&gt;Select your country of interest&lt;/li&gt;&#xA;&lt;li&gt;Try to buy a random free app (&lt;strong&gt;Note&lt;/strong&gt;: You will see payment option &lt;strong&gt;None&lt;/strong&gt; only when you register after/while downloading a free app)&lt;/li&gt;&#xA;&lt;li&gt;iTunes will ask you for your credentials, hit open a new account&lt;/li&gt;&#xA;&lt;li&gt;Accept the terms&lt;/li&gt;&#xA;&lt;li&gt;Enter a valid email, pick a password and so on. Hit next&lt;/li&gt;&#xA;&lt;li&gt;Select “none” as the payment method. Then fill in the form with some random address in the country you picked (Google maps is your friend) or avail the service from &lt;a href=&#34;http://www.fakenamegenerator.com/&#34;&gt;http://www.fakenamegenerator.com/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Finalize &amp;amp; click the validation link in your email&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Thanks: &lt;a href=&#34;http://appadvice.com/appnn/2010/03/how-to-open-a-free-itunes-account-in-any-country-without-a-credit-card/&#34;&gt;AppAdvice&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>IPL 3 on YouTube</title>
       <link>https://www.palaniraja.com/2010/03/ipl-3-on-youtube/</link>
       <pubDate>Sun, 14 Mar 2010 09:26:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/ipl-3-on-youtube/</guid>
-      <description>If you have Airtel broadband + unlimited bandwidth then you are lucky to enjoy IPL without commercials. YouTube IPL channel can be viewed with 2Mbps speed without any extra cost.</description>
+      <description>&lt;p&gt;If you have Airtel broadband + unlimited bandwidth then you are lucky to enjoy IPL without commercials. YouTube IPL channel can be viewed with 2Mbps speed without any extra cost.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hello world!</title>
       <link>https://www.palaniraja.com/2010/01/hello-world/</link>
       <pubDate>Fri, 29 Jan 2010 23:54:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/01/hello-world/</guid>
-      <description>Everyone starts with a “Hello world” so do I. No idea on what I’m going to write; will I ever write something useful.</description>
+      <description>&lt;p&gt;Everyone starts with a “Hello world” so do I. No idea on what I’m going to write; will I ever write something useful.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

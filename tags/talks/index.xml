@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>talks on PR</title>
+    <title>Talks on PR</title>
     <link>https://www.palaniraja.com/tags/talks/</link>
-    <description>Recent content in talks on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Talks on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 18 Jan 2015 05:20:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jan 2015 05:20:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book recommendation : Creativity Inc by Ed Catmull</title>
       <link>https://www.palaniraja.com/2015/01/book-recommendation-creativity-inc-by-ed-catmull/</link>
       <pubDate>Sun, 18 Jan 2015 05:20:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/01/book-recommendation-creativity-inc-by-ed-catmull/</guid>
-      <description>It is no surprise that you know about Pixar if you are even remotely knew Steve Jobs and his history. And you definitely heard about Pixar’s movies Toy story, Finding Nemo, Wall-E, Up &amp;amp; more.</description>
+      <description>&lt;p&gt;It is no surprise that you know about &lt;a href=&#34;http://en.wikipedia.org/wiki/Pixar&#34;&gt;Pixar&lt;/a&gt; if you are even remotely knew &lt;a href=&#34;http://en.wikipedia.org/wiki/Steve_Jobs&#34;&gt;Steve Jobs&lt;/a&gt; and his history. And you definitely heard about Pixar’s movies &lt;a href=&#34;http://www.imdb.com/title/tt0114709/&#34;&gt;Toy story&lt;/a&gt;,  &lt;a href=&#34;http://www.imdb.com/title/tt0266543/&#34;&gt;Finding Nemo&lt;/a&gt;, &lt;a href=&#34;http://www.imdb.com/title/tt0910970/&#34;&gt;Wall-E&lt;/a&gt;, &lt;a href=&#34;http://www.imdb.com/title/tt1049413/&#34;&gt;Up&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.imdb.com/company/co0017902/&#34;&gt;more&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
       <link>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</link>
       <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</guid>
-      <description>If you did not have enough time to go through the 50G contents from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+      <description>&lt;p&gt;If you did not have enough time to go through the &lt;a href=&#34;http://www.flickr.com/photos/palaniraja-mca/9149855356/&#34;&gt;50G contents&lt;/a&gt; from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;&lt;em&gt;Hidden Gems in Cocoa and Cocoa Touch&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Randy Pausch Last Lecture: Achieving Your Childhood Dreams</title>
       <link>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</link>
       <pubDate>Sun, 29 Jan 2012 00:41:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</guid>
-      <description>Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=ji5_MqicxSo Youtube - Randy Pausch Last Lecture | Achieving Your Childhood Dreams</description>
+      <description>&lt;noscript&gt;&#xA;    &lt;p class=&#34;noscript&#34;&gt;Content requires Javascript to be enabled.&lt;/p&gt;&#xA;&#xA;    &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ji5_MqicxSo&#34;&gt;https://www.youtube.com/watch?v=ji5_MqicxSo&lt;/a&gt; &lt;/p&gt;&#xA;&#xA;    &lt;br/&gt;&#xA;    &#xA;&lt;/noscript&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;    p.noscript{&#xA;        background-color: #fefea0;&#xA;        border-left: 4px solid #fea0a0;&#xA;        padding: 0 0.25em;&#xA;    }&#xA;&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ji5_MqicxSo&#34;&gt;Youtube - Randy Pausch Last Lecture | Achieving Your Childhood Dreams&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Recommended Git workflow</title>
       <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
       <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
-      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;http://stackoverflow.com/questions/871/why-is-git-better-than-subversion&#34;&gt;Git&lt;/a&gt; as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches. Our company use SVN and other peers were not aware/interested in &lt;a href=&#34;http://git.or.cz/course/svn.html&#34;&gt;Git&lt;/a&gt;. So I took the initiative to use svn-git. After months of progress I left with so many branches for features, svn, QA-release and quick-fix for released builds.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Shane Warne - The Leader</title>
       <link>https://www.palaniraja.com/2011/05/shane-warne-the-leader/</link>
       <pubDate>Mon, 16 May 2011 11:21:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/shane-warne-the-leader/</guid>
-      <description>Color me surprised, I was amazed by his replies. Here is my favourite one
-Harsha Bhogle: What you strive to do as a leader?</description>
+      <description>&lt;p&gt;Color me surprised, I was amazed by his replies. Here is my favourite one&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Harsha Bhogle&lt;/em&gt;: What you strive to do as a leader? Understand people?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

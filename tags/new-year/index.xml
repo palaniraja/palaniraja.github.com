@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>new year on PR</title>
+    <title>New Year on PR</title>
     <link>https://www.palaniraja.com/tags/new-year/</link>
-    <description>Recent content in new year on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in New Year on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 01 Jan 2013 09:41:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/new-year/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jan 2013 09:41:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/new-year/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Dumps</title>
       <link>https://www.palaniraja.com/2013/01/project-dumps/</link>
       <pubDate>Tue, 01 Jan 2013 09:41:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/project-dumps/</guid>
-      <description>Wish you all a very happy new year!
-It is 2013, another chance for us/me to start a new beginning. I believed in Mayan so much, I never had a plan post 20th Dec 2012 :)</description>
+      <description>&lt;p&gt;Wish you all a very happy new year!&lt;/p&gt;&#xA;&lt;p&gt;It is 2013, another chance for us/me to start a new beginning. I believed in &lt;a href=&#34;http://en.wikipedia.org/wiki/Maya_civilization&#34;&gt;Mayan&lt;/a&gt; so much, I never had a plan post &lt;a href=&#34;http://rationalwiki.org/wiki/2012_apocalypse&#34;&gt;20th Dec 2012&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Resolutions for 2012</title>
       <link>https://www.palaniraja.com/2011/12/resolutions-for-2012/</link>
       <pubDate>Sat, 31 Dec 2011 23:03:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/resolutions-for-2012/</guid>
-      <description>For the first time in history, I am publishing resolution list online, let see if this helps.
-Shed at least 5kg weight The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.</description>
+      <description>&lt;p&gt;For the first time in history, I am publishing resolution list online, let see if this helps.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Shed at least 5kg weight&lt;/li&gt;&#xA;&lt;li&gt;The iPhone4s which can&amp;rsquo;t resist myself from buying should be the last gadget for the year.&lt;/li&gt;&#xA;&lt;li&gt;Donate the pile of books I&amp;rsquo;m keeping to the library&lt;/li&gt;&#xA;&lt;li&gt;Publish at least 2 iOS apps&lt;/li&gt;&#xA;&lt;li&gt;At least 2 mac apps&lt;/li&gt;&#xA;&lt;li&gt;Publish at least 5 prototype from my idea vault.&lt;/li&gt;&#xA;&lt;li&gt;Gift at least one device&lt;/li&gt;&#xA;&lt;li&gt;Author 5 library/codes on Github&lt;/li&gt;&#xA;&lt;li&gt;Gift/sell my other devices - Too many Apple devices &lt;/li&gt;&#xA;&lt;li&gt;Learn a new language/Framework (Ruby, Coffeescript, Node?)&lt;/li&gt;&#xA;&lt;li&gt;Build at least 2 Html5 app/util&lt;/li&gt;&#xA;&lt;li&gt;A vacation? I didn&amp;rsquo;t leave home for almost 4 yrs.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Other than this there are quite a lot like perfect pitch training, learn a music instrument, painting etc., I carry from previous years.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

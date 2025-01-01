@@ -4,19 +4,16 @@
     <title>Nook on PR</title>
     <link>https://www.palaniraja.com/tags/nook/</link>
     <description>Recent content in Nook on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 16 Aug 2010 23:55:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/nook/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Aug 2010 23:55:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/nook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EReader friendly Times Of India – EPUB Edition</title>
       <link>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</link>
       <pubDate>Mon, 16 Aug 2010 23:55:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/</guid>
-      <description>I have completed the 95% of the project I was tweeting and here is the preview
-What does it do? It is a PHP script that helps you to convert Times of India (Daily newspaper) to EPUB.</description>
+      <description>&lt;p&gt;I have completed the &lt;strong&gt;95%&lt;/strong&gt; of the project I was tweeting and here is the preview&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/147006922-3fa0114ff9e6e3eea2efcd1f29eddd23.4c6aaaf8-full.png&#34; alt=&#34;EPUB viewed in Adobe Digital Edition&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

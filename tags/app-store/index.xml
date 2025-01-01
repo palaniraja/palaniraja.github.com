@@ -4,106 +4,79 @@
     <title>App Store on PR</title>
     <link>https://www.palaniraja.com/tags/app-store/</link>
     <description>Recent content in App Store on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/app-store/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Oct 2017 07:25:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/app-store/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev Diary: Apple Pay</title>
       <link>https://www.palaniraja.com/2017/10/dev-diary-apple-pay/</link>
       <pubDate>Sun, 22 Oct 2017 07:25:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2017/10/dev-diary-apple-pay/</guid>
-      <description>I&amp;rsquo;ve recently integrated Apple Pay for an iOS app. Though I have heard it is very easy to integrate and lot of tutorials available, I could not find overall requirements/activities involved in integrating Apple Pay.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently integrated &lt;a href=&#34;https://www.apple.com/apple-pay/&#34;&gt;Apple Pay&lt;/a&gt; for an iOS app. Though I have heard it is very easy to integrate and lot of tutorials available, I could not find overall requirements/activities involved in integrating Apple Pay.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Speedy</title>
       <link>https://www.palaniraja.com/projects/speedy/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/projects/speedy/</guid>
-      <description>Speedy is a Speed reading application for Mac OS X that lets you speed read the text contents.
-It is based on speed reading technique/methodology called Spritz</description>
+      <description>&lt;p&gt;Speedy is a Speed reading application for Mac OS X that lets you speed read the text contents.&lt;/p&gt;&#xA;&lt;p&gt;It is based on speed reading technique/methodology called &lt;a href=&#34;http://spritzinc.com/the-science&#34;&gt;Spritz&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Speedy - Speed reading application for Mac</title>
       <link>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</link>
       <pubDate>Tue, 17 Jan 2017 06:34:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2017/01/speedy-speed-reading-application-for-mac/</guid>
-      <description>Speedy is an utility application for Mac OS X that lets you speed read the text contents.
-I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &amp;rsquo;endless space between the words&amp;rsquo; with my lack of concentration or I should say gift of imagination?</description>
+      <description>&lt;p&gt;Speedy is an utility application for Mac OS X that lets you speed read the text contents.&lt;/p&gt;&#xA;&lt;p&gt;I created to read the emails &amp;amp; news faster, as I have a tendency to lost in &lt;a href=&#34;http://www.imdb.com/title/tt1798709/quotes?item=qt2085733&#34;&gt;&amp;rsquo;endless space between the words&amp;rsquo;&lt;/a&gt; with my lack of concentration or I should say gift of imagination?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Expired distribution provisioning and Yak shaving</title>
       <link>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</link>
       <pubDate>Wed, 16 Jan 2013 00:18:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/expired-distribution-provisioning-and-yak-shaving/</guid>
-      <description>Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app.</description>
+      <description>&lt;p&gt;Last Thursday one of my iPad app&amp;rsquo;s provisioning file has expired. Client brought it to us at the very late moment, the iPad app was distributed internally as an enterprise app. App users are for &lt;a href=&#34;http://en.wikipedia.org/wiki/HVAC&#34;&gt;HVAC&lt;/a&gt; technicians, app integrates with their organization&amp;rsquo;s CRM (&lt;a href=&#34;http://login.salesforce.com/&#34;&gt;Salesforce&lt;/a&gt;) so distributing it with App store doesn&amp;rsquo;t make any sense.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Play Angrybirds on web (Chrome)</title>
       <link>https://www.palaniraja.com/2011/05/play-angrybirds-on-web-chrome/</link>
       <pubDate>Sat, 14 May 2011 10:50:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/play-angrybirds-on-web-chrome/</guid>
-      <description>HD for good configuration computers | SD for little out of date computers
-For those who wants to see all levels without completing a level or struck in a level, here is the hack, copy the following code, paste it on url textbox and hit enter.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/angry-birds-chrome.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://chrome.angrybirds.com/&#34;&gt;HD for good configuration computers&lt;/a&gt; | &lt;a href=&#34;http://chrome.angrybirds.com/?version=standard&#34;&gt;SD for little out of date computers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;For those who wants to see all levels without completing a level or struck in a level, here is the hack, copy the following code, paste it on url textbox and hit enter.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mac App Store - Source</title>
       <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
-      <description>You get the idea? You are not looking for the UI code are you?
-Saurik will be doing the UI for us ;)</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-10-24-at-12.27.51-AM.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-10-24-at-12.27.51-AM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You get the idea? You are not looking for the UI code are you?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://twitter.com/SAURIK&#34;&gt;Saurik&lt;/a&gt; will be doing the UI for us ;)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Apple Sep 1, 2010 Event under 3 min</title>
       <link>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</link>
       <pubDate>Thu, 09 Sep 2010 11:33:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
-      <description>Youtube link
-Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-24euRgImPg&#34;&gt;Youtube link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;noscript&gt;&#xA;    &lt;p class=&#34;noscript&#34;&gt;Content requires Javascript to be enabled.&lt;/p&gt;&#xA;&#xA;    &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-24euRgImPg&#34;&gt;https://www.youtube.com/watch?v=-24euRgImPg&lt;/a&gt; &lt;/p&gt;&#xA;&#xA;    &lt;br/&gt;&#xA;    &#xA;&lt;/noscript&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;    p.noscript{&#xA;        background-color: #fefea0;&#xA;        border-left: 4px solid #fea0a0;&#xA;        padding: 0 0.25em;&#xA;    }&#xA;&lt;/style&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-24euRgImPg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/09/call-me-hypocrite-my-take-on-apple.html&#34;&gt;Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/09/call-me-hypocrite-my-take-on-apple_08.html&#34;&gt;Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
       <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
-      <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
+      <description>&lt;h3 id=&#34;itunes-10&#34;&gt;iTunes 10&lt;/h3&gt;&#xA;&lt;p&gt;Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys! they have changed the boring icon after a decade.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
       <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
-      <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-09-04-at-10.00.40-PM.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-09-04-at-10.00.40-PM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Only yesterday I got a chance to view the Keynote video. You can also &lt;a href=&#34;http://itunes.apple.com/us/podcast/apple-special-event-september/id275834665?i=86766489&#34;&gt;download&lt;/a&gt; the video from iTunes for Free.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Angry Birds – I give up</title>
       <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
-I am not a great gamer, I give up on games too early.</description>
+      <description>&lt;p&gt;Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)&lt;/p&gt;&#xA;&lt;p&gt;I am not a great gamer, I give up on games too early. But this Angry Birds is one hell of a game (next to Road Rash &amp;amp; NFS II) that makes me addicted for a long time.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

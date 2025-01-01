@@ -4,18 +4,16 @@
     <title>Emoji on PR</title>
     <link>https://www.palaniraja.com/tags/emoji/</link>
     <description>Recent content in Emoji on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 16 Jun 2014 10:24:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jun 2014 10:24:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Functional Special characters in Mavericks</title>
       <link>https://www.palaniraja.com/2014/06/functional-special-characters-in-mavericks/</link>
       <pubDate>Mon, 16 Jun 2014 10:24:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/06/functional-special-characters-in-mavericks/</guid>
-      <description>I was one of the very few people who held on to the last cat OS X (Mountain Lion). I had to switch to Mavericks at office to play with the new shiny language Swift.</description>
+      <description>&lt;p&gt;I was one of the very few people who held on to the last cat OS X (&lt;em&gt;Mountain Lion&lt;/em&gt;). I had to switch to Mavericks at office to play with the new shiny language Swift.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

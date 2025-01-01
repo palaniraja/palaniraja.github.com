@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>planning on PR</title>
+    <title>Planning on PR</title>
     <link>https://www.palaniraja.com/tags/planning/</link>
-    <description>Recent content in planning on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Planning on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/planning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Mar 2013 07:08:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/planning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
       <pubDate>Sat, 30 Mar 2013 07:08:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</guid>
-      <description>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</description>
+      <description>&lt;p&gt;Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

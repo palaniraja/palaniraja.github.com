@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ibooks on PR</title>
+    <title>Ibooks on PR</title>
     <link>https://www.palaniraja.com/tags/ibooks/</link>
-    <description>Recent content in ibooks on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ibooks on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Fri, 20 Jan 2012 06:37:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/ibooks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2012 06:37:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/ibooks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea Vault: iBooks 3.0</title>
       <link>https://www.palaniraja.com/2012/01/idea-vault-ibooks-3.0/</link>
       <pubDate>Fri, 20 Jan 2012 06:37:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/idea-vault-ibooks-3.0/</guid>
-      <description>The idea supposed to be named as iBooks 2.0 well it is taken by Apple yesterday :)
-The original pointers of this idea from my notebook are</description>
+      <description>&lt;p&gt;The idea supposed to be named as iBooks 2.0 well it is taken by Apple yesterday :)&lt;/p&gt;&#xA;&lt;p&gt;The original pointers of this idea from my notebook are&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

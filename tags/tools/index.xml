@@ -1,178 +1,138 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tools on PR</title>
+    <title>Tools on PR</title>
     <link>https://www.palaniraja.com/tags/tools/</link>
-    <description>Recent content in tools on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tools on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 22 Oct 2014 00:06:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2014 00:06:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kids these days</title>
       <link>https://www.palaniraja.com/2014/10/kids-these-days/</link>
       <pubDate>Wed, 22 Oct 2014 00:06:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2014/10/kids-these-days/</guid>
-      <description>Last weekend I was fortunate to be a technical evaluator of an hackathon. Yes, I&amp;rsquo;m trying to be vague here, as my company sponsored this event at a most reputed university of our state, this post is just my view.</description>
+      <description>&lt;p&gt;Last weekend I was fortunate to be a technical evaluator of an hackathon. Yes, I&amp;rsquo;m trying to be vague here, as my company sponsored this event at a most reputed university of our state,  this post is just my view.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
       <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
       <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
-      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://efendibooks.com/minibooks/testing-with-coffeescript&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-04-21-at-11.49.28-AM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; (Test Driven Development) was introduced to me around 2006 with &lt;a href=&#34;http://www.phpunit.de/manual/current/en/index.html&#34;&gt;PHPUnit&lt;/a&gt;. As a naive, I couldn&amp;rsquo;t see the benefits, eg., I saw the pattern of code has been updated very often (growing organically) and frequent failing test. I was like, &lt;em&gt;Why should I write unit test to test my own code? with the same data I used for manual testing?&lt;/em&gt; As they say I was seeing the forest for the trees. I failed to realize the failing test is actually the benefit of practicing TDD.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Project Plan and Gantter.com</title>
       <link>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</link>
       <pubDate>Sat, 30 Mar 2013 07:08:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/03/project-plan-and-gantter.com/</guid>
-      <description>Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:</description>
+      <description>&lt;p&gt;Project planning is always a difficult task for me. I could do anything to skip the project planning because for following reasons:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>mclock - Additional clock application for mac menu bar</title>
       <link>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</link>
       <pubDate>Sun, 06 Nov 2011 09:49:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/mclock-additional-clock-application-for-mac-menu-bar/</guid>
-      <description>Update (2016-01-20): The app is now available on Mac App store.
-Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; (2016-01-20)&lt;strong&gt;:&lt;/strong&gt; The app is now available on &lt;a href=&#34;https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1076119164&amp;amp;mt=12&#34;&gt;Mac App store&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Additional menu clock for your Mac. A minimalist clock to display time of different timezone of your choice.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea to action: Tile this</title>
       <link>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</link>
       <pubDate>Thu, 18 Aug 2011 10:54:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/idea-to-action-tile-this/</guid>
-      <description>Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-08-18-at-11.15.36-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Not many of my ideas are converted to a project, this one has seen its light last week. Though I haven&amp;rsquo;t completed all the UI and features of my original vision, it is better to have one working idea than nothing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
       <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
-      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+      <description>&lt;p&gt;One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at &lt;a href=&#34;http://apple.stackexchange.com/questions/17229/is-there-a-way-i-can-import-readitlaters-exported-html-file-into-my-instapaper/&#34;&gt;apple.stackexchange.com&lt;/a&gt;, the original answer was based on my experience sometime ago I was searching to migrate my links between my Instapaper accounts.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
       <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
       <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
-      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I recently found this site called &lt;a href=&#34;http://diawi.com/&#34;&gt;diawi.com&lt;/a&gt; which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Shell script to generate images for testing</title>
       <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
       <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
-      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+      <description>&lt;p&gt;Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SVN: Export only updated files between 2 revisions</title>
       <link>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</link>
       <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
-      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</description>
+      <description>&lt;p&gt;Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Google Chrome : Hybrid of all</title>
       <link>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</link>
       <pubDate>Sat, 06 Sep 2008 03:38:02 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/google-chrome-hybrid-of-all/</guid>
-      <description> Webkit as rendering engine like Safari Tabstyles are from Flock Startup page similar to Opera speed-dial and Flock myhome page Paste and go in the address bar like Opera No menu bar like IE 7 Tab-to-window and vice versa from Opera/Safari Incognito browsing similar to Private Browsing Create Application Shortcuts like Mozilla Prism What’s new in Google Chrome No two separate textboxes for URL and for Search Every tab is a separate process Innovative Search, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari Built-in support for Google Gears Above all its from the giant Google </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Webkit&lt;/strong&gt; as rendering engine like Safari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tabstyles&lt;/strong&gt; are from Flock&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Startup page&lt;/strong&gt; similar to Opera speed-dial and Flock myhome page&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Paste and go&lt;/strong&gt; in the address bar like Opera&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;No menu ba&lt;/strong&gt;r like IE 7&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tab-to-window&lt;/strong&gt; and vice versa from Opera/Safari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Incognito browsing&lt;/strong&gt; similar to Private Browsing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Create Application Shortcuts&lt;/strong&gt; like Mozilla Prism&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;whats-new-in-google-chrome&#34;&gt;What’s new in Google Chrome&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;No two&lt;/strong&gt; separate &lt;strong&gt;textboxes&lt;/strong&gt; for URL and for Search&lt;/li&gt;&#xA;&lt;li&gt;Every tab is a separate &lt;strong&gt;process&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Innovative Search&lt;/strong&gt;, composite of Tortoise Merge (any Textdiff app), Firefox’s (Highlight All) findbox positioned similar to Safari&lt;/li&gt;&#xA;&lt;li&gt;Built-in support for &lt;strong&gt;Google Gears&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Above all its from the giant &lt;strong&gt;Google&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>SVN: Auto UPDATE WORKING COPY after COMMIT</title>
       <link>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</link>
       <pubDate>Fri, 05 Sep 2008 19:12:02 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</guid>
-      <description>In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.</description>
+      <description>&lt;p&gt;In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sticky notes with PHP and Jquery</title>
       <link>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</link>
       <pubDate>Sat, 19 Jul 2008 13:08:26 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
-      <description>Script speaks louder than words. Please go through the following links
-PHP Gd based Sticky script
-Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
+      <description>&lt;p&gt;Script speaks louder than words. Please go through the following links&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PHP Gd based Sticky script&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://palani.bitsymphony.com/lab/sticky/&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/demo.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jquery UI based Sticky page&lt;/strong&gt;&#xA;&lt;a href=&#34;http://palani.bitsymphony.com/lab/sticky/demo2.php&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/stickypage.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Play YouTube with FLV player of your choice</title>
       <link>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</link>
       <pubDate>Thu, 25 Oct 2007 09:34:43 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</guid>
-      <description>Not working anymore, but you are free to explore the code. Updates are welcome.
-I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case).</description>
+      <description>&lt;p&gt;&lt;strong&gt;Not working anymore, but you are free to explore the code. Updates are welcome.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case). The flv files will not be download to the server, it streams directly from YouTube .&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tamil.net links xTamil tool</title>
       <link>https://www.palaniraja.com/2007/07/tamil.net-links-xtamil-tool/</link>
       <pubDate>Tue, 24 Jul 2007 09:45:13 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/07/tamil.net-links-xtamil-tool/</guid>
-      <description>I&amp;rsquo;m overwhelmed with happiness after I saw my Google analytics report today. This blog and the new tool which I wrote xTamil - English to Tamil convertor (Unicode) are linked in a Tamil portal site Tamil.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m overwhelmed with happiness after I saw my Google analytics report today. This blog and the new tool which I wrote &lt;a href=&#34;http://palaniraja.12gbfree.com/xTamil&#34; title=&#34;xTamil - English to Tamil unicode convertor&#34;&gt;xTamil&lt;/a&gt; - English to Tamil convertor (Unicode) are linked in a Tamil portal site &lt;a href=&#34;http://www.tamil.net&#34; title=&#34;Tamil.net&#34;&gt;Tamil.net&lt;/a&gt;. They also list numerous no. of phonetic English to Tamil Unicode convertor, I promise you all that my tool will be unique after the completion (will take a month or two).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>English to Tamil convertor (Unicode)</title>
       <link>https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/</link>
       <pubDate>Mon, 23 Jul 2007 09:45:37 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/07/english-to-tamil-convertor-unicode/</guid>
-      <description>Atlast, I finished my first verison of English to Tamil unicode convertor(Transliterater). What I planned to do was bit different than the one which is available now.</description>
+      <description>&lt;p&gt;Atlast, I finished my first verison of English to Tamil unicode convertor(Transliterater). What I planned to do was bit different than the one which is available now. Hope I will get the time to upgrade my unicode convertor( or Transliterater) to unique tool within a month.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Clean yahoo webmail without Ad&#39;s</title>
       <link>https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/</link>
       <pubDate>Tue, 10 Jul 2007 12:14:30 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/</guid>
-      <description>Today, I have uploaded my second Greasemonkey scripts to userscripts, Yahoo webmail++ . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side.</description>
+      <description>&lt;p&gt;Today, I have uploaded my second Greasemonkey scripts to &lt;a href=&#34;http://userscripts.org&#34; title=&#34;http://userscripts.org&#34;&gt;userscripts&lt;/a&gt;, &lt;a href=&#34;http://userscripts-mirror.org/scripts/show/10590&#34; title=&#34;http://userscripts.org/scripts/show/10590&#34;&gt;Yahoo webmail++&lt;/a&gt; . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side. Initially I was trying to do something similar to Gmail Airskin, but unfortunately yahoo uses lot of tables, which I find difficult to finish the script, at this stage it will remove only the advertisements and I will try to update the script soon.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Safari for Windows</title>
       <link>https://www.palaniraja.com/2007/06/safari-for-windows/</link>
       <pubDate>Wed, 13 Jun 2007 06:22:38 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/06/safari-for-windows/</guid>
-      <description>Finally Apple offers Safari for Windows, I am on my Safari now!. But there are bugs in Windows version of Safari, please go through the Techrunch link.</description>
+      <description>&lt;p&gt;Finally Apple offers Safari for Windows, I am on my Safari now!. But there are bugs in Windows version of Safari, please go through the &lt;a href=&#34;http://www.techcrunch.com/2007/06/12/safari-on-windows-a-security-risk/&#34;&gt;Techrunch link&lt;/a&gt;. Here is my own list (Though! I am newbie to Safari), First thing I did was searching webdeveloper plugins for Safari, I tried HTML Tidy extension for Safari!, Safari crashed after downloading. Second, I can&amp;rsquo;t able to browse Yahoo mail beta (it says it can&amp;rsquo;t open https link, that is weird), Gmail compose message page doesn&amp;rsquo;t look good as it does in IE/Mozilla.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Why does my dreamweaver look so beautiful?</title>
       <link>https://www.palaniraja.com/2007/06/why-does-my-dreamweaver-look-so-beautiful/</link>
       <pubDate>Mon, 11 Jun 2007 14:55:06 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/06/why-does-my-dreamweaver-look-so-beautiful/</guid>
-      <description>I don’t find an alternative title. Like anyone out there, I envy Textmate features where it is present in all the screencasts for PHP &amp;amp; RoR out there.</description>
+      <description>&lt;p&gt;I don’t find an alternative title. Like anyone out there, I envy Textmate features where it is present in all the screencasts for PHP &amp;amp; RoR out there. So, I started looking for a Textmate alternate on windows, and came to this post &lt;a href=&#34;http://www.webdevkungfu.com/textmate-envy-aka-monaco-font-for-windows/&#34; title=&#34;Textmate Envy Monaco on Windows&#34;&gt;Textmate envy&lt;/a&gt;. I tried the font Monaco (Textmate&amp;rsquo;s default), which looked beautiful in &lt;a href=&#34;http://www.getfirebug.com&#34; title=&#34;Firebug&#34;&gt;Firebug&lt;/a&gt; but not in Dreamweaver. Filled with dissapointment, I google again for a download for the font Monaco, then, eureka! I found this link, &lt;a href=&#34;http://www.openwatcom.org/index.php/Programmers_Fonts&#34; title=&#34;Programmers fonts&#34;&gt;Programmers font&lt;/a&gt;. Which means, I am not alone, there are more people out there looking for the suitable replacement to Courier New (isn’t it time to change?). I have tried a few Monaca, Dejavu, Bitstream Vera.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

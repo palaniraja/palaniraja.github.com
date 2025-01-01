@@ -14,7 +14,7 @@
   <meta property="og:url" content="https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.111.3">
+  <meta name="generator" content="Hugo 0.140.2">
 
   
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.palaniraja.com/apple-touch-icon.png">
@@ -65,7 +65,7 @@
       
       <p>My work Bitbucket doesn&rsquo;t support proper syntax highlighting for <code>kotlin</code> for unknown reasons. A quick search led me to this <a href="https://jira.atlassian.com/browse/BCLOUD-16513">Atlassian public jira</a> ticket from 2018.</p>
 <p>They closed the ticket now - <em>like last week</em>! But the issue they linked is a ticket that adds syntax highlight to diffs not for viewing source files. Anyway, I still do not see syntax highlights on our repo for <code>.kt</code> files.</p>
-<p>And it is frustrating to stop and share multiple windows during Microsoft Teams/Slack sessions. I prefer to share one browser window so I can simply open another repo in another tab instead of doing a <em>stop and start sharing</em> routine after switching it to a new repo with Android Studio. Also I do need to wait for Gradle sync or resolving errors.</p>
+<p>And it is frustrating to stop and share multiple windows during Microsoft Teams/Slack sessions. I prefer to share one browser window so I can simply open another repo in another tab instead of doing a <em>stop and start sharing</em> routine after switching it to a new repo with Android Studio. Also I do not need to wait for Gradle sync or resolve errors.</p>
 <p>I initially thought I could use <a href="https://github.com/highlightjs/highlight.js">highlight.js</a> to add syntax highlighting. But digging a little deeper I found that Bitbucket uses <a href="https://github.com/microsoft/monaco-editor">Monaco-editor</a> as their editor/viewer for source code.</p>
 <p>After spending some time reviewing <code>Monaco</code> documentation and <a href="https://microsoft.github.io/monaco-editor/playground.html">monaco</a> / <a href="https://microsoft.github.io/monaco-editor/monarch.html">monarch</a> playgrounds. I was able to add syntax-highlighting to <code>kotlin</code> relatively easily. Fortunately, I was able to find <a href="https://github.com/microsoft/monaco-editor/blob/main/src/basic-languages/kotlin/kotlin.ts">kotlin syntax in monaco-repo</a> and most of my time spent on figuring out what goes into <code>setMonarchTokensProvider</code></p>
 <p>Now, I have a bookmarklet to add kotlin syntax highlight with one click.</p>
@@ -393,7 +393,7 @@ monaco.editor.setModelLanguage(ed, &#39;kotlin&#39;)
       <a href="https://www.palaniraja.com/about/" title="About">About</a> 
   </p>
 
-  <p align="center">&copy; 2006-2023 palaniraja</p>
+  <p align="center"></p>
 </div>
 
 </body>

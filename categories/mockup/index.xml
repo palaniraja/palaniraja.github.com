@@ -1,60 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mockup on PR</title>
+    <title>Mockup on PR</title>
     <link>https://www.palaniraja.com/categories/mockup/</link>
-    <description>Recent content in mockup on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Mockup on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 06 Jan 2013 03:38:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/categories/mockup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jan 2013 03:38:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/categories/mockup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea Vault: Prj - Dug Me</title>
       <link>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</link>
       <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</guid>
-      <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
-Idea is to log all our project ideas similar to logging notes in nvALT.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-01-06-at-4.30.39-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Task management app with little twist. Yep, &lt;a href=&#34;http://pixar.wikia.com/Dug&#34;&gt;Dug&lt;/a&gt; instead of &lt;a href=&#34;http://en.wikipedia.org/wiki/Office_Assistant&#34;&gt;clippy&lt;/a&gt; while nagging.&lt;/p&gt;&#xA;&lt;p&gt;Idea is to log all our project ideas similar to logging notes in nvALT. This app runs in the background and randomly nag you to split a one line task you had logged earlier to multiple small tasks.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Tree view</title>
       <link>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</link>
       <pubDate>Tue, 01 Jan 2013 10:32:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/idea-vault-tree-view/</guid>
-      <description>A Bookmarklet or a Browser extension to select the root element of a DOM (UL/OL) to view the Inverted tree structure of its child nodes.</description>
+      <description>&lt;p&gt;A Bookmarklet or a Browser extension to select the root element of a DOM (UL/OL) to view the Inverted tree structure of its child nodes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: iBooks 3.0</title>
       <link>https://www.palaniraja.com/2012/01/idea-vault-ibooks-3.0/</link>
       <pubDate>Fri, 20 Jan 2012 06:37:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/idea-vault-ibooks-3.0/</guid>
-      <description>The idea supposed to be named as iBooks 2.0 well it is taken by Apple yesterday :)
-The original pointers of this idea from my notebook are</description>
+      <description>&lt;p&gt;The idea supposed to be named as iBooks 2.0 well it is taken by Apple yesterday :)&lt;/p&gt;&#xA;&lt;p&gt;The original pointers of this idea from my notebook are&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Tile this!</title>
       <link>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</link>
       <pubDate>Thu, 27 Jan 2011 10:43:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/01/idea-vault-tile-this/</guid>
-      <description>Update: Check the extension and more information @ Idea to action: Tile this I was recently hunting images for a sample design.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Check the extension and more information @ &lt;a href=&#34;https://www.palaniraja.com/2011/08/idea-to-action-tile-this/&#34;&gt;Idea to action: Tile this &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was recently hunting images for a sample design. I was trying to find a pattern that can be tiled/repeated to fill.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: When is that?</title>
       <link>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</link>
       <pubDate>Tue, 14 Dec 2010 10:39:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</guid>
-      <description>I guess like me there will be many people often confuse appointments/client calls due to timezone differences.
-I am not talking about people who send/receive schedules from Outlook (or similar apps).</description>
+      <description>&lt;p&gt;I guess like me there will be many people often confuse appointments/client calls due to timezone differences.&lt;/p&gt;&#xA;&lt;p&gt;I am not talking about people who send/receive schedules from Outlook (or similar apps).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

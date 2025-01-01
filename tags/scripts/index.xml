@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>scripts on PR</title>
+    <title>Scripts on PR</title>
     <link>https://www.palaniraja.com/tags/scripts/</link>
-    <description>Recent content in scripts on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Scripts on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 26 Aug 2012 06:20:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Aug 2012 06:20:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install Grease monkey scripts on Google Chrome 21</title>
       <link>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</link>
       <pubDate>Sun, 26 Aug 2012 06:20:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</guid>
-      <description>Chrome updated its policy to not to install extensions and scripts outside of Google webstore by default. (Gatekeeper, everyone wants to be the police)</description>
+      <description>&lt;p&gt;Chrome updated its policy to not to install extensions and scripts outside of Google webstore by default. (Gatekeeper, everyone wants to be the police)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

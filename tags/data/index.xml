@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data on PR</title>
+    <title>Data on PR</title>
     <link>https://www.palaniraja.com/tags/data/</link>
-    <description>Recent content in data on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Data on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 25 Mar 2020 08:47:04 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Mar 2020 08:47:04 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2019 Review</title>
       <link>https://www.palaniraja.com/2020/03/2019-review/</link>
       <pubDate>Wed, 25 Mar 2020 08:47:04 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2020/03/2019-review/</guid>
-      <description>I ain&amp;rsquo;t no Stephen Wolfram but I do try to time myself on any activities I do on my computer whenever possible.</description>
+      <description>&lt;p&gt;I ain&amp;rsquo;t no &lt;a href=&#34;https://writings.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/&#34;&gt;Stephen Wolfram&lt;/a&gt; but I do try to time myself on any activities I do on my computer whenever possible. Mostly to validate (or train my mind) the time took to finish a task is not what I thought it would be. At times I pleasantly surprised, most often my estimates are always under estimated.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RescueTime weekly summary and Google Script</title>
       <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
       <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
-      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+      <description>&lt;p&gt;I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else. I have always run two or three passive self policing apps like &lt;a href=&#34;https://www.rescuetime.com/&#34;&gt;Rescuetime&lt;/a&gt; and &lt;a href=&#34;https://itunes.apple.com/ca/app/free-time-tracker-timing-lite/id467410757?mt=12&#34;&gt;Timing&lt;/a&gt; etc.,&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

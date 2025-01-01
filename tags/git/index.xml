@@ -1,57 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on PR</title>
+    <title>Git on PR</title>
     <link>https://www.palaniraja.com/tags/git/</link>
-    <description>Recent content in git on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Git on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 28 Mar 2023 19:54:59 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 19:54:59 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to view git change history of a Swift method</title>
       <link>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</link>
       <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</guid>
-      <description>I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.</description>
+      <description>&lt;p&gt;I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Script to delete xcode buildconfigurations</title>
       <link>https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/</link>
       <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/</guid>
-      <description>Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one.</description>
+      <description>&lt;p&gt;Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one. And the $ Trillion/Billion company do not find enginneers to assign multiple edits in scheme/buildconfig/simulator list in xcode UI.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Whatchanged - Git history as HTML Report</title>
       <link>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</link>
       <pubDate>Mon, 18 Mar 2019 10:04:20 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</guid>
-      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team. I am not sure the basis of the request, as they can go through the git repo themselves.</description>
+      <description>&lt;p&gt;Recently I was requested to produce a report of changes in a git repo between two tags by testing team. I am not sure the basis of the request, as they can go through the git repo themselves. I also kind of thought it is better to have a separate report that can be uploaded to their release ticket for archival; instead of going through each commits between revisions or any changes to repo history.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dev Diary</title>
       <link>https://www.palaniraja.com/2016/01/dev-diary/</link>
       <pubDate>Sun, 31 Jan 2016 07:30:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2016/01/dev-diary/</guid>
-      <description>This is something I&amp;rsquo;ve started in Jan &amp;lsquo;15. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?</description>
+      <description>&lt;p&gt;This is something I&amp;rsquo;ve started in Jan &amp;lsquo;&lt;a href=&#34;https://github.com/palaniraja/devdiary/commits/master&#34;&gt;15&lt;/a&gt;. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Recommended Git workflow</title>
       <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
       <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
-      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;http://stackoverflow.com/questions/871/why-is-git-better-than-subversion&#34;&gt;Git&lt;/a&gt; as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches. Our company use SVN and other peers were not aware/interested in &lt;a href=&#34;http://git.or.cz/course/svn.html&#34;&gt;Git&lt;/a&gt;. So I took the initiative to use svn-git. After months of progress I left with so many branches for features, svn, QA-release and quick-fix for released builds.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

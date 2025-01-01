@@ -1,209 +1,159 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>scripts on PR</title>
+    <title>Scripts on PR</title>
     <link>https://www.palaniraja.com/categories/scripts/</link>
-    <description>Recent content in scripts on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Scripts on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 02 Apr 2023 21:55:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/categories/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 21:55:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/categories/scripts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add syntax highlighting to any source code in Bitbucket</title>
       <link>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</link>
       <pubDate>Sun, 02 Apr 2023 21:55:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2023/04/how-to-add-syntax-highlighting-to-any-source-code-in-bitbucket/</guid>
-      <description>My work Bitbucket doesn&amp;rsquo;t support proper syntax highlighting for kotlin for unknown reasons. A quick search led me to this Atlassian public jira ticket from 2018.</description>
+      <description>&lt;p&gt;My work Bitbucket doesn&amp;rsquo;t support proper syntax highlighting for &lt;code&gt;kotlin&lt;/code&gt; for unknown reasons. A quick search led me to this &lt;a href=&#34;https://jira.atlassian.com/browse/BCLOUD-16513&#34;&gt;Atlassian public jira&lt;/a&gt; ticket from 2018.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to view git change history of a Swift method</title>
       <link>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</link>
       <pubDate>Tue, 28 Mar 2023 19:54:59 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</guid>
-      <description>I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.</description>
+      <description>&lt;p&gt;I knew git had a feature to get change history of a method. I used it all the time with ObjC but it never worked for swift files.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Script to delete xcode buildconfigurations</title>
       <link>https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/</link>
       <pubDate>Tue, 25 Jun 2019 20:37:01 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2019/06/script-to-delete-xcode-buildconfigurations/</guid>
-      <description>Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one.</description>
+      <description>&lt;p&gt;Yes, you do not need this solution, unless you know for sure you have one too many build configs and it is time consuming to delete one by one. And the $ Trillion/Billion company do not find enginneers to assign multiple edits in scheme/buildconfig/simulator list in xcode UI.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Whatchanged - Git history as HTML Report</title>
       <link>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</link>
       <pubDate>Mon, 18 Mar 2019 10:04:20 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2019/03/whatchanged-git-history-as-html-report/</guid>
-      <description>Recently I was requested to produce a report of changes in a git repo between two tags by testing team. I am not sure the basis of the request, as they can go through the git repo themselves.</description>
+      <description>&lt;p&gt;Recently I was requested to produce a report of changes in a git repo between two tags by testing team. I am not sure the basis of the request, as they can go through the git repo themselves. I also kind of thought it is better to have a separate report that can be uploaded to their release ticket for archival; instead of going through each commits between revisions or any changes to repo history.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Script to publish Hugo sites for Github</title>
       <link>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</link>
       <pubDate>Fri, 17 Aug 2018 18:50:27 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</guid>
-      <description>While deploying my recent hugo website to github, I re-learnt that, you can only publish gh-pages from master branch for user or organization repository.</description>
+      <description>&lt;p&gt;While deploying my &lt;a href=&#34;https://www.palaniraja.com/2018/08/website-redesign/&#34;&gt;recent hugo&lt;/a&gt; website to github, I &lt;a href=&#34;https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/&#34;&gt;re-learnt&lt;/a&gt; that, you can only publish gh-pages from &lt;code&gt;master&lt;/code&gt; branch for &lt;a href=&#34;https://help.github.com/articles/user-organization-and-project-pages/&#34;&gt;user or organization&lt;/a&gt; repository.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pilapse - Raspberry Pi Camera and Timelapse</title>
       <link>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</link>
       <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</guid>
-      <description>It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
-Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
+      <description>&lt;p&gt;It is a simple python script to capture timelapse with few more addition option than &lt;a href=&#34;https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspistill.md&#34;&gt;&lt;code&gt;raspistill -tl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Built-in command usage: &lt;code&gt;raspistill -t 30000 -tl 2000 -o image%04d.jpg&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Merging multiple MP4 videos with FFMPEG</title>
       <link>https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/</link>
       <pubDate>Tue, 26 Jun 2018 09:16:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/06/merging-multiple-mp4-videos-with-ffmpeg/</guid>
-      <description>I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp;amp; Dropbox.</description>
+      <description>&lt;p&gt;I have a collection of video tutorials split into multiple sections and multiple clips in each section. I wanted to merge the files to one, so I can upload and download from services like Google Drive &amp;amp; Dropbox.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Poor man&#39;s pdf diff tool</title>
       <link>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</link>
       <pubDate>Tue, 08 May 2018 06:30:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</guid>
-      <description>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</description>
+      <description>&lt;p&gt;Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RescueTime weekly summary and Google Script</title>
       <link>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</link>
       <pubDate>Sun, 03 Nov 2013 00:17:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/11/rescuetime-weekly-summary-and-google-script/</guid>
-      <description>I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else.</description>
+      <description>&lt;p&gt;I was cleaning up my mac before handing it to systems on my last job. I had a couple of days just for the Knowledge Transfer of projects and nothing else. I have always run two or three passive self policing apps like &lt;a href=&#34;https://www.rescuetime.com/&#34;&gt;Rescuetime&lt;/a&gt; and &lt;a href=&#34;https://itunes.apple.com/ca/app/free-time-tracker-timing-lite/id467410757?mt=12&#34;&gt;Timing&lt;/a&gt; etc.,&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RIL2Insta - Import Read it Later links to Instapaper</title>
       <link>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</link>
       <pubDate>Thu, 28 Jul 2011 05:51:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/07/ril2insta-import-read-it-later-links-to-instapaper/</guid>
-      <description>One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at apple.</description>
+      <description>&lt;p&gt;One of my long time wish to write a Chrome extension completed last week. It all started when my answer was down-voted at &lt;a href=&#34;http://apple.stackexchange.com/questions/17229/is-there-a-way-i-can-import-readitlaters-exported-html-file-into-my-instapaper/&#34;&gt;apple.stackexchange.com&lt;/a&gt;, the original answer was based on my experience sometime ago I was searching to migrate my links between my Instapaper accounts.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Shell script to generate images for testing</title>
       <link>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</link>
       <pubDate>Wed, 15 Jun 2011 05:50:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/shell-script-to-generate-images-for-testing/</guid>
-      <description>Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.</description>
+      <description>&lt;p&gt;Recently I was in need of generating sample images for no. of products in my db. I really hate to create a copy of image for each products in my db.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Import Delicious bookmarks to Evernote including tags</title>
       <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
       <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
-      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
-Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/enex.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/enex.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.&lt;/p&gt;&#xA;&lt;p&gt;Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.  I wrote this script to move my delicious bookmarks to evernote for my use.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My Userscripts</title>
       <link>https://www.palaniraja.com/2010/12/my-userscripts/</link>
       <pubDate>Mon, 06 Dec 2010 01:46:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/my-userscripts/</guid>
-      <description>Finally decided to copy all my published userscripts.org codes here.
-AnchorFree banner killer Remove Banner from the top when you use Anchor Free Hotspot shield / Please deactivate the script after disconnecting Hotspot shield</description>
+      <description>&lt;p&gt;Finally decided to copy all my published userscripts.org codes here.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/userscript-all.png&#34; alt=&#34;all userscripts&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;anchorfree-banner-killer&#34;&gt;AnchorFree banner killer&lt;/h3&gt;&#xA;&lt;p&gt;Remove Banner from the top when you use Anchor Free Hotspot shield / Please deactivate the script after disconnecting Hotspot shield&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pure Reader for Chrome</title>
       <link>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</link>
       <pubDate>Mon, 06 Dec 2010 01:46:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</guid>
-      <description>I love the theme of the Pure Reader for Safari (http://nadesign.net/safari/). I&amp;rsquo;ve ported the CSS as a userscript to use it with Google Chrome.</description>
+      <description>&lt;p&gt;I love the theme of the Pure Reader for Safari (&lt;a href=&#34;http://nadesign.net/safari/&#34;&gt;http://nadesign.net/safari/&lt;/a&gt;). I&amp;rsquo;ve ported the CSS as a userscript to use it with Google Chrome. Firefox need some css modification pls find the &lt;a href=&#34;http://idzr.org/c5br&#34;&gt;css here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Batch renaming of files (Mac OSX / *nix)</title>
       <link>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</link>
       <pubDate>Thu, 08 Apr 2010 20:35:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
-      <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
-Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.</description>
+      <description>&lt;p&gt;How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a new directory &lt;strong&gt;&lt;em&gt;&lt;!-- raw HTML omitted --&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run the following command (you can replace &lt;em&gt;&lt;strong&gt;newdir&lt;/strong&gt;&lt;/em&gt; with the your directory name and &lt;em&gt;&lt;strong&gt;some_prefix&lt;/strong&gt;&lt;/em&gt; with your prefix the same applicable for extension as well. My eg., rename only the &lt;em&gt;&lt;strong&gt;png&lt;/strong&gt;&lt;/em&gt; files of the directory (there were no other extensions available).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;code&gt;i=0; for x in *.png; do cp \&amp;quot;$x\&amp;quot; &amp;quot;newdir/some_prefix_$i.png&amp;quot;; i=$(($i+1)); done&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SVN: Export only updated files between 2 revisions</title>
       <link>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</link>
       <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
-      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</description>
+      <description>&lt;p&gt;Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SVN: Auto UPDATE WORKING COPY after COMMIT</title>
       <link>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</link>
       <pubDate>Fri, 05 Sep 2008 19:12:02 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</guid>
-      <description>In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.</description>
+      <description>&lt;p&gt;In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sticky notes with PHP and Jquery</title>
       <link>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</link>
       <pubDate>Sat, 19 Jul 2008 13:08:26 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
-      <description>Script speaks louder than words. Please go through the following links
-PHP Gd based Sticky script
-Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
+      <description>&lt;p&gt;Script speaks louder than words. Please go through the following links&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PHP Gd based Sticky script&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://palani.bitsymphony.com/lab/sticky/&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/demo.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jquery UI based Sticky page&lt;/strong&gt;&#xA;&lt;a href=&#34;http://palani.bitsymphony.com/lab/sticky/demo2.php&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/stickypage.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Play YouTube with FLV player of your choice</title>
       <link>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</link>
       <pubDate>Thu, 25 Oct 2007 09:34:43 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</guid>
-      <description>Not working anymore, but you are free to explore the code. Updates are welcome.
-I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case).</description>
+      <description>&lt;p&gt;&lt;strong&gt;Not working anymore, but you are free to explore the code. Updates are welcome.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case). The flv files will not be download to the server, it streams directly from YouTube .&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Clean yahoo webmail without Ad&#39;s</title>
       <link>https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/</link>
       <pubDate>Tue, 10 Jul 2007 12:14:30 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/07/clean-yahoo-webmail-without-ads/</guid>
-      <description>Today, I have uploaded my second Greasemonkey scripts to userscripts, Yahoo webmail++ . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side.</description>
+      <description>&lt;p&gt;Today, I have uploaded my second Greasemonkey scripts to &lt;a href=&#34;http://userscripts.org&#34; title=&#34;http://userscripts.org&#34;&gt;userscripts&lt;/a&gt;, &lt;a href=&#34;http://userscripts-mirror.org/scripts/show/10590&#34; title=&#34;http://userscripts.org/scripts/show/10590&#34;&gt;Yahoo webmail++&lt;/a&gt; . This will remove (hide) the advertisements in your yahoo webmail, the one at the top and the small ads on the left side. Initially I was trying to do something similar to Gmail Airskin, but unfortunately yahoo uses lot of tables, which I find difficult to finish the script, at this stage it will remove only the advertisements and I will try to update the script soon.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My first Greasemonkey script</title>
       <link>https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/</link>
       <pubDate>Mon, 11 Jun 2007 14:00:26 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/06/my-first-greasemonkey-script/</guid>
-      <description>Ok. My first Greasemonkey script is available from userscripts.org (http://userscripts-mirror.org/scripts/show/9740)
-I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.</description>
+      <description>&lt;p&gt;Ok. My first Greasemonkey script is available from &lt;a href=&#34;http://userscripts.org/&#34;&gt;userscripts.org&lt;/a&gt; (&lt;a href=&#34;http://userscripts-mirror.org/scripts/show/9740&#34;&gt;http://userscripts-mirror.org/scripts/show/9740&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;I have been using Greasemonkey for more than a year. Recently I downloaded 2 userscript, GMail superclean and Gmail air, which inspired me to write a script.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jquery on PR</title>
+    <title>Jquery on PR</title>
     <link>https://www.palaniraja.com/tags/jquery/</link>
-    <description>Recent content in jquery on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Jquery on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 16 Jan 2013 21:02:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jan 2013 21:02:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prj - Times of India epub</title>
       <link>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</link>
       <pubDate>Wed, 16 Jan 2013 21:02:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/prj-times-of-india-epub/</guid>
-      <description>Remember my old post about the TOI - Epub project? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source.</description>
+      <description>&lt;p&gt;Remember my &lt;a href=&#34;https://www.palaniraja.com/2010/08/ereader-friendly-times-of-india-epub-edition/&#34;&gt;old post about the TOI - Epub project&lt;/a&gt;? Yesterday, I published the source on github. If anyone still interested, go ahead and take a look at the source. Kindly go through the &lt;a href=&#34;https://github.com/palaniraja/toi-epub/blob/master/Dev-Notes.txt&#34;&gt;Dev-Notes.txt&lt;/a&gt;, as it has all the urls and image path used to inspect their mpaper hiearchy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Import Delicious bookmarks to Evernote including tags</title>
       <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
       <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
-      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
-Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/enex.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/enex.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.&lt;/p&gt;&#xA;&lt;p&gt;Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.  I wrote this script to move my delicious bookmarks to evernote for my use.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sticky notes with PHP and Jquery</title>
       <link>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</link>
       <pubDate>Sat, 19 Jul 2008 13:08:26 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
-      <description>Script speaks louder than words. Please go through the following links
-PHP Gd based Sticky script
-Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
+      <description>&lt;p&gt;Script speaks louder than words. Please go through the following links&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PHP Gd based Sticky script&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://palani.bitsymphony.com/lab/sticky/&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/demo.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jquery UI based Sticky page&lt;/strong&gt;&#xA;&lt;a href=&#34;http://palani.bitsymphony.com/lab/sticky/demo2.php&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/stickypage.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

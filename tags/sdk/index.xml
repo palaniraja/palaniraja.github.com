@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sdk on PR</title>
+    <title>Sdk on PR</title>
     <link>https://www.palaniraja.com/tags/sdk/</link>
-    <description>Recent content in sdk on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Sdk on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 06:25:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/sdk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2016 06:25:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/sdk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Integrating Chromecast with Kaltura SDK (iOS)</title>
       <link>https://www.palaniraja.com/2016/01/integrating-chromecast-with-kaltura-sdk-ios/</link>
       <pubDate>Fri, 01 Jan 2016 06:25:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2016/01/integrating-chromecast-with-kaltura-sdk-ios/</guid>
-      <description>Their documentation says it is built in, but I couldn&amp;rsquo;t find a sample anywhere, so here it is for everyone on how to integrate Chromecast with your Kaltura Player.</description>
+      <description>&lt;p&gt;Their documentation says it is built in, but I couldn&amp;rsquo;t find a sample anywhere, so here it is for everyone on how to integrate &lt;a href=&#34;https://www.google.com/intl/en_in/chrome/devices/chromecast/index.html?utm_source=chromecast.com&#34;&gt;Chromecast&lt;/a&gt; with your &lt;a href=&#34;https://github.com/kaltura/player-sdk-native-ios&#34;&gt;Kaltura Player&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
       <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
-      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
-Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+      <description>&lt;p&gt;Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).&lt;/p&gt;&#xA;&lt;p&gt;Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iCloud Gotchas</title>
       <link>https://www.palaniraja.com/2011/12/icloud-gotchas/</link>
       <pubDate>Sat, 17 Dec 2011 23:08:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/icloud-gotchas/</guid>
-      <description>Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.</description>
+      <description>&lt;p&gt;Integrating iCloud with core data was easy when I found &lt;a href=&#34;http://goddess-gate.com/dc2/index.php/post/452&#34;&gt;this tutorial&lt;/a&gt;, but I ran into few issues while implementing and testing it on devices. And here are the steps how I managed to solve it.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

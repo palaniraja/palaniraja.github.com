@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>google reader on PR</title>
+    <title>Google Reader on PR</title>
     <link>https://www.palaniraja.com/tags/google-reader/</link>
-    <description>Recent content in google reader on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Google Reader on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Thu, 21 Mar 2013 11:37:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/google-reader/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Mar 2013 11:37:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/google-reader/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Reader - Take 2</title>
       <link>https://www.palaniraja.com/2013/03/google-reader-take-2/</link>
       <pubDate>Thu, 21 Mar 2013 11:37:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/03/google-reader-take-2/</guid>
-      <description>I was insanely angry with Google&amp;rsquo;s decision still I am. Here are some stats from my Google Reader takeout data.</description>
+      <description>&lt;p&gt;I was insanely angry with &lt;a href=&#34;http://dr-palaniraja.blogspot.in/2013/03/dont-kill-google-reader.html&#34;&gt;Google&amp;rsquo;s decision&lt;/a&gt; still I am. Here are some stats from my Google Reader takeout data.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Following 44 people&lt;/li&gt;&#xA;&lt;li&gt;Followed by 31 people&lt;/li&gt;&#xA;&lt;li&gt;690 Articles shared* with me&lt;/li&gt;&#xA;&lt;li&gt;1017 Articles shared* by me&lt;/li&gt;&#xA;&lt;li&gt;5657 Starred Articles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you are people who think Social feed is replacing it, I promise you it never will. Reader is completely a different beast. I agree with &lt;a href=&#34;https://www.youtube.com/watch?v=A25VgNZDQ08&#34;&gt;Führer&lt;/a&gt; here. &lt;em&gt;Leave&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Don&#39;t Kill Google Reader</title>
       <link>https://www.palaniraja.com/2013/03/dont-kill-google-reader/</link>
       <pubDate>Sat, 16 Mar 2013 07:57:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/03/dont-kill-google-reader/</guid>
-      <description>Larry, if all these are because of Steve&amp;rsquo;s advice. Learn one important attribute of Steve, his ability to change his mind.</description>
+      <description>&lt;p&gt;Larry, if all these are because of &lt;a href=&#34;http://www.edibleapple.com/2011/10/22/steve-jobs-advice-to-larry-page/&#34;&gt;Steve&amp;rsquo;s advice&lt;/a&gt;. Learn one important attribute of Steve, &lt;a href=&#34;http://opentothefuture.com/steve-jobs-changing-mind/&#34;&gt;his ability to change his mind&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Kill products that are copycat of others (cough! cough! Google+). Whatever the efforts that went into recent changes of Google reader (Unified theme, Removing &amp;ldquo;Share&amp;rdquo; feature and add &amp;ldquo;+1&amp;rdquo; features) are the reasons why there was a decline in usage.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to install Grease monkey scripts on Google Chrome 21</title>
       <link>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</link>
       <pubDate>Sun, 26 Aug 2012 06:20:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/08/how-to-install-grease-monkey-scripts-on-google-chrome-21/</guid>
-      <description>Chrome updated its policy to not to install extensions and scripts outside of Google webstore by default. (Gatekeeper, everyone wants to be the police)</description>
+      <description>&lt;p&gt;Chrome updated its policy to not to install extensions and scripts outside of Google webstore by default. (Gatekeeper, everyone wants to be the police)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pure Reader for Chrome</title>
       <link>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</link>
       <pubDate>Mon, 06 Dec 2010 01:46:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/pure-reader-for-chrome/</guid>
-      <description>I love the theme of the Pure Reader for Safari (http://nadesign.net/safari/). I&amp;rsquo;ve ported the CSS as a userscript to use it with Google Chrome.</description>
+      <description>&lt;p&gt;I love the theme of the Pure Reader for Safari (&lt;a href=&#34;http://nadesign.net/safari/&#34;&gt;http://nadesign.net/safari/&lt;/a&gt;). I&amp;rsquo;ve ported the CSS as a userscript to use it with Google Chrome. Firefox need some css modification pls find the &lt;a href=&#34;http://idzr.org/c5br&#34;&gt;css here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

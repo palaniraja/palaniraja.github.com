@@ -4,18 +4,16 @@
     <title>StaticSite on PR</title>
     <link>https://www.palaniraja.com/tags/staticsite/</link>
     <description>Recent content in StaticSite on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 12 Aug 2018 21:04:43 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/staticsite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Aug 2018 21:04:43 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/staticsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Website redesign</title>
       <link>https://www.palaniraja.com/2018/08/website-redesign/</link>
       <pubDate>Sun, 12 Aug 2018 21:04:43 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/08/website-redesign/</guid>
-      <description>Today I&amp;rsquo;m launching the redesigned website palaniraja.com. It&amp;rsquo;s a shame that I took to this much time to update my own website which I&amp;rsquo;ve paying for years.</description>
+      <description>&lt;p&gt;Today I&amp;rsquo;m launching the redesigned website &lt;a href=&#34;https://www.palaniraja.com&#34;&gt;palaniraja.com&lt;/a&gt;. It&amp;rsquo;s a shame that I took to this much time to update my own website which I&amp;rsquo;ve paying for years. But that&amp;rsquo;s a by-product of working on your own project without timeline or external pressure :-)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

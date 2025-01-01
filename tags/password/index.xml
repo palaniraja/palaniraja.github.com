@@ -4,18 +4,16 @@
     <title>Password on PR</title>
     <link>https://www.palaniraja.com/tags/password/</link>
     <description>Recent content in Password on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 28 Apr 2013 06:38:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/password/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2013 06:38:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/password/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Request To Webdevs: Include IP/User-Agent Info In Forgot Password Email</title>
       <link>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</link>
       <pubDate>Sun, 28 Apr 2013 06:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</guid>
-      <description>The Forgot password email template has been the same for more than a decade. It is time to include more information in the email.</description>
+      <description>&lt;p&gt;The &lt;em&gt;Forgot password&lt;/em&gt; email template has been the same for more than a decade. It is time to include more information in the email.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

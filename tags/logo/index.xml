@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>logo on PR</title>
+    <title>Logo on PR</title>
     <link>https://www.palaniraja.com/tags/logo/</link>
-    <description>Recent content in logo on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Logo on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Thu, 01 Sep 2011 09:40:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/logo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2011 09:40:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/logo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iTunes 10 Logo</title>
       <link>https://www.palaniraja.com/2011/09/itunes-10-logo/</link>
       <pubDate>Thu, 01 Sep 2011 09:40:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/09/itunes-10-logo/</guid>
-      <description>End credits from the movie Up iTunes logo updated with version 10 in Sep &amp;lsquo;10</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-09-01-at-4.00.39-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;End credits from the movie &lt;a href=&#34;http://www.imdb.com/title/tt1049413/&#34;&gt;Up&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/itunes10logo380.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;iTunes logo updated with version 10 in Sep &amp;lsquo;10&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

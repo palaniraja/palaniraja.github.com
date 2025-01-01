@@ -1,79 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>commands on PR</title>
+    <title>Commands on PR</title>
     <link>https://www.palaniraja.com/tags/commands/</link>
-    <description>Recent content in commands on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Commands on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 08 May 2018 06:30:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/commands/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 May 2018 06:30:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/commands/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poor man&#39;s pdf diff tool</title>
       <link>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</link>
       <pubDate>Tue, 08 May 2018 06:30:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/05/poor-mans-pdf-diff-tool/</guid>
-      <description>Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.</description>
+      <description>&lt;p&gt;Recently a client shared updated requirement document, unfortunately the document was in PDF and I don’t want to go through 60+ pages of document for changes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Disable networking/internet from command line on a Mac</title>
       <link>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</link>
       <pubDate>Fri, 19 Apr 2013 09:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/disable-networking/internet-from-command-line-on-a-mac/</guid>
-      <description>If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.</description>
+      <description>&lt;p&gt;If you want to quickly disable internet/networking to test offline features. Doing it frequently with System preferences GUI is quite a slow workflow.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to view (Windows) line ending characters on Mac OSX</title>
       <link>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</link>
       <pubDate>Wed, 15 Jun 2011 05:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/how-to-view-windows-line-ending-characters-on-mac-osx/</guid>
-      <description>Notepad++ on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.
-Programming editors on mac like Textwrangler and Textmate has an option to Show Invisibles but failed to display the character block for Carriage Return as Notepad used to.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://notepad-plus-plus.org/&#34;&gt;Notepad++&lt;/a&gt; on windows has this beautiful option &amp;ldquo;View all characters&amp;rdquo; to display all invisbile characters such as line endings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/image001.png&#34; alt=&#34;Notepad++ &#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Import Delicious bookmarks to Evernote including tags</title>
       <link>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</link>
       <pubDate>Sat, 18 Dec 2010 01:44:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/import-delicious-bookmarks-to-evernote-including-tags/</guid>
-      <description>It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.
-Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/enex.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/enex.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is unfortunate to know that Yahoo is going to shutdown/transfer the awesome Delicious bookmarking service.&lt;/p&gt;&#xA;&lt;p&gt;Evernote does not support direct import of bookmarks from delicious as it does with Google notebook.  I wrote this script to move my delicious bookmarks to evernote for my use.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mac App Store - Source</title>
       <link>https://www.palaniraja.com/2010/10/mac-app-store-source/</link>
       <pubDate>Sat, 23 Oct 2010 12:16:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/10/mac-app-store-source/</guid>
-      <description>You get the idea? You are not looking for the UI code are you?
-Saurik will be doing the UI for us ;)</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-10-24-at-12.27.51-AM.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-10-24-at-12.27.51-AM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You get the idea? You are not looking for the UI code are you?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://twitter.com/SAURIK&#34;&gt;Saurik&lt;/a&gt; will be doing the UI for us ;)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Solving Read-Only Notes.app issue</title>
       <link>https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/</link>
       <pubDate>Wed, 09 Jun 2010 01:12:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/</guid>
-      <description>Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the manual backup of notes.</description>
+      <description>&lt;p&gt;Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the &lt;a href=&#34;http://www.funkyspacemonkey.com/howto-manually-backup-iphone&#34;&gt;manual backup&lt;/a&gt; of notes.db. I have taken the backup of my Address book, notes and images data with &lt;a href=&#34;http://www.macroplant.com/iphoneexplorer/&#34;&gt;iPhone Explorer&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Batch renaming of files (Mac OSX / *nix)</title>
       <link>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</link>
       <pubDate>Thu, 08 Apr 2010 20:35:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/batch-renaming-of-files-mac-osx-/-nix/</guid>
-      <description>How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)
-Create a new directory Run the following command (you can replace newdir with the your directory name and some_prefix with your prefix the same applicable for extension as well.</description>
+      <description>&lt;p&gt;How to batch/bulk rename files with automatic sequence number? Try the following shell script from your terminal (OSX/*nix)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a new directory &lt;strong&gt;&lt;em&gt;&lt;!-- raw HTML omitted --&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Run the following command (you can replace &lt;em&gt;&lt;strong&gt;newdir&lt;/strong&gt;&lt;/em&gt; with the your directory name and &lt;em&gt;&lt;strong&gt;some_prefix&lt;/strong&gt;&lt;/em&gt; with your prefix the same applicable for extension as well. My eg., rename only the &lt;em&gt;&lt;strong&gt;png&lt;/strong&gt;&lt;/em&gt; files of the directory (there were no other extensions available).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;code&gt;i=0; for x in *.png; do cp \&amp;quot;$x\&amp;quot; &amp;quot;newdir/some_prefix_$i.png&amp;quot;; i=$(($i+1)); done&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

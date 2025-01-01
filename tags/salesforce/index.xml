@@ -1,49 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>salesforce on PR</title>
+    <title>Salesforce on PR</title>
     <link>https://www.palaniraja.com/tags/salesforce/</link>
-    <description>Recent content in salesforce on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Salesforce on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/salesforce/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2013 11:11:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/salesforce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grep - Swiss army knife</title>
       <link>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</link>
       <pubDate>Sat, 20 Jul 2013 11:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/grep-swiss-army-knife/</guid>
-      <description>I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems.</description>
+      <description>&lt;p&gt;I have used this command sparingly in the past and I recently learnt more options by solving couple of my problems. I really don&amp;rsquo;t know whether grep is the right choice here, but hey! it worked :-)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Create card in Trello from Salesforce case</title>
       <link>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</link>
       <pubDate>Thu, 31 Jan 2013 06:55:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/create-card-in-trello-from-salesforce-case/</guid>
-      <description>Yes. Danlec already created a bookmarklet that lets you create Trello card from many services like Fogbugz, JIRA, Github and more.</description>
+      <description>&lt;p&gt;Yes. &lt;a href=&#34;https://github.com/danlec/Trello-Bookmarklet&#34;&gt;Danlec&lt;/a&gt; already created a bookmarklet that lets you create Trello card from many services like Fogbugz, JIRA, Github and more. I forked his code and included the functionality to create card with salesforce case information.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iForce - Sublime text plugin for salesforce development.</title>
       <link>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</link>
       <pubDate>Sat, 15 Dec 2012 00:10:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/12/iforce-sublime-text-plugin-for-salesforce-development./</guid>
-      <description>I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my idea to project execution.</description>
+      <description>&lt;p&gt;I wrote a small plugin for sublime text to develop salesforce. I&amp;rsquo;m glad to share one of my &lt;em&gt;idea to project&lt;/em&gt; execution.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
       <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
-      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
-Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+      <description>&lt;p&gt;Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).&lt;/p&gt;&#xA;&lt;p&gt;Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

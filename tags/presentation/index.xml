@@ -1,126 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>presentation on PR</title>
+    <title>Presentation on PR</title>
     <link>https://www.palaniraja.com/tags/presentation/</link>
-    <description>Recent content in presentation on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Presentation on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 07 Jul 2013 10:04:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2013 10:04:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WWDC&#39;13 - Hidden Gems in Cocoa and Cocoa Touch </title>
       <link>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</link>
       <pubDate>Sun, 07 Jul 2013 10:04:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/07/wwdc13-hidden-gems-in-cocoa-and-cocoa-touch/</guid>
-      <description>If you did not have enough time to go through the 50G contents from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;Hidden Gems in Cocoa and Cocoa Touch&amp;rdquo;.</description>
+      <description>&lt;p&gt;If you did not have enough time to go through the &lt;a href=&#34;http://www.flickr.com/photos/palaniraja-mca/9149855356/&#34;&gt;50G contents&lt;/a&gt; from WWDC&#39;13, I highly recommend you to watch the session 228, aptly named &amp;ldquo;&lt;em&gt;Hidden Gems in Cocoa and Cocoa Touch&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Recommended Git workflow</title>
       <link>https://www.palaniraja.com/2011/06/recommended-git-workflow/</link>
       <pubDate>Wed, 01 Jun 2011 04:59:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/recommended-git-workflow/</guid>
-      <description>I recently started using Git as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches.</description>
+      <description>&lt;p&gt;I recently started using &lt;a href=&#34;http://stackoverflow.com/questions/871/why-is-git-better-than-subversion&#34;&gt;Git&lt;/a&gt; as my revision control tool. Impressed by the use of branching and merging, I create and merge a lot of branches. Our company use SVN and other peers were not aware/interested in &lt;a href=&#34;http://git.or.cz/course/svn.html&#34;&gt;Git&lt;/a&gt;. So I took the initiative to use svn-git. After months of progress I left with so many branches for features, svn, QA-release and quick-fix for released builds.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Capture screenshot of the app with iPad simulator</title>
       <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
-It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
+      <description>&lt;p&gt;Until recently I was not aware of the shortcut &lt;strong&gt;_Ctrl + Cmd + C _&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by &lt;strong&gt;File -&amp;gt; New from Clipboard&lt;/strong&gt; with &lt;strong&gt;preview.app&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: When is that?</title>
       <link>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</link>
       <pubDate>Tue, 14 Dec 2010 10:39:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</guid>
-      <description>I guess like me there will be many people often confuse appointments/client calls due to timezone differences.
-I am not talking about people who send/receive schedules from Outlook (or similar apps).</description>
+      <description>&lt;p&gt;I guess like me there will be many people often confuse appointments/client calls due to timezone differences.&lt;/p&gt;&#xA;&lt;p&gt;I am not talking about people who send/receive schedules from Outlook (or similar apps).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Apple Sep 1, 2010 Event under 3 min</title>
       <link>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</link>
       <pubDate>Thu, 09 Sep 2010 11:33:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
-      <description>Youtube link
-Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-24euRgImPg&#34;&gt;Youtube link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;noscript&gt;&#xA;    &lt;p class=&#34;noscript&#34;&gt;Content requires Javascript to be enabled.&lt;/p&gt;&#xA;&#xA;    &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-24euRgImPg&#34;&gt;https://www.youtube.com/watch?v=-24euRgImPg&lt;/a&gt; &lt;/p&gt;&#xA;&#xA;    &lt;br/&gt;&#xA;    &#xA;&lt;/noscript&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;    p.noscript{&#xA;        background-color: #fefea0;&#xA;        border-left: 4px solid #fea0a0;&#xA;        padding: 0 0.25em;&#xA;    }&#xA;&lt;/style&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-24euRgImPg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/09/call-me-hypocrite-my-take-on-apple.html&#34;&gt;Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/09/call-me-hypocrite-my-take-on-apple_08.html&#34;&gt;Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
       <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
-      <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
+      <description>&lt;h3 id=&#34;itunes-10&#34;&gt;iTunes 10&lt;/h3&gt;&#xA;&lt;p&gt;Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys! they have changed the boring icon after a decade.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
       <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
-      <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-09-04-at-10.00.40-PM.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-09-04-at-10.00.40-PM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Only yesterday I got a chance to view the Keynote video. You can also &lt;a href=&#34;http://itunes.apple.com/us/podcast/apple-special-event-september/id275834665?i=86766489&#34;&gt;download&lt;/a&gt; the video from iTunes for Free.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
       <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
-      <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
+      <description>&lt;p&gt;I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices. Please add your comments and I will update.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WWDC 2010 - iPhone 4</title>
       <link>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</link>
       <pubDate>Wed, 16 Jun 2010 21:27:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</guid>
-      <description>iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard. Steve can still memorize 24 countries and repeat them in the same order.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard.&lt;/li&gt;&#xA;&lt;li&gt;Steve can still memorize 24 countries and repeat them in the same order. Bravo! Good job Steve.&lt;/li&gt;&#xA;&lt;li&gt;Yes, he appreciated Microsoft for their HTML5 demos.&lt;/li&gt;&#xA;&lt;li&gt;Now the revenue will be shared  60-40%. 40% of iAd revenue to Apple.&lt;/li&gt;&#xA;&lt;li&gt;Will FaceTime work if there are quite a few devices on the Wi-Fi network?&lt;/li&gt;&#xA;&lt;li&gt;If FaceTime is Open, then H.264 and AAC too?&lt;/li&gt;&#xA;&lt;li&gt;If the same front side glass was used in the back of iPhone 4, can we replace the backside glass for the front in case of damages to the front?&lt;/li&gt;&#xA;&lt;li&gt;29$ for bumb ( a band covers the antennas&amp;rsquo;). Come on Steve, let the poor guys live with the iPhone/iPad cover business.&lt;/li&gt;&#xA;&lt;li&gt;FaceTime is open since it use many OpenSource tools &amp;amp; standards.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;are few points I noticed during Keynote.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Download Apple WWDC Keynote videos</title>
       <link>https://www.palaniraja.com/2010/06/download-apple-wwdc-keynote-videos/</link>
       <pubDate>Wed, 16 Jun 2010 21:02:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/download-apple-wwdc-keynote-videos/</guid>
-      <description>I was always disappointed with Apple Keynote pages. It allows you to stream and watch the videos with QuickTime which is not great for streaming and videos are not HTML5 yet.</description>
+      <description>&lt;p&gt;I was always disappointed with Apple Keynote pages. It allows you to stream and watch the videos with QuickTime which is not great for streaming and videos are not HTML5 yet. Another restriction with QuickTime is, you need to have QuickTime Pro to save the video.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Obj-C | For beginners</title>
       <link>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</link>
       <pubDate>Sun, 11 Apr 2010 20:51:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/obj-c-for-beginners/</guid>
-      <description>A quick obj-c cheat-sheet for the beginners.
-Scribd link
-This is taken from RWTH-iPhone Application Programming. You can also download complete videos from iTunesU.</description>
+      <description>&lt;p&gt;A quick obj-c cheat-sheet for the beginners.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.scribd.com/doc/29769999/RWTH-Objective-C&#34;&gt;Scribd link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is taken from &lt;a href=&#34;http://hci.rwth-aachen.de/iphone&#34;&gt;RWTH-iPhone Application Programming&lt;/a&gt;. You can also download complete videos from &lt;a href=&#34;http://deimos3.apple.com/WebObjects/Core.woa/Browse/rwth-aachen.de.2800424446.02876463968&#34;&gt;iTunesU&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Objective-C Crash Course for Web Developers</title>
       <link>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</link>
       <pubDate>Sun, 21 Mar 2010 07:41:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</guid>
-      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&#39;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
+      <description>&lt;p&gt;Please find the below presentation which explains obj-c for web developers (js/php). This is taken from &lt;a href=&#34;http://my.sxsw.com/events/event/615&#34;&gt;SXSW&#39;10&lt;/a&gt;. I&amp;rsquo;m also searching for the video will share if I come across any.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

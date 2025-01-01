@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>raspberry pi on PR</title>
+    <title>Raspberry Pi on PR</title>
     <link>https://www.palaniraja.com/tags/raspberry-pi/</link>
-    <description>Recent content in raspberry pi on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Raspberry Pi on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sat, 28 Jul 2018 18:53:05 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jul 2018 18:53:05 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pilapse - Raspberry Pi Camera and Timelapse</title>
       <link>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</link>
       <pubDate>Sat, 28 Jul 2018 18:53:05 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/07/pilapse-raspberry-pi-camera-and-timelapse/</guid>
-      <description>It is a simple python script to capture timelapse with few more addition option than raspistill -tl.
-Built-in command usage: raspistill -t 30000 -tl 2000 -o image%04d.</description>
+      <description>&lt;p&gt;It is a simple python script to capture timelapse with few more addition option than &lt;a href=&#34;https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspistill.md&#34;&gt;&lt;code&gt;raspistill -tl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Built-in command usage: &lt;code&gt;raspistill -t 30000 -tl 2000 -o image%04d.jpg&lt;/code&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

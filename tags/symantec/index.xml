@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>symantec on PR</title>
+    <title>Symantec on PR</title>
     <link>https://www.palaniraja.com/tags/symantec/</link>
-    <description>Recent content in symantec on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Symantec on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Wed, 03 Sep 2008 07:32:52 +0000</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/symantec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Sep 2008 07:32:52 +0000</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/symantec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Chrome : The application failed to initialize properly (0xc0000005)</title>
       <link>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</link>
       <pubDate>Wed, 03 Sep 2008 07:32:52 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/google-chrome-the-application-failed-to-initialize-properly-0xc0000005/</guid>
-      <description>The application failed to initialize properly (0xc0000005). Click on OK to terminate the application Symantec causes this issue and the temp.</description>
+      <description>&lt;p&gt; &lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;The application failed to initialize properly (0xc0000005). Click on OK to terminate the application&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Symantec causes this issue and the temp. solution is to disable the sandbox. And the solution from Google Groups is   &#xA;You can try running Google Chrome with &lt;strong&gt;&lt;code&gt;--no-sandbox&lt;/code&gt;&lt;/strong&gt; (you need to edit the properties of the shortcut you use to launch it).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

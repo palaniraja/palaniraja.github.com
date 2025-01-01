@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>performance on PR</title>
+    <title>Performance on PR</title>
     <link>https://www.palaniraja.com/tags/performance/</link>
-    <description>Recent content in performance on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Performance on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 27 Aug 2012 10:53:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Aug 2012 10:53:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Failed to get brightness for displayID</title>
       <link>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</link>
       <pubDate>Mon, 27 Aug 2012 10:53:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
-      <description>If you are experiencing frequent disk I/O and your console is full of
-25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+      <description>&lt;p&gt;If you are experiencing frequent disk I/O and your &lt;em&gt;&lt;strong&gt;console&lt;/strong&gt;&lt;/em&gt; is full of&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BTServer CPU Usage</title>
       <link>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</link>
       <pubDate>Sat, 19 Nov 2011 09:40:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/11/btserver-cpu-usage/</guid>
-      <description>I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP.</description>
+      <description>&lt;p&gt;I recently uninstalled all previous versions of xcode (I had all xcode from ios 3.2.x) to install 4.2 on my MBP. Although I freed around 30 GB, noticed an issue shortly. A process named &lt;strong&gt;BTServer&lt;/strong&gt; is utilizing high CPU usage.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

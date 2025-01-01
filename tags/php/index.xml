@@ -1,99 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>php on PR</title>
+    <title>PHP on PR</title>
     <link>https://www.palaniraja.com/tags/php/</link>
-    <description>Recent content in php on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in PHP on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 14 Dec 2010 10:39:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2010 10:39:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Idea Vault: When is that?</title>
       <link>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</link>
       <pubDate>Tue, 14 Dec 2010 10:39:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/12/idea-vault-when-is-that/</guid>
-      <description>I guess like me there will be many people often confuse appointments/client calls due to timezone differences.
-I am not talking about people who send/receive schedules from Outlook (or similar apps).</description>
+      <description>&lt;p&gt;I guess like me there will be many people often confuse appointments/client calls due to timezone differences.&lt;/p&gt;&#xA;&lt;p&gt;I am not talking about people who send/receive schedules from Outlook (or similar apps).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Random Notes: LAMP/Web development |Tools &amp; Best practices</title>
       <link>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</link>
       <pubDate>Wed, 23 Jun 2010 11:35:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/random-notes-lamp/web-development-tools-best-practices/</guid>
-      <description>I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices.</description>
+      <description>&lt;p&gt;I was planning to write a post similar to this for very long time. My intension is to help beginners to know the jargons and best practices. Please add your comments and I will update.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to connect to multiple MySQL servers from PHP</title>
       <link>https://www.palaniraja.com/2010/03/how-to-connect-to-multiple-mysql-servers-from-php/</link>
       <pubDate>Wed, 10 Mar 2010 17:18:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/how-to-connect-to-multiple-mysql-servers-from-php/</guid>
-      <description>Most of the PHP developers remember only the first three parameters of mysql_connect (host, username, password). There is a fourth parament called $new_link a boolean existscreate a new link.</description>
+      <description>&lt;p&gt;Most of the PHP developers remember only the first three parameters of &lt;strong&gt;mysql_connect (host, username, password).&lt;/strong&gt; There is a fourth parament called &lt;strong&gt;$new_link&lt;/strong&gt; a boolean existscreate a new link. The default value is set to &lt;em&gt;false&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SVN: Export only updated files between 2 revisions</title>
       <link>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</link>
       <pubDate>Sat, 20 Sep 2008 19:27:21 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/svn-export-only-updated-files-between-2-revisions/</guid>
-      <description>Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.</description>
+      <description>&lt;p&gt;Are you someone like me who is looking for an SVN command that exports the files updated between two revisions? Until now, I used to say that there is no such command available in SVN by default, or maybe now they have a feature to build in the next release.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SVN: Auto UPDATE WORKING COPY after COMMIT</title>
       <link>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</link>
       <pubDate>Fri, 05 Sep 2008 19:12:02 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/09/svn-auto-update-working-copy-after-commit/</guid>
-      <description>In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.</description>
+      <description>&lt;p&gt;In one of our recent project, we were looking for an automated script that update the working copy of our dev server as soon as someone commit the changes to the SVN.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sticky notes with PHP and Jquery</title>
       <link>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</link>
       <pubDate>Sat, 19 Jul 2008 13:08:26 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2008/07/sticky-notes-with-php-and-jquery/</guid>
-      <description>Script speaks louder than words. Please go through the following links
-PHP Gd based Sticky script
-Jquery UI based Sticky page The first script is used to create a dynamic sticky image with the selected sticky pattern and font.</description>
+      <description>&lt;p&gt;Script speaks louder than words. Please go through the following links&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PHP Gd based Sticky script&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://palani.bitsymphony.com/lab/sticky/&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/demo.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jquery UI based Sticky page&lt;/strong&gt;&#xA;&lt;a href=&#34;http://palani.bitsymphony.com/lab/sticky/demo2.php&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/stickypage.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Play YouTube with FLV player of your choice</title>
       <link>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</link>
       <pubDate>Thu, 25 Oct 2007 09:34:43 +0000</pubDate>
-      
       <guid>https://www.palaniraja.com/2007/10/play-youtube-with-flv-player-of-your-choice/</guid>
-      <description>Not working anymore, but you are free to explore the code. Updates are welcome.
-I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case).</description>
+      <description>&lt;p&gt;&lt;strong&gt;Not working anymore, but you are free to explore the code. Updates are welcome.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have completed alternative way to view YouTube videos with FLV player of your choice (JW FLV player in this case). The flv files will not be download to the server, it streams directly from YouTube .&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Comments - HSBC.php</title>
       <link>https://www.palaniraja.com/comments/hsbcphp-comments/</link>
       <pubDate>Fri, 22 Dec 2006 15:44:00 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/comments/hsbcphp-comments/</guid>
-      <description>This page contains comments for the post - HSBC.php
-i found error bool(false) Prakaash - Feb 4, 2010
-i found error bool(false)</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This page contains comments for the post - &lt;a href=&#34;https://www.palaniraja.com/2006/12/hsbc.php/&#34;&gt;HSBC.php&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h4 id=&#34;i-found-error-boolfalse&#34;&gt;i found error bool(false)&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.blogger.com/profile/01638311209749253649&#34; title=&#34;noreply@blogger.com&#34;&gt;Prakaash&lt;/a&gt; - &lt;!-- raw HTML omitted --&gt;Feb 4, 2010&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HSBC.php</title>
       <link>https://www.palaniraja.com/2006/12/hsbc.php/</link>
       <pubDate>Fri, 22 Dec 2006 15:42:00 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2006/12/hsbc.php/</guid>
-      <description>&amp;lt;?php /** * @desc Class to process payment using HSBC gateway * This class will return orderhash * 18-Dec-2006 */ class HSBC{ var $storeFrontId; var $hashFilePath; var $CPIhash; var $orderHash; /** * @desc initialize configuration arguements.</description>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;?php&#xA;  /**&#xA;  * @desc Class to process payment using HSBC gateway&#xA;  * This class will return orderhash&#xA;  * 18-Dec-2006&#xA;  */&#xA; &#xA;  class HSBC{&#xA;     &#xA;      var $storeFrontId;&#xA;      var $hashFilePath;&#xA;      var $CPIhash;&#xA;      var $orderHash;&#xA;     &#xA;      /**&#xA;      * @desc initialize configuration arguements.&#xA;      * @var $storeFrontId String Exactly 13 digit char given by HSBC Bank. eg. UK12345678GBP&#xA;      * @var $hashFilePath String File Path in which you have placed the TestHash.e or TestHash.exe&#xA;      * @var $CPIhash   String Exactly 32 char length sent by HSBC Bank.&#xA;      */&#xA;      function config($storeFrontId, $hashFilePath, $CPIhash)&#xA;      {&#xA;         $this-&amp;gt;storeFrontId = $storeFrontId;&#xA;         $this-&amp;gt;hashFilePath = $hashFilePath;&#xA;         $this-&amp;gt;CPIhash = $CPIhash;&#xA;      }&#xA;      /**&#xA;      * @desc  It will return the orderHash for the post if all the arguments sent are in valid format. Else will return false&#xA;      */&#xA;      function getOrderHash($args)&#xA;      {&#xA;          if($this-&amp;gt;validate($args)==false)&#xA;          {&#xA;              return false;&#xA;          }&#xA;          else&#xA;          {&#xA;                $cmd = &amp;#34;&amp;#34;;&#xA;                while( list( $k, $v ) = each( $args ) )&#xA;                {&#xA;                    $cmd .= &amp;#34; \&amp;#34;$v\&amp;#34; &amp;#34;;&#xA;                }&#xA;               &#xA;                $cmd = $this-&amp;gt;hashFilePath.&amp;#34; \&amp;#34;&amp;#34;.$this-&amp;gt;CPIhash.&amp;#34;\&amp;#34; $cmd&amp;#34;;&#xA;                //debug&#xA;                //echo $cmd;&#xA;                $ret = exec($cmd);&#xA;                $ret = split(&amp;#39;:&amp;#39;,$ret); //will return like &amp;#39;Hash value:  ebdDNSF6xSJJCFjgtsfJU+ebt24=&amp;#39;         &#xA;                $hash = trim($ret[1]);&#xA;               &#xA; &#xA;                if(strlen($hash) != 28) //always return string of 28 chars&#xA;                {&#xA;                    return false;&#xA;                }&#xA;                else&#xA;                {&#xA;                    $this-&amp;gt;orderHash = $hash;&#xA;                    return $this-&amp;gt;orderHash;&#xA;                }   &#xA;          }&#xA;         &#xA;      }&#xA;     &#xA;     &#xA;      /**&#xA;      * @desc Function that return true if required arguments are present in the associate array. else will return false&#xA;      * @var $args Array Associate array&#xA;      */&#xA;      function validate($args)&#xA;      {&#xA;          $req = array(&#xA;                      &amp;#39;CpiDirectResultUrl&amp;#39;,&#xA;                      &amp;#39;CpiReturnUrl&amp;#39;,&#xA;                      &amp;#39;Mode&amp;#39;,&#xA;                      &amp;#39;OrderDesc&amp;#39;,&#xA;                      &amp;#39;OrderId&amp;#39;,&#xA;                      &amp;#39;PurchaseAmount&amp;#39;,&#xA;                      &amp;#39;PurchaseCurrency&amp;#39;,&#xA;                      &amp;#39;StorefrontId&amp;#39;,&#xA;                      &amp;#39;TimeStamp&amp;#39;,&#xA;                      &amp;#39;TransactionType&amp;#39;,&#xA;                        );&#xA;         $isValid = true;       &#xA;         foreach($req as $arg)&#xA;         {&#xA;             if(array_key_exists($arg,$args)!=true)&#xA;             {&#xA;                 $isValid = false;&#xA;             }&#xA;         }&#xA;         return $isValid;&#xA;      }&#xA;     &#xA;      /**&#xA;      * @desc Function will echo the error messages relavant to the result code returned from HSBC&#xA;      * @var $errCode Integer between 0-16.&#xA;      */&#xA;      function error($errCode)&#xA;      {&#xA;          $errors = array(&#xA;                            &amp;#39;The transaction was approved.&amp;#39;,   &#xA;                            &amp;#39;The user cancelled the transaction.&amp;#39;,   &#xA;                            &amp;#39;The processor declined the transaction for an unknown reason.&amp;#39;,   &#xA;                            &amp;#39;The transaction was declined because of a problem with the card.For example,an invalid card number or expiration date was specified.&amp;#39;,   &#xA;                            &amp;#39;The processor did not return a response.&amp;#39;,   &#xA;                            &amp;#39;The amount specified in the transaction was either too high or too lowfor the processor.&amp;#39;,   &#xA;                            &amp;#39;The specified currency is not supported by either the processor or the card.&amp;#39;,   &#xA;                            &amp;#39;The order is invalid because the order ID is a duplicate.&amp;#39;,   &#xA;                            &amp;#39;The transaction was rejected by FraudShield.&amp;#39;,   &#xA;                            &amp;#39;The transaction was placed in Review state by FraudShield. When a transaction is placed in Review state by FraudShield, it can be authorised, but it cannot be settled until it is reviewed by you (or one of your staff) and either accepted or rejected. For more information on reviewing transactions, refer to the Secure ePayments Card Processing Virtual Terminal Guide.&amp;#39;,   &#xA;                            &amp;#39;The transaction failed because of invalid input data.&amp;#39;,   &#xA;                            &amp;#39;The transaction failed because the CPI was configured incorrectly.&amp;#39;,                             &amp;#39;The transaction failed because the Storefront was configured incorrectly.&amp;#39;,   &#xA;                            &amp;#39;The connection timed out.&amp;#39;,   &#xA;                            &amp;#39;The transaction failed because the cardholder’s browser refused a cookie.&amp;#39;,   &#xA;                            &amp;#39;The customer’s browser does not support 128-bit encryption.&amp;#39;,&#xA;                            &amp;#39;The CPI cannot communicate with the Payment Engine.&amp;#39;   &#xA; &#xA;                         );&#xA;          return $errors[$errCode];&#xA;      }&#xA;     &#xA;  }&#xA; &#xA; &#xA;  /* &#xA;    //Merchant Specific data&#xA;    $storeFrontId = &amp;#39;UK12345678GBP&amp;#39;;&#xA;    $CPIhash =&amp;#39;MORYvylyIrVmRizY89OVNzPwd5VEINdy&amp;#39;;&#xA;    $hashFilePath = &amp;#39;C:/HSBC/TestHash.exe&amp;#39;;&#xA;   &#xA;    //Sample data&#xA;    $args = array(&#xA;                    &amp;#34;CpiDirectResultUrl&amp;#34; =&amp;gt; &amp;#39;https://localhost/HSBC/hsbc_return.php&amp;#39;,&#xA;                    &amp;#34;CpiReturnUrl&amp;#34; =&amp;gt; &amp;#39;https://localhost/HSBC/hsbc_return.php&amp;#39;,&#xA;                    &amp;#34;MerchantData&amp;#34; =&amp;gt; &amp;#39;f5b8b178c5541d2c789d0606888aaa66&amp;#39;,&#xA;                    &amp;#34;Mode&amp;#34; =&amp;gt; &amp;#39;T&amp;#39;,&#xA;                    &amp;#34;OrderDesc&amp;#34; =&amp;gt; &amp;#39;MyStore order&amp;#39;,&#xA;                    &amp;#34;OrderId&amp;#34; =&amp;gt; &amp;#39;27&amp;#39;,&#xA;                    &amp;#34;PurchaseAmount&amp;#34; =&amp;gt; &amp;#39;7405&amp;#39;,&#xA;                    &amp;#34;PurchaseCurrency&amp;#34; =&amp;gt; &amp;#39;826&amp;#39;,&#xA;                    &amp;#34;StorefrontId&amp;#34; =&amp;gt; $storeFrontId,&#xA;                    &amp;#34;TimeStamp&amp;#34; =&amp;gt; &amp;#39;1166437083000&amp;#39;,&#xA;                    &amp;#34;TransactionType&amp;#34; =&amp;gt; &amp;#39;Auth&amp;#39;,&#xA;                    &amp;#34;BillingAddress1&amp;#34; =&amp;gt; &amp;#39;st address&amp;#39;,&#xA;                    &amp;#34;BillingCity&amp;#34; =&amp;gt; &amp;#39;city&amp;#39;,&#xA;                    &amp;#34;BillingCountry&amp;#34; =&amp;gt; &amp;#39;356&amp;#39;,&#xA;                    &amp;#34;BillingCounty&amp;#34; =&amp;gt; &amp;#39;state&amp;#39;,&#xA;                    &amp;#34;BillingFirstName&amp;#34; =&amp;gt; &amp;#39;Palani&amp;#39;,&#xA;                    &amp;#34;BillingLastName&amp;#34; =&amp;gt; &amp;#39;raja&amp;#39;,&#xA;                    &amp;#34;BillingPostal&amp;#34; =&amp;gt; &amp;#39;134003&amp;#39;,&#xA;                    &amp;#34;ShopperEmail&amp;#34; =&amp;gt; &amp;#39;YOUREMAILID@gmail.com&amp;#39;,&#xA;                    &amp;#34;ShippingAddress1&amp;#34; =&amp;gt; &amp;#39;st address&amp;#39;,&#xA;                    &amp;#34;ShippingCity&amp;#34; =&amp;gt; &amp;#39;city&amp;#39;,&#xA;                    &amp;#34;ShippingCountry&amp;#34; =&amp;gt; &amp;#39;356&amp;#39;,&#xA;                    &amp;#34;ShippingCounty&amp;#34; =&amp;gt; &amp;#39;state&amp;#39;,&#xA;                    &amp;#34;ShippingFirstName&amp;#34; =&amp;gt; &amp;#39;Palani&amp;#39;,&#xA;                    &amp;#34;ShippingLastName&amp;#34; =&amp;gt; &amp;#39;raja&amp;#39;,&#xA;                    &amp;#34;ShippingPostal&amp;#34; =&amp;gt; &amp;#39;134003&amp;#39; &#xA;                    );&#xA;                             */&#xA;    /*&#xA;    Note:&#xA;        MerchantData - session Id,&#xA;        OrderId - random no&#xA;        Amount - 74.05&#xA;        PurchaseCurrency - GBP&#xA;        BillingCountry,ShippingCountry - India&#xA;        in the above data&#xA;    */&#xA; &#xA;    // How to&#xA;   /* $h1 = new HSBC();&#xA;    $h1-&amp;gt;config($storeFrontId, $hashFilePath, $CPIhash);&#xA;    $res = $h1-&amp;gt;getOrderHash($args);&#xA;    if($res)&#xA;    {&#xA;        echo &amp;#34;OrderHash: &amp;#34;.$res;&#xA;    }&#xA;    printPre($res,1);&#xA;    */&#xA;   &#xA;   &#xA;   &#xA;?&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
   </channel>
 </rss>

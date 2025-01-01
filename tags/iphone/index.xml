@@ -1,239 +1,180 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>iPhone on PR</title>
+    <title>IPhone on PR</title>
     <link>https://www.palaniraja.com/tags/iphone/</link>
-    <description>Recent content in iPhone on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in IPhone on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Fri, 06 Jan 2012 22:35:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2012 22:35:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing iOS application for salesforce [How to]</title>
       <link>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</link>
       <pubDate>Fri, 06 Jan 2012 22:35:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/developing-ios-application-for-salesforce-how-to/</guid>
-      <description>Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).
-Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.</description>
+      <description>&lt;p&gt;Here are the collection of snippets to do CRUD operation with ZKSforce (Force.com toolkit for iOS).&lt;/p&gt;&#xA;&lt;p&gt;Remember this is a SOAP based API, there is a new alternative library available from salesforce called MobileSDK for iOS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iCloud Gotchas</title>
       <link>https://www.palaniraja.com/2011/12/icloud-gotchas/</link>
       <pubDate>Sat, 17 Dec 2011 23:08:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/icloud-gotchas/</guid>
-      <description>Integrating iCloud with core data was easy when I found this tutorial, but I ran into few issues while implementing and testing it on devices.</description>
+      <description>&lt;p&gt;Integrating iCloud with core data was easy when I found &lt;a href=&#34;http://goddess-gate.com/dc2/index.php/post/452&#34;&gt;this tutorial&lt;/a&gt;, but I ran into few issues while implementing and testing it on devices. And here are the steps how I managed to solve it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Distribute your iPhone/iPad adhoc builds Over The Air using Dropbox</title>
       <link>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</link>
       <pubDate>Wed, 29 Jun 2011 01:18:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/06/distribute-your-iphone/ipad-adhoc-builds-over-the-air-using-dropbox/</guid>
-      <description>Update: I recently found this site called diawi.com which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I recently found this site called &lt;a href=&#34;http://diawi.com/&#34;&gt;diawi.com&lt;/a&gt; which allows you to distribute the app similar to file-sharing sites, drag and drop ipa file and share the link to the testers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Enter into / Exit from Recovery mode for iPhone</title>
       <link>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</link>
       <pubDate>Sat, 14 May 2011 10:47:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/enter-into-/-exit-from-recovery-mode-for-iphone/</guid>
-      <description>Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations.</description>
+      <description>&lt;p&gt;Yes, every post you come across suggest the same thing, hold your power button and home button for X seconds. Though it is true, unfortunately I had a couple of situations my iphone doesn&amp;rsquo;t respond to the key combinations. And some time it is very frustrating to hold your buttons so long.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Capture screenshot of the app with iPad simulator</title>
       <link>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</link>
       <pubDate>Fri, 22 Apr 2011 12:11:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/capture-screenshot-of-the-app-with-ipad-simulator/</guid>
-      <description>Until recently I was not aware of the shortcut _Ctrl + Cmd + C _
-It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by File -&amp;gt; New from Clipboard with preview.</description>
+      <description>&lt;p&gt;Until recently I was not aware of the shortcut &lt;strong&gt;_Ctrl + Cmd + C _&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It captures the complete content of the iPad simulator to the clipboard, You can save it to a file by &lt;strong&gt;File -&amp;gt; New from Clipboard&lt;/strong&gt; with &lt;strong&gt;preview.app&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Advanced iPhone Development - iTunesU</title>
       <link>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</link>
       <pubDate>Mon, 28 Feb 2011 06:46:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/02/advanced-iphone-development-itunesu/</guid>
-      <description>Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson
-Session on OpenGL ES 2.</description>
+      <description>&lt;p&gt;Recent search on iTunes listed the Madison Area Technical College classes on iPhone development by Dr. Brad Larson&lt;/p&gt;&#xA;&lt;p&gt;Session on OpenGL ES 2.0 recommended by Gurus. Go and download the complete sessions from &lt;a href=&#34;http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=407243028&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Apple Sep 1, 2010 Event under 3 min</title>
       <link>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</link>
       <pubDate>Thu, 09 Sep 2010 11:33:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/apple-sep-1-2010-event-under-3-min/</guid>
-      <description>Youtube link
-Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=-24euRgImPg Related Posts Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II </description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-24euRgImPg&#34;&gt;Youtube link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;noscript&gt;&#xA;    &lt;p class=&#34;noscript&#34;&gt;Content requires Javascript to be enabled.&lt;/p&gt;&#xA;&#xA;    &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-24euRgImPg&#34;&gt;https://www.youtube.com/watch?v=-24euRgImPg&lt;/a&gt; &lt;/p&gt;&#xA;&#xA;    &lt;br/&gt;&#xA;    &#xA;&lt;/noscript&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;    p.noscript{&#xA;        background-color: #fefea0;&#xA;        border-left: 4px solid #fea0a0;&#xA;        padding: 0 0.25em;&#xA;    }&#xA;&lt;/style&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-24euRgImPg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;related-posts&#34;&gt;Related Posts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/09/call-me-hypocrite-my-take-on-apple.html&#34;&gt;Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/09/call-me-hypocrite-my-take-on-apple_08.html&#34;&gt;Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part II</title>
       <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</link>
       <pubDate>Wed, 08 Sep 2010 11:14:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-ii/</guid>
-      <description>iTunes 10 Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys!</description>
+      <description>&lt;h3 id=&#34;itunes-10&#34;&gt;iTunes 10&lt;/h3&gt;&#xA;&lt;p&gt;Another iTunes upgrade, I don&amp;rsquo;t want to see another 100Mb iTunes upgrade till next month. Many people were fighting over the icon, Guys! they have changed the boring icon after a decade.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Call Me A Hypocrite: My take on Apple Event Sep 1, 2010 - Part I</title>
       <link>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</link>
       <pubDate>Sat, 04 Sep 2010 12:28:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/09/call-me-a-hypocrite-my-take-on-apple-event-sep-1-2010-part-i/</guid>
-      <description>Only yesterday I got a chance to view the Keynote video. You can also download the video from iTunes for Free.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-09-04-at-10.00.40-PM.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2010-09-04-at-10.00.40-PM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Only yesterday I got a chance to view the Keynote video. You can also &lt;a href=&#34;http://itunes.apple.com/us/podcast/apple-special-event-september/id275834665?i=86766489&#34;&gt;download&lt;/a&gt; the video from iTunes for Free.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPad - Safari background texture</title>
       <link>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</link>
       <pubDate>Sat, 14 Aug 2010 20:22:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/08/ipad-safari-background-texture/</guid>
-      <description>TL;DR
-Apple version of the texture
-background_linen.png
-Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari background fabric texture.</description>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apple version of the texture&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://devimages.apple.com.edgekey.net/assets/elements/layout/background_linen.png&#34;&gt;background_linen.png&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ever since I installed the iOS 3.2 SDK I was in love with the iPad/Safari background fabric texture.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Angry Birds – I give up</title>
       <link>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</link>
       <pubDate>Wed, 07 Jul 2010 00:03:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/07/angry-birds-i-give-up/</guid>
-      <description>Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)
-I am not a great gamer, I give up on games too early.</description>
+      <description>&lt;p&gt;Angry Birds is one great app in Apple App Store that worth every penny (Full version is only $0.99)&lt;/p&gt;&#xA;&lt;p&gt;I am not a great gamer, I give up on games too early. But this Angry Birds is one hell of a game (next to Road Rash &amp;amp; NFS II) that makes me addicted for a long time.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WWDC 2010 - iPhone 4</title>
       <link>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</link>
       <pubDate>Wed, 16 Jun 2010 21:27:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/wwdc-2010-iphone-4/</guid>
-      <description>iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard. Steve can still memorize 24 countries and repeat them in the same order.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;iPad didn&amp;rsquo;t replace common tasks. Steve was referring his notepad on stage:). Old habits die hard.&lt;/li&gt;&#xA;&lt;li&gt;Steve can still memorize 24 countries and repeat them in the same order. Bravo! Good job Steve.&lt;/li&gt;&#xA;&lt;li&gt;Yes, he appreciated Microsoft for their HTML5 demos.&lt;/li&gt;&#xA;&lt;li&gt;Now the revenue will be shared  60-40%. 40% of iAd revenue to Apple.&lt;/li&gt;&#xA;&lt;li&gt;Will FaceTime work if there are quite a few devices on the Wi-Fi network?&lt;/li&gt;&#xA;&lt;li&gt;If FaceTime is Open, then H.264 and AAC too?&lt;/li&gt;&#xA;&lt;li&gt;If the same front side glass was used in the back of iPhone 4, can we replace the backside glass for the front in case of damages to the front?&lt;/li&gt;&#xA;&lt;li&gt;29$ for bumb ( a band covers the antennas&amp;rsquo;). Come on Steve, let the poor guys live with the iPhone/iPad cover business.&lt;/li&gt;&#xA;&lt;li&gt;FaceTime is open since it use many OpenSource tools &amp;amp; standards.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;are few points I noticed during Keynote.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Download Apple WWDC Keynote videos</title>
       <link>https://www.palaniraja.com/2010/06/download-apple-wwdc-keynote-videos/</link>
       <pubDate>Wed, 16 Jun 2010 21:02:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/download-apple-wwdc-keynote-videos/</guid>
-      <description>I was always disappointed with Apple Keynote pages. It allows you to stream and watch the videos with QuickTime which is not great for streaming and videos are not HTML5 yet.</description>
+      <description>&lt;p&gt;I was always disappointed with Apple Keynote pages. It allows you to stream and watch the videos with QuickTime which is not great for streaming and videos are not HTML5 yet. Another restriction with QuickTime is, you need to have QuickTime Pro to save the video.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPad - My Experience</title>
       <link>https://www.palaniraja.com/2010/06/ipad-my-experience/</link>
       <pubDate>Tue, 15 Jun 2010 07:13:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/ipad-my-experience/</guid>
-      <description>Warning: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)</description>
+      <description>&lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;: My observations are biased as I&amp;rsquo;m not an Apple Fanboy, at least right now (was one in the past, I both respect and hate Apple &amp;amp; Microsoft)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Solving Read-Only Notes.app issue</title>
       <link>https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/</link>
       <pubDate>Wed, 09 Jun 2010 01:12:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/06/solving-read-only-notes.app-issue/</guid>
-      <description>Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the manual backup of notes.</description>
+      <description>&lt;p&gt;Notes.app of miPhone was not allowing me to save any new notes. This was after restoring the &lt;a href=&#34;http://www.funkyspacemonkey.com/howto-manually-backup-iphone&#34;&gt;manual backup&lt;/a&gt; of notes.db. I have taken the backup of my Address book, notes and images data with &lt;a href=&#34;http://www.macroplant.com/iphoneexplorer/&#34;&gt;iPhone Explorer&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>[BEROR]Code Sign error: Provisioning profile &#39;579ACFD8-827A-4325-F623-DB8CDD5081DB&#39; can&#39;t be found</title>
       <link>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</link>
       <pubDate>Sun, 04 Apr 2010 09:13:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found/</guid>
-      <description>Check dependencies Code Sign error: Provisioning profile [BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;h4 id=&#34;check-dependencies-code-sign-error-provisioning-profile&#34;&gt;Check dependencies Code Sign error: Provisioning profile&lt;/h4&gt;&#xA;&lt;h4 id=&#34;berorcode-sign-error-provisioning-profile-579acfd8-827a-4325-f623-db8cdd5081db-cant-be-found&#34;&gt;[BEROR]Code Sign error: Provisioning profile &amp;lsquo;579ACFD8-827A-4325-F623-DB8CDD5081DB&amp;rsquo; can&amp;rsquo;t be found&lt;/h4&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Anyone who is relatively new to iPhone development could easily identify this issue is related to the invalid provisioning profile.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Why AppStore submission process sucks!</title>
       <link>https://www.palaniraja.com/2010/04/why-appstore-submission-process-sucks/</link>
       <pubDate>Sun, 04 Apr 2010 07:59:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/04/why-appstore-submission-process-sucks/</guid>
-      <description>They only check the binary to see if they use any private API nothing other than that. Sometimes they reject the app and give you a reason that it doesn&amp;rsquo;t fit with their HIG standards.</description>
+      <description>&lt;p&gt;They only check the binary to see if they use any private API nothing other than that. Sometimes they reject the app and give you a reason that it doesn&amp;rsquo;t fit with their HIG standards. Eg., one of our app got rejected for this reason. They said + button should be used when you use add contacts to the app from Address book. But the same + icon was used in USA Today app and is available in appstore. Moreover we just copied the idea to have + to show larger images.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPhone – Accessibility</title>
       <link>https://www.palaniraja.com/2010/03/iphone-accessibility/</link>
       <pubDate>Thu, 25 Mar 2010 12:28:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/iphone-accessibility/</guid>
-      <description>What if iPhone provides an accessibility option for users with bigger finger?
-I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool.</description>
+      <description>&lt;p&gt;What if iPhone provides an accessibility option for users with bigger finger?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/photo_thumb.jpg&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/photo_thumb.jpg&#34; alt=&#34;photo&#34; title=&#34;photo&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I found that pinch to zoom and screenshot capturing can be considered as good photo cropping tool. This was done in the following sequence screenshot + zoom + screenshot. You can see the same with the UIPageControl aligned little left instead of center.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Objective-C Crash Course for Web Developers</title>
       <link>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</link>
       <pubDate>Sun, 21 Mar 2010 07:41:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/03/objective-c-crash-course-for-web-developers/</guid>
-      <description>Please find the below presentation which explains obj-c for web developers (js/php). This is taken from SXSW&#39;10. I&amp;rsquo;m also searching for the video will share if I come across any.</description>
+      <description>&lt;p&gt;Please find the below presentation which explains obj-c for web developers (js/php). This is taken from &lt;a href=&#34;http://my.sxsw.com/events/event/615&#34;&gt;SXSW&#39;10&lt;/a&gt;. I&amp;rsquo;m also searching for the video will share if I come across any.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Weird issue with application icons on iPhone dashboard</title>
       <link>https://www.palaniraja.com/2010/02/weird-issue-with-application-icons-on-iphone-dashboard/</link>
       <pubDate>Sat, 06 Feb 2010 19:38:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/02/weird-issue-with-application-icons-on-iphone-dashboard/</guid>
-      <description>Note: Apple reported this as fixed in version 3.1 and above. The screenshot above was taken with an iPhone OS 3.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.palaniraja.com/assets/IMG_0025.png&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/IMG_0025.png&#34; alt=&#34;IMG_0025&#34; title=&#34;IMG_0025&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Apple reported this as fixed in version 3.1 and above. The screenshot above was taken with an iPhone OS 3.0 on a 2G device.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sync Contacts from your Nokia to iPhone without outlook</title>
       <link>https://www.palaniraja.com/2010/02/sync-contacts-from-your-nokia-to-iphone-without-outlook/</link>
       <pubDate>Wed, 03 Feb 2010 10:02:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/02/sync-contacts-from-your-nokia-to-iphone-without-outlook/</guid>
-      <description>It is possible to sync your contacts to your iPhone without MS Outlook? Yes.
-Steps Export your phonebook to CSV Import the same to your Gmail account Sync contacts from your Google account with iTunes.</description>
+      <description>&lt;p&gt;It is possible to sync your contacts to your iPhone without MS Outlook? &lt;strong&gt;Yes&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;steps&#34;&gt;Steps&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Export your phonebook to CSV&lt;/li&gt;&#xA;&lt;li&gt;Import the same to your Gmail account&lt;/li&gt;&#xA;&lt;li&gt;Sync contacts from your Google account with iTunes.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;notes&#34;&gt;Notes:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In addition to Google, it is also possible to sync with Yahoo, windows address book, MS Outlook.&lt;/li&gt;&#xA;&lt;li&gt;To export your phonebook you need Nokia PC suite. It doesn’t copy the SIM contacts; but the same can be imported directly in iPhone.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;1. Open your iTunes, select your iPhone and click the Info tab.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to test your iPhone applications with iPad simulator?</title>
       <link>https://www.palaniraja.com/2010/02/how-to-test-your-iphone-applications-with-ipad-simulator/</link>
       <pubDate>Tue, 02 Feb 2010 20:06:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/02/how-to-test-your-iphone-applications-with-ipad-simulator/</guid>
-      <description>iPad can run most of the iPhone (iPod touch) applications. After installing the iPhone SDK 3.2 open your iPhone simulator and select below from the menu</description>
+      <description>&lt;p&gt;iPad can run most of the iPhone (iPod touch) applications. After installing the iPhone SDK 3.2 open your iPhone simulator and select below from the menu&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First iPad program</title>
       <link>https://www.palaniraja.com/2010/02/first-ipad-program/</link>
       <pubDate>Tue, 02 Feb 2010 19:49:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/02/first-ipad-program/</guid>
-      <description>I managed to install iPhone SDK 3.2 beta today. I installed it on my Snow Leopard 1.6 (Note: the minimum requirement of iPhone SDK 3.</description>
+      <description>&lt;p&gt;I managed to install iPhone SDK 3.2 beta today. I installed it on my Snow Leopard 1.6 (Note: the minimum requirement of iPhone SDK 3.2 is 10.6.2). But the installer didn’t ask me to update OS before installing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iPhone SDK 3.2 beta for $29</title>
       <link>https://www.palaniraja.com/2010/02/iphone-sdk-3.2-beta-for-29/</link>
       <pubDate>Mon, 01 Feb 2010 19:03:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2010/02/iphone-sdk-3.2-beta-for-29/</guid>
-      <description>I’m little surprised to know that the new iPhone SDK 3.2 beta requires 10.6.2 (Snow Leopard). And, no SDK for 1.</description>
+      <description>&lt;p&gt;I’m little surprised to know that the new iPhone SDK 3.2 beta requires 10.6.2 (Snow Leopard). And, no SDK for 1.5 (Leopard).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

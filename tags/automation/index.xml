@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>automation on PR</title>
+    <title>Automation on PR</title>
     <link>https://www.palaniraja.com/tags/automation/</link>
-    <description>Recent content in automation on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Automation on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Fri, 17 Aug 2018 18:50:27 +0530</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Aug 2018 18:50:27 +0530</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Script to publish Hugo sites for Github</title>
       <link>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</link>
       <pubDate>Fri, 17 Aug 2018 18:50:27 +0530</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/08/script-to-publish-hugo-sites-for-github/</guid>
-      <description>While deploying my recent hugo website to github, I re-learnt that, you can only publish gh-pages from master branch for user or organization repository.</description>
+      <description>&lt;p&gt;While deploying my &lt;a href=&#34;https://www.palaniraja.com/2018/08/website-redesign/&#34;&gt;recent hugo&lt;/a&gt; website to github, I &lt;a href=&#34;https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/&#34;&gt;re-learnt&lt;/a&gt; that, you can only publish gh-pages from &lt;code&gt;master&lt;/code&gt; branch for &lt;a href=&#34;https://help.github.com/articles/user-organization-and-project-pages/&#34;&gt;user or organization&lt;/a&gt; repository.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

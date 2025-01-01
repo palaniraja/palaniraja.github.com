@@ -4,19 +4,16 @@
     <title>Display on PR</title>
     <link>https://www.palaniraja.com/tags/display/</link>
     <description>Recent content in Display on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 27 Aug 2012 10:53:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/display/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Aug 2012 10:53:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/display/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Failed to get brightness for displayID</title>
       <link>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</link>
       <pubDate>Mon, 27 Aug 2012 10:53:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/08/failed-to-get-brightness-for-displayid/</guid>
-      <description>If you are experiencing frequent disk I/O and your console is full of
-25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0</description>
+      <description>&lt;p&gt;If you are experiencing frequent disk I/O and your &lt;em&gt;&lt;strong&gt;console&lt;/strong&gt;&lt;/em&gt; is full of&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;25/08/12 4:30:19.506 PM ALSPlugin 235.55[62]: Failed to get brightness for displayID 0x042731c0&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>green on PR</title>
+    <title>Green on PR</title>
     <link>https://www.palaniraja.com/tags/green/</link>
-    <description>Recent content in green on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Green on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 23 Jan 2011 10:22:00 -0800</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/green/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2011 10:22:00 -0800</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/green/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iPad wallpaper for minimalist</title>
       <link>https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/</link>
       <pubDate>Sun, 23 Jan 2011 10:22:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/01/ipad-wallpaper-for-minimalist/</guid>
-      <description>Here is the background image I am using for my iPad. It is looking gorgeous on Home screen.
-Looks good on both orientations.</description>
+      <description>&lt;p&gt;Here is the background image I am using for my iPad. It is looking gorgeous on Home screen.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/bgboard.png&#34; alt=&#34;bgboard&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Looks good on both orientations.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

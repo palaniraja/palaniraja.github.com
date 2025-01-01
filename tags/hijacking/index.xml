@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hijacking on PR</title>
+    <title>Hijacking on PR</title>
     <link>https://www.palaniraja.com/tags/hijacking/</link>
-    <description>Recent content in hijacking on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Hijacking on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Sun, 28 Apr 2013 06:38:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/hijacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2013 06:38:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/hijacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Request To Webdevs: Include IP/User-Agent Info In Forgot Password Email</title>
       <link>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</link>
       <pubDate>Sun, 28 Apr 2013 06:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/request-to-webdevs-include-ip/user-agent-info-in-forgot-password-email/</guid>
-      <description>The Forgot password email template has been the same for more than a decade. It is time to include more information in the email.</description>
+      <description>&lt;p&gt;The &lt;em&gt;Forgot password&lt;/em&gt; email template has been the same for more than a decade. It is time to include more information in the email.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Airtel Broadband - How to find bandwidth usage</title>
       <link>https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/</link>
       <pubDate>Fri, 09 Dec 2011 20:04:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/12/airtel-broadband-how-to-find-bandwidth-usage/</guid>
-      <description>If you would like to keep tabs on your bandwidth usage?
-http://122.160.230.125:8080/gbod/gb_on_demand.do
-It is good to know your usage, the 10GB fair usage plan from Airtel is peanut for my usage as I download a lot of TED &amp;amp; iOS Dev videos from iTunes.</description>
+      <description>&lt;p&gt;If you would like to keep tabs on your bandwidth usage?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://122.160.230.125:8080/gbod/gb_on_demand.do&#34;&gt;http://122.160.230.125:8080/gbod/gb_on_demand.do&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-11-28-at-11.52.57-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is good to know your usage, the 10GB fair usage plan from Airtel is peanut for my usage as I download a lot of TED &amp;amp; iOS Dev videos from iTunes.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

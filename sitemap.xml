@@ -56,10 +56,10 @@
     <loc>https://www.palaniraja.com/2023/03/how-to-view-git-change-history-of-a-swift-method/</loc>
     <lastmod>2023-03-28T19:54:59-07:00</lastmod>
   </url><url>
-    <loc>https://www.palaniraja.com/categories/swift/</loc>
+    <loc>https://www.palaniraja.com/tags/swift/</loc>
     <lastmod>2023-03-28T19:54:59-07:00</lastmod>
   </url><url>
-    <loc>https://www.palaniraja.com/tags/swift./</loc>
+    <loc>https://www.palaniraja.com/categories/swift/</loc>
     <lastmod>2023-03-28T19:54:59-07:00</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/tags/hobby/</loc>
@@ -407,6 +407,9 @@
     <loc>https://www.palaniraja.com/tags/swift-objc-bridging/</loc>
     <lastmod>2015-02-21T07:03:00-08:00</lastmod>
   </url><url>
+    <loc>https://www.palaniraja.com/tags/swift./</loc>
+    <lastmod>2015-02-21T07:03:00-08:00</lastmod>
+  </url><url>
     <loc>https://www.palaniraja.com/2015/02/swift/objective-c-interoperability-behind-the-configure-bridging-header-dialog/</loc>
     <lastmod>2015-02-21T07:03:00-08:00</lastmod>
   </url><url>
@@ -681,6 +684,9 @@
     <lastmod>2013-04-20T23:45:00-07:00</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/tags/code/</loc>
+    <lastmod>2013-04-20T23:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.palaniraja.com/tags/quick-reference./</loc>
     <lastmod>2013-04-20T23:45:00-07:00</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/tags/recommended/</loc>
@@ -1536,14 +1542,9 @@
     <lastmod>2006-11-06T16:21:00+05:30</lastmod>
   </url><url>
     <loc>https://www.palaniraja.com/all/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://www.palaniraja.com/archives/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://www.palaniraja.com/resume/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://www.palaniraja.com/tags/quick-reference./</loc>
   </url>
 </urlset>

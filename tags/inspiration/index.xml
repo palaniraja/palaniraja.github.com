@@ -1,124 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>inspiration on PR</title>
+    <title>Inspiration on PR</title>
     <link>https://www.palaniraja.com/tags/inspiration/</link>
-    <description>Recent content in inspiration on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Inspiration on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Tue, 20 Mar 2018 08:42:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/inspiration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Mar 2018 08:42:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/inspiration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Recommendations</title>
       <link>https://www.palaniraja.com/2018/03/book-recommendations/</link>
       <pubDate>Tue, 20 Mar 2018 08:42:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2018/03/book-recommendations/</guid>
-      <description>I was too lazy to write blog post for a long time. To break my lazy streak, here is something I wanted to write and procrastinated for at-least 6 months.</description>
+      <description>&lt;p&gt;I was too lazy to write blog post for a long time. To break my lazy streak, here is something I wanted to write and procrastinated for at-least 6 months.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dev Diary</title>
       <link>https://www.palaniraja.com/2016/01/dev-diary/</link>
       <pubDate>Sun, 31 Jan 2016 07:30:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2016/01/dev-diary/</guid>
-      <description>This is something I&amp;rsquo;ve started in Jan &amp;lsquo;15. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?</description>
+      <description>&lt;p&gt;This is something I&amp;rsquo;ve started in Jan &amp;lsquo;&lt;a href=&#34;https://github.com/palaniraja/devdiary/commits/master&#34;&gt;15&lt;/a&gt;. This is to practice a habit of keeping a log of stuff I do which took me a lot of time to figure out myself (may be I&amp;rsquo;m not efficient?).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book recommendation : Creativity Inc by Ed Catmull</title>
       <link>https://www.palaniraja.com/2015/01/book-recommendation-creativity-inc-by-ed-catmull/</link>
       <pubDate>Sun, 18 Jan 2015 05:20:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2015/01/book-recommendation-creativity-inc-by-ed-catmull/</guid>
-      <description>It is no surprise that you know about Pixar if you are even remotely knew Steve Jobs and his history. And you definitely heard about Pixar’s movies Toy story, Finding Nemo, Wall-E, Up &amp;amp; more.</description>
+      <description>&lt;p&gt;It is no surprise that you know about &lt;a href=&#34;http://en.wikipedia.org/wiki/Pixar&#34;&gt;Pixar&lt;/a&gt; if you are even remotely knew &lt;a href=&#34;http://en.wikipedia.org/wiki/Steve_Jobs&#34;&gt;Steve Jobs&lt;/a&gt; and his history. And you definitely heard about Pixar’s movies &lt;a href=&#34;http://www.imdb.com/title/tt0114709/&#34;&gt;Toy story&lt;/a&gt;,  &lt;a href=&#34;http://www.imdb.com/title/tt0266543/&#34;&gt;Finding Nemo&lt;/a&gt;, &lt;a href=&#34;http://www.imdb.com/title/tt0910970/&#34;&gt;Wall-E&lt;/a&gt;, &lt;a href=&#34;http://www.imdb.com/title/tt1049413/&#34;&gt;Up&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://www.imdb.com/company/co0017902/&#34;&gt;more&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Some funniest moments from my appraisal</title>
       <link>https://www.palaniraja.com/2013/04/some-funniest-moments-from-my-appraisal/</link>
       <pubDate>Sat, 27 Apr 2013 10:49:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/some-funniest-moments-from-my-appraisal/</guid>
-      <description>I had my one-on-one meeting for 2012-13 appraisal this week. I was disappointed with the feedback given to me. Well, I have been _work_ing for very long time, and I know if you are not hurt then it is not an appraisal.</description>
+      <description>&lt;p&gt;I had my one-on-one meeting for 2012-13 appraisal this week. I was disappointed with the feedback given to me. Well, I have been _work_ing for very long time, and I know if you are not hurt then it is not an appraisal.&lt;br&gt;&#xA;We received a lo..ong email from my manager couple of days before the one-on-one meeting, explaining his expectations from resources. A week after we submitted our self appraisal. Though &lt;a href=&#34;http://www.youtube.com/watch?v=iDqWAmvCf0o&#34;&gt;unofficial first rule of appraisal&lt;/a&gt; is not to talk about appraisal, I couldn&amp;rsquo;t help myself from posting this.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Recommendation: Testing with coffeescript by Jack Franklin [Free ebook]</title>
       <link>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</link>
       <pubDate>Sat, 20 Apr 2013 23:45:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/04/book-recommendation-testing-with-coffeescript-by-jack-franklin-free-ebook/</guid>
-      <description>TDD (Test Driven Development) was introduced to me around 2006 with PHPUnit. As a naive, I couldn&amp;rsquo;t see the benefits, eg.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://efendibooks.com/minibooks/testing-with-coffeescript&#34;&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-04-21-at-11.49.28-AM.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Test-driven_development&#34;&gt;TDD&lt;/a&gt; (Test Driven Development) was introduced to me around 2006 with &lt;a href=&#34;http://www.phpunit.de/manual/current/en/index.html&#34;&gt;PHPUnit&lt;/a&gt;. As a naive, I couldn&amp;rsquo;t see the benefits, eg., I saw the pattern of code has been updated very often (growing organically) and frequent failing test. I was like, &lt;em&gt;Why should I write unit test to test my own code? with the same data I used for manual testing?&lt;/em&gt; As they say I was seeing the forest for the trees. I failed to realize the failing test is actually the benefit of practicing TDD.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Idea Vault: Prj - Dug Me</title>
       <link>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</link>
       <pubDate>Sun, 06 Jan 2013 03:38:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/idea-vault-prj-dug-me/</guid>
-      <description>Task management app with little twist. Yep, Dug instead of clippy while nagging.
-Idea is to log all our project ideas similar to logging notes in nvALT.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-Shot-2013-01-06-at-4.30.39-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Task management app with little twist. Yep, &lt;a href=&#34;http://pixar.wikia.com/Dug&#34;&gt;Dug&lt;/a&gt; instead of &lt;a href=&#34;http://en.wikipedia.org/wiki/Office_Assistant&#34;&gt;clippy&lt;/a&gt; while nagging.&lt;/p&gt;&#xA;&lt;p&gt;Idea is to log all our project ideas similar to logging notes in nvALT. This app runs in the background and randomly nag you to split a one line task you had logged earlier to multiple small tasks.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Project Dumps</title>
       <link>https://www.palaniraja.com/2013/01/project-dumps/</link>
       <pubDate>Tue, 01 Jan 2013 09:41:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2013/01/project-dumps/</guid>
-      <description>Wish you all a very happy new year!
-It is 2013, another chance for us/me to start a new beginning. I believed in Mayan so much, I never had a plan post 20th Dec 2012 :)</description>
+      <description>&lt;p&gt;Wish you all a very happy new year!&lt;/p&gt;&#xA;&lt;p&gt;It is 2013, another chance for us/me to start a new beginning. I believed in &lt;a href=&#34;http://en.wikipedia.org/wiki/Maya_civilization&#34;&gt;Mayan&lt;/a&gt; so much, I never had a plan post &lt;a href=&#34;http://rationalwiki.org/wiki/2012_apocalypse&#34;&gt;20th Dec 2012&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Randy Pausch Last Lecture: Achieving Your Childhood Dreams</title>
       <link>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</link>
       <pubDate>Sun, 29 Jan 2012 00:41:00 -0800</pubDate>
-      
       <guid>https://www.palaniraja.com/2012/01/randy-pausch-last-lecture-achieving-your-childhood-dreams/</guid>
-      <description>Content requires Javascript to be enabled.
-https://www.youtube.com/watch?v=ji5_MqicxSo Youtube - Randy Pausch Last Lecture | Achieving Your Childhood Dreams</description>
+      <description>&lt;noscript&gt;&#xA;    &lt;p class=&#34;noscript&#34;&gt;Content requires Javascript to be enabled.&lt;/p&gt;&#xA;&#xA;    &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ji5_MqicxSo&#34;&gt;https://www.youtube.com/watch?v=ji5_MqicxSo&lt;/a&gt; &lt;/p&gt;&#xA;&#xA;    &lt;br/&gt;&#xA;    &#xA;&lt;/noscript&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;    p.noscript{&#xA;        background-color: #fefea0;&#xA;        border-left: 4px solid #fea0a0;&#xA;        padding: 0 0.25em;&#xA;    }&#xA;&lt;/style&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ji5_MqicxSo&#34;&gt;Youtube - Randy Pausch Last Lecture | Achieving Your Childhood Dreams&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RIP - Steven P. Jobs</title>
       <link>https://www.palaniraja.com/2011/10/rip-steven-p.-jobs/</link>
       <pubDate>Thu, 06 Oct 2011 00:31:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/10/rip-steven-p.-jobs/</guid>
-      <description>The people who are crazy enough to think they can change the world, are the ones who do.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/RIP-Jobs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The people who are crazy enough to think they can change the world, are the ones who do.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>iTunes 10 Logo</title>
       <link>https://www.palaniraja.com/2011/09/itunes-10-logo/</link>
       <pubDate>Thu, 01 Sep 2011 09:40:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/09/itunes-10-logo/</guid>
-      <description>End credits from the movie Up iTunes logo updated with version 10 in Sep &amp;lsquo;10</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/Screen-shot-2011-09-01-at-4.00.39-PM.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;End credits from the movie &lt;a href=&#34;http://www.imdb.com/title/tt1049413/&#34;&gt;Up&lt;/a&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/itunes10logo380.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;iTunes logo updated with version 10 in Sep &amp;lsquo;10&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Wallpaper - Testflight app</title>
       <link>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</link>
       <pubDate>Thu, 18 Aug 2011 10:05:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/08/wallpaper-testflight-app/</guid>
-      <description>I really liked the background image pattern used in testflightapp.com. It is so cool that I have replaced my all time favorite iPad-Safari-fabric texture to gray varient given below.</description>
+      <description>&lt;p&gt;I really liked the background image pattern used in &lt;a href=&#34;http://testflightapp.com/&#34;&gt;testflightapp.com&lt;/a&gt;. It is so cool that I have replaced my all time favorite &lt;a href=&#34;http://dr-palaniraja.blogspot.com/2010/08/ipad-safari-background-texture.html&#34;&gt;iPad-Safari-fabric&lt;/a&gt; texture to gray varient given below.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Shane Warne - The Leader</title>
       <link>https://www.palaniraja.com/2011/05/shane-warne-the-leader/</link>
       <pubDate>Mon, 16 May 2011 11:21:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/shane-warne-the-leader/</guid>
-      <description>Color me surprised, I was amazed by his replies. Here is my favourite one
-Harsha Bhogle: What you strive to do as a leader?</description>
+      <description>&lt;p&gt;Color me surprised, I was amazed by his replies. Here is my favourite one&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Harsha Bhogle&lt;/em&gt;: What you strive to do as a leader? Understand people?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

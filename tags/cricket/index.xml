@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cricket on PR</title>
+    <title>Cricket on PR</title>
     <link>https://www.palaniraja.com/tags/cricket/</link>
-    <description>Recent content in cricket on PR</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Cricket on PR</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2006-2023 palaniraja</copyright>
-    <lastBuildDate>Mon, 16 May 2011 11:21:00 -0700</lastBuildDate><atom:link href="https://www.palaniraja.com/tags/cricket/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 May 2011 11:21:00 -0700</lastBuildDate>
+    <atom:link href="https://www.palaniraja.com/tags/cricket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shane Warne - The Leader</title>
       <link>https://www.palaniraja.com/2011/05/shane-warne-the-leader/</link>
       <pubDate>Mon, 16 May 2011 11:21:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/05/shane-warne-the-leader/</guid>
-      <description>Color me surprised, I was amazed by his replies. Here is my favourite one
-Harsha Bhogle: What you strive to do as a leader?</description>
+      <description>&lt;p&gt;Color me surprised, I was amazed by his replies. Here is my favourite one&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Harsha Bhogle&lt;/em&gt;: What you strive to do as a leader? Understand people?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>We are the Champions</title>
       <link>https://www.palaniraja.com/2011/04/we-are-the-champions/</link>
       <pubDate>Sun, 03 Apr 2011 02:38:00 -0700</pubDate>
-      
       <guid>https://www.palaniraja.com/2011/04/we-are-the-champions/</guid>
-      <description>After all the hiccups over years, we were able to witness the ultimate glory of bring back the cup to India after 28 years.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.palaniraja.com/assets/team.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;After all the hiccups over years, we were able to witness the ultimate glory of bring back the cup to India after 28 years. India is a nation with at-least 50 million cricket experts including me. Though I&amp;rsquo;m not a professional player or an expert I do have rights to talk (who cares anyway)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
