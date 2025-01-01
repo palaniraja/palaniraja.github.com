@@ -718,7 +718,7 @@ article.article li a {
 article.article p a:hover,
 article.article li a:hover {
     
-    color:#fe5186;
+    color:#fe5171;
     text-decoration: underline;
     
     /*padding-left: 0.4em;*/
@@ -756,7 +756,7 @@ blockquote {
 .site-footer-invalid p a{
   /*padding: 0 1em;*/
   padding: 10px;
-  color: #fe5186;
+  color: #fe5171;
 }
 
 .site-footer-invalid p:last-child{
@@ -764,7 +764,7 @@ blockquote {
 }
 
 .site-navi-items a{
-  color: #fe5186;
+  color: #fe5171;
 }
 
 body {
@@ -847,7 +847,7 @@ code{
     position: relative;
     top: -5px;
     margin-left: 0.5rem;
-    color:#fe5186;
+    color:#fe5171;
     transform: rotate(90deg);
 }
 

@@ -4,15 +4,15 @@ date: 2018-08-08T17:13:05+05:30
 draft: false
 ---
 
-In addition to whatever I mentioned in [Home](/); I am a [Post-Graduate](https://en.wikipedia.org/wiki/Postgraduate_education) with specialization in Computer Science and Applications. 
+I'm Palani raja, a programmer from [Chennai, India](https://www.google.com/maps/place/Chennai,+Tamil+Nadu/ "Link to Google Maps"). 
 
+This is still a draft site. I'll try to update it with information about my hobby projects and random stuff.
 
-I have been a software professional for more than 15 years. Other than software development, I'm also an ameture Photographer.
+Recently, I've decided to merge all my content scattered across several different blogging systems into this site. If you notice anything broken, please feel free to email me.
 
-Writing "About me" is always a struggle, I guess you will know more about me from the site contents and links below.
+---
 
-Have a nice day!
-
+Email: palani at palaniraja dot com | Phone: [+1 203-5PA-LANI](tel:+12035725264)
 
 ---
 
